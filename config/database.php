@@ -56,9 +56,9 @@ return [
             'driver'    => 'mysql',
             'host'      => 'localhost',
             'port'      => 3306,
-            'database'  => 'kfcynjtr_allianceeducation',
-            'username'  => 'kfcynjtr_dbo2015',
-            'password'  => '-w#Qcz=tt_!E',
+            'database'  => 'allianceeducation',
+            'username'  => 'root',
+            'password'  => '',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
@@ -119,7 +119,7 @@ return [
         'default' => [
             'host'     => '127.0.0.1',
             'port'     => 6379,
-            'database' => 'kfcynjtr_allianceeducation',
+            'database' => 'allianceeducation',
         ],
 
     ],

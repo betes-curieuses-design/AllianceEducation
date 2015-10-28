@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'url' => 'http://allianceeducation.ca/',
+    'url' => 'http://localhost/allianceeducation.ca/AllianceEducation/',
 
     /*
     |--------------------------------------------------------------------------
@@ -81,7 +81,7 @@ return [
     |
     */
 
-    'key' => 'bq4ZuDiSDsIkqktJ',
+    'key' => 'KO4H6IDbZxvxgbNm',
 
     'cipher' => MCRYPT_RIJNDAEL_128,
 
