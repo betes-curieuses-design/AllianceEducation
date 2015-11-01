@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Capsule
+
+# Model Form Field configuration
+form: $/betescurieuses/ae110815/models/capsule/fields.yaml
+
+# Model Class name
+modelClass: BetesCurieuses\Ae110815\Models\Capsule
+
+# Default redirect location
+defaultRedirect: betescurieuses/ae110815/capsules
+
+# Create page
+create:
+    title: Create Capsule
+    redirect: betescurieuses/ae110815/capsules/update/:id
+    redirectClose: betescurieuses/ae110815/capsules
+
+# Update page
+update:
+    title: Edit Capsule
+    redirect: betescurieuses/ae110815/capsules
+    redirectClose: betescurieuses/ae110815/capsules
+
+# Preview page
+preview:
+    title: Preview Capsule

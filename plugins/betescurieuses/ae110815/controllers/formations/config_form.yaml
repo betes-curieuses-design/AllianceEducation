@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Formation
+
+# Model Form Field configuration
+form: $/betescurieuses/ae110815/models/formation/fields.yaml
+
+# Model Class name
+modelClass: BetesCurieuses\Ae110815\Models\Formation
+
+# Default redirect location
+defaultRedirect: betescurieuses/ae110815/formations
+
+# Create page
+create:
+    title: Create Formation
+    redirect: betescurieuses/ae110815/formations/update/:id
+    redirectClose: betescurieuses/ae110815/formations
+
+# Update page
+update:
+    title: Edit Formation
+    redirect: betescurieuses/ae110815/formations
+    redirectClose: betescurieuses/ae110815/formations
+
+# Preview page
+preview:
+    title: Preview Formation

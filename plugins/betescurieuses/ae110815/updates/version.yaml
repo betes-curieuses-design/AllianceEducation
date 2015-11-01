@@ -1,0 +1,6 @@
+1.0.1:
+  - First version of Ae110815
+  - create_capsules_table.php
+  - create_conferences_table.php
+  - create_formations_table.php
+  - create_inscriptions_table.php

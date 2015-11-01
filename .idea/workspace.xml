@@ -1,208 +1,255 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c73a1b07-2165-4d02-827e-b4a3a82b7270" name="Default" comment="Flex theme Installation">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/vendor/owl/tagbox/screenshots/screenshot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/formwidgets/BlogMarkdown.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/components/BlogRelated.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/components/BlogTagSearch.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/components/BlogTags.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/components/Categories.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/Categories.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/Category.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/vendor/composer/ClassLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/laminsanneh/flexicontact/components/ContactForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/LICENCE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/Plugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/laminsanneh/flexicontact/Plugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/Plugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/components/Post.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/Post.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/PostExport.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/PostImport.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/components/Posts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/Posts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/vendor/owl/tagbox/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/laminsanneh/flexicontact/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/laminsanneh/flexicontact/models/Settings.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/models/Tag.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/classes/TagProcessor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/controllers/Tags.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/vendor/owl/tagbox/Widget.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/controllers/tags/_list_toolbar.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/categories/_list_toolbar.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/_list_toolbar.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/_post_toolbar.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/vendor/owl/tagbox/widget/partials/_tag.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/vendor/owl/tagbox/widget/partials/_widget.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/vendor/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/vendor/composer/autoload_classmap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/vendor/composer/autoload_namespaces.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/vendor/composer/autoload_psr4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/vendor/composer/autoload_real.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/laminsanneh/flexicontact/assets/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/laminsanneh/flexicontact/assets/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/models/tag/columns.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/category/columns.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/post/columns.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/postexport/columns.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/postimport/columns.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/vendor/owl/tagbox/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/composer.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/config_filter.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/controllers/tags/config_form.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/categories/config_form.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/config_form.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/config_import_export.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/controllers/tags/config_list.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/categories/config_list.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/config_list.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/laminsanneh/flexicontact/components/contactform/confirm.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/controllers/tags/create.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/categories/create.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/create.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/updates/create_categories_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/updates/create_posts_content_html.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/updates/create_posts_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/updates/create_tags_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/components/blogrelated/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/components/blogtags/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/components/blogtagsearch/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/laminsanneh/flexicontact/components/contactform/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/components/categories/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/components/post/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/components/posts/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/export.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/models/tag/fields.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/laminsanneh/flexicontact/models/settings/fields.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/category/fields.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/post/fields.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/models/postimport/fields.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/laminsanneh/flexicontact/components/contactform/flash-messages.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/import.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/controllers/tags/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/categories/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/vendor/composer/installed.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/laminsanneh/flexicontact/lang/en/lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/laminsanneh/flexicontact/lang/pl/lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/bg/lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/de/lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/en/lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/fr/lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/hu/lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/ja/lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/nb-no/lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/nl/lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/pl/lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/ru/lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/lang/tr/lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/laminsanneh/flexicontact/assets/js/main.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/laminsanneh/flexicontact/assets/js/main.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/laminsanneh/flexicontact/assets/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/laminsanneh/flexicontact/views/emails/message.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/components/blogtagsearch/pagination.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/assets/js/post-form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/controllers/tags/preview.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/assets/css/rainlab.blog-preview.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/assets/less/rainlab.blog-preview.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/updates/seed_all_tables.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/vendor/owl/tagbox/widget/assets/css/tagbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/vendor/owl/tagbox/widget/assets/js/tagbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/controllers/tags/update.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/categories/update.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/posts/update.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/bedard/blogtags/updates/version.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/laminsanneh/flexicontact/updates/version.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/updates/version.yaml" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\cache\13\37\site-slider.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\cache\19\36\contact.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\cache\27\29\site-header.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\cache\34\91\footer.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\cache\40\51\default.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\cache\44\20\portfolio.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\cache\70\69\site-main.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\cache\70\78\services.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\cache\79\21\home.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\cache\83\49\team.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\combiner\assets\2d43a977156e39d6f5580658c03a53fc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\combiner\assets\77472230fe064a20e81f7ad00937840c" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\combiner\assets\8a876e2b9f92eb83a461b33e9491e372" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\combiner\assets\b0d716377da16d603f74e385b5e50feb" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\disabled.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\twig\27\275d6fd96da806fac1b669f98bfd2c27c50dde73fdca35be53d181ec3ea6ee8e.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\twig\47\47db71782ebf797dcb8e4235295911463f4cdaa0858b9f6ed59c51ecd3eb2af2.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\twig\64\647659bacc3addce9d5901bfa65727585a3c6aa9086ad6273040ff40a39dbb3b.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\twig\79\799339ebd2ab3636897322ca89610490bdb024d8e50c509831c1010cb42031a7.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\twig\7d\7d08778fd554c7754f092b5f161b770103237208e75b150ff016b997849108a2.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\twig\a7\a76fdd15daf6c3b0ca88d75bc24fbb52390def99a980d4951e3b435b2b143045.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\twig\c0\c0280a8ee1ae7172b2bdba04dc47723910b7cf0c646cb9481d7a5af19a648f41.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\twig\c9\c916e0814052465f249c8b74d118a5241138b4f074de58413f2e3346d297dd33.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\twig\d8\d8154262808123f8f3bde474f34cec788cb663ca009f00b93d3d61bf61e018c9.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\cms\twig\f4\f437a89f351ad0ba897b4146b3c371818ed4a3e18e2e01767d67cca1d6205504.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\01\2e\012eb6da78860773eca780ae9655ad7b" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\02\3b\023b8779bb457fa3dd8142e574e566d5" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\09\3b\093bf8c0919901f277db3f13d38ee93c" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\0a\63\0a635566cfaf4e38799acaf5e9b03abc" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\1a\35\1a3565c4ad91f449b79a29ea5b60a58b" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\1c\cc\1ccc80b18099243696bdc7b3aaf6fdc0" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\1d\8e\1d8e168c37cbae3c6313defdb108e00f" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\29\89\29890823f23f7dfa0c0cd1521ac5dc20" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\2e\60\2e60bfe660412da3d5605a6d2a2694a4" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\31\30\3130edc7ac67587cc79c76cc8ac05865" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\34\d7\34d72bacd4afa03840f3a52d6e4874f7" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\36\0f\360f2fbc479f3104b6f9fd501f668fff" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\36\4f\364f47001276657c96d0266d6058364a" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\37\13\371380ef96090dc44e4e963716cb63c2" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\37\a8\37a896b065d5a324ee39a00207bc3636" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\3f\42\3f424d9788847a08e04e8fad276b62db" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\47\03\470330a89a0b480aca1ece1e4539f1ad" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\50\35\5035b0c1e1f82379067d38f8383c7b5d" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\52\8f\528f9399e9625f71c93451387ae9a4d7" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\5c\71\5c7172a25eac0e671fdf44d769b25a78" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\5e\09\5e0924933b6a60874b0361420489e37a" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\5e\5e\5e5ec738a988de4a91aec04f81fd8768" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\60\92\6092f12922a2e92b9326eda3034141f9" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\60\c9\60c9652d54898a9ab268a22a645c5202" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\61\a0\61a0850d19a47951b98eb0328913ae60" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\62\76\627636f7bd633990ff3d58934178dc84" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\6f\4f\6f4fb34eaeefb55d5bb56b7e0841f9a8" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\75\c4\75c4bce4ebc54f94740ac9c9cb8f5440" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\7a\4d\7a4dfdc006cce4fb36f7d0ba73dcf942" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\82\76\8276bdcb4ab912071b358632e0161ab8" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\85\9e\859e22f773f036ba2d151740b32684c0" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\88\18\8818a17feaef93c79eda571b9c628eb2" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\8a\2b\8a2b4eead118878d29964edfda3ebfc8" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\8a\bd\8abd39b56f5b0e57d8e673685bc75110" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\9d\3b\9d3be707aadab31296be2bfd9323b318" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\9e\d6\9ed697f65313396afa193052fa610b80" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\a0\4d\a04d478556f1bda3511cce48c0584203" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\b0\2f\b02fd72e40ac3b74d870a519c298669b" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\b1\17\b11741b8b695bac11178d27f8a382819" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\b3\40\b3400be9590a4786d79a0a75a1cee05c" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\b9\a2\b9a27d017a0cf301899c9d4eaa9303a2" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\bf\31\bf3182f8adf620f9c104d22976e76afd" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\ca\ee\caeefa1f76078a3229e8a3600bf15b22" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\cf\0e\cf0ed888bc751ac8f55b736b1aacfadd" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\cf\32\cf32fe1554804d51d870ff334bdb4d7c" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\d1\25\d125b18bd3f243f254169ad774412bdd" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\d4\a7\d4a70c640ab1dae79c3ea655623b3177" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\d7\d8\d7d84326370faa3cd1272f3c17d08e16" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\db\d4\dbd41915a05fb60af5aa1c9a90166b90" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\e4\51\e451099617d5b9ca7a9fab4f8e49c78d" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\eb\6e\eb6e1fb9bfec1dd0cc3e913801ed059d" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\ee\ea\eeea1130cffd289367e6fec022f57969" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\f4\20\f420cda7643881aac13bb6b99ab3b337" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\f7\e5\f7e5f7a16d669ba43a6386c83e6d2dcb" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\cache\ff\ee\ffee17034c40238b02467837635df9ce" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\services.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\sessions\051d367c7c6cf90fb90e13ee3105d86f735fdd31" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\sessions\0faa3dc9d2d58503792ef3397041e27df4698018" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\sessions\171b771860fcb67b744213b661fad0804bda3c98" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\allianceeducation.ca\AllianceEducation\storage\framework\sessions\a354ed31f6acb69b93d28978c103a435e4bb7679" afterPath="" />
+    <list default="true" id="c73a1b07-2165-4d02-827e-b4a3a82b7270" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/font-awesome/font/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/slick/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/bg_play_pause.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/flexslider-icon.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/flexslider-icon.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/flexslider-icon.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/font-awesome/font/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/font-awesome/font/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/font-awesome/font/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/font-awesome/font/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/member1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/member2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/member3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/member4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/gallery/p1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/gallery/p2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/gallery/p3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/gallery/p4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/gallery/p5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/gallery/p6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/gallery/p7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/gallery/p8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/previous.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/vertical-fixed-navigation/readme.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/slick/fonts/slick.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/slick/fonts/slick.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/slick/fonts/slick.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/slide1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/slide2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/slide3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/images/theme-preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/Capsule.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/Capsules.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/Conference.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/Conferences.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/Formation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/Formations.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/Inscription.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/vertical-fixed-navigation/partials/_layout.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/capsules/_list_toolbar.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/conferences/_list_toolbar.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/formations/_list_toolbar.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/vertical-fixed-navigation/partials/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/vertical-fixed-navigation/partials/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/js/affix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/js/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/controls/all.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/layouts/all.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/theme/all.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/controls/animate.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/font-awesome/less/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/background-variant.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/theme/boot.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/border-radius.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/js/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/js/carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/vertical-fixed-navigation/img/cd-arrow-bottom.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/center-block.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/clearfix.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/js/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/capsule/columns.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/conference/columns.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/formation/columns.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/inscription/columns.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/slick/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/capsules/config_form.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/conferences/config_form.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/formations/config_form.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/capsules/config_list.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/conferences/config_list.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/formations/config_list.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/contact.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/capsules/create.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/conferences/create.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/formations/create.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/updates/create_capsules_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/updates/create_conferences_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/updates/create_formations_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/updates/create_inscriptions_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/layouts/default.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/js/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/capsule/fields.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/conference/fields.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/formation/fields.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/inscription/fields.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/flexslider-icon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/font-awesome/font/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/theme/fonts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/footer.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/glyphicons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/gradients.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/grid-framework.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/hide-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/pages/home.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/image.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/capsules/index.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/conferences/index.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/formations/index.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/vertical-fixed-navigation/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/input-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/js/vendor/jquery-1.11.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/vertical-fixed-navigation/js/jquery-2.1.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/js/vendor/jquery.gmap3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/isotope/jquery.isotope.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/jumbotron.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/vertical-fixed-navigation/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/js/main.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/js/min/main.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/media.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/theme/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/js/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/vertical-fixed-navigation/js/modernizr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/nav-divider.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/nav-vertical-align.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/normalize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/opacity.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/js/plugins.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/js/plugins.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/js/min/plugins.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/js/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/portfolio.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/capsules/preview.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/conferences/preview.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/formations/preview.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/progress-bar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/reset-filter.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/reset-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/vertical-fixed-navigation/css/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/resize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/responsive-embed.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/responsive-visibility.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/js/scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/services.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/site-header.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/site-main.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/site-slider.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/size.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/slick/slick.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/slick/slick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/slick/slick.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/slick/slick.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/slick/fonts/slick.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/vertical-fixed-navigation/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/vertical-fixed-navigation/scss/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/tab-focus.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/js/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/table-row.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/team.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/controls/templatemo_misc.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/layouts/templatemo_style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/text-emphasis.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/text-overflow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/css/theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/css/theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/theme.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/js/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/js/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/theme/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/capsules/update.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/conferences/update.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/formations/update.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/theme/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/mixins/vendor-prefixes.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/theme/vendor.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/updates/version.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/version.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/controls/vertical-nav.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/wells.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/logs/system.log" afterPath="$PROJECT_DIR$/storage/logs/system.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AllianceEducation.iws" />
@@ -224,7 +271,50 @@
     <favorites_list name="AllianceEducation" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Plugin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.423077">
+              <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+              <folding>
+                <element signature="e#42#72#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="columns.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/formation/columns.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.36624774">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="columns.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/conference/columns.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Categories.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/rainlab/blog/controllers/Categories.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="2.6153846">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -236,6 +326,26 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/themes/ae110815/theme.yaml" />
+        <option value="$PROJECT_DIR$/themes/ae110815/version.yaml" />
+        <option value="$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less" />
+        <option value="$PROJECT_DIR$/themes/ae110815/assets/less/theme/vendor.less" />
+        <option value="$PROJECT_DIR$/themes/ae110815/assets/less/theme.less" />
+        <option value="$PROJECT_DIR$/themes/ae110815/assets/less/controls/all.less" />
+        <option value="$PROJECT_DIR$/themes/ae110815/assets/less/layouts/all.less" />
+        <option value="$PROJECT_DIR$/themes/ae110815/layouts/default.htm" />
+        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/updates/version.yaml" />
+        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/updates/create_capsules_table.php" />
+        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/updates/create_conferences_table.php" />
+        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/updates/create_formations_table.php" />
+        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/updates/create_inscriptions_table.php" />
+        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/Formations.php" />
+        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/Conferences.php" />
+        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php" />
+        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/Capsules.php" />
+        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/capsule/columns.yaml" />
+        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/conference/columns.yaml" />
+        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/formation/columns.yaml" />
       </list>
     </option>
   </component>
@@ -279,6 +389,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -297,16 +409,252 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rainlab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rainlab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="updates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rainlab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betescurieuses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae110815" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betescurieuses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae110815" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="updates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betescurieuses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae110815" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betescurieuses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae110815" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="formation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betescurieuses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae110815" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conference" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -359,30 +707,45 @@
       <option name="project" value="LOCAL" />
       <updated>1445997457219</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Flex theme Installation">
+      <created>1446165784815</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1446165784815</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26928896" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28971255" sideWeight="0.49429038" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.34150326" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32789558" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.31699347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2859304" sideWeight="0.50570965" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -410,6 +773,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/layouts/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/layouts/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/layouts/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/theme.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37365592">
@@ -421,6 +812,247 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/version.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02905983">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/theme.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11623932">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/theme/mixins.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/theme/vendor.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67105263">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/theme/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2236842">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/theme/type.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/theme/fonts.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/theme/boot.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/theme/all.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19172932">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/theme.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48658317">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/controls/all.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/layouts/all.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/layouts/templatemo_style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/layouts/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.42397138">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/rainlab/blog/updates/version.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05821918">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/updates/version.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14554794">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/updates/create_inscriptions_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5483871">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/updates/create_capsules_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4874552">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="18" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/updates/create_conferences_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39605734">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="20" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/rainlab/blog/Plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/rainlab/blog/controllers/Categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.6153846">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/Conferences.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/Formations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="22" column="64" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/Capsules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63978493">
+          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/capsule/columns.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077">
+          <caret line="44" column="54" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+          <folding>
+            <element signature="e#42#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/updates/create_formations_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5788531">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/conference/columns.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/formation/columns.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36624774">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
