@@ -2,149 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c73a1b07-2165-4d02-827e-b4a3a82b7270" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/formwidgets/optimizer/assets/css/AlchemyAPI_Logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/formwidgets/optimizer/assets/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/formwidgets/optimizer/assets/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/formwidgets/optimizer/assets/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/formwidgets/optimizer/assets/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/css/rss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/components/Archive.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/classes/AuthenticateTwitter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/formwidgets/AuthenticateTwitter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/components/Bloglist.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/components/Categories.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/controllers/Categories.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/models/Category.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/classes/CheckUrlManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/formwidgets/Livetag.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/classes/twitter/Oauth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/formwidgets/Optimizer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/slider/Plugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/Plugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/components/Post.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/models/Post.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/formwidgets/PostToTwitter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/controllers/Posts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/classes/ProblogRssFeed.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/Routes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/models/Settings.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/slider/components/ShowImages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/slider/controllers/Slider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/slider/models/Slider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/models/Tag.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/components/Tags.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/controllers/Tags.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/classes/twitter/TwitterOAuth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/formwidgets/authenticatetwitter/partials/_authenticatetwitter.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/slider/controllers/slider/_list_toolbar.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/controllers/categories/_list_toolbar.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/controllers/posts/_list_toolbar.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/controllers/tags/_list_toolbar.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/formwidgets/livetag/partials/_livetag.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/formwidgets/optimizer/partials/_optimizer.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/formwidgets/posttotwitter/partials/_posttotwitter.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/updates/add_markdown_field.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/updates/add_twitter_auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/css/blog_list.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/slider/models/slider/columns.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/models/category/columns.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/models/post/columns.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/models/tag/columns.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/slider/controllers/slider/config_form.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/controllers/categories/config_form.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/controllers/posts/config_form.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/controllers/tags/config_form.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/slider/controllers/slider/config_list.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/controllers/categories/config_list.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/controllers/posts/config_list.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/controllers/tags/config_list.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/slider/controllers/slider/create.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/controllers/categories/create.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/controllers/posts/create.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/controllers/tags/create.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/updates/create_categories_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/updates/create_posts_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/slider/updates/create_sliders_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/updates/create_tags_table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/slider/components/showimages/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/components/archive/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/components/bloglist/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/components/categories/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/components/post/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/components/tags/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/js/embedly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/views/rss/feed.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/slider/models/slider/fields.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/models/category/fields.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/models/post/fields.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/models/settings/fields.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/models/tag/fields.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/formwidgets/optimizer/assets/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/formwidgets/optimizer/assets/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/slider/controllers/slider/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/controllers/categories/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/controllers/posts/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/controllers/tags/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/formwidgets/livetag/assets/js/jquery.autocomplete.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/js/jquery.embedly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/formwidgets/livetag/assets/css/jquery.tagit.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-apollo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-clj.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-dart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-erlang.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-go.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-hs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-lisp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-llvm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-lua.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-matlab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-ml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-mumps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-n.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-pascal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-proto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-r.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-rd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-scala.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-sql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-tcl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-tex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-vb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-vhdl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-wiki.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-xq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/lang-yaml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/lang/en/lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/slider/controllers/slider/preview.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/css/problog_post.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/google-code-prettify/run_prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/updates/seed_all_tables.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/formwidgets/optimizer/assets/css/seo_tools.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/formwidgets/optimizer/assets/js/seo_tools.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/slider/assets/css/slider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/slider/assets/js/slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/assets/css/sunburst.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/formwidgets/livetag/assets/js/tag-it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/formwidgets/livetag/assets/css/tagit.ui-zendesk.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/views/authenticate/twitter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/slider/controllers/slider/update.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/controllers/categories/update.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/controllers/posts/update.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/controllers/tags/update.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/views/check_url/valid.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/slider/updates/version.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/radiantweb/problog/updates/version.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/rainlab/blog/Plugin.php" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/Plugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/Posts.php" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/controllers/Posts.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/logs/system.log" afterPath="$PROJECT_DIR$/storage/logs/system.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/rainlab/blog/updates/version.yaml" afterPath="$PROJECT_DIR$/plugins/rainlab/blog/updates/version.yaml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AllianceEducation.iws" />
@@ -635,7 +492,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446400878795</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Slider installed">
+      <created>1446904505977</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1446904505977</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -653,6 +516,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29425114" sideWeight="0.49429038" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.34150326" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -663,7 +527,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2859304" sideWeight="0.50570965" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -689,7 +552,8 @@
     <MESSAGE value="First app commit" />
     <MESSAGE value="Flex theme Installation" />
     <MESSAGE value="Tables: Conferences, Formations, Capsules and Inscriptions added.&#10; Backend Controllers Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tables: Conferences, Formations, Capsules and Inscriptions added.&#10; Backend Controllers Added" />
+    <MESSAGE value="Slider installed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slider installed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
