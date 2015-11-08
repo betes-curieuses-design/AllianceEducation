@@ -2,42 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c73a1b07-2165-4d02-827e-b4a3a82b7270" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/lato-black-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/lato-black-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/lato-black-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/lato-italic-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/lato-italic-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/lato-italic-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/lato-light-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/lato-light-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/lato-light-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/lato-regular-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/lato-regular-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/lato-regular-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/controls/buttons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/home/featured.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/header.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/pages/home.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/lato-black-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/lato-italic-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/lato-light-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/fonts/lato-regular-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/layouts/main.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/controls/parallax.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/home/services.htm" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\themes\ae110815\assets\images\logo.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/assets/less/controls/all.less" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/controls/all.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/assets/less/layouts/all.less" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/layouts/all.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/layouts/default.htm" afterPath="$PROJECT_DIR$/themes/ae110815/layouts/default.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/pages/home.htm" afterPath="$PROJECT_DIR$/themes/ae110815/pages/home.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/logs/system.log" afterPath="$PROJECT_DIR$/storage/logs/system.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/assets/css/theme.css" afterPath="$PROJECT_DIR$/themes/ae110815/assets/css/theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/css/theme.css" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/css/theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/assets/less/theme/variables.less" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/theme/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/variables.less" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/variables.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AllianceEducation.iws" />
@@ -592,7 +556,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446904628777</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Slider installed">
+      <created>1447020300082</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1447020300082</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -610,6 +580,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2987897" sideWeight="0.49429038" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.34150326" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -620,7 +591,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2859304" sideWeight="0.50570965" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
