@@ -1,5 +1,26 @@
-title = "Flex theme"
+title = "Accueil"
 url = "/"
 layout = "default"
+is_hidden = 0
+
+[ShowImages]
 ==
-<!-- single page template, this file is not used -->
+<section id="slider">
+{% component 'ShowImages' %}
+</section>
+
+<section id="featured">
+    {% partial "home/featured" %}
+</section>
+
+<section id="services">
+    {% partial "home/services" %}
+</section>
+
+<section id="quotes">
+
+</section>
+
+<section id="blogs">
+
+</section>
