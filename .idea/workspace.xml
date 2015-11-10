@@ -2,98 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c73a1b07-2165-4d02-827e-b4a3a82b7270" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/af/4c/af4cf1f3d6ba782dd46cc0827d5d8f10" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/00fa782e4069f84f26c0902d47d98dab" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/01/e9/01e9eebff29885ca99988d40f7068eaf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/02/3b/023b8779bb457fa3dd8142e574e566d5" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/04/0430c6d0541108c1f26f30224f2d62eb1f876759f1d50696f54ac7197deeb45a.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/09/094770f040aeda9ead74faca9e05884281590e0f99933d1e1ec76ba9270e8887.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/0a/63/0a635566cfaf4e38799acaf5e9b03abc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/0a/0ab41a18e01e08c13a9131b3be7b243149094a4a21232731179678233bb10f0b.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/0c/b0/0cb04905781de3dbf2424ab012adf555" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/0f/ee/0fee6a3487531602e8862cb75f1f2085" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/11cd3f4f9a7c20c3fb50be8c4b95d5cb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/16/60/16605383c663782f3567f7c7e94ae47e" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/16/1671fe546414be6c93bee28a1e09e0e30ca2483d67a71df21373988ff2ad59e2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/1b294aa2757ad84f1ed0860359fc7bf7" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/1c/1c1255e94cc2ef6d05bef2140c4c8ad7696e853d7124e5d429333c3c770891bf.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/22/221aec390fc55d42c5b34c68c29851206935cbe7612aff205db3e7ede2745d47.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/2750af6d0ce7d4e3745cf4b771e4f5cd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/28/35/2835d6eb6943a3336976c05d9f6e50fa" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/28/28aa05d48976b9bfe219e9a7d6aebd52fc510b7014902f05299d0b586552bd47.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/31/97/31976851e76320d3f3ed2e71c2bee667" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/33bce98d4de057c74f260580177adb07" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/36/0f/360f2fbc479f3104b6f9fd501f668fff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/400e0a507639539a5208eef05ec74040" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/4a/db/4adb20a414a799699af8a0f9c7b2b75d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/4c/27/4c274be75daf2a94c59d46801ab1c2b3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/4c58cc110e27916598d60d0844b7f077" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/4c/90/4c909cdcf142f16b5b1f7adfb1f42719" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/5c/71/5c7172a25eac0e671fdf44d769b25a78" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/5cf871c156046cbc3af9812320e6fdee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/5f215a80963faa0e2843cb6c6bfe966f" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/60/c9/60c9652d54898a9ab268a22a645c5202" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/6422b831e16332c871116032ee5c7de5" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/67/91/67916c25f150afeddebbdf7d26642ca1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/69/c6/69c66e3170c33e5648fbd14581dd6656" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/6b/1c/6b1cfb1d6d334eb518e42c9460a796ca" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/6c8ad95eb199eef68e08dbd3e7cb4782" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/6c/6c967f7f82c97d29ad6885a7c6080edc3431e26410717c33a0067bf13c7bd01b.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/6f4dbf715ee6b24f6a5d372792c3dd5e" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/6f/4f/6f4fb34eaeefb55d5bb56b7e0841f9a8" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/7253be4f36304012e22d6afa18c6f405" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/73/ef/73efc86d6be68565945ed618a81748c7" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/78ed237e5727894f1c363b85c8d7307c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/7a50ad0414892c3ad59537e39f5bd7df" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/80/c8/80c84920dfcdae721f9325b8acb6bf64" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/869ea6d65f1dab530d2c631ee1c26188" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/8faf49bdc059f95e61a113b4ff851815" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/91beff98207f49d74456c5b6d556e793" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/97667ce40bda471fdc867aa19ce70e7d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/99/99e13a74159266fc34857cfa3b84e23dcdaef2bdaa5f31d7234eae7bc6039ae7.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/9b/4f/9b4fed4ec8491cba4fcf88f7d61f8767" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/sessions/9f2456d0b324197484aa01da40734804ce230b95" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/a5/a587b8664537f806b6c03d8a7516dfe2266ba10faf12d957410aace5a0e6033f.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/a9/a903fba830c108a109626420ba8a317702c7d5804cbdcf255cce0745751a64b5.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/ac/09/ac091a88a262919299bb4af7f5fa96ed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/af/ec/afeca35c70b2668c298c97b1a8603d20" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/b220566b85264c68906a4e4d990a81a3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/b3/40/b3400be9590a4786d79a0a75a1cee05c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/c35226beecebcb7ca6e786eb40947522" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/c48840516e5076de1b6853eb44acd218" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/c5f09a724452d2c342f74b91b1c212bb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/c98d9938cdb47ff85fbfe8ba1dba9383" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/19/55/contact.htm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/d2/35/d2353102f9b6a52631f93bda6112d237" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/d3/d3c34156eb4e4029f35370af871dd956b939fdf1a569eb7d27d544d0f0bf70fc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/d8/ae/d8ae08b1afe7afb520e3020b767dc31a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/d9e3f1d1263bd2db01ceb057af4de770" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/dd/dd6cc4fd51ff72e5cada511dc0619bf295d45a2c96240e7fee970b6f9293732b.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/20/07/default.htm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/disabled.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/e5/e53c6f16df463d988af87d50fd7155a07e2a104c133797d8f961767cadaef451.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/e5f225482274e37c8113e80253a13415" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/eb2e25eec80be03293ebb925676dc7d2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/efbde084e8c2ead55226600740689c6f" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/f0/41/f0416b59156b57c0b4fc60ae5380b3b3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/f66912127dc45c89ce268f4cea5da80a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/10/33/featured.htm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/18/38/footer.htm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/18/09/header.htm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/36/55/home.htm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/94/53/portfolio.htm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/19/33/services.htm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/64/82/services.htm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/services.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/15/99/site-header.htm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/13/64/site-main.htm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/10/67/site-slider.htm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/69/96/team.htm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/js/bootstrap.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AllianceEducation.iws" />
@@ -139,7 +48,7 @@
       <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/layouts/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3046595">
+            <state vertical-scroll-proportion="0.3041145">
               <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
@@ -272,8 +181,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -302,7 +211,137 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae110815" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae110815" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae110815" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae110815" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae110815" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -410,7 +449,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447020323500</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="LESS updates">
+      <created>1447115947697</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1447115947697</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -426,7 +471,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30332828" sideWeight="0.49429038" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30786687" sideWeight="0.49429038" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.34150326" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -466,7 +511,8 @@
     <MESSAGE value="Tables: Conferences, Formations, Capsules and Inscriptions added.&#10; Backend Controllers Added" />
     <MESSAGE value="Slider installed" />
     <MESSAGE value="Home page Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home page Added" />
+    <MESSAGE value="LESS updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="LESS updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -830,7 +876,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/layouts/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3046595">
+        <state vertical-scroll-proportion="0.3041145">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
