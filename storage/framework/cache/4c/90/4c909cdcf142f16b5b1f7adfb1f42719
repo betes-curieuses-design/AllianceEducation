@@ -1,0 +1,90 @@
+1447013971s:4822:"a:6:{s:5:"mtime";i:1445997283;s:7:"content";s:2336:"==
+<?php
+function onStart() {
+
+    $this['portfolio'] = [
+        ['image' => 'p1.jpg', 'title' => 'New Street' , 'caption' => 'Asperiores commodi illo fuga perferendis dolore repellendus sapiente ipsum.', ],
+        ['image' => 'p2.jpg', 'title' => 'Floating'   , 'caption' => 'Asperiores commodi illo fuga perferendis dolore repellendus sapiente ipsum.', ],
+        ['image' => 'p7.jpg', 'title' => 'Urban Life' , 'caption' => 'Asperiores commodi illo fuga perferendis dolore repellendus sapiente ipsum.', ],
+        ['image' => 'p8.jpg', 'title' => 'Transport'  , 'caption' => 'Asperiores commodi illo fuga perferendis dolore repellendus sapiente ipsum.', ],
+        ['image' => 'p3.jpg', 'title' => 'Digital Age', 'caption' => 'Asperiores commodi illo fuga perferendis dolore repellendus sapiente ipsum.', ],
+        ['image' => 'p4.jpg', 'title' => 'Horizon'    , 'caption' => 'Asperiores commodi illo fuga perferendis dolore repellendus sapiente ipsum.', ],
+        ['image' => 'p5.jpg', 'title' => 'Aqua City'  , 'caption' => 'Asperiores commodi illo fuga perferendis dolore repellendus sapiente ipsum.', ],
+        ['image' => 'p6.jpg', 'title' => 'Path Finder', 'caption' => 'Asperiores commodi illo fuga perferendis dolore repellendus sapiente ipsum.', ]
+    ];
+
+}
+?>
+==
+<div class="content-section" id="portfolio">
+    <div class="container">
+
+        <div class="row">
+            <div class="heading-section col-md-12 text-center">
+                <h2>Our Portfolio</h2>
+                <p>What we have done so far</p>
+            </div>
+        </div>
+
+        <div class="row">
+        {% for row in portfolio %}
+            <div class="portfolio-item col-md-3 col-sm-6">
+                <div class="portfolio-thumb">
+                    <img src="{{ ('assets/images/gallery/' ~ row['image']) |theme }}" alt="{{ row['title'] }}">
+                    <div class="portfolio-overlay">
+                        <h3>{{ row['title']  }}</h3>
+                        <p>{{ row['caption'] }}</p>
+                        <a href="{{ ('assets/images/gallery/' ~ row['image']) |theme }}" data-rel="lightbox" class="expand">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+
+    </div>
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";s:1267:"
+function onStart() {
+
+    $this['portfolio'] = [
+        ['image' => 'p1.jpg', 'title' => 'New Street' , 'caption' => 'Asperiores commodi illo fuga perferendis dolore repellendus sapiente ipsum.', ],
+        ['image' => 'p2.jpg', 'title' => 'Floating'   , 'caption' => 'Asperiores commodi illo fuga perferendis dolore repellendus sapiente ipsum.', ],
+        ['image' => 'p7.jpg', 'title' => 'Urban Life' , 'caption' => 'Asperiores commodi illo fuga perferendis dolore repellendus sapiente ipsum.', ],
+        ['image' => 'p8.jpg', 'title' => 'Transport'  , 'caption' => 'Asperiores commodi illo fuga perferendis dolore repellendus sapiente ipsum.', ],
+        ['image' => 'p3.jpg', 'title' => 'Digital Age', 'caption' => 'Asperiores commodi illo fuga perferendis dolore repellendus sapiente ipsum.', ],
+        ['image' => 'p4.jpg', 'title' => 'Horizon'    , 'caption' => 'Asperiores commodi illo fuga perferendis dolore repellendus sapiente ipsum.', ],
+        ['image' => 'p5.jpg', 'title' => 'Aqua City'  , 'caption' => 'Asperiores commodi illo fuga perferendis dolore repellendus sapiente ipsum.', ],
+        ['image' => 'p6.jpg', 'title' => 'Path Finder', 'caption' => 'Asperiores commodi illo fuga perferendis dolore repellendus sapiente ipsum.', ]
+    ];
+
+}
+";s:6:"markup";s:1055:"<div class="content-section" id="portfolio">
+    <div class="container">
+
+        <div class="row">
+            <div class="heading-section col-md-12 text-center">
+                <h2>Our Portfolio</h2>
+                <p>What we have done so far</p>
+            </div>
+        </div>
+
+        <div class="row">
+        {% for row in portfolio %}
+            <div class="portfolio-item col-md-3 col-sm-6">
+                <div class="portfolio-thumb">
+                    <img src="{{ ('assets/images/gallery/' ~ row['image']) |theme }}" alt="{{ row['title'] }}">
+                    <div class="portfolio-overlay">
+                        <h3>{{ row['title']  }}</h3>
+                        <p>{{ row['caption'] }}</p>
+                        <a href="{{ ('assets/images/gallery/' ~ row['image']) |theme }}" data-rel="lightbox" class="expand">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+
+    </div>
+</div>";}";

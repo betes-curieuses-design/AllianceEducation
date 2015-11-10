@@ -1,0 +1,121 @@
+1447020731s:4323:"a:6:{s:5:"mtime";i:1447014256;s:7:"content";s:2081:"description = "Default layout"
+==
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8">        <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9">               <![endif]-->
+<!--[if gt IE 8]> <!--> <html class="no-js">                 <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>{{ this.page.title }}</title>
+	<meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+<!--
+Flex Template
+http://www.templatemo.com/free-website-templates/406-flex
+-->
+    <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>-->
+    <link href="{{ [
+        'assets/css/theme.css',
+    ]|theme }}" rel="stylesheet">
+    <script src="{{ ['assets/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js']|theme }}"></script>
+</head>
+<body class="page-{{ this.page.id }} layout-{{ this.layout.id }}">
+<!--[if lt IE 7]>
+    <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+<![endif]-->
+
+<!-- Header -->
+<header id="layout-header" class="header-navbar">
+    <!-- Nav -->
+    {% partial "header" %}
+</header>
+
+<!-- Content -->
+<main id="layout-content">
+    {% page %}
+</main>
+
+<!-- Footer -->
+<footer id="layout-footer">
+    {% partial "footer" %}
+</footer>
+
+{#    {% partial 'site-main' %}
+
+    {% partial 'services'  %}
+    {% partial 'portfolio' %}
+    {% partial 'team'      %}
+
+    {% partial 'contact'   %}
+    {% partial 'footer'    %}#}
+
+    <script src="{{ [
+        'assets/js/vendor/jquery-1.11.0.min.js',
+        'assets/vendor/bootstrap/js/bootstrap.min.js',
+        'assets/js/plugins.js',
+        'assets/js/main.js',
+        '@framework',
+        '@framework.extras']|theme }}"></script>
+
+</body>
+</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:14:"Default layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:2045:"<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8">        <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9">               <![endif]-->
+<!--[if gt IE 8]> <!--> <html class="no-js">                 <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>{{ this.page.title }}</title>
+	<meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+<!--
+Flex Template
+http://www.templatemo.com/free-website-templates/406-flex
+-->
+    <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>-->
+    <link href="{{ [
+        'assets/css/theme.css',
+    ]|theme }}" rel="stylesheet">
+    <script src="{{ ['assets/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js']|theme }}"></script>
+</head>
+<body class="page-{{ this.page.id }} layout-{{ this.layout.id }}">
+<!--[if lt IE 7]>
+    <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+<![endif]-->
+
+<!-- Header -->
+<header id="layout-header" class="header-navbar">
+    <!-- Nav -->
+    {% partial "header" %}
+</header>
+
+<!-- Content -->
+<main id="layout-content">
+    {% page %}
+</main>
+
+<!-- Footer -->
+<footer id="layout-footer">
+    {% partial "footer" %}
+</footer>
+
+{#    {% partial 'site-main' %}
+
+    {% partial 'services'  %}
+    {% partial 'portfolio' %}
+    {% partial 'team'      %}
+
+    {% partial 'contact'   %}
+    {% partial 'footer'    %}#}
+
+    <script src="{{ [
+        'assets/js/vendor/jquery-1.11.0.min.js',
+        'assets/vendor/bootstrap/js/bootstrap.min.js',
+        'assets/js/plugins.js',
+        'assets/js/main.js',
+        '@framework',
+        '@framework.extras']|theme }}"></script>
+
+</body>
+</html>";}";

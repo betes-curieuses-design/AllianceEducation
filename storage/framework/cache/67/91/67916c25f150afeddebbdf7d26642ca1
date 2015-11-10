@@ -1,0 +1,7 @@
+1447013971s:362:"a:6:{s:5:"mtime";i:1445997283;s:7:"content";s:104:"<div class="site-main" id="sTop">
+    {% partial 'site-header' %}
+    {% partial 'site-slider' %}
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:104:"<div class="site-main" id="sTop">
+    {% partial 'site-header' %}
+    {% partial 'site-slider' %}
+</div>";}";

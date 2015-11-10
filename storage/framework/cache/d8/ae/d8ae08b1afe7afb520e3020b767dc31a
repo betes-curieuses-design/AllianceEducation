@@ -1,0 +1,44 @@
+1447020731s:934:"a:6:{s:5:"mtime";i:1447017663;s:7:"content";s:373:"title = "Accueil"
+url = "/"
+layout = "default"
+is_hidden = 0
+
+[ShowImages]
+==
+<section id="slider">
+{% component 'ShowImages' %}
+</section>
+
+<section id="featured">
+    {% partial "home/featured" %}
+</section>
+
+<section id="services">
+    {% partial "home/services" %}
+</section>
+
+<section id="quotes">
+
+</section>
+
+<section id="blogs">
+
+</section>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:7:"Accueil";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:1:{s:10:"ShowImages";a:0:{}}}s:4:"code";N;s:6:"markup";s:288:"<section id="slider">
+{% component 'ShowImages' %}
+</section>
+
+<section id="featured">
+    {% partial "home/featured" %}
+</section>
+
+<section id="services">
+    {% partial "home/services" %}
+</section>
+
+<section id="quotes">
+
+</section>
+
+<section id="blogs">
+
+</section>";}";

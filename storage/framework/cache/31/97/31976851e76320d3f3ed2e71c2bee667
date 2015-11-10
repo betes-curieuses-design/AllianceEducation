@@ -1,0 +1,62 @@
+1447020731s:2064:"a:6:{s:5:"mtime";i:1447018160;s:7:"content";s:954:"description = "Services"
+==
+<div id="header-services" class="parallax section-header">
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Nos services</h1>
+        </div>
+    </div>
+</div>
+<div class="content-services">
+    <div class="container ">
+
+        <!-- Services -->
+
+        <div class="row all-top-buffer">
+            <div class="col-sm-2">
+                <img class="round-image img-responsive"
+                     src="{{ 'assets/images/ae-client-profil.jpg'|theme }}">
+            </div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-sm-12"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6"></div>
+                    <div class="col-sm-6"></div>
+                </div>
+            </div>
+        </div>
+        <div class="top-buffer-lg"></div>
+    </div>
+</div>
+";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:8:"Services";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:922:"<div id="header-services" class="parallax section-header">
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Nos services</h1>
+        </div>
+    </div>
+</div>
+<div class="content-services">
+    <div class="container ">
+
+        <!-- Services -->
+
+        <div class="row all-top-buffer">
+            <div class="col-sm-2">
+                <img class="round-image img-responsive"
+                     src="{{ 'assets/images/ae-client-profil.jpg'|theme }}">
+            </div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-sm-12"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6"></div>
+                    <div class="col-sm-6"></div>
+                </div>
+            </div>
+        </div>
+        <div class="top-buffer-lg"></div>
+    </div>
+</div>";}";
