@@ -16,7 +16,7 @@ class __TwigTemplate_6140a5c97d7ce6a522b1a22bb9924cee3276437584f5cf2ec6143cac78e
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<div id=\"header-services\" class=\"parallax section-header\">
+        echo "<div id=\"header-services\" class=\"section-header\">
     <div class=\"jumbotron\">
         <div class=\"container\">
             <h1>Nos services</h1>
@@ -29,23 +29,49 @@ class __TwigTemplate_6140a5c97d7ce6a522b1a22bb9924cee3276437584f5cf2ec6143cac78e
         <!-- Services -->
 
         <div class=\"row all-top-buffer\">
-            <div class=\"col-sm-2\">
-                <img class=\"round-image img-responsive\"
+            <div class=\"col-sm-2 col-sm-offset-5\">
+                <img class=\"round-image img-responsive center-block\"
                      src=\"";
         // line 16
         echo $this->env->getExtension('CMS')->themeFilter("assets/images/ae-client-profil.jpg");
         echo "\">
             </div>
-            <div class=\"col-sm-10\">
+        </div>
+        <div class=\"row all-top-buffer\">
+            <div class=\"col-sm-8 col-sm-offset-2\">
                 <div class=\"row\">
-                    <div class=\"col-sm-12\"></div>
+                    <div class=\"col-sm-12\">
+                        <p>Les services de coaching familial offert par Alliance Éducation sont d’abord des services
+                            professionnels et personnalisés à domicile. Ils permettent à chaque famille d’avoir accès à
+                            des interventions ou des pistes de solutions qui répondent à leur réalité unique.</p>
+                    </div>
                 </div>
                 <div class=\"row\">
-                    <div class=\"col-sm-6\"></div>
-                    <div class=\"col-sm-6\"></div>
+                    <div class=\"col-sm-6\">
+                        <h3>La clientèle ciblée par les services :</h3>
+
+                        <p>Parents et enfants âgés de 0-12 ans</p>
+                    </div>
+                    <div class=\"col-sm-6\">
+                        <h3>Offre de l’aide pour différente problématiques :</h3>
+                        <ul>
+                            <li>Encadrement éducatif</li>
+                            <li>Routine et autonomie</li>
+                            <li>Gestions des émotions</li>
+                            <li>Stress/anxiété</li>
+                            <li>Troubles de comportements</li>
+                            <li>Et bien plus!</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=\"row all-top-buffer\">
+                    <div class=\"col-sm-12 text-right\">
+                        <a href=\"\" class=\"btn btn-secondary\">Nos services</a>
+                    </div>
                 </div>
             </div>
         </div>
+
         <div class=\"top-buffer-lg\"></div>
     </div>
 </div>";
@@ -66,7 +92,7 @@ class __TwigTemplate_6140a5c97d7ce6a522b1a22bb9924cee3276437584f5cf2ec6143cac78e
         return array (  36 => 16,  19 => 1,);
     }
 }
-/* <div id="header-services" class="parallax section-header">*/
+/* <div id="header-services" class="section-header">*/
 /*     <div class="jumbotron">*/
 /*         <div class="container">*/
 /*             <h1>Nos services</h1>*/
@@ -79,20 +105,46 @@ class __TwigTemplate_6140a5c97d7ce6a522b1a22bb9924cee3276437584f5cf2ec6143cac78e
 /*         <!-- Services -->*/
 /* */
 /*         <div class="row all-top-buffer">*/
-/*             <div class="col-sm-2">*/
-/*                 <img class="round-image img-responsive"*/
+/*             <div class="col-sm-2 col-sm-offset-5">*/
+/*                 <img class="round-image img-responsive center-block"*/
 /*                      src="{{ 'assets/images/ae-client-profil.jpg'|theme }}">*/
 /*             </div>*/
-/*             <div class="col-sm-10">*/
+/*         </div>*/
+/*         <div class="row all-top-buffer">*/
+/*             <div class="col-sm-8 col-sm-offset-2">*/
 /*                 <div class="row">*/
-/*                     <div class="col-sm-12"></div>*/
+/*                     <div class="col-sm-12">*/
+/*                         <p>Les services de coaching familial offert par Alliance Éducation sont d’abord des services*/
+/*                             professionnels et personnalisés à domicile. Ils permettent à chaque famille d’avoir accès à*/
+/*                             des interventions ou des pistes de solutions qui répondent à leur réalité unique.</p>*/
+/*                     </div>*/
 /*                 </div>*/
 /*                 <div class="row">*/
-/*                     <div class="col-sm-6"></div>*/
-/*                     <div class="col-sm-6"></div>*/
+/*                     <div class="col-sm-6">*/
+/*                         <h3>La clientèle ciblée par les services :</h3>*/
+/* */
+/*                         <p>Parents et enfants âgés de 0-12 ans</p>*/
+/*                     </div>*/
+/*                     <div class="col-sm-6">*/
+/*                         <h3>Offre de l’aide pour différente problématiques :</h3>*/
+/*                         <ul>*/
+/*                             <li>Encadrement éducatif</li>*/
+/*                             <li>Routine et autonomie</li>*/
+/*                             <li>Gestions des émotions</li>*/
+/*                             <li>Stress/anxiété</li>*/
+/*                             <li>Troubles de comportements</li>*/
+/*                             <li>Et bien plus!</li>*/
+/*                         </ul>*/
+/*                     </div>*/
+/*                 </div>*/
+/*                 <div class="row all-top-buffer">*/
+/*                     <div class="col-sm-12 text-right">*/
+/*                         <a href="" class="btn btn-secondary">Nos services</a>*/
+/*                     </div>*/
 /*                 </div>*/
 /*             </div>*/
 /*         </div>*/
+/* */
 /*         <div class="top-buffer-lg"></div>*/
 /*     </div>*/
 /* </div>*/

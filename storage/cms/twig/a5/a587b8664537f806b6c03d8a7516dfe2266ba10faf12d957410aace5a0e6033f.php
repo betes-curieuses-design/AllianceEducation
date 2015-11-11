@@ -52,7 +52,12 @@ class __TwigTemplate_52e2e055697cf3a37b44a7d6124c4dbdda70d5451869faf3a0a48695163
                 <a class=\"navbar-brand\" href=\"";
         // line 28
         echo $this->env->getExtension('CMS')->pageFilter("home");
-        echo "\"></a>
+        echo "\">
+                    <img src=\"";
+        // line 29
+        echo $this->env->getExtension('CMS')->themeFilter("assets/images/ae-signature-mobile.svg");
+        echo "\" style=\"width: 120px;margin-top: 25px;\">
+                </a>
             </div>
             <div class=\"navbar-collapse collapse pull-left  mobile-menu\">
                 <ul class=\"nav navbar-nav\">
@@ -81,7 +86,7 @@ class __TwigTemplate_52e2e055697cf3a37b44a7d6124c4dbdda70d5451869faf3a0a48695163
 
     public function getDebugInfo()
     {
-        return array (  54 => 28,  31 => 8,  27 => 7,  19 => 1,);
+        return array (  58 => 29,  54 => 28,  31 => 8,  27 => 7,  19 => 1,);
     }
 }
 /* <!-- Fixed navbar -->*/
@@ -111,7 +116,9 @@ class __TwigTemplate_52e2e055697cf3a37b44a7d6124c4dbdda70d5451869faf3a0a48695163
 /*             <div class="navbar-header">*/
 /*                 <!-- Button for smallest screens -->*/
 /*                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>*/
-/*                 <a class="navbar-brand" href="{{ 'home'|page }}"></a>*/
+/*                 <a class="navbar-brand" href="{{ 'home'|page }}">*/
+/*                     <img src="{{ 'assets/images/ae-signature-mobile.svg'|theme }}" style="width: 120px;margin-top: 25px;">*/
+/*                 </a>*/
 /*             </div>*/
 /*             <div class="navbar-collapse collapse pull-left  mobile-menu">*/
 /*                 <ul class="nav navbar-nav">*/

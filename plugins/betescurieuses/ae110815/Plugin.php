@@ -27,35 +27,36 @@ class Plugin extends PluginBase
         ];
     }
 
+    public function registerComponents()
+    {
+        return [
+            'BetesCurieuses\Ae110815\Components\Quotes' => 'Quotes'
+        ];
+    }
+
     public function registerNavigation()
     {
         return [
             'aedu' => [
                 'label' => 'Contenu',
-                'url' => Backend::url('BetesCurieuses/Ae110815/conferences'),
-                'icon' => 'icon-graduation-cap',
+                'url' => Backend::url('BetesCurieuses/Ae110815/quotes'),
+                'icon' => 'icon-tasks',
                 'permissions' => ['rainlab.blog.*'],
                 'order' => 500,
 
                 'sideMenu' => [
-                    'conferences' => [
-                        'label' => 'Conférences',
-                        'icon' => 'icon-eye',
-                        'url' => Backend::url('BetesCurieuses/Ae110815/conferences'),
-                        'permissions' => ['betescurieuses.ae110815.conferences']
+                    'Quotes' => [
+                        'label' => 'Quotes',
+                        'icon' => 'icon-quote-right',
+                        'url' => Backend::url('BetesCurieuses/Ae110815/quotes'),
+                        'permissions' => ['betescurieuses.ae110815.quotes']
                     ],
-                    'formations' => [
-                        'label' => 'Formations',
-                        'icon' => 'icon-graduation-cap',
-                        'url' => Backend::url('BetesCurieuses/Ae110815/formations'),
-                        'permissions' => ['betescurieuses.ae110815.formations']
+                    'Incriptions' => [
+                        'label' => 'Inscriptions',
+                        'icon' => 'icon-list',
+                        'url' => Backend::url('BetesCurieuses/Ae110815/inscriptions'),
+                        'permissions' => ['betescurieuses.ae110815.inscriptions']
                     ],
-                    'capsules' => [
-                        'label' => 'Capsules Vidéo',
-                        'icon' => 'icon-play-circle-o',
-                        'url' => Backend::url('BetesCurieuses/Ae110815/capsules'),
-                        'permissions' => ['betescurieuses.ae110815.capsules']
-                    ]
                 ]
             ]
         ];

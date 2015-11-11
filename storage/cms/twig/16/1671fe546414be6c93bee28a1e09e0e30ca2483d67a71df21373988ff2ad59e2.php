@@ -44,8 +44,13 @@ class __TwigTemplate_2f1b04a922f70865c0db308fab9450783d1f522f5e39ae5a82161c3bc40
         echo "</section>
 
 <section id=\"quotes\">
-
-</section>
+    ";
+        // line 14
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('CMS')->componentFunction("Quotes"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 15
+        echo "</section>
 
 <section id=\"blogs\">
 
@@ -64,7 +69,7 @@ class __TwigTemplate_2f1b04a922f70865c0db308fab9450783d1f522f5e39ae5a82161c3bc40
 
     public function getDebugInfo()
     {
-        return array (  44 => 11,  40 => 10,  35 => 7,  31 => 6,  26 => 3,  22 => 2,  19 => 1,);
+        return array (  53 => 15,  49 => 14,  44 => 11,  40 => 10,  35 => 7,  31 => 6,  26 => 3,  22 => 2,  19 => 1,);
     }
 }
 /* <section id="slider">*/
@@ -80,7 +85,7 @@ class __TwigTemplate_2f1b04a922f70865c0db308fab9450783d1f522f5e39ae5a82161c3bc40
 /* </section>*/
 /* */
 /* <section id="quotes">*/
-/* */
+/*     {% component 'Quotes' %}*/
 /* </section>*/
 /* */
 /* <section id="blogs">*/

@@ -4572,14 +4572,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  border-color: transparent;
+  border-color: #00C1D6;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #f2f2f2;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff;
+  background-color: #00C1D6;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -8944,11 +8944,11 @@ small,
   color: white;
 }
 .text-primary {
-  color: #ccc;
+  color: #7D35AD;
 }
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #b3b3b3;
+  color: #612986;
 }
 .text-warning {
   color: #fff;
@@ -9081,12 +9081,27 @@ address {
   display: block;
   position: relative;
 }
+#services .content-services {
+  background-image: url('../images/ae-servicebg.jpg');
+  min-height: 350px;
+  color: #fff;
+}
+#services .content-services img {
+  border: 3px solid #00C1D6;
+}
+#services .content-services h3 {
+  color: #00C1D6;
+  font-weight: bold;
+}
 #header-services {
-  background-image: url('../images/slide3.jpg');
+  background-color: #00C1D6;
 }
 .section-header .jumbotron {
   background-color: transparent;
   margin-bottom: 0 !important;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  text-align: center;
 }
 @media (max-width: 992px) {
   .section-header .jumbotron {
@@ -9102,6 +9117,25 @@ address {
   .section-header .jumbotron h1 {
     font-size: 42px;
   }
+}
+#quotes {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #7D35AD;
+}
+#quotes i {
+  font-size: 4.5em;
+  color: #00C1D6;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+#quotes h2 {
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+#quotes h3 {
+  color: #00C1D6;
 }
 header .navbar-default ul.nav li a:hover {
   border-bottom: 3px solid #00C1D6;

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Inscription
+
+# Model Form Field configuration
+form: $/betescurieuses/ae110815/models/inscription/fields.yaml
+
+# Model Class name
+modelClass: BetesCurieuses\Ae110815\Models\Inscription
+
+# Default redirect location
+defaultRedirect: betescurieuses/ae110815/inscriptions
+
+# Create page
+create:
+    title: Create Inscription
+    redirect: betescurieuses/ae110815/inscriptions/update/:id
+    redirectClose: betescurieuses/ae110815/inscriptions
+
+# Update page
+update:
+    title: Edit Inscription
+    redirect: betescurieuses/ae110815/inscriptions
+    redirectClose: betescurieuses/ae110815/inscriptions
+
+# Preview page
+preview:
+    title: Preview Inscription
