@@ -16,15 +16,14 @@ class __TwigTemplate_3011ff6d7219e72a8cbbef9ca6319639df92a4b4128c5e1424e378c9d8d
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->
+        echo "<!--[if lt IE 7]>      <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->
 <!--[if IE 7]>         <html class=\"no-js lt-ie9 lt-ie8\">        <![endif]-->
 <!--[if IE 8]>         <html class=\"no-js lt-ie9\">               <![endif]-->
 <!--[if gt IE 8]> <!--> <html class=\"no-js\">                 <!--<![endif]-->
 <head>
     <meta charset=\"utf-8\">
     <title>";
-        // line 8
+        // line 7
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["this"]) ? $context["this"] : null), "page", array()), "title", array()), "html", null, true);
         echo "</title>
 \t<meta name=\"description\" content=\"\">
@@ -35,17 +34,17 @@ http://www.templatemo.com/free-website-templates/406-flex
 -->
     <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>-->
     <link href=\"";
-        // line 16
+        // line 15
         echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/css/theme.css"));
-        // line 18
+        // line 17
         echo "\" rel=\"stylesheet\">
     <script src=\"";
-        // line 19
+        // line 18
         echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"));
         echo "\"></script>
 </head>
 <body class=\"page-";
-        // line 21
+        // line 20
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["this"]) ? $context["this"] : null), "page", array()), "id", array()), "html", null, true);
         echo " layout-";
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["this"]) ? $context["this"] : null), "layout", array()), "id", array()), "html", null, true);
@@ -58,38 +57,37 @@ http://www.templatemo.com/free-website-templates/406-flex
 <header id=\"layout-header\" class=\"header-navbar\">
     <!-- Nav -->
     ";
-        // line 29
+        // line 28
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("header"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 30
+        // line 29
         echo "</header>
 
 <!-- Content -->
 <main id=\"layout-content\">
     ";
-        // line 34
+        // line 33
         echo $this->env->getExtension('CMS')->pageFunction();
-        // line 35
+        // line 34
         echo "</main>
 
 <!-- Footer -->
 <footer id=\"layout-footer\">
     ";
-        // line 39
+        // line 38
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("footer"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 40
+        // line 39
         echo "</footer>
 
-";
-        // line 50
-        echo "
+
+
     <script src=\"";
-        // line 51
+        // line 43
         echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/js/vendor/jquery-1.11.0.min.js", 1 => "assets/vendor/bootstrap/js/bootstrap.min.js", 2 => "assets/js/plugins.js", 3 => "assets/js/main.js", 4 => "@framework", 5 => "@framework.extras"));
-        // line 57
+        // line 49
         echo "\"></script>
 
 </body>
@@ -108,10 +106,9 @@ http://www.templatemo.com/free-website-templates/406-flex
 
     public function getDebugInfo()
     {
-        return array (  93 => 57,  91 => 51,  88 => 50,  84 => 40,  80 => 39,  74 => 35,  72 => 34,  66 => 30,  62 => 29,  49 => 21,  44 => 19,  41 => 18,  39 => 16,  28 => 8,  19 => 1,);
+        return array (  91 => 49,  89 => 43,  83 => 39,  79 => 38,  73 => 34,  71 => 33,  65 => 29,  61 => 28,  48 => 20,  43 => 18,  40 => 17,  38 => 15,  27 => 7,  19 => 1,);
     }
 }
-/* <!DOCTYPE html>*/
 /* <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->*/
 /* <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8">        <![endif]-->*/
 /* <!--[if IE 8]>         <html class="no-js lt-ie9">               <![endif]-->*/
@@ -152,14 +149,7 @@ http://www.templatemo.com/free-website-templates/406-flex
 /*     {% partial "footer" %}*/
 /* </footer>*/
 /* */
-/* {#    {% partial 'site-main' %}*/
 /* */
-/*     {% partial 'services'  %}*/
-/*     {% partial 'portfolio' %}*/
-/*     {% partial 'team'      %}*/
-/* */
-/*     {% partial 'contact'   %}*/
-/*     {% partial 'footer'    %}#}*/
 /* */
 /*     <script src="{{ [*/
 /*         'assets/js/vendor/jquery-1.11.0.min.js',*/

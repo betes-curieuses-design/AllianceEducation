@@ -23,27 +23,23 @@ class __TwigTemplate_7e73919ff1a1fe608ff9f67531f0e6a4395394927eb994aa32c51019038
         </div>
     </div>
     <div class=\"row all-top-buffer\">
-        <div class=\"col-sm-7\">
+        <div class=\"col-sm-10 col-sm-offset-1 col-md-7 col-md-offset-0\">
             <div class=\"embed-responsive embed-responsive-16by9\">
                 <iframe class=\"embed-responsive-item\"
                         src=\"https://www.youtube.com/embed/zsRzD-aRybQ\"
                         frameborder=\"0\" allowfullscreen></iframe>
             </div>
         </div>
-        <div class=\"col-sm-5\">
-            <p>Suspendisse viverra odio mattis tortor vestibulum pulvinar. Mauris suscipit velit et magna commodo
-                tristique. Morbi accumsan lorem non consequat vulputate. Nam at interdum sem, ut posuere diam. Nullam
-                ornare luctus porta.</p>
+        <div class=\"col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-0 tablet-top-buffer mobile-top-buffer\">
+            <p>Une vision devenue réalité! C’est une entreprise de coaching familial visant à supporter et outiller les
+                parents ainsi que les enfants vivant des problématiques diverses. Ce sont aussi des ateliers et des
+                conférences portant sur plusieurs sujets entourant la parentalité. L’objectif d’Alliance Éducation est
+                de rejoindre le plus de familles possible afin de faire une différence positive dans la vie d’un maximum
+                de personnes. Le respect est au cœur de l’ensemble des services offerts par l’entreprise. Ici, on
+                cultive l’espoir, on croit qu’avec de la volonté, du support et des outils, il est toujours possible de
+                cheminer et de progresser dans notre réalité familiale. Alliance Éducation, c’est un phare pour vous
+                éclairer et une main pour vous soutenir dans cette aventure parentale.</p>
 
-            <p>Integer venenatis purus non euismod tempor. Class aptent taciti sociosqu ad litora torquent per conubia
-                nostra, per inceptos himenaeos. Nam at ante vestibulum, laoreet neque vel, aliquam quam. Praesent sit
-                amet venenatis mauris, a pharetra lacus. Aenean consectetur accumsan purus, non ullamcorper lacus
-                fermentum pretium.</p>
-
-            <p>Sed semper consectetur odio ut hendrerit. Donec egestas elementum sapien, non ultricies mauris aliquam
-                id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                Quisque ultrices dolor suscipit dolor venenatis, vel porttitor nisl imperdiet. Suspendisse potenti. Ut
-                varius efficitur mauris, ut condimentum nunc. </p>
         </div>
     </div>
     <div class=\"top-buffer-lg\"></div>
@@ -67,27 +63,23 @@ class __TwigTemplate_7e73919ff1a1fe608ff9f67531f0e6a4395394927eb994aa32c51019038
 /*         </div>*/
 /*     </div>*/
 /*     <div class="row all-top-buffer">*/
-/*         <div class="col-sm-7">*/
+/*         <div class="col-sm-10 col-sm-offset-1 col-md-7 col-md-offset-0">*/
 /*             <div class="embed-responsive embed-responsive-16by9">*/
 /*                 <iframe class="embed-responsive-item"*/
 /*                         src="https://www.youtube.com/embed/zsRzD-aRybQ"*/
 /*                         frameborder="0" allowfullscreen></iframe>*/
 /*             </div>*/
 /*         </div>*/
-/*         <div class="col-sm-5">*/
-/*             <p>Suspendisse viverra odio mattis tortor vestibulum pulvinar. Mauris suscipit velit et magna commodo*/
-/*                 tristique. Morbi accumsan lorem non consequat vulputate. Nam at interdum sem, ut posuere diam. Nullam*/
-/*                 ornare luctus porta.</p>*/
+/*         <div class="col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-0 tablet-top-buffer mobile-top-buffer">*/
+/*             <p>Une vision devenue réalité! C’est une entreprise de coaching familial visant à supporter et outiller les*/
+/*                 parents ainsi que les enfants vivant des problématiques diverses. Ce sont aussi des ateliers et des*/
+/*                 conférences portant sur plusieurs sujets entourant la parentalité. L’objectif d’Alliance Éducation est*/
+/*                 de rejoindre le plus de familles possible afin de faire une différence positive dans la vie d’un maximum*/
+/*                 de personnes. Le respect est au cœur de l’ensemble des services offerts par l’entreprise. Ici, on*/
+/*                 cultive l’espoir, on croit qu’avec de la volonté, du support et des outils, il est toujours possible de*/
+/*                 cheminer et de progresser dans notre réalité familiale. Alliance Éducation, c’est un phare pour vous*/
+/*                 éclairer et une main pour vous soutenir dans cette aventure parentale.</p>*/
 /* */
-/*             <p>Integer venenatis purus non euismod tempor. Class aptent taciti sociosqu ad litora torquent per conubia*/
-/*                 nostra, per inceptos himenaeos. Nam at ante vestibulum, laoreet neque vel, aliquam quam. Praesent sit*/
-/*                 amet venenatis mauris, a pharetra lacus. Aenean consectetur accumsan purus, non ullamcorper lacus*/
-/*                 fermentum pretium.</p>*/
-/* */
-/*             <p>Sed semper consectetur odio ut hendrerit. Donec egestas elementum sapien, non ultricies mauris aliquam*/
-/*                 id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.*/
-/*                 Quisque ultrices dolor suscipit dolor venenatis, vel porttitor nisl imperdiet. Suspendisse potenti. Ut*/
-/*                 varius efficitur mauris, ut condimentum nunc. </p>*/
 /*         </div>*/
 /*     </div>*/
 /*     <div class="top-buffer-lg"></div>*/

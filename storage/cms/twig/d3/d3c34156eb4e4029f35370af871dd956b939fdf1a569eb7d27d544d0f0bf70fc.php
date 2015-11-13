@@ -16,15 +16,22 @@ class __TwigTemplate_491ac4ed7e0d45d718e6bd18ada7b26af40ba5735e4af267adb32bddc2a
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<div id=\"footer\">
-    <div class=\"container\">
-        <div class=\"row\">
-            <div class=\"col-md-8 col-xs-12 text-left\">
-                <span>Copyright &copy; 2084 Company Name - Designed by <a rel=\"nofollow\" href=\"http://www.templatemo.com/free-website-templates/406-flex\" target=\"_parent\">Flex Template</a></span>
-            </div>
-            <div class=\"col-md-4 hidden-xs text-right\">
-                <a href=\"#top\" id=\"go-top\">Back to top</a>
-            </div>
+        echo "<div class=\"container\">
+    <div class=\"row all-top-buffer\">
+        <div class=\"col-sm-8 col-xs-12 text-left\">
+            <span>&copy; 2015 Alliance Éducations - Réalisation par <a href=\"#\" target=\"_blank\">Bêtes curieuses
+                    Design</a></span>
+        </div>
+        <div class=\"col-sm-4 hidden-xs text-right\">
+            Nous suivre sur&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href=\"\" class=\"btn btn-primary btn-sm\">
+                &nbsp;&nbsp;<i class=\"fa fa-facebook fa-2x\"></i>
+            </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href=\"\" class=\"btn btn-primary btn-sm\">
+                <i class=\"fa fa-youtube fa-2x\" ></i>
+            </a>
+
         </div>
     </div>
 </div>";
@@ -40,15 +47,22 @@ class __TwigTemplate_491ac4ed7e0d45d718e6bd18ada7b26af40ba5735e4af267adb32bddc2a
         return array (  19 => 1,);
     }
 }
-/* <div id="footer">*/
-/*     <div class="container">*/
-/*         <div class="row">*/
-/*             <div class="col-md-8 col-xs-12 text-left">*/
-/*                 <span>Copyright &copy; 2084 Company Name - Designed by <a rel="nofollow" href="http://www.templatemo.com/free-website-templates/406-flex" target="_parent">Flex Template</a></span>*/
-/*             </div>*/
-/*             <div class="col-md-4 hidden-xs text-right">*/
-/*                 <a href="#top" id="go-top">Back to top</a>*/
-/*             </div>*/
+/* <div class="container">*/
+/*     <div class="row all-top-buffer">*/
+/*         <div class="col-sm-8 col-xs-12 text-left">*/
+/*             <span>&copy; 2015 Alliance Éducations - Réalisation par <a href="#" target="_blank">Bêtes curieuses*/
+/*                     Design</a></span>*/
+/*         </div>*/
+/*         <div class="col-sm-4 hidden-xs text-right">*/
+/*             Nous suivre sur&nbsp;&nbsp;&nbsp;&nbsp;*/
+/*             <a href="" class="btn btn-primary btn-sm">*/
+/*                 &nbsp;&nbsp;<i class="fa fa-facebook fa-2x"></i>*/
+/*             </a>*/
+/*             &nbsp;&nbsp;&nbsp;&nbsp;*/
+/*             <a href="" class="btn btn-primary btn-sm">*/
+/*                 <i class="fa fa-youtube fa-2x" ></i>*/
+/*             </a>*/
+/* */
 /*         </div>*/
 /*     </div>*/
 /* </div>*/

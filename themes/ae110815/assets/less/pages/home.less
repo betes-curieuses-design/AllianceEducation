@@ -1,6 +1,12 @@
+#featured {
+  background-color: #fff;
+}
+
+
 #services {
   display: block;
   position: relative;
+  background-image: url('../images/ae-servicebg.jpg');
   .content-services {
     img {
       border: 3px solid @brand-primary;
@@ -9,7 +15,7 @@
       color: @brand-primary;
       font-weight: bold;
     }
-    background-image: url('../images/ae-servicebg.jpg');
+    //
     min-height: 350px;
     color: #fff;
   }
@@ -47,14 +53,29 @@
     color: @brand-primary;
     margin-top: 25px;
     margin-left: 15px;
+    @media (max-width: @screen-md-min) {
+      font-size: 4.2em;
+    }
+    @media (max-width: @screen-xs-max) {
+      font-size: 2.5em;
+    }
   }
   h2 {
     color: #fff;
     font-size: 2.5em;
     font-weight: bold;
+    @media (max-width: @screen-md-min) {
+      font-size: 2.2em;
+    }
+    @media (max-width: @screen-xs-max) {
+      font-size: 1.5em;
+    }
   }
   h3 {
     color: @brand-primary;
   }
 }
 
+#home-blog {
+  background-color: #fff;
+}

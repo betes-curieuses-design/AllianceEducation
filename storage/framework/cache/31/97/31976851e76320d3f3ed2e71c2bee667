@@ -1,4 +1,4 @@
-1447206370s:4890:"a:6:{s:5:"mtime";i:1447205765;s:7:"content";s:2366:"description = "Services"
+1447380202s:5216:"a:6:{s:5:"mtime";i:1447377081;s:7:"content";s:2529:"description = "Services"
 ==
 <div id="header-services" class="section-header">
     <div class="jumbotron">
@@ -12,14 +12,17 @@
 
         <!-- Services -->
 
-        <div class="row all-top-buffer">
-            <div class="col-sm-2 col-sm-offset-5">
-                <img class="round-image img-responsive center-block"
-                     src="{{ 'assets/images/ae-client-profil.jpg'|theme }}">
+        <div class="row top-buffer-lg">
+            <div class="col-sm-12 col-md-3">
+                <div class="row">
+                    <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4 col-md-10 col-md-offset-1">
+                        <img class="round-image img-responsive center-block"
+                             src="{{ 'assets/images/ae-client-profil.jpg'|theme }}">
+                    </div>
+                </div>
+
             </div>
-        </div>
-        <div class="row all-top-buffer">
-            <div class="col-sm-8 col-sm-offset-2">
+            <div class="col-sm-12 col-md-9 tablet-top-buffer">
                 <div class="row">
                     <div class="col-sm-12">
                         <p>Les services de coaching familial offert par Alliance Éducation sont d’abord des services
@@ -56,7 +59,7 @@
         <div class="top-buffer-lg"></div>
     </div>
 </div>
-";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:8:"Services";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:2334:"<div id="header-services" class="section-header">
+";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:8:"Services";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:2497:"<div id="header-services" class="section-header">
     <div class="jumbotron">
         <div class="container">
             <h1>Nos services</h1>
@@ -68,14 +71,17 @@
 
         <!-- Services -->
 
-        <div class="row all-top-buffer">
-            <div class="col-sm-2 col-sm-offset-5">
-                <img class="round-image img-responsive center-block"
-                     src="{{ 'assets/images/ae-client-profil.jpg'|theme }}">
+        <div class="row top-buffer-lg">
+            <div class="col-sm-12 col-md-3">
+                <div class="row">
+                    <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4 col-md-10 col-md-offset-1">
+                        <img class="round-image img-responsive center-block"
+                             src="{{ 'assets/images/ae-client-profil.jpg'|theme }}">
+                    </div>
+                </div>
+
             </div>
-        </div>
-        <div class="row all-top-buffer">
-            <div class="col-sm-8 col-sm-offset-2">
+            <div class="col-sm-12 col-md-9 tablet-top-buffer">
                 <div class="row">
                     <div class="col-sm-12">
                         <p>Les services de coaching familial offert par Alliance Éducation sont d’abord des services

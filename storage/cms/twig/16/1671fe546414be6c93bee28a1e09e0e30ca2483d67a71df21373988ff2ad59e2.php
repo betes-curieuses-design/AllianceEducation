@@ -17,7 +17,7 @@ class __TwigTemplate_2f1b04a922f70865c0db308fab9450783d1f522f5e39ae5a82161c3bc40
     {
         // line 1
         echo "<section id=\"slider\">
-";
+    ";
         // line 2
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('CMS')->componentFunction("ShowImages"        , $context['__cms_component_params']        );
@@ -52,7 +52,27 @@ class __TwigTemplate_2f1b04a922f70865c0db308fab9450783d1f522f5e39ae5a82161c3bc40
         // line 15
         echo "</section>
 
-<section id=\"blogs\">
+<section id=\"home-blog\">
+    <div class=\"container\">
+        <div class=\"row\">
+            <div class=\"col-sm-12\">
+                <div class=\"row\">
+                    ";
+        // line 23
+        echo "                    <div class=\"col-sm-8\">
+
+                    </div>
+                    ";
+        // line 27
+        echo "                    <div class=\"col-sm-4\">
+
+                    </div>
+                </div>
+                <div class=\"top-buffer-lg\"></div>
+            </div>
+        </div>
+    </div>
+
 
 </section>";
     }
@@ -69,11 +89,11 @@ class __TwigTemplate_2f1b04a922f70865c0db308fab9450783d1f522f5e39ae5a82161c3bc40
 
     public function getDebugInfo()
     {
-        return array (  53 => 15,  49 => 14,  44 => 11,  40 => 10,  35 => 7,  31 => 6,  26 => 3,  22 => 2,  19 => 1,);
+        return array (  67 => 27,  62 => 23,  53 => 15,  49 => 14,  44 => 11,  40 => 10,  35 => 7,  31 => 6,  26 => 3,  22 => 2,  19 => 1,);
     }
 }
 /* <section id="slider">*/
-/* {% component 'ShowImages' %}*/
+/*     {% component 'ShowImages' %}*/
 /* </section>*/
 /* */
 /* <section id="featured">*/
@@ -88,6 +108,24 @@ class __TwigTemplate_2f1b04a922f70865c0db308fab9450783d1f522f5e39ae5a82161c3bc40
 /*     {% component 'Quotes' %}*/
 /* </section>*/
 /* */
-/* <section id="blogs">*/
+/* <section id="home-blog">*/
+/*     <div class="container">*/
+/*         <div class="row">*/
+/*             <div class="col-sm-12">*/
+/*                 <div class="row">*/
+/*                     {#Components#}*/
+/*                     <div class="col-sm-8">*/
+/* */
+/*                     </div>*/
+/*                     {#Blog#}*/
+/*                     <div class="col-sm-4">*/
+/* */
+/*                     </div>*/
+/*                 </div>*/
+/*                 <div class="top-buffer-lg"></div>*/
+/*             </div>*/
+/*         </div>*/
+/*     </div>*/
+/* */
 /* */
 /* </section>*/
