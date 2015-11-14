@@ -69,7 +69,7 @@ class Plugin extends PluginBase
     {
         return [
             'problog' => [
-                'label'       => 'Blog',
+                'label'       => 'radiantweb.problog::lang.plugin.name',
                 'url'         => Backend::url('radiantweb/problog/posts'),
                 'icon'        => 'icon-graduation-cap',
                 'permissions' => ['radiantweb.problog.*'],

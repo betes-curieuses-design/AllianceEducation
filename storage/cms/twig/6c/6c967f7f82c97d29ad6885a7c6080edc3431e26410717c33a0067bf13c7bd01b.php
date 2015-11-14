@@ -86,8 +86,8 @@ http://www.templatemo.com/free-website-templates/406-flex
 
     <script src=\"";
         // line 43
-        echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/js/vendor/jquery-1.11.0.min.js", 1 => "assets/vendor/bootstrap/js/bootstrap.min.js", 2 => "assets/js/plugins.js", 3 => "assets/js/main.js", 4 => "@framework", 5 => "@framework.extras"));
-        // line 49
+        echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/js/vendor/jquery-1.11.0.min.js", 1 => "assets/vendor/bootstrap/js/bootstrap.min.js", 2 => "@framework", 3 => "@framework.extras"));
+        // line 47
         echo "\"></script>
 
 </body>
@@ -106,7 +106,7 @@ http://www.templatemo.com/free-website-templates/406-flex
 
     public function getDebugInfo()
     {
-        return array (  91 => 49,  89 => 43,  83 => 39,  79 => 38,  73 => 34,  71 => 33,  65 => 29,  61 => 28,  48 => 20,  43 => 18,  40 => 17,  38 => 15,  27 => 7,  19 => 1,);
+        return array (  91 => 47,  89 => 43,  83 => 39,  79 => 38,  73 => 34,  71 => 33,  65 => 29,  61 => 28,  48 => 20,  43 => 18,  40 => 17,  38 => 15,  27 => 7,  19 => 1,);
     }
 }
 /* <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->*/
@@ -154,8 +154,6 @@ http://www.templatemo.com/free-website-templates/406-flex
 /*     <script src="{{ [*/
 /*         'assets/js/vendor/jquery-1.11.0.min.js',*/
 /*         'assets/vendor/bootstrap/js/bootstrap.min.js',*/
-/*         'assets/js/plugins.js',*/
-/*         'assets/js/main.js',*/
 /*         '@framework',*/
 /*         '@framework.extras']|theme }}"></script>*/
 /* */

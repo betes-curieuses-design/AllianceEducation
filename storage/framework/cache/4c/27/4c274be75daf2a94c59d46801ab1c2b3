@@ -1,4 +1,4 @@
-1447380169s:3905:"a:6:{s:5:"mtime";i:1447376597;s:7:"content";s:1872:"description = "Default layout"
+1447544859s:3779:"a:6:{s:5:"mtime";i:1447539702;s:7:"content";s:1809:"description = "Default layout"
 ==
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8">        <![endif]-->
@@ -45,13 +45,11 @@ http://www.templatemo.com/free-website-templates/406-flex
     <script src="{{ [
         'assets/js/vendor/jquery-1.11.0.min.js',
         'assets/vendor/bootstrap/js/bootstrap.min.js',
-        'assets/js/plugins.js',
-        'assets/js/main.js',
         '@framework',
         '@framework.extras']|theme }}"></script>
 
 </body>
-</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:14:"Default layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:1836:"<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+</html>";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:14:"Default layout";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:1773:"<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8">        <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9">               <![endif]-->
 <!--[if gt IE 8]> <!--> <html class="no-js">                 <!--<![endif]-->
@@ -96,8 +94,6 @@ http://www.templatemo.com/free-website-templates/406-flex
     <script src="{{ [
         'assets/js/vendor/jquery-1.11.0.min.js',
         'assets/vendor/bootstrap/js/bootstrap.min.js',
-        'assets/js/plugins.js',
-        'assets/js/main.js',
         '@framework',
         '@framework.extras']|theme }}"></script>
 

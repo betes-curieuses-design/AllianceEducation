@@ -6,6 +6,29 @@ is_hidden = 0
 [ShowImages]
 
 [Quotes]
+
+[Homeblog]
+pageNumber = "{{ :page }}"
+postsPerPage = 4
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "contact"
+postPage = "contact"
+
+[Lastcapsule]
+slug = ":slug"
+
+[Lastformation]
+
+[Lastconference]
+slug = ":slug"
+==
+<?php
+function onEnd()
+{
+    $this->page->title = 'Accueil';
+}
+?>
 ==
 <section id="slider">
     {% component 'ShowImages' %}
@@ -23,17 +46,48 @@ is_hidden = 0
     {% component 'Quotes' %}
 </section>
 
-<section id="home-blog">
+<section id="dynamic-blog">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
                 <div class="row">
                     {#Components#}
                     <div class="col-sm-8">
-
+                        <div class="row home-capsules">
+                            <div class="col-sm-12">
+                                <h1 class="text-center">
+                                    Dernière capsule
+                                </h1>
+                                {% component 'Lastcapsule' %}
+                            </div>
+                        </div>
+                        <div class="row home-formations">
+                            <h1 class="text-center">
+                                Dernière formation
+                            </h1>
+                            <div class="col-sm-12">
+                                {% component 'Lastformation' %}
+                            </div>
+                        </div>
+                        <div class="row home-formations">
+                            <h1 class="text-center">
+                                Dernière conference
+                            </h1>
+                            <div class="col-sm-12">
+                                {% component 'Lastconference' %}
+                            </div>
+                        </div>
                     </div>
                     {#Blog#}
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 home-blog">
+                        <div class="panel panel-sidebar">
+                            <div class="panel-heading">
+                                <h3 class="text-center">Blogue</h3>
+                            </div>
+                            <div class="panel-body">
+                                {% component 'Homeblog' %}
+                            </div>
+                        </div>
 
                     </div>
                 </div>

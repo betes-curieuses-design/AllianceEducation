@@ -1,5 +1,9 @@
 <?php 
-class Cms5645402887e13_1057847651Class extends \Cms\Classes\PageCode
+class Cms5647c5c3357c4_177440277Class extends \Cms\Classes\PageCode
 {
+public function onEnd()
+{
+    $this->page->title = 'Accueil';
+}
 
 }

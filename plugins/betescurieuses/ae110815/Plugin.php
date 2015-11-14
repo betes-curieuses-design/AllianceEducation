@@ -30,7 +30,11 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            'BetesCurieuses\Ae110815\Components\Quotes' => 'Quotes'
+            'BetesCurieuses\Ae110815\Components\Quotes' => 'Quotes',
+            'BetesCurieuses\Ae110815\Components\LastCapsule' => 'Lastcapsule',
+            'BetesCurieuses\Ae110815\Components\LastFormation' => 'Lastformation',
+            'BetesCurieuses\Ae110815\Components\LastConference' => 'Lastconference',
+            'BetesCurieuses\Ae110815\Components\HomeBlog' => 'Homeblog',
         ];
     }
 
@@ -71,12 +75,19 @@ class Plugin extends PluginBase
                 return;
 
             $form->addTabFields([
+                    'video' => [
+                        'label' => 'Vidéo',
+                        'type' => 'textarea',
+                        'tab' => 'radiantweb.problog::lang.backend.post.fields.tab.general',
+                        'size' => 'small'
+                    ],
                     'date_event' => [
                         'label' => 'Date',
                         'type' => 'datepicker',
                         'tab' => 'radiantweb.problog::lang.backend.post.fields.tab.general',
                         'span' => 'left'
                     ],
+
                 ]
             );
 
