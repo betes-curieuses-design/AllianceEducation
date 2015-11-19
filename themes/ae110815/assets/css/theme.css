@@ -19,6 +19,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:700,700italic);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -9091,7 +9092,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "lato", sans-serif;
+  font-family: 'Noto Serif';
   font-weight: 300;
   line-height: 1.1;
   color: inherit;
@@ -9183,11 +9184,11 @@ small,
   color: white;
 }
 .text-primary {
-  color: #7D35AD;
+  color: #00C1D6;
 }
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #612986;
+  color: #0093a3;
 }
 .text-warning {
   color: #fff;
@@ -9316,7 +9317,8 @@ address {
   margin-bottom: 21px;
   line-height: 1.42857143;
 }
-#featured {
+#featured,
+.default-section {
   background-color: #fff;
 }
 #services {
@@ -9339,7 +9341,7 @@ address {
   background-color: #00C1D6;
 }
 .section-header .jumbotron {
-  background-color: transparent;
+  background-color: #00C1D6;
   margin-bottom: 0 !important;
   padding-bottom: 25px;
   padding-top: 25px;
@@ -9413,11 +9415,15 @@ address {
   color: #00C1D6;
   font-weight: 600;
 }
-.page-contact {
+.wrap-page {
   position: relative;
 }
-.page-contact #header-contact {
-  background-color: #00C1D6;
+.page-about section.mission {
+  background-image: url('../images/dummypicture_84164242.jpg');
+}
+.page-about section.mission h2,
+.page-about section.mission p {
+  color: #fff;
 }
 body {
   background-color: #000000;

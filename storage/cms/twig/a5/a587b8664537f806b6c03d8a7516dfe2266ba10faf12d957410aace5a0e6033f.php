@@ -35,8 +35,14 @@ class __TwigTemplate_52e2e055697cf3a37b44a7d6124c4dbdda70d5451869faf3a0a48695163
         </div>
         <div class=\"navbar-collapse collapse pull-right \">
             <ul class=\"nav navbar-nav \">
-                <li><a href=\"#top\">Accueil</a></li>
-                <li><a href=\"#exposants\">À propos</a></li>
+                <li><a href=\"";
+        // line 14
+        echo $this->env->getExtension('CMS')->pageFilter("home");
+        echo "\">Accueil</a></li>
+                <li><a href=\"";
+        // line 15
+        echo $this->env->getExtension('CMS')->pageFilter("about");
+        echo "\">À propos</a></li>
                 <li><a href=\"#prix\">Services</a></li>
                 <li class=\"dropdown\">
                     <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\"
@@ -77,8 +83,14 @@ class __TwigTemplate_52e2e055697cf3a37b44a7d6124c4dbdda70d5451869faf3a0a48695163
         </div>
         <div class=\"navbar-collapse collapse pull-left  mobile-menu\">
             <ul class=\"nav navbar-nav\">
-                <li><a href=\"#top\">Accueil</a></li>
-                <li><a href=\"#exposants\">À propos</a></li>
+                <li><a href=\"";
+        // line 47
+        echo $this->env->getExtension('CMS')->pageFilter("home");
+        echo "\">Accueil</a></li>
+                <li><a href=\"";
+        // line 48
+        echo $this->env->getExtension('CMS')->pageFilter("about");
+        echo "\">À propos</a></li>
                 <li><a href=\"#prix\">Services</a></li>
                 <li><a href=\"#access\">Coaching</a></li>
                 <li><a href=\"#contact\">Blogue</a></li>
@@ -103,7 +115,7 @@ class __TwigTemplate_52e2e055697cf3a37b44a7d6124c4dbdda70d5451869faf3a0a48695163
 
     public function getDebugInfo()
     {
-        return array (  74 => 42,  70 => 41,  55 => 29,  32 => 9,  28 => 8,  19 => 1,);
+        return array (  92 => 48,  88 => 47,  80 => 42,  76 => 41,  61 => 29,  44 => 15,  40 => 14,  32 => 9,  28 => 8,  19 => 1,);
     }
 }
 /* <!-- Fixed navbar -->*/
@@ -119,8 +131,8 @@ class __TwigTemplate_52e2e055697cf3a37b44a7d6124c4dbdda70d5451869faf3a0a48695163
 /*         </div>*/
 /*         <div class="navbar-collapse collapse pull-right ">*/
 /*             <ul class="nav navbar-nav ">*/
-/*                 <li><a href="#top">Accueil</a></li>*/
-/*                 <li><a href="#exposants">À propos</a></li>*/
+/*                 <li><a href="{{ 'home'|page }}">Accueil</a></li>*/
+/*                 <li><a href="{{ 'about'|page }}">À propos</a></li>*/
 /*                 <li><a href="#prix">Services</a></li>*/
 /*                 <li class="dropdown">*/
 /*                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"*/
@@ -152,8 +164,8 @@ class __TwigTemplate_52e2e055697cf3a37b44a7d6124c4dbdda70d5451869faf3a0a48695163
 /*         </div>*/
 /*         <div class="navbar-collapse collapse pull-left  mobile-menu">*/
 /*             <ul class="nav navbar-nav">*/
-/*                 <li><a href="#top">Accueil</a></li>*/
-/*                 <li><a href="#exposants">À propos</a></li>*/
+/*                 <li><a href="{{ 'home'|page }}">Accueil</a></li>*/
+/*                 <li><a href="{{ 'about'|page }}">À propos</a></li>*/
 /*                 <li><a href="#prix">Services</a></li>*/
 /*                 <li><a href="#access">Coaching</a></li>*/
 /*                 <li><a href="#contact">Blogue</a></li>*/
