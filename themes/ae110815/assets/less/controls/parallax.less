@@ -1,5 +1,15 @@
-
 .parallax {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.arrow {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -11,7 +21,7 @@
   height: 230px;
 }
 
-.parallax:before {
+.arrow:before {
   content: '';
   position: absolute;
   top: 0;
@@ -23,7 +33,7 @@
   z-index: 999;
 }
 
-.parallax:after {
+.arrow:after {
   content: '';
   position: absolute;
   top: 180px;
@@ -36,7 +46,7 @@
 }
 
 @media (max-width: @screen-xs-max) {
-  .parallax:before {
+  .arrow:before {
     content: '';
     position: absolute;
     top: 0;
@@ -48,7 +58,7 @@
     z-index: 999;
   }
 
-  .parallax:after {
+  .arrow:after {
     content: '';
     position: absolute;
     top: 130px;
@@ -60,13 +70,13 @@
     z-index: 999;
   }
 
-  .parallax {
+  .arrow {
     height: 160px;
   }
 }
 
 @media (max-width: @screen-md-min) {
-  .parallax:before {
+  .arrow:before {
     content: '';
     position: absolute;
     top: 0;
@@ -78,7 +88,7 @@
     z-index: 999;
   }
 
-  .parallax:after {
+  .arrow:after {
     content: '';
     position: absolute;
     top: 150px;
@@ -90,7 +100,7 @@
     z-index: 999;
   }
 
-  .parallax {
+  .arrow {
     height: 180px;
   }
 }

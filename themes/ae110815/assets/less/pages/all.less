@@ -11,10 +11,30 @@
 }
 
 .page-about {
+  .round-image {
+    border: 3px solid @brand-primary;
+  }
   section.mission {
-    background-image: url('../images/dummypicture_84164242.jpg');
+    background-image: url('../images/ae-about.jpg');
     h2, p {
       color: #fff;
     }
+  }
+}
+
+.page-contact {
+  section.form-contact {
+    background-color: @gray-default;
+    input, textarea {
+      border: 1px solid @brand-primary;
+    }
+  }
+  .round-image {
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+  }
+  .round-image.email {
+    padding: 25px!important;
   }
 }
