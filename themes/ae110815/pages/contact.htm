@@ -2,6 +2,10 @@ title = "Nous joindre"
 url = "/nous-joindre"
 layout = "default"
 is_hidden = 0
+
+[contactForm contact]
+injectBootstrapAssets = 0
+injectMainScript = 0
 ==
 <div class="page-contact wrap-page">
     <div id="header-contact" class="section-header">
@@ -11,4 +15,77 @@ is_hidden = 0
             </div>
         </div>
     </div>
+    <section class="default-section">
+        <div class="container">
+            <div class="row top-buffer-lg">
+                <div class="col-md-8 col-md-offset-2">
+                    <p class="text-center">
+                        Vous avez des questions ou souhaitez utiliser mes services auprès de votre
+                        famille?
+                    </p>
+
+                    <div class="row all-top-buffer">
+                        <div class="col-xs-6 col-sm-3 text-center">
+                            <a class="btn btn-primary round-image"
+                               href="tel:5148390753">
+                                <i class="fa fa-phone fa-3x"></i>
+                            </a>
+                            <h4 class="bold">Téléphone</h4>
+                            <p class="text-primary">
+                                <strong>514-839-0753</strong>
+                            </p>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 text-center">
+                            <a class="btn btn-primary round-image email"
+                               href="mailto:nmironcoach@gmail.com">
+                                <i class="fa fa-envelope fa-3x"></i>
+                            </a>
+                            <h4 class="bold">Courriel</h4>
+                            <p class="text-primary">
+                                <strong>nmironcoach@gmail.com</strong>
+                            </p>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 text-center">
+                            <a class="btn btn-primary round-image"
+                               href="facebook.com/nathaliemironcoachfamilial"
+                                    target="_blank">
+                                <i class="fa fa-facebook fa-3x"></i>
+                            </a>
+                            <h4 class="bold">Facebook</h4>
+                            <p class="text-primary">
+                                <strong>Aimer ma page </strong>
+                            </p>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 text-center">
+                            <a class="btn btn-primary round-image"
+                               href="facebook.com/nathaliemironcoachfamilial"
+                               target="_blank">
+                                <i class="fa fa-youtube fa-3x"></i>
+                            </a>
+                            <h4 class="bold">Youtube</h4>
+                            <p class="text-primary">
+                                <strong>Abonnez-vous</strong>
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="top-buffer-lg"></div>
+        </div>
+    </section>
+    <section class="form-contact">
+        <div class="container">
+            <div class="row top-buffer-lg">
+                <div class="col-sm-12 col-md-8 col-md-offset-2">
+
+                    {% component 'contact' %}
+                </div>
+
+            </div>
+
+            <div class="top-buffer-lg"></div>
+        </div>
+    </section>
 </div>

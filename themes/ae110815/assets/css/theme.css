@@ -9418,12 +9418,30 @@ address {
 .wrap-page {
   position: relative;
 }
+.page-about .round-image {
+  border: 3px solid #00C1D6;
+}
 .page-about section.mission {
-  background-image: url('../images/dummypicture_84164242.jpg');
+  background-image: url('../images/ae-about.jpg');
 }
 .page-about section.mission h2,
 .page-about section.mission p {
   color: #fff;
+}
+.page-contact section.form-contact {
+  background-color: #D7DBDB;
+}
+.page-contact section.form-contact input,
+.page-contact section.form-contact textarea {
+  border: 1px solid #00C1D6;
+}
+.page-contact .round-image {
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+}
+.page-contact .round-image.email {
+  padding: 25px!important;
 }
 body {
   background-color: #000000;
@@ -12089,9 +12107,18 @@ fieldset[disabled] .btn-tertiary.active {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.arrow {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 230px;
 }
-.parallax:before {
+.arrow:before {
   content: '';
   position: absolute;
   top: 0;
@@ -12102,7 +12129,7 @@ fieldset[disabled] .btn-tertiary.active {
   border-right: 30px solid transparent;
   z-index: 999;
 }
-.parallax:after {
+.arrow:after {
   content: '';
   position: absolute;
   top: 180px;
@@ -12113,7 +12140,7 @@ fieldset[disabled] .btn-tertiary.active {
   z-index: 999;
 }
 @media (max-width: 767px) {
-  .parallax:before {
+  .arrow:before {
     content: '';
     position: absolute;
     top: 0;
@@ -12124,7 +12151,7 @@ fieldset[disabled] .btn-tertiary.active {
     border-right: 30px solid transparent;
     z-index: 999;
   }
-  .parallax:after {
+  .arrow:after {
     content: '';
     position: absolute;
     top: 130px;
@@ -12134,12 +12161,12 @@ fieldset[disabled] .btn-tertiary.active {
     border-left: 30px solid transparent;
     z-index: 999;
   }
-  .parallax {
+  .arrow {
     height: 160px;
   }
 }
 @media (max-width: 992px) {
-  .parallax:before {
+  .arrow:before {
     content: '';
     position: absolute;
     top: 0;
@@ -12150,7 +12177,7 @@ fieldset[disabled] .btn-tertiary.active {
     border-right: 30px solid transparent;
     z-index: 999;
   }
-  .parallax:after {
+  .arrow:after {
     content: '';
     position: absolute;
     top: 150px;
@@ -12160,7 +12187,7 @@ fieldset[disabled] .btn-tertiary.active {
     border-left: 30px solid transparent;
     z-index: 999;
   }
-  .parallax {
+  .arrow {
     height: 180px;
   }
 }

@@ -1,40 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c73a1b07-2165-4d02-827e-b4a3a82b7270" name="Default" comment="Translate Plugin">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/pages/services.htm" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\cache\10\33\featured.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\cache\18\09\header.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\cache\18\38\footer.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\cache\19\33\services.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\cache\20\07\default.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\cache\36\55\home.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\8faf49bdc059f95e61a113b4ff851815" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\disabled.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\04\0430c6d0541108c1f26f30224f2d62eb1f876759f1d50696f54ac7197deeb45a.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\09\094770f040aeda9ead74faca9e05884281590e0f99933d1e1ec76ba9270e8887.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\16\1671fe546414be6c93bee28a1e09e0e30ca2483d67a71df21373988ff2ad59e2.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\6c\6c967f7f82c97d29ad6885a7c6080edc3431e26410717c33a0067bf13c7bd01b.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\99\99e13a74159266fc34857cfa3b84e23dcdaef2bdaa5f31d7234eae7bc6039ae7.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\a5\a587b8664537f806b6c03d8a7516dfe2266ba10faf12d957410aace5a0e6033f.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\d3\d3c34156eb4e4029f35370af871dd956b939fdf1a569eb7d27d544d0f0bf70fc.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\01\e9\01e9eebff29885ca99988d40f7068eaf" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\0c\b0\0cb04905781de3dbf2424ab012adf555" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\16\60\16605383c663782f3567f7c7e94ae47e" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\1a\35\1a3565c4ad91f449b79a29ea5b60a58b" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\31\97\31976851e76320d3f3ed2e71c2bee667" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\4a\db\4adb20a414a799699af8a0f9c7b2b75d" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\4c\27\4c274be75daf2a94c59d46801ab1c2b3" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\50\35\5035b0c1e1f82379067d38f8383c7b5d" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\60\92\6092f12922a2e92b9326eda3034141f9" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\69\c6\69c66e3170c33e5648fbd14581dd6656" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\6f\4f\6f4fb34eaeefb55d5bb56b7e0841f9a8" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\80\c8\80c84920dfcdae721f9325b8acb6bf64" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\af\4c\af4cf1f3d6ba782dd46cc0827d5d8f10" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\d8\ae\d8ae08b1afe7afb520e3020b767dc31a" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\f0\41\f0416b59156b57c0b4fc60ae5380b3b3" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\services.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/partials/header.htm" afterPath="$PROJECT_DIR$/themes/ae110815/partials/header.htm" />
+    <list default="true" id="c73a1b07-2165-4d02-827e-b4a3a82b7270" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/contact/confirm.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/contact/default.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/contact/flash-messages.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/services.json" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\themes\ae110815\assets\images\gallery\p1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\themes\ae110815\assets\images\gallery\p2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\themes\ae110815\assets\images\gallery\p3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\themes\ae110815\assets\images\gallery\p4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\themes\ae110815\assets\images\gallery\p5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\themes\ae110815\assets\images\gallery\p6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\themes\ae110815\assets\images\gallery\p7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\themes\ae110815\assets\images\gallery\p8.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/pages/about.htm" afterPath="$PROJECT_DIR$/themes/ae110815/pages/about.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/pages/contact.htm" afterPath="$PROJECT_DIR$/themes/ae110815/pages/contact.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/assets/less/controls/parallax.less" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/controls/parallax.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/partials/home/services.htm" afterPath="$PROJECT_DIR$/themes/ae110815/partials/home/services.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/logs/system.log" afterPath="$PROJECT_DIR$/storage/logs/system.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/assets/css/theme.css" afterPath="$PROJECT_DIR$/themes/ae110815/assets/css/theme.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AllianceEducation.iws" />
@@ -60,9 +47,11 @@
       <file leaf-file-name="home.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/home.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-12.307693">
               <caret line="44" column="20" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="20" />
-              <folding />
+              <folding>
+                <element signature="n#div#0;n#section#4;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,48 +59,38 @@
       <file leaf-file-name="all.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+            <state vertical-scroll-proportion="-7.076923">
+              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/about.htm">
+      <file leaf-file-name="home.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/pages/home.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="72" selection-end-column="6" />
+            <state vertical-scroll-proportion="-6.769231">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/services.htm">
+      <file leaf-file-name="contact.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/contact.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.923077">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state vertical-scroll-proportion="28.038462">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.htm" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/header.htm">
+      <file leaf-file-name="default.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/contact/default.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39247313">
-              <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="type.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/theme/type.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.33512545">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -120,7 +99,6 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
@@ -129,8 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/plugins/betescurieuses/slider/Plugin.php" />
-        <option value="$PROJECT_DIR$/plugins/betescurieuses/slider/controllers/slider/config_form.yaml" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/slider/controllers/slider/config_list.yaml" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/slider/controllers/slider/create.htm" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/slider/controllers/slider/preview.htm" />
@@ -138,7 +114,6 @@
         <option value="$PROJECT_DIR$/plugins/betescurieuses/slider/controllers/slider/_list_toolbar.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/assets/less/controls/buttons.less" />
         <option value="$PROJECT_DIR$/themes/ae110815/assets/less/layouts/all.less" />
-        <option value="$PROJECT_DIR$/themes/ae110815/assets/less/controls/parallax.less" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/updates/create_quotes_table.php" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/quote/columns.yaml" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/updates/version.yaml" />
@@ -149,7 +124,6 @@
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Quotes.php" />
         <option value="$PROJECT_DIR$/themes/ae110815/partials/footer.htm" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/quotes/default.htm" />
-        <option value="$PROJECT_DIR$/themes/ae110815/partials/home/services.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/assets/less/theme/vendor.less" />
         <option value="$PROJECT_DIR$/themes/ae110815/assets/vendor/flat-ui/less/controls/dropdown.less" />
         <option value="$PROJECT_DIR$/themes/ae110815/partials/home/featured.htm" />
@@ -175,11 +149,15 @@
         <option value="$PROJECT_DIR$/themes/ae110815/assets/less/theme/fonts.less" />
         <option value="$PROJECT_DIR$/themes/ae110815/assets/less/pages/home.less" />
         <option value="$PROJECT_DIR$/themes/ae110815/assets/less/theme/type.less" />
-        <option value="$PROJECT_DIR$/themes/ae110815/pages/contact.htm" />
-        <option value="$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less" />
-        <option value="$PROJECT_DIR$/themes/ae110815/pages/about.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/pages/services.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/partials/header.htm" />
+        <option value="$PROJECT_DIR$/themes/ae110815/pages/contact.htm" />
+        <option value="$PROJECT_DIR$/themes/ae110815/partials/home/services.htm" />
+        <option value="$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less" />
+        <option value="$PROJECT_DIR$/themes/ae110815/pages/about.htm" />
+        <option value="$PROJECT_DIR$/themes/ae110815/assets/less/controls/parallax.less" />
+        <option value="$PROJECT_DIR$/themes/ae110815/partials/contact/confirm.htm" />
+        <option value="$PROJECT_DIR$/themes/ae110815/partials/contact/default.htm" />
       </list>
     </option>
   </component>
@@ -317,7 +295,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
+              <option name="myItemId" value="contact" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -443,7 +421,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -473,7 +451,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
+              <option name="myItemId" value="controls" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -523,24 +501,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AllianceEducation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AllianceEducation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -559,7 +519,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="radiantweb" />
+              <option name="myItemId" value="laminsanneh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flexicontact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laminsanneh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flexicontact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -578,6 +568,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\betes\AllianceEducation\themes\ae110815\partials" />
       <recent name="C:\wamp\www\betes\AllianceEducation\plugins\radiantweb\problog\lang\fr" />
     </key>
   </component>
@@ -710,7 +701,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447896027594</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Services page Added">
+      <created>1447978944762</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1447978944762</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -728,23 +725,23 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33736762" sideWeight="0.49429038" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.34150326" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3251634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.5122349" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2859304" sideWeight="0.50570965" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32626426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -772,48 +769,14 @@
     <MESSAGE value="Home page sections, navbar settings, menu dropdown, footer" />
     <MESSAGE value="Home page completed" />
     <MESSAGE value="Translate Plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Translate Plugin" />
+    <MESSAGE value="Services page Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Services page Added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/quote/fields.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46495727">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/updates/version.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11623932">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/updates/create_quotes_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7298748">
-          <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/Inscriptions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6386404">
-          <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Quotes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6994633">
-          <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/inscription/columns.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -947,13 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/controls/all.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78711987">
-          <caret line="228" column="0" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/radiantweb/problog/components/post/default.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12164579">
@@ -1038,36 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/contact.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15205725">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/home/services.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3041145">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="58" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/home.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="20" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/theme/mixins.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1096,13 +1022,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/pages/home.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21288015">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/variables.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45617172">
@@ -1118,26 +1037,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/about.htm">
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/header.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="72" selection-end-column="6" />
+        <state vertical-scroll-proportion="1.0017921">
+          <caret line="64" column="14" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/home.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.307693">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="20" />
+          <folding>
+            <element signature="n#div#0;n#section#4;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/home/services.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31899643">
+          <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/controls/all.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.961538">
+          <caret line="233" column="4" selection-start-line="233" selection-start-column="4" selection-end-line="233" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/services.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.923077">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="-11.769231">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/header.htm">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39247313">
-          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.5068493">
+          <caret line="225" column="16" selection-start-line="225" selection-start-column="16" selection-end-line="225" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.076923">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/controls/parallax.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21326165">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/about.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5286738">
+          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/pages/home.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.769231">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/contact/flash-messages.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2437276">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/contact/confirm.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09139785">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/contact.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="28.038462">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/contact/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33512545">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
         </state>
       </provider>
