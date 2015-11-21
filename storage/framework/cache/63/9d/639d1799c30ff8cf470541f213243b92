@@ -1,0 +1,62 @@
+1448071157s:2159:"a:2:{s:5:"mtime";i:1447544211;s:7:"content";s:2104:"{% if render_category %}
+    {% component 'proBlogList' %}
+{% else %}
+    <h3 class="title-blog">{{ conference.title }}</h3>
+
+    <p class="info">
+        Date de parution: {{ conference.published_at|date('d-m-Y') }}
+    </p>
+    <div id="blog_post_body">
+        <div class="embed-responsive embed-responsive-16by9">
+            {{ conference.video|raw }}
+        </div>
+
+        <br>
+        {{ conference.excerpt }}
+
+    </div>
+
+    <div id="problog_post_social">
+        {% if sharethis > 0 %}
+        {% if twitter > 0 %}<span class='st_twitter_hcount' displayText='Tweet'></span>{% endif %}
+        {% if facebook > 0 %}<span class='st_facebook_hcount' displayText='Facebook'></span>{% endif %}
+        {% if google > 0 %}<span class='st_plusone_hcount' displayText='Plusone'></span>{% endif %}
+
+            <script type="text/javascript">var switchTo5x=true;</script>
+            <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+            <script type="text/javascript">stLight.options({publisher:"{{ sharethis }}"});</script>
+        {% endif %}
+    </div>
+
+    {% put scripts %}
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('pre code').each(function(){
+                $(this).parent().addClass('prettyprint');
+            });
+            prettyPrint();
+        });
+    </script>
+    {% endput %}
+
+    {% if embedly %}
+        {% put scripts %}
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#blog_post_body a').each(function(){
+                    if($(this).text() == 'embedly'){
+                        $(this).addClass('embedly');
+                        var w = $(this).parent().parent().width();
+                        $(this).embedly({
+                            key: '{{embedly}}',
+                            query: {
+                                maxwidth: w,
+                            },
+                        });
+                    }
+                });
+            });
+        </script>
+        {% endput %}
+    {% endif %}
+{% endif %}";}";

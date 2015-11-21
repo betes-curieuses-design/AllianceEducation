@@ -1,0 +1,102 @@
+1448071637s:3876:"a:6:{s:5:"mtime";i:1448071032;s:7:"content";s:1784:"title = "Blogue"
+url = "/blogue/:page?"
+layout = "default"
+is_hidden = 0
+
+[blogPosts blogs]
+pageNumber = "{{ :page }}"
+postsPerPage = 10
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "about"
+postPage = "about"
+
+[blogCategories listcategories]
+slug = "{{ :slug }}"
+displayEmpty = 0
+categoryPage = "about"
+
+[blogRelated]
+slug = "{{ :slug }}"
+results = 5
+direction = "desc"
+==
+<div class="page-blog-list wrap-page">
+    <div id="header-contact" class="section-header">
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Le blogue d'Alliance Éducation</h1>
+            </div>
+        </div>
+    </div>
+    <section class="default-section">
+        <div class="container">
+            <div class="row top-buffer-lg">
+                <div class="col-sm-9">
+
+                    {% component 'blogs' %}
+                </div>
+                <div class="col-sm-3">
+
+                    <div class="row all-top-buffer">
+                        <div class="col-sm-12">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title text-center">
+                                        <i class="fa fa-folder"></i>&nbsp;
+                                        Catégories
+                                    </h3>
+                                </div>
+
+                                {% component 'listcategories' %}
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-buffer-lg"></div>
+        </div>
+    </section>
+
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:6:"Blogue";s:3:"url";s:14:"/blogue/:page?";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:3:{s:15:"blogPosts blogs";a:6:{s:10:"pageNumber";s:11:"{{ :page }}";s:12:"postsPerPage";s:2:"10";s:14:"noPostsMessage";s:14:"No posts found";s:9:"sortOrder";s:17:"published_at desc";s:12:"categoryPage";s:5:"about";s:8:"postPage";s:5:"about";}s:29:"blogCategories listcategories";a:3:{s:4:"slug";s:11:"{{ :slug }}";s:12:"displayEmpty";s:1:"0";s:12:"categoryPage";s:5:"about";}s:11:"blogRelated";a:3:{s:4:"slug";s:11:"{{ :slug }}";s:7:"results";s:1:"5";s:9:"direction";s:4:"desc";}}}s:4:"code";N;s:6:"markup";s:1352:"<div class="page-blog-list wrap-page">
+    <div id="header-contact" class="section-header">
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Le blogue d'Alliance Éducation</h1>
+            </div>
+        </div>
+    </div>
+    <section class="default-section">
+        <div class="container">
+            <div class="row top-buffer-lg">
+                <div class="col-sm-9">
+
+                    {% component 'blogs' %}
+                </div>
+                <div class="col-sm-3">
+
+                    <div class="row all-top-buffer">
+                        <div class="col-sm-12">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title text-center">
+                                        <i class="fa fa-folder"></i>&nbsp;
+                                        Catégories
+                                    </h3>
+                                </div>
+
+                                {% component 'listcategories' %}
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-buffer-lg"></div>
+        </div>
+    </section>
+
+</div>";}";

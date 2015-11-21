@@ -9443,6 +9443,18 @@ address {
 .page-contact .round-image.email {
   padding: 25px!important;
 }
+.page-blog-list .post-list {
+  list-style: none;
+}
+.page-blog-list .post-list li {
+  padding: 15px;
+}
+.page-blog-list .post-list li:nth-of-type(even) {
+  background-color: #D7DBDB;
+}
+.page-blog-list .tag-list {
+  list-style: none;
+}
 body {
   background-color: #000000;
   padding-top: 110px;
