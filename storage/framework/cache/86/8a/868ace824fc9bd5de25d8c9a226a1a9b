@@ -1,0 +1,16 @@
+1448071156s:521:"a:2:{s:5:"mtime";i:1447377012;s:7:"content";s:467:"<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="row">
+                <div class="col-xs-2 col-md-1">
+                    <i class="fa fa-quote-right"></i>
+                </div>
+                <div class="col-xs-10 col-md-11">
+                    <h2>{{ quotes.0.description }}</h2>
+                    <h3>- {{ quotes.0.author }}</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+";}";

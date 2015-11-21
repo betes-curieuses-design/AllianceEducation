@@ -2,24 +2,127 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c73a1b07-2165-4d02-827e-b4a3a82b7270" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/contact/confirm.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/contact/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/contact/flash-messages.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/services.json" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\themes\ae110815\assets\images\gallery\p1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\themes\ae110815\assets\images\gallery\p2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\themes\ae110815\assets\images\gallery\p3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\themes\ae110815\assets\images\gallery\p4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\themes\ae110815\assets\images\gallery\p5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\themes\ae110815\assets\images\gallery\p6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\themes\ae110815\assets\images\gallery\p7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\themes\ae110815\assets\images\gallery\p8.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/pages/about.htm" afterPath="$PROJECT_DIR$/themes/ae110815/pages/about.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/37/5d/375d6c94695e78edf631ce9446259a66" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/app/uploads/public/564/799/8a2/5647998a2657f430025037.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/app/uploads/public/564/799/9c0/5647999c031da236409753.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/app/uploads/public/564/79a/17e/56479a17e1567120249725.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/app/uploads/public/564/fc9/27b/564fc927b4673815654824.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/app/uploads/public/564/fcd/925/564fcd925bb2c738592204.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/f5/ff/f5ff00d26b195ed8b16cb83bd64e41e1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/app/uploads/public/564/799/8a2/thumb_3_200x200_0_0_crop.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/app/uploads/public/564/799/9c0/thumb_4_200x200_0_0_crop.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/app/uploads/public/564/79a/17e/thumb_5_200x200_0_0_crop.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/app/uploads/public/564/fc9/27b/thumb_6_200x200_0_0_crop.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/01/e9/01e9eebff29885ca99988d40f7068eaf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/01f7a6de02245fe3598b5b73b99f09fb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/02/3b/023b8779bb457fa3dd8142e574e566d5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/04/0430c6d0541108c1f26f30224f2d62eb1f876759f1d50696f54ac7197deeb45a.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/06/0f/060f21d9021546135baa1ae7e1fe72d2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/06/50/0650a9d736116ab6b6d34108b721099c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/0894b5442316e4090206fc87c8bd17f0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/09/094770f040aeda9ead74faca9e05884281590e0f99933d1e1ec76ba9270e8887.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/0a/63/0a635566cfaf4e38799acaf5e9b03abc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/0c/b0/0cb04905781de3dbf2424ab012adf555" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/10/f1/10f1824f01af1ee0f77e18fb8395abd6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/14/14eb7a74a039874b78ccf71db0ac41131d827031c931e7cf3946fda03f490390.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/16/60/16605383c663782f3567f7c7e94ae47e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/16/1671fe546414be6c93bee28a1e09e0e30ca2483d67a71df21373988ff2ad59e2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/16a8796e26cc3c6ef9a24cd0352ce8e6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/1c/1cac4c07c44cf900568a6b1f7eea5149c0d10a3f9ac109489a05a99ff9055326.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/2b/2b62007cd6ad6f553f52dd13286c1855d4981d72555a33efc0d7fff152917df5.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/31/97/31976851e76320d3f3ed2e71c2bee667" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/36/68/366813d98b679b7a21b10cfd4e4a2053" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/395c0db92b2a13a175e361a927d5aba5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/3e/e9/3ee9018fdc0c5ec39d638b380620cffd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/3f3681f0a6302046c5338ee3f63599d4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/46/465a67ebc4ae403e56449555dd5c5ca4bd9940eaa73331b78419ee107feb7438.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/4a/99/4a99c09ee5b6bfb1fda04b876fc0b7ce" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/4a/db/4adb20a414a799699af8a0f9c7b2b75d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/4c/27/4c274be75daf2a94c59d46801ab1c2b3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/4f/33/4f3300cc49265804168e039c4895b8ef" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/5c/c9/5cc97f8dbee33b5b0e71e2e6111ef8e4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/5d265175de984a373b92ee1cabc3ece1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/622f3ed5e5672afef685c3fa2d5904e5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/63/9d/639d1799c30ff8cf470541f213243b92" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/66/665ae250162170d81e547320b991f5f38d225f0a27d2c7528899ce293b6c7e1f.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/69/c6/69c66e3170c33e5648fbd14581dd6656" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/6a59fa4fae6b36bea3243b45920e25b2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/6c/6c967f7f82c97d29ad6885a7c6080edc3431e26410717c33a0067bf13c7bd01b.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/6e/b5/6eb521379fc7044317ab700789860f70" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/6f/4f/6f4fb34eaeefb55d5bb56b7e0841f9a8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/72766bd0a3bd2a41ef3d7c0a43afbc35" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/73/73fbdfabad7b076c7a018266051f170699903168b122385ed580c58934ed5dee.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/76/76086163fe97fa9456d2cb42e664a5a4e6d02da7629f0b3923a2035656734902.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/80/c8/80c84920dfcdae721f9325b8acb6bf64" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/82181f851a71d8acd8c9e275d2d28530" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/83/34/83344596d5e167f29fce4242e4ec872a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/8336f18f109d659dc4a602e7ff626961" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/83/64/8364273bfc7c0ee22f29cf61442914e9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/86/8a/868ace824fc9bd5de25d8c9a226a1a9b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/86c4a8d827eb2e19796188e5369f474e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/88/f0/88f0fab38bdea01495fcdc6ae53aecb9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/8e/8e87b2b37f48e2fb7981e09d8d088253ba6c33bfe970bcd24980ab9391fc292b.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/8faf49bdc059f95e61a113b4ff851815" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/9096a517b28d645836adae94a2747804" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/925ecabc21a3279bc3b2542ac3f74213" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/97/97e6e1032c47f6fba9e20dbc6b9aa296b8bcc414700747d87afed97257b1a1e2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/99/99e13a74159266fc34857cfa3b84e23dcdaef2bdaa5f31d7234eae7bc6039ae7.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/9c/9c94e904d824ee46591580a078a82dc2c447c9d7bd8676e2064ca551cf0f7b58.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/a1/a11841f0e3861b9c58377bfe573e13ccef6e2caca911fe6e1fe774177e5bc450.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/a1/a11fe17e2bdd0f85296c7e700f8653ada4f7be78ee601c6cdc43723b8fb80f06.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/a1a3959a33123c4fcb6e4504b19d3e7b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/a1/f7/a1f77cbe9419a10713cc08152b773f0b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/a5/a587b8664537f806b6c03d8a7516dfe2266ba10faf12d957410aace5a0e6033f.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/a8765209bf77035f1d3ba8f90e627152" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/16/85/about.htm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/af/4c/af4cf1f3d6ba782dd46cc0827d5d8f10" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/b8/b8024e1541f9af3ae72b26822d2ebd29313be2d2bb1b6cfc3a269802f339fadc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/ba/ba875a6fc8258cd23647877574e5f18b0d7e7cbfd01cbe7320b0681cb2b88a4e.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/16/65/blogList.htm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/pages/blog/blogList.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/c5/46/c5465e34707be8b9086a1c42568a304e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/c7/92/c7929ab447f3dcc4f95eb1a9c8a30c2b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/10/91/contact.htm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/d1/d1e3bcbe832bb82990b939ab09881fc18e8c778bf1766fb1190e0535336f0343.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/d3/d3c34156eb4e4029f35370af871dd956b939fdf1a569eb7d27d544d0f0bf70fc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/d4/d4ca460c4a3f8bad1928b6a00ff2c285af58fe8ef11fd8e77059186714722858.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/d8/ae/d8ae08b1afe7afb520e3020b767dc31a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/d9a7e8f6bae7ca5f156626b54720652e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/db/52/db5274896990f6c17d0f8aa1618a6d6f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/dd/29/dd29aa583c487220027bb7e7f38e1779" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/12/47/default.htm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/16/36/default.htm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/18/45/default.htm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/18/87/default.htm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/20/07/default.htm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/article/default.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/blogs/default.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/listcategories/default.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/tags/default.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/disabled.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/e3ec3348c4683889856795641ea94903" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/e4/e49d6931a889cebf4f97aa631b1a3f141755633a3e09441d4a2da2d422a10d4c.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/f0/41/f0416b59156b57c0b4fc60ae5380b3b3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/combiner/assets/f296e0b378864d3b1830471276ae2f33" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/f4/b3/f4b37280faf6a450bd1bf1e42922d6e0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/sessions/f6502d3c14feb0573092ef30b6ad9c971230bad3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/twig/f8/f84938cf77b4b9c535c349d14403bdf1d98f9e1b337b02a76a1ce791ca035323.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/framework/cache/fb/f1/fbf1e00bb37708d901bdbb047288e5eb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/10/33/featured.htm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/18/38/footer.htm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/18/09/header.htm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/36/55/home.htm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/14/07/services.htm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/storage/cms/cache/19/33/services.htm.php" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\app\uploads\public\563\fc3\7f7\563fc37f7c098747645842.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/pages/contact.htm" afterPath="$PROJECT_DIR$/themes/ae110815/pages/contact.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/assets/less/controls/parallax.less" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/controls/parallax.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/partials/home/services.htm" afterPath="$PROJECT_DIR$/themes/ae110815/partials/home/services.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/partials/header.htm" afterPath="$PROJECT_DIR$/themes/ae110815/partials/header.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/logs/system.log" afterPath="$PROJECT_DIR$/storage/logs/system.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/assets/css/theme.css" afterPath="$PROJECT_DIR$/themes/ae110815/assets/css/theme.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -47,11 +150,9 @@
       <file leaf-file-name="home.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/home.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.307693">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="44" column="20" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="20" />
-              <folding>
-                <element signature="n#div#0;n#section#4;n#!!top" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,38 +160,48 @@
       <file leaf-file-name="all.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.076923">
-              <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+            <state vertical-scroll-proportion="-18.23077">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/pages/home.less">
+      <file leaf-file-name="blogList.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/blog/blogList.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.769231">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.57423973">
+              <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/contact.htm">
+      <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/blogs/default.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="28.038462">
-              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+            <state vertical-scroll-proportion="-13.730769">
+              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.htm" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/contact/default.htm">
+      <file leaf-file-name="all.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/controls/all.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33512545">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state vertical-scroll-proportion="-14.0">
+              <caret line="233" column="35" selection-start-line="233" selection-start-column="22" selection-end-line="233" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tables.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/tables.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.076923">
+              <caret line="115" column="3" selection-start-line="113" selection-start-column="14" selection-end-line="115" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -107,10 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/plugins/betescurieuses/slider/controllers/slider/config_list.yaml" />
-        <option value="$PROJECT_DIR$/plugins/betescurieuses/slider/controllers/slider/create.htm" />
-        <option value="$PROJECT_DIR$/plugins/betescurieuses/slider/controllers/slider/preview.htm" />
-        <option value="$PROJECT_DIR$/plugins/betescurieuses/slider/controllers/slider/update.htm" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/slider/controllers/slider/_list_toolbar.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/assets/less/controls/buttons.less" />
         <option value="$PROJECT_DIR$/themes/ae110815/assets/less/layouts/all.less" />
@@ -150,14 +257,18 @@
         <option value="$PROJECT_DIR$/themes/ae110815/assets/less/pages/home.less" />
         <option value="$PROJECT_DIR$/themes/ae110815/assets/less/theme/type.less" />
         <option value="$PROJECT_DIR$/themes/ae110815/pages/services.htm" />
-        <option value="$PROJECT_DIR$/themes/ae110815/partials/header.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/pages/contact.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/partials/home/services.htm" />
-        <option value="$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less" />
         <option value="$PROJECT_DIR$/themes/ae110815/pages/about.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/assets/less/controls/parallax.less" />
         <option value="$PROJECT_DIR$/themes/ae110815/partials/contact/confirm.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/partials/contact/default.htm" />
+        <option value="$PROJECT_DIR$/themes/ae110815/partials/header.htm" />
+        <option value="$PROJECT_DIR$/themes/ae110815/partials/blogs/default.htm" />
+        <option value="$PROJECT_DIR$/themes/ae110815/partials/listcategories/default.htm" />
+        <option value="$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less" />
+        <option value="$PROJECT_DIR$/themes/ae110815/partials/tags/default.htm" />
+        <option value="$PROJECT_DIR$/themes/ae110815/pages/blog/blogList.htm" />
       </list>
     </option>
   </component>
@@ -295,7 +406,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="contact" />
+              <option name="myItemId" value="article" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,6 +429,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae110815" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -364,10 +501,6 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -392,36 +525,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AllianceEducation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AllianceEducation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ae110815" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -465,28 +568,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ae110815" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AllianceEducation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AllianceEducation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="storage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -504,26 +585,8 @@
               <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AllianceEducation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AllianceEducation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laminsanneh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flexicontact" />
+              <option name="myItemId" value="rainlab" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -540,12 +603,48 @@
               <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="laminsanneh" />
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="flexicontact" />
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bedard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogtags" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bedard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blogtags" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -707,7 +806,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447978944762</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Contact page completed. Bonus: parallax about page">
+      <created>1447983373933</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1447983373933</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -723,19 +828,19 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33736762" sideWeight="0.49429038" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34266263" sideWeight="0.49429038" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.34150326" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3251634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32463294" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.5122349" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2859304" sideWeight="0.50570965" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -770,76 +875,14 @@
     <MESSAGE value="Home page completed" />
     <MESSAGE value="Translate Plugin" />
     <MESSAGE value="Services page Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Services page Added" />
+    <MESSAGE value="Contact page completed. Bonus: parallax about page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contact page completed. Bonus: parallax about page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/inscription/columns.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/slider/components/showimages/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08050089">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/quotes/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21288015">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/footer.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33452594">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/vendor/flat-ui/less/controls/dropdown.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5474061">
-          <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/home/featured.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
-          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/layouts/all.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15205725">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/layouts/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.060822897">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/lang/fr/radiantweb/problog/lang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6994633">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/radiantweb/problog/lang/fr/lang.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3649374">
@@ -1037,21 +1080,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/header.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0017921">
-          <caret line="64" column="14" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/home.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.307693">
+        <state vertical-scroll-proportion="0.0">
           <caret line="44" column="20" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="20" />
-          <folding>
-            <element signature="n#div#0;n#section#4;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,15 +1092,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31899643">
           <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/controls/all.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.961538">
-          <caret line="233" column="4" selection-start-line="233" selection-start-column="4" selection-end-line="233" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,7 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.769231">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1083,14 +1106,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5068493">
           <caret line="225" column="16" selection-start-line="225" selection-start-column="16" selection-end-line="225" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.076923">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -1107,15 +1122,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5286738">
           <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/pages/home.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.769231">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1123,7 +1129,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2437276">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1131,22 +1136,125 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09139785">
           <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/contact.htm">
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/header.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="28.038462">
-          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        <state vertical-scroll-proportion="-18.307692">
+          <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/contact/default.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33512545">
+        <state vertical-scroll-proportion="0.33452594">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/contact.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.346154">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/pages/home.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/tables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="115" column="3" selection-start-line="113" selection-start-column="14" selection-end-line="115" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/controls/all.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.0">
+          <caret line="233" column="35" selection-start-line="233" selection-start-column="22" selection-end-line="233" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/listcategories/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09123435">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/article/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48658317">
+          <caret line="16" column="11" selection-start-line="4" selection-start-column="0" selection-end-line="16" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/blogs/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/bedard/blogtags/components/blogtags/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/tags/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09123435">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/bedard/blogtags/components/blogtagsearch/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/bedard/blogtags/components/blogrelated/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.23077">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/blog/blogList.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57423973">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
           <folding />
         </state>
       </provider>
