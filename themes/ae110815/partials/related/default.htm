@@ -1,0 +1,6 @@
+<h4>Sujets similaires</h4>
+<ul class="list-unstyled">
+    {% for Post in __SELF__.posts %}
+        <li><a href="{{ 'blog/article'|page({slug: Post.slug}) }}">{{ Post.title }}</a></li>
+    {% endfor %}
+</ul>
