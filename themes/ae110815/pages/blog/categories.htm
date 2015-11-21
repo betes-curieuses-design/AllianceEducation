@@ -1,10 +1,11 @@
-title = "Blogue"
-url = "/blogue/:page?"
+title = "Catégories"
+url = "/blogue/categorie/:slug/:page?"
 layout = "default"
 is_hidden = 0
 
 [blogPosts blogs]
 pageNumber = "{{ :page }}"
+categoryFilter = "{{ :slug }}"
 postsPerPage = 10
 noPostsMessage = "No posts found"
 sortOrder = "published_at desc"
@@ -15,17 +16,21 @@ postPage = "blog/article"
 slug = "{{ :slug }}"
 displayEmpty = 0
 categoryPage = "blog/categories"
-
-[blogRelated]
-slug = "{{ :slug }}"
-results = 5
-direction = "desc"
+==
+<?php
+function onEnd()
+{
+    // Optional - set the page title to the category name
+    if ($this->category)
+        $this->page->title = $this->category->name;
+}
+?>
 ==
 <div class="page-blog-list wrap-page">
     <div id="header-contact" class="section-header">
         <div class="jumbotron">
             <div class="container">
-                <h1>Le blogue d'Alliance Éducation</h1>
+                <h1>{{ category.name }}</h1>
             </div>
         </div>
     </div>

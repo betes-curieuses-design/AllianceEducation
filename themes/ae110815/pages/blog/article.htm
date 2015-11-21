@@ -1,0 +1,62 @@
+title = "Article"
+url = "/blogue/article/:slug"
+layout = "default"
+is_hidden = 0
+
+[blogPost article]
+slug = "{{ :slug }}"
+categoryPage = "about"
+
+[disqus]
+
+[blogRelated related]
+slug = "{{ :slug }}"
+results = 5
+direction = "desc"
+==
+<?php
+function onEnd()
+{
+    // Optional - set the page title to the post title
+    if (isset($this->post))
+$this->page->title = $this->post->title;
+}
+?>
+==
+<div class="page-blog-list wrap-page">
+    <div id="header-contact" class="section-header">
+        <div class="jumbotron">
+            <div class="container">
+                <h1>{{ post.title }}</h1>
+            </div>
+        </div>
+    </div>
+    <section class="default-section">
+        <div class="container">
+            <div class="row top-buffer-lg">
+                <div class="col-sm-12">
+                    {% if post %}
+                        {% component 'article' %}
+
+                    {% else %}
+                        <h2>Sujet introuvable</h2>
+                    {% endif %}
+                </div>
+            </div>
+
+            <div class="row top-buffer-lg">
+                <div class="col-sm-12">
+                    {% component 'related' %}
+                </div>
+            </div>
+            <div class="row all-top-buffer">
+                <div class="col-sm-12">
+                    <div id="disqus_thread"></div>
+
+                </div>
+            </div>
+            <div class="top-buffer-lg"></div>
+        </div>
+    </section>
+
+</div>

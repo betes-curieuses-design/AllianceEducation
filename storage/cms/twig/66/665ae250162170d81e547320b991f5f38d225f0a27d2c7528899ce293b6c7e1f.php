@@ -131,9 +131,7 @@ class __TwigTemplate_26f081f7c3e6e86c4acffab9c66e18e08d4a1223a9f1dfe2d57c393da4b
         }
         if (!$context['_iterated']) {
             // line 35
-            echo "        <li class=\"no-data\">";
-            echo twig_escape_filter($this->env, (isset($context["noPostsMessage"]) ? $context["noPostsMessage"] : null), "html", null, true);
-            echo "</li>
+            echo "        <li class=\"no-data\">Aucun sujet trouvé</li>
     ";
         }
         $_parent = $context['_parent'];
@@ -208,7 +206,7 @@ class __TwigTemplate_26f081f7c3e6e86c4acffab9c66e18e08d4a1223a9f1dfe2d57c393da4b
 
     public function getDebugInfo()
     {
-        return array (  194 => 54,  188 => 52,  186 => 51,  183 => 50,  172 => 47,  167 => 46,  163 => 45,  160 => 44,  154 => 42,  152 => 41,  149 => 40,  147 => 39,  143 => 37,  134 => 35,  122 => 28,  117 => 27,  110 => 23,  106 => 22,  102 => 21,  98 => 19,  96 => 18,  92 => 16,  78 => 15,  69 => 14,  51 => 13,  47 => 12,  43 => 11,  35 => 8,  30 => 5,  25 => 4,  21 => 2,  19 => 1,);
+        return array (  192 => 54,  186 => 52,  184 => 51,  181 => 50,  170 => 47,  165 => 46,  161 => 45,  158 => 44,  152 => 42,  150 => 41,  147 => 40,  145 => 39,  141 => 37,  134 => 35,  122 => 28,  117 => 27,  110 => 23,  106 => 22,  102 => 21,  98 => 19,  96 => 18,  92 => 16,  78 => 15,  69 => 14,  51 => 13,  47 => 12,  43 => 11,  35 => 8,  30 => 5,  25 => 4,  21 => 2,  19 => 1,);
     }
 }
 /* {% set posts = __SELF__.posts %}*/
@@ -245,7 +243,7 @@ class __TwigTemplate_26f081f7c3e6e86c4acffab9c66e18e08d4a1223a9f1dfe2d57c393da4b
 /* */
 /*         </li>*/
 /*     {% else %}*/
-/*         <li class="no-data">{{ noPostsMessage }}</li>*/
+/*         <li class="no-data">Aucun sujet trouvé</li>*/
 /*     {% endfor %}*/
 /* </ul>*/
 /* */

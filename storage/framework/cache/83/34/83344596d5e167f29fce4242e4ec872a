@@ -1,4 +1,4 @@
-1448071637s:4622:"a:6:{s:5:"mtime";i:1448068621;s:7:"content";s:2233:"{% set posts = __SELF__.posts %}
+1448139021s:4618:"a:6:{s:5:"mtime";i:1448133400;s:7:"content";s:2231:"{% set posts = __SELF__.posts %}
 
 <ul class="post-list">
     {% for post in posts %}
@@ -32,7 +32,7 @@
 
         </li>
     {% else %}
-        <li class="no-data">{{ noPostsMessage }}</li>
+        <li class="no-data">Aucun sujet trouvé</li>
     {% endfor %}
 </ul>
 
@@ -52,7 +52,7 @@
             <li><a href="{{ this.page.baseFileName|page({ (pageParam): (posts.currentPage+1) }) }}">Next &rarr;</a></li>
         {% endif %}
     </ul>
-{% endif %}";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:2233:"{% set posts = __SELF__.posts %}
+{% endif %}";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:2231:"{% set posts = __SELF__.posts %}
 
 <ul class="post-list">
     {% for post in posts %}
@@ -86,7 +86,7 @@
 
         </li>
     {% else %}
-        <li class="no-data">{{ noPostsMessage }}</li>
+        <li class="no-data">Aucun sujet trouvé</li>
     {% endfor %}
 </ul>
 

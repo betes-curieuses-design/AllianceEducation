@@ -1,4 +1,4 @@
-1448071156s:1438:"a:2:{s:5:"mtime";i:1447544015;s:7:"content";s:1383:"<h3 class="title-blog">{{ formation.title }}</h3>
+1448132976s:1438:"a:2:{s:5:"mtime";i:1447544015;s:7:"content";s:1383:"<h3 class="title-blog">{{ formation.title }}</h3>
 
 <p class="info">
     Date de parution: {{ formation.published_at|date('d-m-Y') }}
