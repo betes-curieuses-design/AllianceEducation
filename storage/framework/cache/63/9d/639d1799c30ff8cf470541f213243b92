@@ -1,4 +1,4 @@
-1448132976s:2159:"a:2:{s:5:"mtime";i:1447544211;s:7:"content";s:2104:"{% if render_category %}
+1448221868s:2159:"a:2:{s:5:"mtime";i:1447544211;s:7:"content";s:2104:"{% if render_category %}
     {% component 'proBlogList' %}
 {% else %}
     <h3 class="title-blog">{{ conference.title }}</h3>

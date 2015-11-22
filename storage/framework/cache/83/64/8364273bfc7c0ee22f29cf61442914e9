@@ -1,6 +1,0 @@
-1448135303s:174:"a:2:{s:5:"mtime";i:1446165536;s:7:"content";s:120:"<ul>
-    {% for tag in __SELF__.tags %}
-        <li>{{ tag.name }} ({{ tag.posts|length }})</li>
-    {% endfor %}
-</ul>
-";}";

@@ -1,4 +1,4 @@
-1448138606s:5908:"a:6:{s:5:"mtime";i:1447544256;s:7:"content";s:2811:"title = "Accueil"
+1448222157s:5970:"a:6:{s:5:"mtime";i:1448221528;s:7:"content";s:2842:"title = "Accueil"
 url = "/"
 layout = "default"
 is_hidden = 0
@@ -53,7 +53,7 @@ function onEnd()
                 <div class="row">
                     {#Components#}
                     <div class="col-sm-8">
-                        <div class="row home-capsules">
+                        <div class="row home-capsules top-buffer">
                             <div class="col-sm-12">
                                 <h1 class="text-center">
                                     Dernière capsule
@@ -61,7 +61,7 @@ function onEnd()
                                 {% component 'Lastcapsule' %}
                             </div>
                         </div>
-                        <div class="row home-formations">
+                        <div class="row home-formations top-buffer">
                             <h1 class="text-center">
                                 Dernière formation
                             </h1>
@@ -69,7 +69,7 @@ function onEnd()
                                 {% component 'Lastformation' %}
                             </div>
                         </div>
-                        <div class="row home-formations">
+                        <div class="row home-formations top-buffer">
                             <h1 class="text-center">
                                 Dernière conference
                             </h1>
@@ -96,13 +96,12 @@ function onEnd()
         </div>
     </div>
 
-
 </section>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:7:"Accueil";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:6:{s:10:"ShowImages";a:0:{}s:6:"Quotes";a:0:{}s:8:"Homeblog";a:6:{s:10:"pageNumber";s:11:"{{ :page }}";s:12:"postsPerPage";s:1:"4";s:14:"noPostsMessage";s:14:"No posts found";s:9:"sortOrder";s:17:"published_at desc";s:12:"categoryPage";s:7:"contact";s:8:"postPage";s:7:"contact";}s:11:"Lastcapsule";a:1:{s:4:"slug";s:5:":slug";}s:13:"Lastformation";a:0:{}s:14:"Lastconference";a:1:{s:4:"slug";s:5:":slug";}}}s:4:"code";s:63:"
 function onEnd()
 {
     $this->page->title = 'Accueil';
 }
-";s:6:"markup";s:2374:"<section id="slider">
+";s:6:"markup";s:2405:"<section id="slider">
     {% component 'ShowImages' %}
 </section>
 
@@ -125,7 +124,7 @@ function onEnd()
                 <div class="row">
                     {#Components#}
                     <div class="col-sm-8">
-                        <div class="row home-capsules">
+                        <div class="row home-capsules top-buffer">
                             <div class="col-sm-12">
                                 <h1 class="text-center">
                                     Dernière capsule
@@ -133,7 +132,7 @@ function onEnd()
                                 {% component 'Lastcapsule' %}
                             </div>
                         </div>
-                        <div class="row home-formations">
+                        <div class="row home-formations top-buffer">
                             <h1 class="text-center">
                                 Dernière formation
                             </h1>
@@ -141,7 +140,7 @@ function onEnd()
                                 {% component 'Lastformation' %}
                             </div>
                         </div>
-                        <div class="row home-formations">
+                        <div class="row home-formations top-buffer">
                             <h1 class="text-center">
                                 Dernière conference
                             </h1>
@@ -167,6 +166,5 @@ function onEnd()
             </div>
         </div>
     </div>
-
 
 </section>";}";

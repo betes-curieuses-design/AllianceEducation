@@ -35,6 +35,7 @@ class Plugin extends PluginBase
             'BetesCurieuses\Ae110815\Components\LastFormation' => 'Lastformation',
             'BetesCurieuses\Ae110815\Components\LastConference' => 'Lastconference',
             'BetesCurieuses\Ae110815\Components\HomeBlog' => 'Homeblog',
+            'BetesCurieuses\Ae110815\Components\Incriptions' => 'Incriptions',
         ];
     }
 
@@ -86,6 +87,12 @@ class Plugin extends PluginBase
                         'type' => 'datepicker',
                         'tab' => 'radiantweb.problog::lang.backend.post.fields.tab.general',
                         'span' => 'left'
+                    ],
+                    'available' => [
+                        'label' => 'Place disponible',
+                        'type' => 'number',
+                        'tab' => 'radiantweb.problog::lang.backend.post.fields.tab.general',
+                        'span' => 'right'
                     ],
 
                 ]

@@ -1,4 +1,4 @@
-1448138607s:7219:"a:6:{s:5:"mtime";i:1448066952;s:7:"content";s:3533:"==
+1448221869s:7683:"a:6:{s:5:"mtime";i:1448220562;s:7:"content";s:3765:"==
 <!-- Fixed navbar -->
 <div class="navbar navbar-default navbar-fixed-top hidden-xs">
     <div class="container">
@@ -22,7 +22,11 @@
                     <span class="dropdown-arrow"></span>
                     <ul class="dropdown-menu">
                         <li><a href="#">Capsules</a></li>
-                        <li><a href="#">Formations</a></li>
+                        <li>
+                            <a href="{{ 'education/formations'|page({category: 'Formations'}) }}">
+                                Formations
+                            </a>
+                        </li>
                         <li><a href="#">Conferences</a></li>
                     </ul>
                 </li>
@@ -55,7 +59,7 @@
                     <span class="dropdown-arrow"></span>
                     <ul class="dropdown-menu">
                         <li><a href="#">Capsules</a></li>
-                        <li><a href="#">Formations</a></li>
+                        <li><a href="{{ 'education/formations'|page({category: 'Formations'}) }}">Formations</a></li>
                         <li><a href="#">Conferences</a></li>
                     </ul>
                 </li>
@@ -66,7 +70,7 @@
         <!--/.nav-collapse -->
     </div>
 </div>
-<!-- /.navbar -->";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:3530:"<!-- Fixed navbar -->
+<!-- /.navbar -->";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:3762:"<!-- Fixed navbar -->
 <div class="navbar navbar-default navbar-fixed-top hidden-xs">
     <div class="container">
         <div class="navbar-header">
@@ -89,7 +93,11 @@
                     <span class="dropdown-arrow"></span>
                     <ul class="dropdown-menu">
                         <li><a href="#">Capsules</a></li>
-                        <li><a href="#">Formations</a></li>
+                        <li>
+                            <a href="{{ 'education/formations'|page({category: 'Formations'}) }}">
+                                Formations
+                            </a>
+                        </li>
                         <li><a href="#">Conferences</a></li>
                     </ul>
                 </li>
@@ -122,7 +130,7 @@
                     <span class="dropdown-arrow"></span>
                     <ul class="dropdown-menu">
                         <li><a href="#">Capsules</a></li>
-                        <li><a href="#">Formations</a></li>
+                        <li><a href="{{ 'education/formations'|page({category: 'Formations'}) }}">Formations</a></li>
                         <li><a href="#">Conferences</a></li>
                     </ul>
                 </li>

@@ -1,4 +1,4 @@
-1448132976s:5214:"a:6:{s:5:"mtime";i:1447982630;s:7:"content";s:2528:"description = "Services"
+1448222168s:5326:"a:6:{s:5:"mtime";i:1448221528;s:7:"content";s:2584:"description = "Services"
 ==
 <div id="header-services" class="section-header">
     <div class="jumbotron">
@@ -22,7 +22,7 @@
                 </div>
 
             </div>
-            <div class="col-sm-12 col-md-9 tablet-top-buffer">
+            <div class="col-sm-12 col-md-9 tablet-top-buffer mobile-top-buffer">
                 <div class="row">
                     <div class="col-sm-12">
                         <p>Les services de coaching familial offert par Alliance Éducation sont d’abord des services
@@ -36,7 +36,7 @@
 
                         <p>Parents et enfants âgés de 0-12 ans</p>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 tablet-top-buffer mobile-top-buffer">
                         <h3>Offre de l’aide pour différente problématiques :</h3>
                         <ul>
                             <li>Encadrement éducatif</li>
@@ -57,9 +57,10 @@
         </div>
 
         <div class="top-buffer-lg"></div>
+
     </div>
 </div>
-";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:8:"Services";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:2496:"<div id="header-services" class="section-header">
+";s:7:"viewBag";a:0:{}s:8:"settings";a:2:{s:11:"description";s:8:"Services";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:2552:"<div id="header-services" class="section-header">
     <div class="jumbotron">
         <div class="container">
             <h1>Nos services</h1>
@@ -81,7 +82,7 @@
                 </div>
 
             </div>
-            <div class="col-sm-12 col-md-9 tablet-top-buffer">
+            <div class="col-sm-12 col-md-9 tablet-top-buffer mobile-top-buffer">
                 <div class="row">
                     <div class="col-sm-12">
                         <p>Les services de coaching familial offert par Alliance Éducation sont d’abord des services
@@ -95,7 +96,7 @@
 
                         <p>Parents et enfants âgés de 0-12 ans</p>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 tablet-top-buffer mobile-top-buffer">
                         <h3>Offre de l’aide pour différente problématiques :</h3>
                         <ul>
                             <li>Encadrement éducatif</li>
@@ -116,5 +117,6 @@
         </div>
 
         <div class="top-buffer-lg"></div>
+
     </div>
 </div>";}";

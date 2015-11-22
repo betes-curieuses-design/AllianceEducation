@@ -1,0 +1,39 @@
+title = "Formations"
+url = "/education/:category"
+layout = "default"
+is_hidden = 0
+
+[proBlogList formationList]
+postsPerPage = 6
+pagination = 1
+filter_type = "category"
+filter_value = "Formations"
+parent = "education/formations"
+render = "parent"
+
+[Incriptions]
+==
+<div class="page-blog-list wrap-page">
+    <div id="header-contact" class="section-header">
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Nos formations</h1>
+            </div>
+        </div>
+    </div>
+    <section class="default-section">
+        <div class="container">
+            <div class="row top-buffer-lg">
+                <div class="col-sm-12">
+
+                    {% component 'formationList' %}
+                </div>
+
+            </div>
+
+            <div class="top-buffer-lg"></div>
+        </div>
+    </section>
+
+</div>
+{% component 'Incriptions' %}
