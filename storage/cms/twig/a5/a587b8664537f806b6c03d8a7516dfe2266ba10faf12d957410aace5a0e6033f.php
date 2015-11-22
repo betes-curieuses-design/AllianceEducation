@@ -54,16 +54,23 @@ class __TwigTemplate_52e2e055697cf3a37b44a7d6124c4dbdda70d5451869faf3a0a48695163
                     <span class=\"dropdown-arrow\"></span>
                     <ul class=\"dropdown-menu\">
                         <li><a href=\"#\">Capsules</a></li>
-                        <li><a href=\"#\">Formations</a></li>
+                        <li>
+                            <a href=\"";
+        // line 25
+        echo $this->env->getExtension('CMS')->pageFilter("education/formations", array("category" => "Formations"));
+        echo "\">
+                                Formations
+                            </a>
+                        </li>
                         <li><a href=\"#\">Conferences</a></li>
                     </ul>
                 </li>
                 <li><a href=\"";
-        // line 28
+        // line 32
         echo $this->env->getExtension('CMS')->pageFilter("blog/blogList");
         echo "\">Blogue</a></li>
                 <li><a href=\"";
-        // line 29
+        // line 33
         echo $this->env->getExtension('CMS')->pageFilter("contact");
         echo "\">Nous joindre</a></li>
             </ul>
@@ -78,11 +85,11 @@ class __TwigTemplate_52e2e055697cf3a37b44a7d6124c4dbdda70d5451869faf3a0a48695163
             <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\"><span
                         class=\"icon-bar\"></span> <span class=\"icon-bar\"></span> <span class=\"icon-bar\"></span></button>
             <a class=\"navbar-brand\" href=\"";
-        // line 41
+        // line 45
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "\">
                 <img src=\"";
-        // line 42
+        // line 46
         echo $this->env->getExtension('CMS')->themeFilter("assets/images/ae-signature-mobile.svg");
         echo "\" style=\"width: 120px;margin-top: 25px;\">
             </a>
@@ -90,15 +97,15 @@ class __TwigTemplate_52e2e055697cf3a37b44a7d6124c4dbdda70d5451869faf3a0a48695163
         <div class=\"navbar-collapse collapse pull-left  mobile-menu\">
             <ul class=\"nav navbar-nav\">
                 <li><a href=\"";
-        // line 47
+        // line 51
         echo $this->env->getExtension('CMS')->pageFilter("home");
         echo "\">Accueil</a></li>
                 <li><a href=\"";
-        // line 48
+        // line 52
         echo $this->env->getExtension('CMS')->pageFilter("about");
         echo "\">À propos</a></li>
                 <li><a href=\"";
-        // line 49
+        // line 53
         echo $this->env->getExtension('CMS')->pageFilter("services");
         echo "\">Services</a></li>
                 <li class=\"dropdown\">
@@ -108,12 +115,15 @@ class __TwigTemplate_52e2e055697cf3a37b44a7d6124c4dbdda70d5451869faf3a0a48695163
                     <span class=\"dropdown-arrow\"></span>
                     <ul class=\"dropdown-menu\">
                         <li><a href=\"#\">Capsules</a></li>
-                        <li><a href=\"#\">Formations</a></li>
+                        <li><a href=\"";
+        // line 61
+        echo $this->env->getExtension('CMS')->pageFilter("education/formations", array("category" => "Formations"));
+        echo "\">Formations</a></li>
                         <li><a href=\"#\">Conferences</a></li>
                     </ul>
                 </li>
                 <li><a href=\"";
-        // line 61
+        // line 65
         echo $this->env->getExtension('CMS')->pageFilter("blog/blogList");
         echo "\">Blogue</a></li>
                 <li><a href=\"#\">Nous joindre</a></li>
@@ -137,7 +147,7 @@ class __TwigTemplate_52e2e055697cf3a37b44a7d6124c4dbdda70d5451869faf3a0a48695163
 
     public function getDebugInfo()
     {
-        return array (  117 => 61,  102 => 49,  98 => 48,  94 => 47,  86 => 42,  82 => 41,  67 => 29,  63 => 28,  48 => 16,  44 => 15,  40 => 14,  32 => 9,  28 => 8,  19 => 1,);
+        return array (  127 => 65,  120 => 61,  109 => 53,  105 => 52,  101 => 51,  93 => 46,  89 => 45,  74 => 33,  70 => 32,  60 => 25,  48 => 16,  44 => 15,  40 => 14,  32 => 9,  28 => 8,  19 => 1,);
     }
 }
 /* <!-- Fixed navbar -->*/
@@ -163,7 +173,11 @@ class __TwigTemplate_52e2e055697cf3a37b44a7d6124c4dbdda70d5451869faf3a0a48695163
 /*                     <span class="dropdown-arrow"></span>*/
 /*                     <ul class="dropdown-menu">*/
 /*                         <li><a href="#">Capsules</a></li>*/
-/*                         <li><a href="#">Formations</a></li>*/
+/*                         <li>*/
+/*                             <a href="{{ 'education/formations'|page({category: 'Formations'}) }}">*/
+/*                                 Formations*/
+/*                             </a>*/
+/*                         </li>*/
 /*                         <li><a href="#">Conferences</a></li>*/
 /*                     </ul>*/
 /*                 </li>*/
@@ -196,7 +210,7 @@ class __TwigTemplate_52e2e055697cf3a37b44a7d6124c4dbdda70d5451869faf3a0a48695163
 /*                     <span class="dropdown-arrow"></span>*/
 /*                     <ul class="dropdown-menu">*/
 /*                         <li><a href="#">Capsules</a></li>*/
-/*                         <li><a href="#">Formations</a></li>*/
+/*                         <li><a href="{{ 'education/formations'|page({category: 'Formations'}) }}">Formations</a></li>*/
 /*                         <li><a href="#">Conferences</a></li>*/
 /*                     </ul>*/
 /*                 </li>*/

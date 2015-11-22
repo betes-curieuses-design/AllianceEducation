@@ -1,4 +1,4 @@
-1448132975s:2029:"a:2:{s:5:"mtime";i:1446818792;s:7:"content";s:1974:"<div id="carousel-logimonde" class="carousel slide hidden-xs" data-ride="carousel">
+1448221868s:2029:"a:2:{s:5:"mtime";i:1446818792;s:7:"content";s:1974:"<div id="carousel-logimonde" class="carousel slide hidden-xs" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
         {% for slider in sliders %}

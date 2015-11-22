@@ -1,0 +1,108 @@
+{% if render_category %}
+    {% component 'proBlogList' %}
+{% else %}
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="embed-responsive embed-responsive-16by9">
+                {{ post_item.video|raw }}
+            </div>
+        </div>
+    </div>
+    <div class="row all-top-buffer">
+        <div class="col-sm-6">
+            Date de formation: {{ post_item.date_event }}
+        </div>
+        <div class="col-sm-6">
+            # Places disponible: {{ post_item.available }}
+        </div>
+    </div>
+    <div class="row all-top-buffer">
+        <div class="col-sm-12">
+            <h5>Description</h5>
+            {% set content_parsed = parseBlogPost(post_item.content) %}
+
+            {% if content_parsed %}
+                {% for content in content_parsed %}
+                    {% if content.partial %}
+                        {% partial content.partial %}
+                    {% else %}
+                        {{ content|raw }}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+
+            {% if post_item.tags.count %}
+                <p class="all-top-buffer">
+                    {{ 'Tags'|_ }}:
+                    {% for tag in post_item.tags %}
+                        <a
+                        href="{{ searchpage|page({'filter': 'tag','slug': tag.slug }) }}/">{{ tag.name }}</a>{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                </p>
+            {% endif %}
+
+
+            <div id="problog_post_social">
+                {% if sharethis > 0 %}
+                {% if twitter > 0 %}<span class='st_twitter_hcount' displayText='Tweet'></span>{% endif %}
+                {% if facebook > 0 %}<span class='st_facebook_hcount' displayText='Facebook'></span>{% endif %}
+                {% if google > 0 %}<span class='st_plusone_hcount' displayText='Plusone'></span>{% endif %}
+
+                    <script type="text/javascript">var switchTo5x = true;</script>
+                    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+                    <script type="text/javascript">stLight.options({publisher: "{{ sharethis }}"});</script>
+                {% endif %}
+            </div>
+
+            {% put scripts %}
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $('pre code').each(function () {
+                        $(this).parent().addClass('prettyprint');
+                    });
+                    prettyPrint();
+                });
+            </script>
+            {% endput %}
+
+            {% if embedly %}
+                {% put scripts %}
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        $('#blog_post_body a').each(function () {
+                            if ($(this).text() == 'embedly') {
+                                $(this).addClass('embedly');
+                                var w = $(this).parent().parent().width();
+                                $(this).embedly({
+                                    key: '{{embedly}}',
+                                    query: {
+                                        maxwidth: w,
+                                    },
+                                });
+                            }
+                        });
+                    });
+                </script>
+                {% endput %}
+            {% endif %}
+        </div>
+    </div>
+    <div class="row all-top-buffer">
+        <div class="col-sm-12 text-right">
+            <a href="#" class="btn btn-success btn-sm btn-space"
+               data-toggle="modal" data-target="#incriptions">
+                je veux m'inscrire
+            </a>
+            <a href="{{ 'education/formations'|page({category: 'Formations'}) }}" class="btn btn-primary btn-sm">
+                Retour à la liste
+            </a>
+        </div>
+    </div>
+
+{% endif %}

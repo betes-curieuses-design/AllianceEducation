@@ -1,4 +1,4 @@
-1448139021s:1218:"a:6:{s:5:"mtime";i:1448069145;s:7:"content";s:532:"{% set categories = __SELF__.categories %}
+1448217641s:1218:"a:6:{s:5:"mtime";i:1448069145;s:7:"content";s:532:"{% set categories = __SELF__.categories %}
 {% set currentCategorySlug = __SELF__.currentCategorySlug %}
 
 <ul class="list-group">

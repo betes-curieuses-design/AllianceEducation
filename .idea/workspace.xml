@@ -2,91 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c73a1b07-2165-4d02-827e-b4a3a82b7270" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/assets/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/pages/blog/article.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/pages/blog/categories.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/related/default.htm" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\cache\10\33\featured.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\cache\10\91\contact.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\cache\12\47\default.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\cache\14\07\services.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\cache\16\85\about.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\cache\18\45\default.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\cache\19\33\services.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\cache\36\55\home.htm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\01f7a6de02245fe3598b5b73b99f09fb" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\0894b5442316e4090206fc87c8bd17f0" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\395c0db92b2a13a175e361a927d5aba5" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\3f3681f0a6302046c5338ee3f63599d4" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\5d265175de984a373b92ee1cabc3ece1" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\622f3ed5e5672afef685c3fa2d5904e5" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\72766bd0a3bd2a41ef3d7c0a43afbc35" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\82181f851a71d8acd8c9e275d2d28530" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\8336f18f109d659dc4a602e7ff626961" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\86c4a8d827eb2e19796188e5369f474e" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\9096a517b28d645836adae94a2747804" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\925ecabc21a3279bc3b2542ac3f74213" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\a1a3959a33123c4fcb6e4504b19d3e7b" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\a8765209bf77035f1d3ba8f90e627152" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\d9a7e8f6bae7ca5f156626b54720652e" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\e3ec3348c4683889856795641ea94903" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\f296e0b378864d3b1830471276ae2f33" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\04\0430c6d0541108c1f26f30224f2d62eb1f876759f1d50696f54ac7197deeb45a.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\09\094770f040aeda9ead74faca9e05884281590e0f99933d1e1ec76ba9270e8887.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\14\14eb7a74a039874b78ccf71db0ac41131d827031c931e7cf3946fda03f490390.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\16\1671fe546414be6c93bee28a1e09e0e30ca2483d67a71df21373988ff2ad59e2.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\2b\2b62007cd6ad6f553f52dd13286c1855d4981d72555a33efc0d7fff152917df5.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\46\465a67ebc4ae403e56449555dd5c5ca4bd9940eaa73331b78419ee107feb7438.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\8e\8e87b2b37f48e2fb7981e09d8d088253ba6c33bfe970bcd24980ab9391fc292b.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\97\97e6e1032c47f6fba9e20dbc6b9aa296b8bcc414700747d87afed97257b1a1e2.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\99\99e13a74159266fc34857cfa3b84e23dcdaef2bdaa5f31d7234eae7bc6039ae7.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\9c\9c94e904d824ee46591580a078a82dc2c447c9d7bd8676e2064ca551cf0f7b58.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\a1\a11fe17e2bdd0f85296c7e700f8653ada4f7be78ee601c6cdc43723b8fb80f06.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\b8\b8024e1541f9af3ae72b26822d2ebd29313be2d2bb1b6cfc3a269802f339fadc.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\ba\ba875a6fc8258cd23647877574e5f18b0d7e7cbfd01cbe7320b0681cb2b88a4e.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\d1\d1e3bcbe832bb82990b939ab09881fc18e8c778bf1766fb1190e0535336f0343.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\d4\d4ca460c4a3f8bad1928b6a00ff2c285af58fe8ef11fd8e77059186714722858.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\e4\e49d6931a889cebf4f97aa631b1a3f141755633a3e09441d4a2da2d422a10d4c.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\f8\f84938cf77b4b9c535c349d14403bdf1d98f9e1b337b02a76a1ce791ca035323.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\sessions\f6502d3c14feb0573092ef30b6ad9c971230bad3" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/37/5d/375d6c94695e78edf631ce9446259a66" afterPath="$PROJECT_DIR$/storage/framework/cache/37/5d/375d6c94695e78edf631ce9446259a66" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Incriptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/incriptions/default.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/formationList/default.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/formationPost/default.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/pages/education/formation.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/pages/education/formations.htm" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\16a8796e26cc3c6ef9a24cd0352ce8e6" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\6a59fa4fae6b36bea3243b45920e25b2" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\73\73fbdfabad7b076c7a018266051f170699903168b122385ed580c58934ed5dee.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\a1\a11841f0e3861b9c58377bfe573e13ccef6e2caca911fe6e1fe774177e5bc450.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\06\0f\060f21d9021546135baa1ae7e1fe72d2" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\10\f1\10f1824f01af1ee0f77e18fb8395abd6" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\36\68\366813d98b679b7a21b10cfd4e4a2053" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\3e\e9\3ee9018fdc0c5ec39d638b380620cffd" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\6e\b5\6eb521379fc7044317ab700789860f70" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\83\64\8364273bfc7c0ee22f29cf61442914e9" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\a1\f7\a1f77cbe9419a10713cc08152b773f0b" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\c7\92\c7929ab447f3dcc4f95eb1a9c8a30c2b" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\dd\29\dd29aa583c487220027bb7e7f38e1779" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/83/34/83344596d5e167f29fce4242e4ec872a" afterPath="$PROJECT_DIR$/storage/framework/cache/83/34/83344596d5e167f29fce4242e4ec872a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/02/3b/023b8779bb457fa3dd8142e574e566d5" afterPath="$PROJECT_DIR$/storage/framework/cache/02/3b/023b8779bb457fa3dd8142e574e566d5" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/06/50/0650a9d736116ab6b6d34108b721099c" afterPath="$PROJECT_DIR$/storage/framework/cache/06/50/0650a9d736116ab6b6d34108b721099c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/0a/63/0a635566cfaf4e38799acaf5e9b03abc" afterPath="$PROJECT_DIR$/storage/framework/cache/0a/63/0a635566cfaf4e38799acaf5e9b03abc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/0c/b0/0cb04905781de3dbf2424ab012adf555" afterPath="$PROJECT_DIR$/storage/framework/cache/0c/b0/0cb04905781de3dbf2424ab012adf555" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/16/60/16605383c663782f3567f7c7e94ae47e" afterPath="$PROJECT_DIR$/storage/framework/cache/16/60/16605383c663782f3567f7c7e94ae47e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" afterPath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/31/97/31976851e76320d3f3ed2e71c2bee667" afterPath="$PROJECT_DIR$/storage/framework/cache/31/97/31976851e76320d3f3ed2e71c2bee667" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/37/5d/375d6c94695e78edf631ce9446259a66" afterPath="$PROJECT_DIR$/storage/framework/cache/37/5d/375d6c94695e78edf631ce9446259a66" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" afterPath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/4a/99/4a99c09ee5b6bfb1fda04b876fc0b7ce" afterPath="$PROJECT_DIR$/storage/framework/cache/4a/99/4a99c09ee5b6bfb1fda04b876fc0b7ce" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/4a/db/4adb20a414a799699af8a0f9c7b2b75d" afterPath="$PROJECT_DIR$/storage/framework/cache/4a/db/4adb20a414a799699af8a0f9c7b2b75d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/4c/27/4c274be75daf2a94c59d46801ab1c2b3" afterPath="$PROJECT_DIR$/storage/framework/cache/4c/27/4c274be75daf2a94c59d46801ab1c2b3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/4f/33/4f3300cc49265804168e039c4895b8ef" afterPath="$PROJECT_DIR$/storage/framework/cache/4f/33/4f3300cc49265804168e039c4895b8ef" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" afterPath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5c/c9/5cc97f8dbee33b5b0e71e2e6111ef8e4" afterPath="$PROJECT_DIR$/storage/framework/cache/5c/c9/5cc97f8dbee33b5b0e71e2e6111ef8e4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" afterPath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" afterPath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/63/9d/639d1799c30ff8cf470541f213243b92" afterPath="$PROJECT_DIR$/storage/framework/cache/63/9d/639d1799c30ff8cf470541f213243b92" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/66/665ae250162170d81e547320b991f5f38d225f0a27d2c7528899ce293b6c7e1f.php" afterPath="$PROJECT_DIR$/storage/cms/twig/66/665ae250162170d81e547320b991f5f38d225f0a27d2c7528899ce293b6c7e1f.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/69/c6/69c66e3170c33e5648fbd14581dd6656" afterPath="$PROJECT_DIR$/storage/framework/cache/69/c6/69c66e3170c33e5648fbd14581dd6656" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/6c/6c967f7f82c97d29ad6885a7c6080edc3431e26410717c33a0067bf13c7bd01b.php" afterPath="$PROJECT_DIR$/storage/cms/twig/6c/6c967f7f82c97d29ad6885a7c6080edc3431e26410717c33a0067bf13c7bd01b.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/6f/4f/6f4fb34eaeefb55d5bb56b7e0841f9a8" afterPath="$PROJECT_DIR$/storage/framework/cache/6f/4f/6f4fb34eaeefb55d5bb56b7e0841f9a8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/83/64/8364273bfc7c0ee22f29cf61442914e9" afterPath="$PROJECT_DIR$/storage/framework/cache/83/64/8364273bfc7c0ee22f29cf61442914e9" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/80/c8/80c84920dfcdae721f9325b8acb6bf64" afterPath="$PROJECT_DIR$/storage/framework/cache/80/c8/80c84920dfcdae721f9325b8acb6bf64" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/86/8a/868ace824fc9bd5de25d8c9a226a1a9b" afterPath="$PROJECT_DIR$/storage/framework/cache/86/8a/868ace824fc9bd5de25d8c9a226a1a9b" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/88/f0/88f0fab38bdea01495fcdc6ae53aecb9" afterPath="$PROJECT_DIR$/storage/framework/cache/88/f0/88f0fab38bdea01495fcdc6ae53aecb9" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/a5/a587b8664537f806b6c03d8a7516dfe2266ba10faf12d957410aace5a0e6033f.php" afterPath="$PROJECT_DIR$/storage/cms/twig/a5/a587b8664537f806b6c03d8a7516dfe2266ba10faf12d957410aace5a0e6033f.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/af/4c/af4cf1f3d6ba782dd46cc0827d5d8f10" afterPath="$PROJECT_DIR$/storage/framework/cache/af/4c/af4cf1f3d6ba782dd46cc0827d5d8f10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/pages/blog/article.htm" afterPath="$PROJECT_DIR$/themes/ae110815/pages/blog/article.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/16/65/blogList.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/16/65/blogList.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/pages/blog/blogList.htm" afterPath="$PROJECT_DIR$/themes/ae110815/pages/blog/blogList.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/assets/less/controls/buttons.less" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/controls/buttons.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/c5/46/c5465e34707be8b9086a1c42568a304e" afterPath="$PROJECT_DIR$/storage/framework/cache/c5/46/c5465e34707be8b9086a1c42568a304e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/c7/92/c7929ab447f3dcc4f95eb1a9c8a30c2b" afterPath="$PROJECT_DIR$/storage/framework/cache/c7/92/c7929ab447f3dcc4f95eb1a9c8a30c2b" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/d8/ae/d8ae08b1afe7afb520e3020b767dc31a" afterPath="$PROJECT_DIR$/storage/framework/cache/d8/ae/d8ae08b1afe7afb520e3020b767dc31a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/db/52/db5274896990f6c17d0f8aa1618a6d6f" afterPath="$PROJECT_DIR$/storage/framework/cache/db/52/db5274896990f6c17d0f8aa1618a6d6f" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/16/36/default.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/16/36/default.htm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/18/87/default.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/18/87/default.htm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/20/07/default.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/20/07/default.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/layouts/default.htm" afterPath="$PROJECT_DIR$/themes/ae110815/layouts/default.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/partials/article/default.htm" afterPath="$PROJECT_DIR$/themes/ae110815/partials/article/default.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/partials/blogs/default.htm" afterPath="$PROJECT_DIR$/themes/ae110815/partials/blogs/default.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/f0/41/f0416b59156b57c0b4fc60ae5380b3b3" afterPath="$PROJECT_DIR$/storage/framework/cache/f0/41/f0416b59156b57c0b4fc60ae5380b3b3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/f4/b3/f4b37280faf6a450bd1bf1e42922d6e0" afterPath="$PROJECT_DIR$/storage/framework/cache/f4/b3/f4b37280faf6a450bd1bf1e42922d6e0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/f5/ff/f5ff00d26b195ed8b16cb83bd64e41e1" afterPath="$PROJECT_DIR$/storage/framework/cache/f5/ff/f5ff00d26b195ed8b16cb83bd64e41e1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/fb/f1/fbf1e00bb37708d901bdbb047288e5eb" afterPath="$PROJECT_DIR$/storage/framework/cache/fb/f1/fbf1e00bb37708d901bdbb047288e5eb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/18/38/footer.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/18/38/footer.htm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/18/09/header.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/18/09/header.htm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/partials/header.htm" afterPath="$PROJECT_DIR$/themes/ae110815/partials/header.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/assets/css/theme.css" afterPath="$PROJECT_DIR$/themes/ae110815/assets/css/theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/variables.less" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/variables.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AllianceEducation.iws" />
@@ -109,20 +89,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/home.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="44" column="20" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="all.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3309481">
+            <state vertical-scroll-proportion="-3.1923077">
               <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
               <folding />
             </state>
@@ -130,30 +100,64 @@
         </entry>
       </file>
       <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/listcategories/default.htm">
+        <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/formationList/default.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state vertical-scroll-proportion="-15.038462">
+              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blogList.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/blog/blogList.htm">
+      <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/formationPost/default.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.192308">
-              <caret line="62" column="6" selection-start-line="23" selection-start-column="0" selection-end-line="62" selection-end-column="6" />
+            <state vertical-scroll-proportion="-11.038462">
+              <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="100" selection-end-column="16" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#3;n#!!top" expanded="false" />
+                <element signature="n#script#0;n#div#0;n#div#3;n#!!top" expanded="false" />
+                <element signature="n#script#1;n#div#0;n#div#3;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/incriptions/default.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.65384614">
+              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="categories.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/blog/categories.htm">
+      <file leaf-file-name="header.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/header.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.769231">
-              <caret line="28" column="26" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="26" />
+            <state vertical-scroll-proportion="-13.076923">
+              <caret line="61" column="96" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="96" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/blog/article.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.5">
+              <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formations.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/education/formations.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6726297">
+              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -170,15 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/updates/version.yaml" />
-        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/Quotes.php" />
-        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/quote/fields.yaml" />
-        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/Inscriptions.php" />
-        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/inscription/columns.yaml" />
-        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Quotes.php" />
-        <option value="$PROJECT_DIR$/themes/ae110815/partials/footer.htm" />
-        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/quotes/default.htm" />
-        <option value="$PROJECT_DIR$/themes/ae110815/assets/less/theme/vendor.less" />
         <option value="$PROJECT_DIR$/themes/ae110815/assets/vendor/flat-ui/less/controls/dropdown.less" />
         <option value="$PROJECT_DIR$/themes/ae110815/partials/home/featured.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/assets/less/pages/contact.less" />
@@ -186,7 +181,6 @@
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/lang/fr/radiantweb/problog/lang.php" />
         <option value="$PROJECT_DIR$/plugins/radiantweb/problog/Plugin.php" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/HomeBlog.php" />
-        <option value="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/variables.less" />
         <option value="$PROJECT_DIR$/themes/ae110815/assets/less/theme/variables.less" />
         <option value="$PROJECT_DIR$/themes/ae110815/assets/less/controls/all.less" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/homeblog/default.htm" />
@@ -194,7 +188,6 @@
         <option value="$PROJECT_DIR$/themes/ae110815/pages/home.htm" />
         <option value="$PROJECT_DIR$/plugins/radiantweb/problog/components/Post.php" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/LastFormation.php" />
-        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/lastformation/default.htm" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/LastConference.php" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/lastconference/default.htm" />
@@ -209,18 +202,29 @@
         <option value="$PROJECT_DIR$/themes/ae110815/assets/less/controls/parallax.less" />
         <option value="$PROJECT_DIR$/themes/ae110815/partials/contact/confirm.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/partials/contact/default.htm" />
-        <option value="$PROJECT_DIR$/themes/ae110815/partials/header.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/partials/listcategories/default.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/partials/tags/default.htm" />
-        <option value="$PROJECT_DIR$/themes/ae110815/partials/blogs/default.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/partials/article/default.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/partials/related/default.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/layouts/default.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/assets/js/app.js" />
-        <option value="$PROJECT_DIR$/themes/ae110815/pages/blog/article.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/pages/blog/blogList.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/pages/blog/categories.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less" />
+        <option value="$PROJECT_DIR$/themes/ae110815/partials/blogs/default.htm" />
+        <option value="$PROJECT_DIR$/themes/ae110815/partials/educations/default.htm" />
+        <option value="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/variables.less" />
+        <option value="$PROJECT_DIR$/plugins/radiantweb/problog/components/Bloglist.php" />
+        <option value="$PROJECT_DIR$/themes/ae110815/pages/blog/article.htm" />
+        <option value="$PROJECT_DIR$/themes/ae110815/assets/less/controls/buttons.less" />
+        <option value="$PROJECT_DIR$/themes/ae110815/pages/education/formation.htm" />
+        <option value="$PROJECT_DIR$/themes/ae110815/partials/header.htm" />
+        <option value="$PROJECT_DIR$/themes/ae110815/partials/formationPost/default.htm" />
+        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/incriptions/default.htm" />
+        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Incriptions.php" />
+        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php" />
+        <option value="$PROJECT_DIR$/themes/ae110815/partials/education/default.htm" />
+        <option value="$PROJECT_DIR$/themes/ae110815/pages/education/formations.htm" />
       </list>
     </option>
   </component>
@@ -265,6 +269,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -411,7 +416,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blogs" />
+              <option name="myItemId" value="formationPost" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -437,7 +442,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="article" />
+              <option name="myItemId" value="formationList" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -460,6 +465,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae110815" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="education" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -585,6 +616,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae110815" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae110815" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controls" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -616,24 +707,6 @@
               <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rainlab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AllianceEducation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AllianceEducation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -649,11 +722,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bedard" />
+              <option name="myItemId" value="radiantweb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blogtags" />
+              <option name="myItemId" value="problog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -671,11 +744,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bedard" />
+              <option name="myItemId" value="radiantweb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blogtags" />
+              <option name="myItemId" value="problog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -683,9 +756,122 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="radiantweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betescurieuses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betescurieuses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae110815" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betescurieuses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae110815" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="betescurieuses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae110815" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incriptions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -848,7 +1034,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448071337516</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Blog Completed">
+      <created>1448139010006</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1448139010006</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -864,15 +1056,15 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34795764" sideWeight="0.49429038" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35325265" sideWeight="0.49429038" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.34150326" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32463294" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32300162" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.5122349" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.5114379" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2859304" sideWeight="0.50570965" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -913,90 +1105,14 @@
     <MESSAGE value="Services page Added" />
     <MESSAGE value="Contact page completed. Bonus: parallax about page" />
     <MESSAGE value="Blog list page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Blog list page" />
+    <MESSAGE value="Blog Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Blog Completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugins/rainlab/blog/components/post/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24329159">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="12" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/HomeBlog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12164579">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/js/plugins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/homeblog/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7960644">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/radiantweb/problog/components/post/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12164579">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/LastCapsule.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15205725">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/radiantweb/problog/Plugin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3452594">
-          <caret line="71" column="71" selection-start-line="71" selection-start-column="71" selection-end-line="71" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/lastformation/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3041145">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/theme/fonts.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/LastConference.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20930232">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/LastFormation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/lastcapsule/default.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -1011,24 +1127,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/radiantweb/problog/components/Post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/theme/all.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20930232">
-          <caret line="79" column="43" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1060,25 +1162,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45617172">
-          <caret line="295" column="31" selection-start-line="295" selection-start-column="31" selection-end-line="295" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/theme/type.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/home.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="20" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1134,13 +1221,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/header.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.307692">
-          <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/contact/default.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33452594">
@@ -1191,14 +1271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/controls/all.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60465115">
-          <caret line="233" column="35" selection-start-line="233" selection-start-column="22" selection-end-line="233" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/tables.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1207,19 +1279,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/blogs/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51699466">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="25" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1227,7 +1290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1824687">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1235,7 +1297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7423971">
           <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1243,7 +1304,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6994633">
           <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1251,23 +1311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5521368">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/blog/article.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6422182">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/blog/blogList.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.192308">
-          <caret line="62" column="6" selection-start-line="23" selection-start-column="0" selection-end-line="62" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1275,7 +1318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.769231">
           <caret line="28" column="26" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1283,14 +1325,172 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.9230769">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/blog/blogList.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.98566306">
+          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/blogs/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.192308">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/lastformation/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/radiantweb/problog/components/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5483871">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/radiantweb/problog/components/bloglist/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7311828">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/radiantweb/problog/components/Bloglist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39534885">
+          <caret line="208" column="5" selection-start-line="208" selection-start-column="5" selection-end-line="208" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/home.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3309481">
+        <state vertical-scroll-proportion="-3.1923077">
           <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="459" column="49" selection-start-line="459" selection-start-column="49" selection-end-line="459" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/rainlab/blog/components/post/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12164579">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/controls/buttons.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030411448">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/assets/less/controls/all.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6511628">
+          <caret line="233" column="35" selection-start-line="233" selection-start-column="22" selection-end-line="233" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/education/formation.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.346154">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/blog/article.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/header.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="61" column="96" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2862254">
+          <caret line="37" column="76" selection-start-line="37" selection-start-column="76" selection-end-line="37" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Incriptions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3041145">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/incriptions/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/formationPost/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.038462">
+          <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="100" selection-end-column="16" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#3;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#div#0;n#div#3;n#!!top" expanded="false" />
+            <element signature="n#script#1;n#div#0;n#div#3;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/formationList/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/education/formations.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6726297">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
           <folding />
         </state>
       </provider>
