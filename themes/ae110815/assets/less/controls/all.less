@@ -223,7 +223,7 @@
 .panel-sidebar {
   border-radius: 0;
   .panel-heading {
-    border-radius: 0;
+    border-radius: 0
     color: #fff!important;
     h3 {
 
@@ -238,4 +238,22 @@
 
 .panel-sidebar {
   .panel-variant(@panel-default-border; @panel-default-text; @panel-primary-heading-bg; @panel-default-border);
+}
+
+
+/*
+* Modals
+*/
+
+.modal-header {
+  background-color: @brand-primary;
+  border-top-left-radius: @border-radius-large;
+  border-top-right-radius: @border-radius-large;
+  .modal-title {
+    color: #fff;
+  }
+  .close {
+    color: #fff;
+    opacity: 1;
+  }
 }

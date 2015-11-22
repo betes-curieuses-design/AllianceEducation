@@ -1,14 +1,14 @@
-title = "Formations"
-url = "/education/formations"
+title = "Conferences"
+url = "/education/conferences"
 layout = "default"
 is_hidden = 0
 
-[proBlogList formationList]
-postsPerPage = 6
+[proBlogList conferencesList]
+postsPerPage = 10
 pagination = 1
 filter_type = "category"
-filter_value = "formations"
-parent = "education/formations"
+filter_value = "conferences"
+parent = "education/conference"
 render = "parent"
 
 [Incriptions]
@@ -17,7 +17,7 @@ render = "parent"
     <div id="header-contact" class="section-header">
         <div class="jumbotron">
             <div class="container">
-                <h1>Nos formations</h1>
+                <h1>Nos conférences</h1>
             </div>
         </div>
     </div>
@@ -25,8 +25,8 @@ render = "parent"
         <div class="container">
             <div class="row top-buffer-lg">
                 <div class="col-sm-12">
+                    {% component 'conferencesList' %}
 
-                    {% component 'formationList' %}
                 </div>
 
             </div>

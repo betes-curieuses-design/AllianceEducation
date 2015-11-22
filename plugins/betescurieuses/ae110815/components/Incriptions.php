@@ -18,4 +18,8 @@ class Incriptions extends ComponentBase
         return [];
     }
 
+    public function onRun() {
+
+    }
+
 }
