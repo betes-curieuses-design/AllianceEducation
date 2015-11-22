@@ -2,71 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c73a1b07-2165-4d02-827e-b4a3a82b7270" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Incriptions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/incriptions/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/formationList/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/partials/formationPost/default.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/pages/education/formation.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/ae110815/pages/education/formations.htm" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\16a8796e26cc3c6ef9a24cd0352ce8e6" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\combiner\assets\6a59fa4fae6b36bea3243b45920e25b2" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\73\73fbdfabad7b076c7a018266051f170699903168b122385ed580c58934ed5dee.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\cms\twig\a1\a11841f0e3861b9c58377bfe573e13ccef6e2caca911fe6e1fe774177e5bc450.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\06\0f\060f21d9021546135baa1ae7e1fe72d2" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\10\f1\10f1824f01af1ee0f77e18fb8395abd6" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\36\68\366813d98b679b7a21b10cfd4e4a2053" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\3e\e9\3ee9018fdc0c5ec39d638b380620cffd" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\6e\b5\6eb521379fc7044317ab700789860f70" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\83\64\8364273bfc7c0ee22f29cf61442914e9" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\a1\f7\a1f77cbe9419a10713cc08152b773f0b" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\c7\92\c7929ab447f3dcc4f95eb1a9c8a30c2b" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\betes\AllianceEducation\storage\framework\cache\dd\29\dd29aa583c487220027bb7e7f38e1779" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/83/34/83344596d5e167f29fce4242e4ec872a" afterPath="$PROJECT_DIR$/storage/framework/cache/83/34/83344596d5e167f29fce4242e4ec872a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/02/3b/023b8779bb457fa3dd8142e574e566d5" afterPath="$PROJECT_DIR$/storage/framework/cache/02/3b/023b8779bb457fa3dd8142e574e566d5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/06/50/0650a9d736116ab6b6d34108b721099c" afterPath="$PROJECT_DIR$/storage/framework/cache/06/50/0650a9d736116ab6b6d34108b721099c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/0a/63/0a635566cfaf4e38799acaf5e9b03abc" afterPath="$PROJECT_DIR$/storage/framework/cache/0a/63/0a635566cfaf4e38799acaf5e9b03abc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/0c/b0/0cb04905781de3dbf2424ab012adf555" afterPath="$PROJECT_DIR$/storage/framework/cache/0c/b0/0cb04905781de3dbf2424ab012adf555" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/16/60/16605383c663782f3567f7c7e94ae47e" afterPath="$PROJECT_DIR$/storage/framework/cache/16/60/16605383c663782f3567f7c7e94ae47e" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" afterPath="$PROJECT_DIR$/storage/framework/cache/1a/35/1a3565c4ad91f449b79a29ea5b60a58b" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/31/97/31976851e76320d3f3ed2e71c2bee667" afterPath="$PROJECT_DIR$/storage/framework/cache/31/97/31976851e76320d3f3ed2e71c2bee667" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/37/5d/375d6c94695e78edf631ce9446259a66" afterPath="$PROJECT_DIR$/storage/framework/cache/37/5d/375d6c94695e78edf631ce9446259a66" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" afterPath="$PROJECT_DIR$/storage/framework/cache/47/03/470330a89a0b480aca1ece1e4539f1ad" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/4a/99/4a99c09ee5b6bfb1fda04b876fc0b7ce" afterPath="$PROJECT_DIR$/storage/framework/cache/4a/99/4a99c09ee5b6bfb1fda04b876fc0b7ce" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/4a/db/4adb20a414a799699af8a0f9c7b2b75d" afterPath="$PROJECT_DIR$/storage/framework/cache/4a/db/4adb20a414a799699af8a0f9c7b2b75d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/4c/27/4c274be75daf2a94c59d46801ab1c2b3" afterPath="$PROJECT_DIR$/storage/framework/cache/4c/27/4c274be75daf2a94c59d46801ab1c2b3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/4f/33/4f3300cc49265804168e039c4895b8ef" afterPath="$PROJECT_DIR$/storage/framework/cache/4f/33/4f3300cc49265804168e039c4895b8ef" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" afterPath="$PROJECT_DIR$/storage/framework/cache/50/35/5035b0c1e1f82379067d38f8383c7b5d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5c/c9/5cc97f8dbee33b5b0e71e2e6111ef8e4" afterPath="$PROJECT_DIR$/storage/framework/cache/5c/c9/5cc97f8dbee33b5b0e71e2e6111ef8e4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" afterPath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" afterPath="$PROJECT_DIR$/storage/framework/cache/60/92/6092f12922a2e92b9326eda3034141f9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/63/9d/639d1799c30ff8cf470541f213243b92" afterPath="$PROJECT_DIR$/storage/framework/cache/63/9d/639d1799c30ff8cf470541f213243b92" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/69/c6/69c66e3170c33e5648fbd14581dd6656" afterPath="$PROJECT_DIR$/storage/framework/cache/69/c6/69c66e3170c33e5648fbd14581dd6656" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/6f/4f/6f4fb34eaeefb55d5bb56b7e0841f9a8" afterPath="$PROJECT_DIR$/storage/framework/cache/6f/4f/6f4fb34eaeefb55d5bb56b7e0841f9a8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/80/c8/80c84920dfcdae721f9325b8acb6bf64" afterPath="$PROJECT_DIR$/storage/framework/cache/80/c8/80c84920dfcdae721f9325b8acb6bf64" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/86/8a/868ace824fc9bd5de25d8c9a226a1a9b" afterPath="$PROJECT_DIR$/storage/framework/cache/86/8a/868ace824fc9bd5de25d8c9a226a1a9b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/88/f0/88f0fab38bdea01495fcdc6ae53aecb9" afterPath="$PROJECT_DIR$/storage/framework/cache/88/f0/88f0fab38bdea01495fcdc6ae53aecb9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/twig/a5/a587b8664537f806b6c03d8a7516dfe2266ba10faf12d957410aace5a0e6033f.php" afterPath="$PROJECT_DIR$/storage/cms/twig/a5/a587b8664537f806b6c03d8a7516dfe2266ba10faf12d957410aace5a0e6033f.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/af/4c/af4cf1f3d6ba782dd46cc0827d5d8f10" afterPath="$PROJECT_DIR$/storage/framework/cache/af/4c/af4cf1f3d6ba782dd46cc0827d5d8f10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/pages/blog/article.htm" afterPath="$PROJECT_DIR$/themes/ae110815/pages/blog/article.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/16/65/blogList.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/16/65/blogList.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/assets/less/controls/buttons.less" afterPath="$PROJECT_DIR$/themes/ae110815/assets/less/controls/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/c5/46/c5465e34707be8b9086a1c42568a304e" afterPath="$PROJECT_DIR$/storage/framework/cache/c5/46/c5465e34707be8b9086a1c42568a304e" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/d8/ae/d8ae08b1afe7afb520e3020b767dc31a" afterPath="$PROJECT_DIR$/storage/framework/cache/d8/ae/d8ae08b1afe7afb520e3020b767dc31a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/db/52/db5274896990f6c17d0f8aa1618a6d6f" afterPath="$PROJECT_DIR$/storage/framework/cache/db/52/db5274896990f6c17d0f8aa1618a6d6f" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/16/36/default.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/16/36/default.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/18/87/default.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/18/87/default.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/20/07/default.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/20/07/default.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/f0/41/f0416b59156b57c0b4fc60ae5380b3b3" afterPath="$PROJECT_DIR$/storage/framework/cache/f0/41/f0416b59156b57c0b4fc60ae5380b3b3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/f4/b3/f4b37280faf6a450bd1bf1e42922d6e0" afterPath="$PROJECT_DIR$/storage/framework/cache/f4/b3/f4b37280faf6a450bd1bf1e42922d6e0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/f5/ff/f5ff00d26b195ed8b16cb83bd64e41e1" afterPath="$PROJECT_DIR$/storage/framework/cache/f5/ff/f5ff00d26b195ed8b16cb83bd64e41e1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/fb/f1/fbf1e00bb37708d901bdbb047288e5eb" afterPath="$PROJECT_DIR$/storage/framework/cache/fb/f1/fbf1e00bb37708d901bdbb047288e5eb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/18/38/footer.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/18/38/footer.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/cms/cache/18/09/header.htm.php" afterPath="$PROJECT_DIR$/storage/cms/cache/18/09/header.htm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/partials/header.htm" afterPath="$PROJECT_DIR$/themes/ae110815/partials/header.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/assets/css/theme.css" afterPath="$PROJECT_DIR$/themes/ae110815/assets/css/theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/variables.less" afterPath="$PROJECT_DIR$/themes/ae110815/assets/vendor/bootstrap/less/variables.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AllianceEducation.iws" />
@@ -153,11 +92,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="formations.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="formations.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/education/formations.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6726297">
-              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+            <state vertical-scroll-proportion="-9.884615">
+              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/services.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5483871">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -887,6 +836,125 @@
       <recent name="C:\wamp\www\betes\AllianceEducation\plugins\radiantweb\problog\lang\fr" />
     </key>
   </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/ae110815/assets/images/facebook-icon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/ae110815/assets/images/youtube-icon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/ae110815/pages/home.htm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/ae110815/pages/services.htm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/ae110815/partials/contact/confirm.htm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/ae110815/partials/contact/default.htm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/ae110815/partials/home/services.htm</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/ae110815/assets/images/ae-about.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/ae110815/assets/images/ae-client-about.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/ae110815/assets/images/girlscrysis-image-services.jpg</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
@@ -1040,7 +1108,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448139010006</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Formations Completed, Creation Inscription component">
+      <created>1448221405745</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1448221405746</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1058,6 +1132,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35325265" sideWeight="0.49429038" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.34150326" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1068,7 +1143,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2859304" sideWeight="0.50570965" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1106,7 +1180,8 @@
     <MESSAGE value="Contact page completed. Bonus: parallax about page" />
     <MESSAGE value="Blog list page" />
     <MESSAGE value="Blog Completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Blog Completed" />
+    <MESSAGE value="Formations Completed, Creation Inscription component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Formations Completed, Creation Inscription component" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1174,13 +1249,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31899643">
           <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/services.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1489,8 +1557,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/education/formations.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6726297">
-          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+        <state vertical-scroll-proportion="-9.884615">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/services.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5483871">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
