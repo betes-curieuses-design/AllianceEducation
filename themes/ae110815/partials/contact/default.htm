@@ -1,6 +1,7 @@
 <div class="confirm-container">
     <!--This will contain the confirmation when the email is successfully sent-->
 </div>
+
 <h3>Formulaire pour me contacter</h3>
 <form class="flexiContactForm" role="form"
       data-request="{{ __SELF__ }}::onMailSent"
@@ -28,9 +29,9 @@
                 <div class="form-group">
                     <label>Votre message</label>
             <textarea class="form-control" value="" name="body" placeholder="Message" required
-                      rows="8"></textarea>
+                      rows="9" style="resize: none"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary pull-right">Soumettre</button>
+                <button type="submit" class="btn btn-primary pull-right top-buffer mobile-top-buffer">Soumettre</button>
             </div>
         </div>
     </div>
