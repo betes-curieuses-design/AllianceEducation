@@ -23,11 +23,15 @@
                     <ul class="dropdown-menu">
                         <li><a href="#">Capsules</a></li>
                         <li>
-                            <a href="{{ 'education/formations'|page({category: 'Formations'}) }}">
+                            <a href="{{ 'education/formations'|page({category: 'formations'}) }}">
                                 Formations
                             </a>
                         </li>
-                        <li><a href="#">Conferences</a></li>
+                        <li>
+                            <a href="{{ 'education/conferences'|page({category: 'conferences'}) }}">
+                                Conferences
+                            </a>
+                        </li>
                     </ul>
                 </li>
                 <li><a href="{{ 'blog/blogList'|page }}">Blogue</a></li>
@@ -60,7 +64,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="#">Capsules</a></li>
                         <li><a href="{{ 'education/formations'|page({category: 'Formations'}) }}">Formations</a></li>
-                        <li><a href="#">Conferences</a></li>
+                        <li><a href="{{ 'education/conferences'|page({category: 'Conferences'}) }}">Conferences</a></li>
                     </ul>
                 </li>
                 <li><a href="{{ 'blog/blogList'|page }}">Blogue</a></li>

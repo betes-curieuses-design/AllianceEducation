@@ -9458,6 +9458,15 @@ address {
 .page-blog-list .panel-primary ul li.list-group-item.active a {
   color: #fff;
 }
+.page-services .round-image {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #00C1D6;
+  padding: 12px 14px;
+}
+.page-services .round-image i.fa {
+  color: #00C1D6;
+}
 body {
   background-color: #000000;
   padding-top: 110px;
@@ -12378,8 +12387,8 @@ fieldset[disabled] .btn-tertiary.active {
   border-radius: 0;
 }
 .panel-sidebar .panel-heading {
-  border-radius: 0;
-  color: #fff!important;
+  border-radius: 0
+    color: #fff!important;
 }
 .panel-sidebar .panel-heading h3 {
   font-weight: bold;
@@ -12404,4 +12413,19 @@ fieldset[disabled] .btn-tertiary.active {
 }
 .panel-sidebar > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #ddd;
+}
+/*
+* Modals
+*/
+.modal-header {
+  background-color: #00C1D6;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.modal-header .modal-title {
+  color: #fff;
+}
+.modal-header .close {
+  color: #fff;
+  opacity: 1;
 }

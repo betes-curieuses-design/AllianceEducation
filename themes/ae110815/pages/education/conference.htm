@@ -1,36 +1,36 @@
-title = "Formations"
-url = "/education/formations"
+title = "Conférence"
+url = "/education/conference/:slug/"
 layout = "default"
 is_hidden = 0
 
-[proBlogList formationList]
-postsPerPage = 6
-pagination = 1
-filter_type = "category"
-filter_value = "formations"
-parent = "education/formations"
-render = "parent"
-
 [Incriptions]
+
+[proBlogPost conferencePost]
+slug = ":slug"
 ==
 <div class="page-blog-list wrap-page">
     <div id="header-contact" class="section-header">
         <div class="jumbotron">
             <div class="container">
-                <h1>Nos formations</h1>
+                <h1>{{ post_item.title }}</h1>
             </div>
         </div>
     </div>
     <section class="default-section">
         <div class="container">
             <div class="row top-buffer-lg">
-                <div class="col-sm-12">
+                <div class="col-sm-8 col-sm-offset-2">
 
-                    {% component 'formationList' %}
+                    {% component 'conferencePost' %}
+
+                    <div class="row all-top-buffer">
+                        <div class="col-sm-12">
+                            <div id="disqus_thread"></div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
-
             <div class="top-buffer-lg"></div>
         </div>
     </section>
