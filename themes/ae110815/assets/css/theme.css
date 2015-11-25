@@ -9467,6 +9467,9 @@ address {
 .page-services .round-image i.fa {
   color: #00C1D6;
 }
+.page-services section.greysection {
+  background-color: #D7DBDB;
+}
 .footer-image {
   display: block;
   background-color: black;
@@ -9486,7 +9489,7 @@ header .navbar-brand {
   padding: 10px 15px!important;
 }
 footer {
-  min-height: 90px;
+  min-height: 100px;
   color: #fff;
 }
 footer i {

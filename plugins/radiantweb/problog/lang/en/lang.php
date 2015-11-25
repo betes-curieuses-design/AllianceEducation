@@ -2,7 +2,7 @@
 
 return [
     'plugin' => [
-        'name' => 'ProBlog',
+        'name' => 'Educations',
         'description' => 'A powerful blogging platform.',
     ],
     'sidemenu' => [
