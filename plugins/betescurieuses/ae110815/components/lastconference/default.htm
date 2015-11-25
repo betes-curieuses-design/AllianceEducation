@@ -27,36 +27,10 @@
             <script type="text/javascript">stLight.options({publisher:"{{ sharethis }}"});</script>
         {% endif %}
     </div>
-
-    {% put scripts %}
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('pre code').each(function(){
-                $(this).parent().addClass('prettyprint');
-            });
-            prettyPrint();
-        });
-    </script>
-    {% endput %}
-
-    {% if embedly %}
-        {% put scripts %}
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $('#blog_post_body a').each(function(){
-                    if($(this).text() == 'embedly'){
-                        $(this).addClass('embedly');
-                        var w = $(this).parent().parent().width();
-                        $(this).embedly({
-                            key: '{{embedly}}',
-                            query: {
-                                maxwidth: w,
-                            },
-                        });
-                    }
-                });
-            });
-        </script>
-        {% endput %}
-    {% endif %}
+    <div class="text-right all-top-buffer">
+        <a href="{{ 'education/conference'|page({slug: conference.slug}) }}"
+           class="btn btn-primary btn-sm btn-space">En savoir plus</a>
+        <a href="{{ 'education/conferences'|page }}"
+           class="btn btn-secondary btn-sm">Toutes les conféerences</a>
+    </div>
 {% endif %}

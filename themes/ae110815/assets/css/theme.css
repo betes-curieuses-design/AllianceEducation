@@ -4217,7 +4217,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar {
-    border-radius: 8px;
+    border-radius: 0;
   }
 }
 @media (min-width: 768px) {
@@ -4495,8 +4495,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
   margin-bottom: 0;
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -5038,7 +5038,7 @@ a.badge:focus {
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 48px;
+    font-size: 39px;
   }
 }
 .thumbnail {
@@ -8831,11 +8831,9 @@ button.close {
   border-radius: 0;
 }
 .dropdown-menu li:first-child > a {
-  border-radius: 12px 12px 0 0;
   padding-top: 8px;
 }
 .dropdown-menu li:last-child > a {
-  border-radius: 0 0 12px 12px;
   padding-bottom: 10px;
 }
 .dropdown-menu li.active > a,
@@ -9346,6 +9344,7 @@ address {
   padding-bottom: 25px;
   padding-top: 25px;
   text-align: center;
+  color: #fff;
 }
 @media (max-width: 992px) {
   .section-header .jumbotron {
@@ -9353,13 +9352,14 @@ address {
     padding-top: 35px;
   }
 }
-.section-header .jumbotron h1 {
-  color: #fff;
-  font-weight: bold;
-}
 @media (max-width: 992px) {
+  .section-header .jumbotron {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
   .section-header .jumbotron h1 {
-    font-size: 42px;
+    font-weight: bold;
+    font-size: 27px;
   }
 }
 #quotes {
@@ -9467,15 +9467,14 @@ address {
 .page-services .round-image i.fa {
   color: #00C1D6;
 }
-.page-services section.greysection {
-  background-color: #D7DBDB;
+.page-services .icon-target {
+  padding: 13px 16px;
 }
-.footer-image {
-  display: block;
-  background-color: black;
+.page-services .icon-pro {
+  padding: 14px 14px 13px 14px;
 }
-.footer-image:hover {
-  opacity: 0.8;
+.page-services .icon-custom {
+  padding: 13px 15px;
 }
 body {
   background-color: #000000;
@@ -9484,9 +9483,40 @@ body {
 header .navbar-default ul.nav li a:hover {
   border-bottom: 3px solid #00C1D6;
 }
-header .navbar-brand {
-  width: 250px;
-  padding: 10px 15px!important;
+@media (max-width: 767px) {
+  body {
+    padding-top: 60px;
+  }
+  .navbar {
+    min-height: 60px!important;
+  }
+  .navbar-brand img {
+    width: 150px;
+  }
+  .navbar-brand {
+    height: 60px;
+    padding: 10px 15px !important;
+  }
+  .navbar-toggle {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  header .navbar-brand img {
+    width: 160px;
+  }
+  header .navbar-brand {
+    padding: 10px !important;
+  }
+}
+@media (min-width: 992px) {
+  header .navbar-brand img {
+    width: 250px;
+  }
+  header .navbar-brand {
+    padding: 10px 15px !important;
+  }
 }
 footer {
   min-height: 100px;
@@ -12438,4 +12468,7 @@ fieldset[disabled] .btn-tertiary.active {
 .modal-header .close {
   color: #fff;
   opacity: 1;
+}
+.dropdown-menu {
+  border-radius: 0!important;
 }

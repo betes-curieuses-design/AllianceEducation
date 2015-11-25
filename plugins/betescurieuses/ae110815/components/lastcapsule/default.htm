@@ -27,35 +27,12 @@
         {% endif %}
     </div>
 
-    {% put scripts %}
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('pre code').each(function(){
-                $(this).parent().addClass('prettyprint');
-            });
-            prettyPrint();
-        });
-    </script>
-    {% endput %}
+    <div class="text-right all-top-buffer">
+        <a href="{{ 'education/capsule'|page({slug: post_item.slug}) }}"
+           class="btn btn-primary btn-sm btn-space">Visionner</a>
+        <a href="{{ 'education/capsules'|page }}"
+           class="btn btn-secondary btn-sm">Archives</a>
+    </div>
 
-    {% if embedly %}
-        {% put scripts %}
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $('#blog_post_body a').each(function(){
-                    if($(this).text() == 'embedly'){
-                        $(this).addClass('embedly');
-                        var w = $(this).parent().parent().width();
-                        $(this).embedly({
-                            key: '{{embedly}}',
-                            query: {
-                                maxwidth: w,
-                            },
-                        });
-                    }
-                });
-            });
-        </script>
-        {% endput %}
-    {% endif %}
+
 {% endif %}

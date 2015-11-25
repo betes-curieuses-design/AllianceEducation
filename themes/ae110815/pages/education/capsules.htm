@@ -1,0 +1,37 @@
+title = "Capsules"
+url = "/education/capsules"
+layout = "default"
+is_hidden = 0
+
+[proBlogList capsulesList]
+postsPerPage = 10
+pagination = 1
+filter_type = "category"
+filter_value = "capsules"
+parent = "education/capsule"
+searchpage = "blog"
+render = "none"
+==
+<div class="page-blog-list wrap-page">
+    <div id="header-contact" class="section-header">
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Archive des capsules</h1>
+            </div>
+        </div>
+    </div>
+    <section class="default-section">
+        <div class="container">
+            <div class="row top-buffer-lg">
+                <div class="col-sm-12">
+                    {% component 'capsulesList' %}
+
+                </div>
+
+            </div>
+
+            <div class="top-buffer-lg"></div>
+        </div>
+    </section>
+
+</div>

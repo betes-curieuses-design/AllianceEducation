@@ -27,13 +27,10 @@
     {% endif %}
 </div>
 
-{% put scripts %}
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('pre code').each(function () {
-            $(this).parent().addClass('prettyprint');
-        });
-        prettyPrint();
-    });
-</script>
-{% endput %}
+<div class="text-right all-top-buffer">
+    <a href="{{ 'education/formation'|page({slug: formation.slug }) }}"
+       class="btn btn-primary btn-sm btn-space">En savoir plus</a>
+    <a href="{{ 'education/formations'|page }}"
+       class="btn btn-secondary btn-sm">Toutes les formations</a>
+</div>
+

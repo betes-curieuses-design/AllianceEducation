@@ -4,6 +4,8 @@
     <file url="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/incriptions/default.htm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/lastcapsule/default.htm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/lastconference/default.htm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/lastformation/default.htm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/inscription/columns.yaml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/quote/fields.yaml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/plugins/radiantweb/problog/components/Bloglist.php" charset="UTF-8" />
@@ -16,6 +18,8 @@
     <file url="file://$PROJECT_DIR$/themes/ae110815/pages/contact.htm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/themes/ae110815/pages/education/conferences.htm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/themes/ae110815/pages/home.htm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/themes/ae110815/partials/capsulePost/default.htm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/themes/ae110815/partials/capsulesList/default.htm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/themes/ae110815/partials/conferencePost/default.htm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/themes/ae110815/partials/conferencesList/default.htm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/themes/ae110815/partials/contact/default.htm" charset="UTF-8" />

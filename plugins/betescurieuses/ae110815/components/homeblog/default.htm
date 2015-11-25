@@ -5,14 +5,9 @@
         <li>
             <div class="row">
                 <div class="col-sm-12">
-                    <h4 class="bold"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                    <h4 class="bold"><a href="{{ 'blog/article'|page({slug: post.slug}) }}">{{ post.title }}</a></h4>
                     <small>
-                        Posted
-                        {% if post.categories.count %} in {% endif %}
-                        {% for category in post.categories %}
-                            <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
-                        {% endfor %}
-                        on {{ post.published_at|date('M d, Y') }}
+                        Date de parution : {{ post.published_at|date('d-m-Y') }}
                     </small>
                     {% if post.featured_images.count %}
                         <img class="img-responsive"
@@ -25,7 +20,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 text-right">
-                    <a href="{{ post.url }}"
+                    <a href="{{ 'blog/article'|page({slug: post.slug}) }}"
                        class="btn btn-primary btn-sm ">Lire</a>
                 </div>
             </div>
@@ -34,3 +29,11 @@
         <li class="no-data">{{ noPostsMessage }}</li>
     {% endfor %}
 </ul>
+<div class="all-top-buffer hidden-xs text-right">
+    <a href="{{ 'blog/blogList'|page }}"
+       class="btn btn-secondary btn-sm">Autres articles</a>
+</div>
+<div class="all-top-buffer hidden-sm hidden-md hidden-lg text-center">
+    <a href="{{ 'blog/blogList'|page }}"
+       class="btn btn-secondary btn-sm">Autres articles</a>
+</div>

@@ -11,7 +11,7 @@
     </div>
     <div class="row all-top-buffer">
         <div class="col-sm-6">
-            Date de formation: {{ post_item.date_event }}
+            Date de formation: {{ post_item.date_event|date('d-m-Y') }}
         </div>
         <div class="col-sm-6">
             # Places disponible: {{ post_item.available }}

@@ -10,11 +10,8 @@
         </div>
     </div>
     <div class="row all-top-buffer">
-        <div class="col-sm-6">
-            Date de formation: {{ post_item.date_event|date('d-m-Y') }}
-        </div>
-        <div class="col-sm-6">
-            # Places disponible: {{ post_item.available }}
+        <div class="col-sm-12">
+            Date de parution: {{ post.published_at|date('d-m-Y') }}
         </div>
     </div>
     <div class="row all-top-buffer">

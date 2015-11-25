@@ -1,0 +1,40 @@
+{% if render_post %}
+    {% component 'proBlogPost' %}
+{% else %}
+    <div class="row">
+        {% for post in blogPosts %}
+            <div class="col-sm-6 col-md-4 mobile-top-buffer">
+
+                <h4>
+                    <a href="{{ __SELF__.postRender(post.parent)|page({'filter': category_slug, 'slug': post.slug }) }}/">{{ post.title }}</a>
+                </h4>
+                <small>Date de parution: {{ post.published_at|date('d-m-Y') }}</small>
+                <div class="embed-responsive embed-responsive-16by9">
+                    {{ post.video|raw }}
+                </div>
+
+                <p class="little-top-buffer">
+                    {{ post.excerpt }}
+                </p>
+
+                <div class="all-top-buffer text-right">
+                    <a href="{{ __SELF__.postRender(post.parent)|page({'filter': category_slug, 'slug': post.slug }) }}/"
+                       class="btn btn-primary btn-sm">
+                        Visionner
+                    </a>
+                </div>
+            </div>
+        {% else %}
+            <div class="col-sm-12">Aucune capsule trouvé</div>
+        {% endfor %}
+    </div>
+    {% if pagination > 0 %}
+        <div class="row all-top-buffer">
+            <div class="col-sm-12 text-right">
+                {{ blogPosts.render|raw }}
+            </div>
+        </div>
+
+    {% endif %}
+{% endif %}
+
