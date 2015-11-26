@@ -9476,6 +9476,16 @@ address {
 .page-services .icon-custom {
   padding: 13px 15px;
 }
+.page-services section.greysection {
+  background-color: #D7DBDB;
+}
+.footer-image {
+  display: block;
+  background-color: black;
+}
+.footer-image:hover {
+  opacity: 0.8;
+}
 body {
   background-color: #000000;
   padding-top: 110px;
