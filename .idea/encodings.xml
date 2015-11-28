@@ -2,11 +2,13 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Incriptions.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/incriptions/default.htm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/lastcapsule/default.htm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/lastconference/default.htm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/lastformation/default.htm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/inscription/columns.yaml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/inscription/fields.yaml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/quote/fields.yaml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/plugins/radiantweb/problog/components/Bloglist.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/themes/ae110815/assets/less/layouts/all.less" charset="UTF-8" />

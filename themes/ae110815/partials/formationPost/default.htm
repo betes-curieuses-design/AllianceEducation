@@ -19,7 +19,7 @@
     </div>
     <div class="row all-top-buffer">
         <div class="col-sm-12">
-            <h5>Description</h5>
+            <h4 class="bold">Description</h4>
             {% set content_parsed = parseBlogPost(post_item.content) %}
 
             {% if content_parsed %}
@@ -98,7 +98,7 @@
             {% if post_item.available > 0 %}
                 <a href="#" class="btn btn-success btn-sm btn-space"
                    data-toggle="modal" data-target="#incriptions">
-                    je veux m'inscrire
+                    Je veux m'inscrire
                 </a>
             {% endif %}
             <a href="{{ 'education/formations'|page({category: 'Formations'}) }}" class="btn btn-primary btn-sm">

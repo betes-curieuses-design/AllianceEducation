@@ -32,31 +32,31 @@ return [
             'twitterauth' => 'Authentification par Twitter'
         ]
     ],
-    'backend'=>[
+    'backend' => [
         'form' => [
-            'cancle'=>'Annuler',
-            'saveclose'=>'Enregistré et fermé',
-            'or'=>'ou',
-            'create'=>'Créer',
-            'createclose'=>'Créé et fermé',
-            'save'=>'Enregistré',
-            'update'=>'Mise à jour',
-            'updateclose'=>'Mise à jour et fermée'
+            'cancle' => 'Annuler',
+            'saveclose' => 'Enregistré et fermé',
+            'or' => 'ou',
+            'create' => 'Créer',
+            'createclose' => 'Créé et fermé',
+            'save' => 'Enregistré',
+            'update' => 'Mise à jour',
+            'updateclose' => 'Mise à jour et fermée'
         ],
         'toolbar' => [
-            'duplicate'=>'Dupliquer',
-            'delete'=>'Supprimer'
+            'duplicate' => 'Dupliquer',
+            'delete' => 'Supprimer'
         ],
-        'post'=>[
-            'form'=>[
-                'title'=>'Sujets',
-                'confirmdelete'=>'Voulez-vous vraiment supprimer ce sujet?',
-                'back'=>'Retour à la liste des sujets'
+        'post' => [
+            'form' => [
+                'title' => 'Sujets',
+                'confirmdelete' => 'Voulez-vous vraiment supprimer ce sujet?',
+                'back' => 'Retour à la liste des sujets'
             ],
-            'toolbar'=>[
-                'create'=>'Créer un sujet',
-                'edit'=>'Éditer un sujet',
-                'toolbarnew'=>'Nouveau sujet',
+            'toolbar' => [
+                'create' => 'Créer un sujet',
+                'edit' => 'Éditer un sujet',
+                'toolbarnew' => 'Nouveau sujet',
             ],
             'columns' => [
                 'title' => 'Titre',
@@ -77,33 +77,33 @@ return [
                     'category' => 'Catégories',
                     'tags' => 'Étiquettes'
                 ],
-                'title'=>'Titre',
-                'slug'=>'slug',
-                'excerpt'=>'Extrait',
-                'featured'=>'Images principales',
-                'metatitle'=>'Meta de titre',
-                'metadescription'=>'Meta de description',
-                'metakeyword'=>'Meta de mots clés',
-                'optimize'=>'Optimiser',
-                'twitter'=>'Publier sur Twitter',
-                'parent'=>'Page antécédente du blogue',
+                'title' => 'Titre',
+                'slug' => 'slug',
+                'excerpt' => 'Extrait',
+                'featured' => 'Images principales',
+                'metatitle' => 'Meta de titre',
+                'metadescription' => 'Meta de description',
+                'metakeyword' => 'Meta de mots clés',
+                'optimize' => 'Optimiser',
+                'twitter' => 'Publier sur Twitter',
+                'parent' => "Page d'affichage",
                 'user' => 'Auteur du sujet',
-                'publishedon'=>'Publié le',
-                'published'=>'Publier',
-                'category_note'=>'Sélectionner une catégorie dont le sujet appartient à',
-                'tag_note'=>'Ajouter des étiquettes à relier à d\'autres sujets',
+                'publishedon' => 'Publié le',
+                'published' => 'Publier',
+                'category_note' => 'Sélectionner une catégorie dont le sujet appartient à',
+                'tag_note' => 'Ajouter des étiquettes à relier à d\'autres sujets',
             ],
         ],
         'category' => [
-            'form'=>[
-                'title'=>'Catégories',
-                'back'=>'Retourner à la liste des catégories',
-                'confirmdelete'=>'Êtes-vous vraiment sûr de supprimer cette catégorie'
+            'form' => [
+                'title' => 'Catégories',
+                'back' => 'Retourner à la liste des catégories',
+                'confirmdelete' => 'Êtes-vous vraiment sûr de supprimer cette catégorie'
             ],
-            'toolbar'=>[
-                'create'=>'Créer une catégorie',
-                'edit'=>'Modifier une catégorie',
-                'toolbarnew'=>'Nouvelle catégorie'
+            'toolbar' => [
+                'create' => 'Créer une catégorie',
+                'edit' => 'Modifier une catégorie',
+                'toolbarnew' => 'Nouvelle catégorie'
             ],
             'columns' => [
                 'name' => 'Nom',
@@ -116,15 +116,15 @@ return [
             ],
         ],
         'tag' => [
-            'form'=>[
-                'title'=>'Étiquettes',
-                'back'=>'Retourner à la liste des étiquettes',
-                'confirmdelete'=>'Êtes-vous vraiment sûr de supprimer cette étiquette?'
+            'form' => [
+                'title' => 'Étiquettes',
+                'back' => 'Retourner à la liste des étiquettes',
+                'confirmdelete' => 'Êtes-vous vraiment sûr de supprimer cette étiquette?'
             ],
-            'toolbar'=>[
-                'create'=>'Créer une étiquette',
-                'edit'=>'Modifier une étiquette',
-                'toolbarnew'=>'Nouvelle étiquette'
+            'toolbar' => [
+                'create' => 'Créer une étiquette',
+                'edit' => 'Modifier une étiquette',
+                'toolbarnew' => 'Nouvelle étiquette'
             ],
             'columns' => [
                 'name' => 'Nom',
@@ -145,16 +145,16 @@ return [
             'properties' => [
                 'parent' => [
                     'title' => 'Filtrer par antécédent d\'archive',
-                    'description'=> 'Filtrer les sujets par page d\'antécédent.'
+                    'description' => 'Filtrer les sujets par page d\'antécédent.'
                 ],
                 'render' => [
                     'title' => 'Générer les sujets par',
-                    'description'=> 'Sélectionner la façon dont vous voulez générer les sujets',
+                    'description' => 'Sélectionner la façon dont vous voulez générer les sujets',
                     'group' => 'Rendering'
                 ],
                 'specific' => [
                     'title' => 'Page à générer',
-                    'description'=> 'Une page qui va générer des sujets',
+                    'description' => 'Une page qui va générer des sujets',
                     'group' => 'Rendering'
                 ],
             ]
@@ -167,52 +167,52 @@ return [
             'properties' => [
                 'postsperpage' => [
                     'title' => 'Sujets par page',
-                    'validationmessage'=> 'Valeur invalide de sujets par page.',
+                    'validationmessage' => 'Valeur invalide de sujets par page.',
                     'group' => 'Pagination'
                 ],
                 'filter_type' => [
                     'title' => 'Filtrer par type',
-                    'description'=> 'Type de filtreur?',
+                    'description' => 'Type de filtreur?',
                     'group' => 'Filters'
                 ],
                 'filter_value' => [
                     'title' => 'Filtrer par valeur',
-                    'description'=> 'La valeur a filtré.',
+                    'description' => 'La valeur a filtré.',
                     'group' => 'Filters'
                 ],
                 'pagination' => [
                     'title' => 'Pagination',
-                    'description'=> 'Afficher la pagination?',
+                    'description' => 'Afficher la pagination?',
                     'group' => 'Pagination'
                 ],
                 'parent' => [
                     'title' => 'Filtrer par page antécédente',
-                    'description'=> 'Page antécédente à filtrer les sujets.',
+                    'description' => 'Page antécédente à filtrer les sujets.',
                     'group' => 'Filters'
                 ],
                 'render' => [
                     'title' => 'Générer les sujets par',
-                    'description'=> 'Sélection de la façon de générer les sujets',
+                    'description' => 'Sélection de la façon de générer les sujets',
                     'group' => 'Rendering'
                 ],
                 'specific' => [
                     'title' => 'Page généré',
-                    'description'=> 'Une page qui génère les sujets',
+                    'description' => 'Une page qui génère les sujets',
                     'group' => 'Rendering'
                 ],
                 'enable_rss' => [
                     'title' => 'Lien RSS',
-                    'description'=> 'Afficher les RSS?',
+                    'description' => 'Afficher les RSS?',
                     'group' => 'Rss'
                 ],
                 'rss_title' => [
                     'title' => 'Titre RSS',
-                    'description'=> 'Afficher le titre RSS?',
+                    'description' => 'Afficher le titre RSS?',
                     'group' => 'Rss'
                 ],
                 'rss_description' => [
                     'title' => 'Description du RSS',
-                    'description'=> 'Afficher la description RSS?',
+                    'description' => 'Afficher la description RSS?',
                     'group' => 'Rss'
                 ]
             ],
@@ -223,13 +223,13 @@ return [
                 'description' => 'Afficher la liste des catégories du blogue sur la page.'
             ],
             'properties' => [
-	            'parent' => [
+                'parent' => [
                     'title' => 'Filtrer les catégories par antécédent',
-                    'description'=> 'Page antécédent filtré par sujets.'
+                    'description' => 'Page antécédent filtré par sujets.'
                 ],
                 'categorypage' => [
                     'title' => 'Page de recherche du blogue',
-                    'description'=> 'Nom de la page de recherche du blogue. Ce paramètre est utilisé par défaut avec les composantes partielles.'
+                    'description' => 'Nom de la page de recherche du blogue. Ce paramètre est utilisé par défaut avec les composantes partielles.'
                 ],
             ]
         ],
@@ -239,13 +239,13 @@ return [
                 'description' => 'Affiche une liste d\'étiquettes sur une page.'
             ],
             'properties' => [
-	            'parent' => [
+                'parent' => [
                     'title' => 'Filtrer les étiquettes par antécédent',
-                    'description'=> 'Page antécédent à filtrer par les sujets.'
+                    'description' => 'Page antécédent à filtrer par les sujets.'
                 ],
                 'tagpage' => [
                     'title' => 'Page de recherche du blogue',
-                    'description'=> 'Nom de la page de recherche du blogue. Ce paramètre est utilisé par défaut avec les composantes partielles.'
+                    'description' => 'Nom de la page de recherche du blogue. Ce paramètre est utilisé par défaut avec les composantes partielles.'
                 ],
             ]
         ],
@@ -257,11 +257,11 @@ return [
             'properties' => [
                 'slug' => [
                     'title' => 'Paramètre ID',
-                    'description'=> 'Paramètre de l\'URL utilisé pour regarder les sujets par slug'
+                    'description' => 'Paramètre de l\'URL utilisé pour regarder les sujets par slug'
                 ],
                 'search' => [
                     'title' => 'Page de recherche du blogue',
-                    'description'=> 'Page qui génère un résultat de recherche par étiquettes/catégorie.'
+                    'description' => 'Page qui génère un résultat de recherche par étiquettes/catégorie.'
                 ],
             ]
         ],

@@ -3,16 +3,21 @@
 # ===================================
 
 columns:
-    first_name:
-        label: Prénom
-        searchable: true
-
-    last_name:
+    name:
         label: Nom
         searchable: true
 
+    email:
+        label: Courriel
+        searchable: true
     phone:
         label: Téléphone
+        searchable: true
+
+    event:
+        label: Formation/Conférence
+        relation: event
+        select: title
         searchable: true
 
     created_at:

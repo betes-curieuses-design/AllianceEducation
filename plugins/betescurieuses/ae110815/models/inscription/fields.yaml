@@ -3,6 +3,13 @@
 # ===================================
 
 fields:
-    id:
-        label: ID
-        disabled: true
+    name:
+        label: Nom
+        span: left
+    email:
+        label: Courriel
+        span: right
+    phone:
+        label: Téléphone
+        span: left
+

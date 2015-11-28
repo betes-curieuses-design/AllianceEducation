@@ -1,8 +1,8 @@
 <!-- Modal -->
 <div class="modal fade" id="incriptions" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog modal-sm" role="document">
-        <div class="modal-content">
-            <form>
+        <div class="modal-content" id="form-content">
+            <form data-request="onSave" data-request-update="message: '#form-content'">
                 <div class="modal-header">
                     <button type="button" class="close"
                             data-dismiss="modal"
@@ -13,8 +13,8 @@
                 </div>
                 <div class="modal-body">
 
-                    <input type="hidden" id="event-id">
-                    <input type="hidden" id="event-name">
+                    <input type="hidden" id="event-id" name="event_id">
+                    <input type="hidden" id="event-name" name="event_name">
                     <h4 id="title-event"></h4>
                     <div class="form-group">
                         <label class="control-label">Votre nom:</label>
@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-success btn-sm">Soumettre</button>
+                    <button type="submit" class="btn btn-success btn-sm">Soumettre</button>
                 </div>
             </form>
         </div>

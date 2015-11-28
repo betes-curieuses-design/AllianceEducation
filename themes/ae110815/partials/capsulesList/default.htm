@@ -3,7 +3,7 @@
 {% else %}
     <div class="row">
         {% for post in blogPosts %}
-            <div class="col-sm-6 col-md-4 mobile-top-buffer">
+            <div class="col-sm-6 col-md-4 mobile-top-buffer item-list">
 
                 <h4>
                     <a href="{{ __SELF__.postRender(post.parent)|page({'filter': category_slug, 'slug': post.slug }) }}/">{{ post.title }}</a>

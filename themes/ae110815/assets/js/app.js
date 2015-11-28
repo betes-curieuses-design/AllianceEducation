@@ -27,4 +27,6 @@ $('#incriptions').on('show.bs.modal', function (event) {
     modal.find('.modal-body input#event-id').val(id);
     modal.find('.modal-body input#event-name').val(name);
     modal.find('.modal-body #title-event').html(name);
-})
+});
+
+

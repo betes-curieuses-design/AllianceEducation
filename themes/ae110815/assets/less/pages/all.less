@@ -29,6 +29,10 @@
       border: 1px solid @brand-primary;
     }
   }
+  .item-list {
+    min-height: 185px;
+    margin-bottom: 10px;
+  }
   .round-image {
     width: 100px;
     height: 100px;
@@ -42,12 +46,16 @@
 .page-blog-list {
   .post-list {
     list-style: none;
+    padding: 0!important;
     li {
       padding: 15px;
     }
     li:nth-of-type(even) {
       background-color: @gray-default;
     }
+  }
+  .item-list {
+    margin-bottom: 20px;
   }
   .tag-list {
     list-style: none;
@@ -78,17 +86,10 @@
   .icon-custom {
     padding: 13px 15px;
   }
+  .line-icon {
+    border-bottom: 1px solid #888;
+    padding-bottom: 10px;
+  }
+
 }
 
-.page-services {
-  section.greysection {
-    background-color: @gray-default;
-  }
-}
-.footer-image{
-  display: block;
-  background-color: black;
-}
-.footer-image:hover{
-  opacity: 0.8;
-}
