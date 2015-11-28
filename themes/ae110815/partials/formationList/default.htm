@@ -9,9 +9,15 @@
                     <a href="{{ __SELF__.postRender(post.parent)|page({'filter': category_slug, 'slug': post.slug }) }}/">{{ post.title }}</a>
                 </h4>
                 <small>Date de la formation: {{ post.date_event|date('d-m-Y') }}</small>
-                <div class="embed-responsive embed-responsive-16by9">
-                    {{ post.video|raw }}
-                </div>
+                {% if post.video|length > 1 %}
+                    <div class="embed-responsive embed-responsive-16by9">
+                        {{ post.video|raw }}
+                    </div>
+                {% else %}
+                    <div>
+                        <img src="{{ post.featured_images.0.path }}" class="img-responsive">
+                    </div>
+                {% endif %}
                 <p class="all-top-buffer"># Places disponible: {{ post.available }}</p>
 
                 <p class="little-top-buffer">

@@ -4,9 +4,15 @@
 
     <div class="row">
         <div class="col-sm-12">
-            <div class="embed-responsive embed-responsive-16by9">
-                {{ post_item.video|raw }}
-            </div>
+            {% if post_item.video|length > 1 %}
+                <div class="embed-responsive embed-responsive-16by9">
+                    {{ post_item.video|raw }}
+                </div>
+            {% else %}
+                <div>
+                    <img src="{{ post_item.featured_images.0.path }}" class="img-responsive">
+                </div>
+            {% endif %}
         </div>
     </div>
     <div class="row all-top-buffer">

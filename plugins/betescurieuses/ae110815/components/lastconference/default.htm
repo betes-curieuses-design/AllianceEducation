@@ -7,10 +7,15 @@
         Date de parution: {{ conference.published_at|date('d-m-Y') }}
     </p>
     <div id="blog_post_body">
-        <div class="embed-responsive embed-responsive-16by9">
-            {{ conference.video|raw }}
-        </div>
-
+        {% if conference.video|length > 1 %}
+            <div class="embed-responsive embed-responsive-16by9">
+                {{ conference.video|raw }}
+            </div>
+        {% else %}
+            <div>
+                <img src="{{ conference.featured_images.0.path }}" class="img-responsive">
+            </div>
+        {% endif %}
         <br>
         {{ conference.excerpt }}
 

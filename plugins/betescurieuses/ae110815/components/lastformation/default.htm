@@ -8,9 +8,15 @@
         <p><img src="{{ formation.featured_images[0]['path'] }}" alt="blog_post_{{ formation.id }}" width="100%"/></p>
     {% endif %}
 
-    <div class="embed-responsive embed-responsive-16by9">
-        {{ formation.video|raw }}
-    </div>
+    {% if formation.video|length > 1 %}
+        <div class="embed-responsive embed-responsive-16by9">
+            {{ formation.video|raw }}
+        </div>
+    {% else %}
+        <div>
+            <img src="{{ formation.featured_images.0.path }}" class="img-responsive">
+        </div>
+    {% endif %}
     <br>
     {{ formation.excerpt }}
 </div>
