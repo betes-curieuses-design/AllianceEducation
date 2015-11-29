@@ -92,7 +92,8 @@ class Plugin extends PluginBase
                         'label' => 'Place disponible',
                         'type' => 'number',
                         'tab' => 'radiantweb.problog::lang.backend.post.fields.tab.general',
-                        'span' => 'right'
+                        'span' => 'right',
+                        'default' => 0
                     ],
 
                 ]

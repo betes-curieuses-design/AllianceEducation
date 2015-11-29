@@ -4,10 +4,6 @@
     Date de parution: {{ formation.published_at|date('d-m-Y') }}
 </p>
 <div id="blog_post_body">
-    {% if formation.featured_images[0]['path'] %}
-        <p><img src="{{ formation.featured_images[0]['path'] }}" alt="blog_post_{{ formation.id }}" width="100%"/></p>
-    {% endif %}
-
     {% if formation.video|length > 1 %}
         <div class="embed-responsive embed-responsive-16by9">
             {{ formation.video|raw }}
