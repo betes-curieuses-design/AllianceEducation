@@ -7,61 +7,121 @@ description = "Default layout"
 <!--[if IE 8]>
 <html class="no-js lt-ie9">               <![endif]-->
 <!--[if gt IE 8]> <!-->
-<html class="no-js">                 <!--<![endif]-->
+<html class="no-js" prefix="og: http://ogp.me/ns#">                 <!--<![endif]-->
 <head>
     <meta charset="utf-8">
     <meta name="google-site-verification" content="Uv9jjd5IAtuF4VBtQeoHOqQYu6Z79NVTB7M1hDsm4qg" />
-    <title>Alliance Éducation: {{ this.page.title }}</title>
-    <meta name="description" content="">
+    <title>Alliance Éducation, Nathalie Miron, coach familial - {{ this.page.title }}</title>
+    <meta name="description" content="{{ this.page.settings.meta_description }}">
+    <meta name="keywords" content="{{ this.page.settings.seo_keywords }}">
+    <link rel="canonical" href="{{ this.page.url }}"/>
+    <meta name="robots" content="index,follow">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="{{ this.getShareImageUrl }}" />
+    <meta property="og:title" content="Alliance Éducation, Nathalie Miron, coach familial - {{ this.page.title }}" />
+    <meta property="og:url" content="{{ this.page.url }}" />
+    <meta property="og:site_name" content="Alliance Éducation, Nathalie Miron, coach familial" />
+    <meta property="og:description" content="{{ this.page.settings.meta_description }}" />
     <meta name="viewport" content="width=device-width">
+
     <!--
+
     Flex Template
+
     http://www.templatemo.com/free-website-templates/406-flex
+
     -->
+
     <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>-->
+
     <link href="{{ [
+
     'assets/css/theme.css',
+
     ]|theme }}" rel="stylesheet">
+
     <script src="{{ ['assets/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js']|theme }}"></script>
+
 </head>
+
 <body class="page-{{ this.page.id }} layout-{{ this.layout.id }}">
+
 <!--[if lt IE 7]>
+
 <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser
+
     today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better
+
     experience this site.</p>
+
 <![endif]-->
 
+
+
 <!-- Header -->
+
 <header id="layout-header" class="header-navbar">
+
     <!-- Nav -->
+
     {% partial "header" %}
+
 </header>
 
+
+
 <!-- Content -->
+
 <main id="layout-content">
+
     {% page %}
+
 </main>
 
+
+
 <!-- Footer -->
+
 <footer id="layout-footer">
+
     {% partial "footer" %}
+
 </footer>
 
 
+
+
+
 <script src="{{ [
+
 'assets/js/vendor/jquery-1.11.0.min.js',
+
 'assets/vendor/bootstrap/js/bootstrap.min.js',
+
 'assets/js/app.js']|theme }}"></script>
+
 {% framework extras %}
+
 <script>
+
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+
+
     ga('create', 'UA-70359045-2', 'auto');
+
     ga('send', 'pageview');
 
+
+
 </script>
+
 </body>
+
 </html>

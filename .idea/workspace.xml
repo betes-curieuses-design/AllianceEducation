@@ -2,274 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c73a1b07-2165-4d02-827e-b4a3a82b7270" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/csv/src/AbstractCsv.php" afterPath="$PROJECT_DIR$/vendor/league/csv/src/AbstractCsv.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ApcCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ApcCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/ApcCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/ApcCacheTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Array.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Array.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/AssignName.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/AssignName.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/AutoEscape.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/AutoEscape.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/AutoEscape.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/AutoEscape.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/BaseFileCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/BaseFileCacheTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/BaseInstaller.php" afterPath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/BaseInstaller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Binary.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Binary.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/BitrixInstaller.php" afterPath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/BitrixInstaller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Block.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Block.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Block.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Block.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/BlockReference.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/BlockReference.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/BlockReference.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/BlockReference.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/october/rain/src/Database/Builder.php" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Database/Builder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/CHANGELOG" afterPath="$PROJECT_DIR$/vendor/twig/twig/CHANGELOG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/Cache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/Cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/CacheProvider.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/CacheProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/CacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/CacheTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/CakePHPInstaller.php" afterPath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/CakePHPInstaller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installers/tests/Composer/Installers/Test/CakePHPInstallerTest.php" afterPath="$PROJECT_DIR$/vendor/composer/installers/tests/Composer/Installers/Test/CakePHPInstallerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Carbon.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Carbon.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/CarbonInterval.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/CarbonInterval.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ClearableCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/ClearableCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/october/rain/src/Support/Collection.php" afterPath="$PROJECT_DIR$/vendor/october/rain/src/Support/Collection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/csv/src/Plugin/ColumnConsistencyValidator.php" afterPath="$PROJECT_DIR$/vendor/league/csv/src/Plugin/ColumnConsistencyValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cms/classes/ComponentManager.php" afterPath="$PROJECT_DIR$/modules/cms/classes/ComponentManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/csv/src/Config/Controls.php" afterPath="$PROJECT_DIR$/vendor/league/csv/src/Config/Controls.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Core.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Core.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/CouchbaseCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/CouchbaseCacheTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/CraftInstaller.php" afterPath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/CraftInstaller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Debug.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Debug.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Do.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Do.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Do.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Do.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Embed.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Embed.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Environment.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Environment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/EnvironmentTest.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/EnvironmentTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Error.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Error.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Escaper.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Escaper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Event.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Event.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcher.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcherInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcherInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventSubscriberInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventSubscriberInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/filesystem/Exception/ExceptionInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Exception/ExceptionInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ExpressionParser.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ExpressionParser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/ExpressionParserTest.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/ExpressionParserTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Extends.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Extends.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ExtensionInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/ExtensionInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/ExtensionReference.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/ExtensionReference.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FileCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FileCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/FileCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/FileCacheTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/filesystem/Filesystem.php" afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Filesystem.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FilesystemCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FilesystemCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/FilesystemCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/FilesystemCacheTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/filesystem/Tests/FilesystemTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Tests/FilesystemTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/filesystem/Tests/FilesystemTestCase.php" afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Tests/FilesystemTestCase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Filter.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Filter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Binary/FloorDiv.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Binary/FloorDiv.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Flush.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Flush.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Flush.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Flush.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FlushableCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/FlushableCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/For.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/For.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/For.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/For.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/ForLoop.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/ForLoop.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/csv/src/Plugin/ForbiddenNullValuesValidator.php" afterPath="$PROJECT_DIR$/vendor/league/csv/src/Plugin/ForbiddenNullValuesValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/From.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/From.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/filesystem/Exception/IOException.php" afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Exception/IOException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/If.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/If.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/If.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/If.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Import.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Import.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Import.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Import.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Binary/In.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Binary/In.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Include.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Include.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Include.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Include.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Incriptions.php" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Incriptions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/Installer.php" afterPath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/Installer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installers/tests/Composer/Installers/Test/InstallerTest.php" afterPath="$PROJECT_DIR$/vendor/composer/installers/tests/Composer/Installers/Test/InstallerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/csv/src/Exception/InvalidRowException.php" afterPath="$PROJECT_DIR$/vendor/league/csv/src/Exception/InvalidRowException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/LICENSE" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/filesystem/Tests/LockHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Tests/LockHandlerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Macro.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Macro.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Macro.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Macro.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/csv/src/Modifier/MapIterator.php" afterPath="$PROJECT_DIR$/vendor/league/csv/src/Modifier/MapIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MemcacheCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MemcacheCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/MemcacheCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/MemcacheCacheTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MemcachedCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MemcachedCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/MemcachedCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/MemcachedCacheTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Module.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Module.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MongoDBCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/MongoDBCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/MongoDBCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/MongoDBCacheTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/MoodleInstaller.php" afterPath="$PROJECT_DIR$/vendor/composer/installers/src/Composer/Installers/MoodleInstaller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Binary/NotIn.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Binary/NotIn.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Optimizer.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Optimizer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/csv/src/Config/Output.php" afterPath="$PROJECT_DIR$/vendor/league/csv/src/Config/Output.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Parent.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Parent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Parser.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Parser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/ParserTest.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/ParserTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/PhpFileCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/PhpFileCacheTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/classes/PluginManager.php" afterPath="$PROJECT_DIR$/modules/system/classes/PluginManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Binary/Power.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Binary/Power.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/PredisCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/PredisCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/PredisCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/PredisCacheTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Print.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Print.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Profiler.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Profiler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/csv/src/Modifier/QueryFilter.php" afterPath="$PROJECT_DIR$/vendor/league/csv/src/Modifier/QueryFilter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installers/README.md" afterPath="$PROJECT_DIR$/vendor/composer/installers/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Binary/Range.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Expression/Binary/Range.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/csv/src/Reader.php" afterPath="$PROJECT_DIR$/vendor/league/csv/src/Reader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/RedisCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/RedisCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/RedisCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/RedisCacheTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/behaviors/RelationController.php" afterPath="$PROJECT_DIR$/modules/backend/behaviors/RelationController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/RiakCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/RiakCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/RiakCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/RiakCacheTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/csv/src/Modifier/RowFilter.php" afterPath="$PROJECT_DIR$/vendor/league/csv/src/Modifier/RowFilter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/SQLite3Cache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/SQLite3Cache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/SQLite3CacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/SQLite3CacheTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Sandbox.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Sandbox.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Sandbox.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Sandbox.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Sandbox.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Sandbox.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/SandboxedPrint.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/SandboxedPrint.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Set.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Set.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Set.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Set.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/csv/src/Plugin/SkipNullValuesFormatter.php" afterPath="$PROJECT_DIR$/vendor/league/csv/src/Plugin/SkipNullValuesFormatter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Spaceless.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Spaceless.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Spaceless.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Spaceless.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Staging.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Staging.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/csv/src/Modifier/StreamFilter.php" afterPath="$PROJECT_DIR$/vendor/league/csv/src/Modifier/StreamFilter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/StringLoader.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/StringLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Error/Syntax.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Error/Syntax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Text.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Node/Text.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Use.php" afterPath="$PROJECT_DIR$/vendor/twig/twig/lib/Twig/TokenParser/Use.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/Version.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/Version.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/VoidCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/VoidCacheTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/WinCacheCache.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/lib/Doctrine/Common/Cache/WinCacheCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/WinCacheCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/WinCacheCacheTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/csv/src/Writer.php" afterPath="$PROJECT_DIR$/vendor/league/csv/src/Writer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/XcacheCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/XcacheCacheTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/ZendDataCacheTest.php" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/Doctrine/Tests/Common/Cache/ZendDataCacheTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/partials/_column_sample_form.htm" afterPath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/partials/_column_sample_form.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/partials/_export_form.htm" afterPath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/partials/_export_form.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/partials/_export_result_form.htm" afterPath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/partials/_export_result_form.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/partials/_import_file_columns.htm" afterPath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/partials/_import_file_columns.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/partials/_import_form.htm" afterPath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/partials/_import_form.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/partials/_import_result_form.htm" afterPath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/partials/_import_result_form.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/partials/_import_toolbar.htm" afterPath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/partials/_import_toolbar.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/formwidgets/repeater/partials/_repeater_item.htm" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/repeater/partials/_repeater_item.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/doc/advanced.rst" afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/advanced.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cms/widgets/assetlist/assets/css/assetlist.css" afterPath="$PROJECT_DIR$/modules/cms/widgets/assetlist/assets/css/assetlist.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/az.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/az.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bg.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bg.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bn.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/bn.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ca.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ca.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/formwidgets/codeeditor/assets/css/codeeditor.css" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/codeeditor/assets/css/codeeditor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/formwidgets/colorpicker/assets/css/colorpicker.css" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/colorpicker/assets/css/colorpicker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installers/composer.json" afterPath="$PROJECT_DIR$/vendor/composer/installers/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/composer.json" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/league/csv/composer.json" afterPath="$PROJECT_DIR$/vendor/league/csv/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/composer.json" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/composer.json" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/filesystem/composer.json" afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/composer.json" afterPath="$PROJECT_DIR$/vendor/twig/twig/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/controllers/maillayouts/create.htm" afterPath="$PROJECT_DIR$/modules/system/controllers/maillayouts/create.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/controllers/mailtemplates/create.htm" afterPath="$PROJECT_DIR$/modules/system/controllers/mailtemplates/create.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/cs.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/cs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/models/brandsettings/custom.less" afterPath="$PROJECT_DIR$/modules/backend/models/brandsettings/custom.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/da.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/da.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/widgets/grid/assets/css/datagrid.css" afterPath="$PROJECT_DIR$/modules/backend/widgets/grid/assets/css/datagrid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/formwidgets/datepicker/assets/css/datepicker.css" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/datepicker/assets/css/datepicker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/de.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/de.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/lastformation/default.htm" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/lastformation/default.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/doc/deprecated.rst" afterPath="$PROJECT_DIR$/vendor/twig/twig/doc/deprecated.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/el.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/el.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/en.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/en.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/eo.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/eo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/es.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/es.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/eu.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/eu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fa.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fa.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/assets/less/layout/fancylayout.less" afterPath="$PROJECT_DIR$/modules/backend/assets/less/layout/fancylayout.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fi.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/partials/fields_export.yaml" afterPath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/partials/fields_export.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/partials/fields_import.yaml" afterPath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/partials/fields_import.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/formwidgets/fileupload/assets/css/fileupload.css" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/fileupload/assets/css/fileupload.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fo.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/less/form.less" afterPath="$PROJECT_DIR$/modules/system/assets/ui/less/form.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fr.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/fr.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/css/framework.extras.css" afterPath="$PROJECT_DIR$/modules/system/assets/css/framework.extras.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/he.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/he.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hr.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hr.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hu.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/hu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/id.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/id.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/assets/css/import.css" afterPath="$PROJECT_DIR$/modules/backend/behaviors/importexportcontroller/assets/css/import.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/docs/input-monitor.md" afterPath="$PROJECT_DIR$/modules/system/assets/ui/docs/input-monitor.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/docs/input-trigger.md" afterPath="$PROJECT_DIR$/modules/system/assets/ui/docs/input-trigger.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/input.monitor.js" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/input.monitor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.autocomplete.js" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.autocomplete.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.base.js" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.dropdown.js" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.set.js" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.editor.set.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/less/inspector.less" afterPath="$PROJECT_DIR$/modules/system/assets/ui/less/inspector.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.surface.js" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.surface.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.wrapper.popup.js" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/inspector.wrapper.popup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/it.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/it.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ja.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ja.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ko.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ko.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/lang/en/lang.php" afterPath="$PROJECT_DIR$/modules/backend/lang/en/lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/lang/pl/lang.php" afterPath="$PROJECT_DIR$/modules/backend/lang/pl/lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/lang/ru/lang.php" afterPath="$PROJECT_DIR$/modules/backend/lang/ru/lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cms/lang/ru/lang.php" afterPath="$PROJECT_DIR$/modules/cms/lang/ru/lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/lang/en/lang.php" afterPath="$PROJECT_DIR$/modules/system/lang/en/lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/lang/hu/lang.php" afterPath="$PROJECT_DIR$/modules/system/lang/hu/lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/lang/ru/lang.php" afterPath="$PROJECT_DIR$/modules/system/lang/ru/lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/js/lang/lang.ro.js" afterPath="$PROJECT_DIR$/modules/system/assets/js/lang/lang.ro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/js/lang/lang.ru.js" afterPath="$PROJECT_DIR$/modules/system/assets/js/lang/lang.ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/lt.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/lt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/lv.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/lv.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cms/formwidgets/mediafinder/assets/css/mediafinder.css" afterPath="$PROJECT_DIR$/modules/cms/formwidgets/mediafinder/assets/css/mediafinder.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cms/widgets/mediamanager/assets/css/mediamanager.css" afterPath="$PROJECT_DIR$/modules/cms/widgets/mediamanager/assets/css/mediamanager.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/partials/message.htm" afterPath="$PROJECT_DIR$/themes/ae110815/partials/message.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ms.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ms.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/nl.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/nl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/no.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/no.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cms/assets/css/october.components.css" afterPath="$PROJECT_DIR$/modules/cms/assets/css/october.components.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/assets/css/october.css" afterPath="$PROJECT_DIR$/modules/backend/assets/css/october.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/cms/assets/css/october.theme-selector.css" afterPath="$PROJECT_DIR$/modules/cms/assets/css/october.theme-selector.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/ext/twig/php_twig.h" afterPath="$PROJECT_DIR$/vendor/twig/twig/ext/twig/php_twig.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/tests/travis/phpunit.travis.xml" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/tests/travis/phpunit.travis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/cache/phpunit.xml.dist" afterPath="$PROJECT_DIR$/vendor/doctrine/cache/phpunit.xml.dist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/pl.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/pl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/popover.js" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/popover.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/pt.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/pt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/pt_BR.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/pt_BR.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/readme.md" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/formwidgets/repeater/assets/css/repeater.css" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/repeater/assets/css/repeater.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/formwidgets/repeater/assets/less/repeater.less" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/repeater/assets/less/repeater.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/formwidgets/richeditor/assets/css/richeditor.css" afterPath="$PROJECT_DIR$/modules/backend/formwidgets/richeditor/assets/css/richeditor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ro.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ro.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ru.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/ru.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sk.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sl.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sr.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/storm-min.js" afterPath="$PROJECT_DIR$/modules/system/assets/ui/storm-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/storm.css" afterPath="$PROJECT_DIR$/modules/system/assets/ui/storm.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/css/styles.css" afterPath="$PROJECT_DIR$/modules/system/assets/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sv.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/sv.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/assets/ui/js/tab.js" afterPath="$PROJECT_DIR$/modules/system/assets/ui/js/tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/backend/widgets/table/assets/css/table.css" afterPath="$PROJECT_DIR$/modules/backend/widgets/table/assets/css/table.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/th.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/th.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/assets/css/theme.css" afterPath="$PROJECT_DIR$/themes/ae110815/assets/css/theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/tr.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/tr.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/uk.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/uk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/unclosed_tag.test" afterPath="$PROJECT_DIR$/vendor/twig/twig/test/Twig/Tests/Fixtures/exceptions/unclosed_tag.test" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/controllers/maillayouts/update.htm" afterPath="$PROJECT_DIR$/modules/system/controllers/maillayouts/update.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/controllers/mailtemplates/update.htm" afterPath="$PROJECT_DIR$/modules/system/controllers/mailtemplates/update.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/uz.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/uz.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/system/lang/ru/validation.php" afterPath="$PROJECT_DIR$/modules/system/lang/ru/validation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/vi.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/vi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/layouts/default.htm" afterPath="$PROJECT_DIR$/themes/ae110815/layouts/default.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/partials/footer.htm" afterPath="$PROJECT_DIR$/themes/ae110815/partials/footer.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/partials/header.htm" afterPath="$PROJECT_DIR$/themes/ae110815/partials/header.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/partials/portfolio.htm" afterPath="$PROJECT_DIR$/themes/ae110815/partials/portfolio.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/zh-TW.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/zh-TW.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/zh.php" afterPath="$PROJECT_DIR$/vendor/nesbot/carbon/src/Carbon/Lang/zh.php" />
     </list>
     <ignored path="AllianceEducation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -294,17 +31,17 @@
       <file leaf-file-name="Plugin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.307693">
+            <state vertical-scroll-proportion="0.0">
               <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Incriptions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Incriptions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Incriptions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0017921">
+            <state vertical-scroll-proportion="-6.6538463">
               <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
               <folding>
                 <element signature="e#53#83#0#PHP" expanded="true" />
@@ -313,10 +50,43 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="footer.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/footer.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.6538463">
+              <caret line="124" column="73" selection-start-line="124" selection-start-column="73" selection-end-line="124" selection-end-column="73" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/ae110815/layouts/default.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6827957">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+              <folding>
+                <marker date="1452040294665" expanded="true" signature="1921:2160" placeholder="..." />
+                <marker date="1452040294665" expanded="true" signature="1990:2025" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/incriptions/default.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538">
+            <state vertical-scroll-proportion="0.0">
               <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
               <folding />
             </state>
@@ -326,7 +96,7 @@
       <file leaf-file-name="message.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/message.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617">
+            <state vertical-scroll-proportion="0.0">
               <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
               <folding />
             </state>
@@ -344,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/themes/ae110815/partials/listcategories/default.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/partials/tags/default.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/partials/article/default.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/partials/related/default.htm" />
@@ -356,7 +125,6 @@
         <option value="$PROJECT_DIR$/themes/ae110815/pages/education/formations.htm" />
         <option value="$PROJECT_DIR$/plugins/radiantweb/problog/components/Bloglist.php" />
         <option value="$PROJECT_DIR$/themes/ae110815/pages/education/conferences.htm" />
-        <option value="$PROJECT_DIR$/themes/ae110815/layouts/default.htm" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/assets/js/inscription.js" />
         <option value="$PROJECT_DIR$/themes/ae110815/partials/home/services.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/assets/less/pages/home.less" />
@@ -395,6 +163,8 @@
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php" />
         <option value="$PROJECT_DIR$/themes/ae110815/partials/message.htm" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Incriptions.php" />
+        <option value="$PROJECT_DIR$/themes/ae110815/partials/footer.htm" />
+        <option value="$PROJECT_DIR$/themes/ae110815/layouts/default.htm" />
       </list>
     </option>
   </component>
@@ -438,7 +208,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -626,6 +395,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae110815" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -784,6 +575,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -816,9 +608,9 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/ae110815/assets/css/theme.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/ae110815/assets/less/pages/all.less</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/ae110815/pages/services.htm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/ae110815/partials/footer.htm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/ae110815/partials/home/services.htm</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -1103,7 +895,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448744941351</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Incriptions Bugs Fixed.">
+      <created>1448811290733</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1448811290733</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1119,25 +917,25 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31240544" sideWeight="0.49429038" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31694403" sideWeight="0.49429038" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.34150326" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32026145" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.5122349" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2859304" sideWeight="0.50570965" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32026145" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1195,27 +993,14 @@
     <MESSAGE value="Capsules Completed" />
     <MESSAGE value="Inscription completed, bugs Fixed" />
     <MESSAGE value="Featured_images fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Featured_images fixed" />
+    <MESSAGE value="Incriptions Bugs Fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Incriptions Bugs Fixed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/demo/layouts/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5591397">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/layouts/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.884615">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/home/services.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.608229">
@@ -1514,7 +1299,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1824687">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1530,13 +1314,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43589744">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.307693">
+        <state vertical-scroll-proportion="0.0">
           <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
           <folding />
         </state>
@@ -1544,7 +1327,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/incriptions/default.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
+        <state vertical-scroll-proportion="0.0">
           <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
           <folding />
         </state>
@@ -1552,7 +1335,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/message.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
           <folding />
         </state>
@@ -1560,10 +1343,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Incriptions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0017921">
+        <state vertical-scroll-proportion="-6.6538463">
           <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
           <folding>
             <element signature="e#53#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/footer.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.6538463">
+          <caret line="124" column="73" selection-start-line="124" selection-start-column="73" selection-end-line="124" selection-end-column="73" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/layouts/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6827957">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding>
+            <marker date="1452040294665" expanded="true" signature="1921:2160" placeholder="..." />
+            <marker date="1452040294665" expanded="true" signature="1990:2025" placeholder="..." />
           </folding>
         </state>
       </provider>
