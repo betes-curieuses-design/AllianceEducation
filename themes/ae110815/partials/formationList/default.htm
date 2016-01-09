@@ -1,3 +1,4 @@
+==
 {% if render_post %}
     {% component 'proBlogPost' %}
 {% else %}
@@ -25,14 +26,14 @@
                 </p>
 
                 <div class="all-top-buffer text-right">
-                    {% if post.available > 0 %}
+<!--                     {% if post.available > 0 %}
                         <a href="#" class="btn-sm btn-space"
                            data-toggle="modal" data-target="#incriptions"
                            data-id="{{ post.id }}"
                            data-name="{{ post.title }}">
                             M'inscrire
                         </a>
-                    {% endif %}
+                    {% endif %} -->
                     <a href="{{ __SELF__.postRender(post.parent)|page({'filter': category_slug, 'slug': post.slug }) }}/"
                        class="btn btn-primary btn-sm">
                         En savoir plus
@@ -52,4 +53,3 @@
 
     {% endif %}
 {% endif %}
-

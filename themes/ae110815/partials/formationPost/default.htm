@@ -1,3 +1,4 @@
+==
 {% if render_category %}
     {% component 'proBlogList' %}
 {% else %}
@@ -101,12 +102,12 @@
     </div>
     <div class="row all-top-buffer">
         <div class="col-sm-12 text-right">
-            {% if post_item.available > 0 %}
+<!--             {% if post_item.available > 0 %}
                 <a href="#" class="btn btn-success btn-sm btn-space"
                    data-toggle="modal" data-target="#incriptions">
                     Je veux m'inscrire
                 </a>
-            {% endif %}
+            {% endif %} -->
             <a href="{{ 'education/formations'|page({category: 'Formations'}) }}" class="btn btn-primary btn-sm">
                 Retour à la liste
             </a>
