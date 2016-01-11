@@ -1,83 +1,88 @@
 ==
-<!-- Fixed navbar -->
-<div class="navbar navbar-default navbar-fixed-top hidden-xs">
-    <div class="container">
-        <div class="navbar-header">
-            <!-- Button for smallest screens -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span
-                        class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-            <a class="navbar-brand" href="{{ 'home'|page }}">
-                <img src="{{ 'assets/images/ae-signature.svg'|theme }}">
-            </a>
-        </div>
-        <div class="navbar-collapse collapse pull-right ">
-            <ul class="nav navbar-nav ">
-                <li><a href="{{ 'home'|page }}">Accueil</a></li>
-                <li><a href="{{ 'about'|page }}">À propos</a></li>
-                <li><a href="{{ 'services'|page }}">Services</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                       aria-expanded="false">
-                        Formations <span class="caret"></span></a>
-                    <span class="dropdown-arrow"></span>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="{{ 'education/capsules'|page({category: 'capsules'}) }}">
-                                Capsules
-                            </a>
-                        <li>
-                            <a href="{{ 'education/formations'|page({category: 'formations'}) }}">
-                                Formations
-                            </a>
-                        </li>
-                        <li>
-                            <a href="{{ 'education/conferences'|page({category: 'conferences'}) }}">
-                                Conférences
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="{{ 'blog/blogList'|page }}">Blogue</a></li>
-                <li><a href="{{ 'contact'|page }}">Nous joindre</a></li>
-            </ul>
-        </div>
-        <!--/.nav-collapse -->
-    </div>
-</div>
-<div class="navbar navbar-default navbar-fixed-top hidden-sm hidden-md hidden-lg">
-    <div class="container">
-        <div class="navbar-header">
-            <!-- Button for smallest screens -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span
-                        class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-            <a class="navbar-brand" href="{{ 'home'|page }}">
-                <img src="{{ 'assets/images/ae-signature-mobile.svg'|theme }}">
-            </a>
-        </div>
-        <div class="navbar-collapse collapse mobile-menu">
-            <ul class="nav navbar-nav">
-                <li><a href="{{ 'home'|page }}">Accueil</a></li>
-                <li><a href="{{ 'about'|page }}">À propos</a></li>
-                <li><a href="{{ 'services'|page }}">Services</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                       aria-expanded="false">
-                        Formations <span class="caret"></span></a>
-                    <span class="dropdown-arrow"></span>
-                    <ul class="dropdown-menu">
-                        <li><a href="{{ 'education/capsules'|page({category: 'capsules'}) }}">
-                                Capsules
-                            </a>
-                        </li>
-                        <li><a href="{{ 'education/formations'|page({category: 'Formations'}) }}">Formations</a></li>
-                        <li><a href="{{ 'education/conferences'|page({category: 'Conferences'}) }}">Conférences</a></li>
-                    </ul>
-                </li>
-                <li><a href="{{ 'blog/blogList'|page }}">Blogue</a></li>
-                <li><a href="{{ 'contact'|page }}">Nous joindre</a></li>
-            </ul>
-        </div>
-        <!--/.nav-collapse -->
-    </div>
-</div>
+<!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top hidden-xs">
+    <div class="container">
+        <div class="navbar-header">
+            <!-- Button for smallest screens -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span
+                        class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+            <a class="navbar-brand" href="{{ 'home'|page }}" title="Accueil d'Alliance Éducation">
+                <img src="{{ 'assets/images/ae-signature.svg'|theme }}" alt="Logo Alliance Éducation, Coaching familial">
+            </a>
+        </div>
+        <div class="navbar-collapse collapse pull-right ">
+            <ul class="nav navbar-nav ">
+                <li><a href="{{ 'home'|page }}" title="Accueil d'Alliance Éducation">Accueil</a></li>
+                <li><a href="{{ 'about'|page }}"title="À propos d'Alliance Éducation">À propos</a></li>
+                <li><a href="{{ 'services'|page }}" title="Les services d'Alliance Éducation">Services</a></li>
+                <li class="dropdown">
+                    <a href="#" title="Capsules, formation et conférences d'Alliance Éducation" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">
+                        Formations <span class="caret"></span></a>
+                    <span class="dropdown-arrow"></span>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="{{ 'education/capsules'|page({category: 'capsules'}) }}" title="Archives de nos capsules vidéos">Capsules</a>
+                        <li>
+                        <a href="{{ 'education/formations'|page({category: 'formations'}) }}" title="Nos formations disponibles">
+                                Formations
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ 'education/conferences'|page({category: 'conferences'}) }}" title="Nos formations disponibles">
+                                Conférences
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="{{ 'blog/blogList'|page }}" title="Le blogue d'Alliance Éducation">Blogue</a></li>
+                <li><a href="{{ 'contact'|page }}" title="Nous joindre">Nous joindre</a></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</div>
+
+<div class="navbar navbar-default navbar-fixed-top hidden-sm hidden-md hidden-lg">
+    <div class="container">
+        <div class="navbar-header">
+            <!-- Button for smallest screens -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span
+                        class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+            <a class="navbar-brand" href="{{ 'home'|page }}">
+                <img src="{{ 'assets/images/ae-signature-mobile.svg'|theme }}"  alt="Logo Alliance Éducation, Coaching familial"></a>
+        </div>
+
+        <div class="navbar-collapse collapse mobile-menu">
+            <ul class="nav navbar-nav">
+                <li><a href="{{ 'home'|page }}" title="Accueil d'Alliance Éducation">Accueil</a></li>
+                <li><a href="{{ 'about'|page }}"title="À propos d'Alliance Éducation">À propos</a></li>
+                <li><a href="{{ 'services'|page }}" title="Les services d'Alliance Éducation">Services</a></li>
+                <li class="dropdown">
+                    <a href="#" title="Capsules, formation et conférences d'Alliance Éducation" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">
+                        Formations <span class="caret"></span></a>
+                    <span class="dropdown-arrow"></span>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="{{ 'education/capsules'|page({category: 'capsules'}) }}" title="Archives de nos capsules vidéos">Capsules</a>
+                        <li>
+                            <a href="{{ 'education/formations'|page({category: 'formations'}) }}" title="Nos formations disponibles">
+                                Formations
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ 'education/conferences'|page({category: 'conferences'}) }}" title="Nos formations disponibles">
+                                Conférences
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="{{ 'blog/blogList'|page }}" title="Le blogue d'Alliance Éducation">Blogue</a></li>
+                <li><a href="{{ 'contact'|page }}" title="Nous joindre">Nous joindre</a></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</div>
 <!-- /.navbar -->
