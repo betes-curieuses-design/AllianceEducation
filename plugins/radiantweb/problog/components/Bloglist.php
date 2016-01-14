@@ -317,7 +317,7 @@ class Bloglist extends ComponentBase
         /*
          * no filters, we go get all
          */
-        $posts = $BlogPosts->orderBy('published_at', 'desc')->paginate($this->property('postsPerPage'), $this->currentPage);
+        $posts = $BlogPosts->orderBy('date_event', 'desc')->paginate($this->property('postsPerPage'), $this->currentPage);
 
         //$queries = DB::getQueryLog();
         //$last_query = end($queries);

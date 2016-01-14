@@ -9466,6 +9466,9 @@ address {
 .page-blog-list .panel-primary ul li.list-group-item.active a {
   color: #fff;
 }
+.page-blog-list .formation .item-list {
+  min-height: 620px;
+}
 .page-services .round-image {
   width: 60px;
   height: 60px;

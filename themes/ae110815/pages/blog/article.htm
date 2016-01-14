@@ -20,6 +20,7 @@ function onEnd()
     // Optional - set the page title to the post title
     if ($this->post)
     $this->page->title = $this->post->title;
+    $this['image_url'] =  url(). $this->post->featured_images[0]->path;
 }
 ?>
 ==
