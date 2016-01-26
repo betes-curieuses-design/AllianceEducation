@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="col-sm-12">
+        <div class="row">
+            {% for photo in photos %}
+                <div class="col-sm-3" >
+                    <div class="row">
+                        <div class="col-sm-12" style="min-height: 58px;">
+                            <h5>
+                                <a href="{{ 'gallery/event'|page({slug: photo.slug}) }}">
+                                    {{ photo.name }}
+                                </a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <i class="fa fa-clock-o"></i>&nbsp; {{ photo.event_date|date('d-m-Y') }}
+                        </div>
+                        <div class="col-sm-6 text-right">
+                            {{ photo.images.count }} photo(s)
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img src="{{ photo.images.0.path }}" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="row little-top-buffer">
+                        <div class="col-sm-12 text-right">
+                            <a href="{{ 'gallery/event'|page({slug: photo.slug}) }}"
+                               class="btn btn-primary btn-xs">Voir la galerie</a>
+                        </div>
+                    </div>
+
+
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

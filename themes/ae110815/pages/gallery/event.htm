@@ -1,0 +1,59 @@
+title = "Galerie du photo"
+url = "/galerie-photo/:slug"
+layout = "default"
+is_hidden = 0
+
+[ItemGallery]
+idGallery = 2
+lang = "Gallery"
+jqueryinject = "yes"
+thumbnail = "true"
+caption = "true"
+desc = "true"
+counter = "true"
+controls = "true"
+preload = 1
+mode = "slide"
+speed = 500
+loop = "true"
+auto = "false"
+pause = 2000
+escKey = "true"
+height = 160
+width = 240
+resizer = "auto"
+==
+function onEnd()
+{
+    //$this->page->title = $this->info->name;
+}
+==
+<div class="page-contact wrap-page">
+    <div id="header-contact" class="section-header">
+        <div class="jumbotron">
+            <div class="container">
+                <h1>{{ gallery.name }}</h1>
+            </div>
+        </div>
+    </div>
+
+    <section class="default-section">
+        <div class="container">
+            <div class="top-buffer-lg"></div>
+            <div class="row">
+                <div class="col-sm-12">
+                    {% component 'ItemGallery' %}
+                </div>
+            </div>
+            <div class="row all-top-buffer">
+                <div class="col-sm-12 text-right">
+                    <a href="{{ 'gallery/list'|page }}"
+                       class="btn btn-primary btn-sm"> Retour à la liste</a>
+                </div>
+            </div>
+            <div class="top-buffer-lg"></div>
+        </div>
+
+    </section>
+
+</div>

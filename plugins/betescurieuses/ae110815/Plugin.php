@@ -5,6 +5,8 @@ use Backend;
 use Radiantweb\Problog\Controllers\Posts;
 use Radiantweb\Problog\Models\Post as BasePost;
 use Event;
+use Raviraj\Rjgallery\Controllers\Galleries;
+use Raviraj\Rjgallery\Models\Gallery;
 
 /**
  * Ae110815 Plugin Information File
@@ -35,7 +37,8 @@ class Plugin extends PluginBase
             'BetesCurieuses\Ae110815\Components\LastFormation' => 'Lastformation',
             'BetesCurieuses\Ae110815\Components\LastConference' => 'Lastconference',
             'BetesCurieuses\Ae110815\Components\HomeBlog' => 'Homeblog',
-            'BetesCurieuses\Ae110815\Components\Incriptions' => 'Incriptions',
+            'BetesCurieuses\Ae110815\Components\ListGallery' => 'ListGallery',
+            'BetesCurieuses\Ae110815\Components\ItemGallery' => 'ItemGallery',
         ];
     }
 
@@ -56,12 +59,12 @@ class Plugin extends PluginBase
                         'url' => Backend::url('BetesCurieuses/Ae110815/quotes'),
                         'permissions' => ['betescurieuses.ae110815.quotes']
                     ],
-                    'Incriptions' => [
-                        'label' => 'Inscriptions',
-                        'icon' => 'icon-list',
-                        'url' => Backend::url('BetesCurieuses/Ae110815/inscriptions'),
-                        'permissions' => ['betescurieuses.ae110815.inscriptions']
-                    ],
+//                    'Incriptions' => [
+//                        'label' => 'Inscriptions',
+//                        'icon' => 'icon-list',
+//                        'url' => Backend::url('BetesCurieuses/Ae110815/inscriptions'),
+//                        'permissions' => ['betescurieuses.ae110815.inscriptions']
+//                    ],
                 ]
             ]
         ];
@@ -95,6 +98,33 @@ class Plugin extends PluginBase
                         'span' => 'right',
                         'default' => 0
                     ],
+
+                ]
+            );
+
+
+        });
+
+        Galleries::extendFormFields(function ($form, $model, $context) {
+
+            if (!$model instanceof Gallery)
+                return;
+
+            $form->addFields([
+                    'event_date' => [
+                        'label' => 'Date',
+                        'type' => 'datepicker',
+                        'span' => 'left'
+                    ],
+                    'slug' => [
+                        'label' => 'Slug',
+                        'span' => 'right',
+                        'preset' => [
+                            'field' => 'name',
+                            'type' => 'slug'
+                        ]
+                    ],
+
 
                 ]
             );
