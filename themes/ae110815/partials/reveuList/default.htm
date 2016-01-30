@@ -1,3 +1,4 @@
+==
 {% if render_post %}
     {% component 'proBlogPost' %}
 {% else %}
@@ -10,24 +11,32 @@
                     </h5>
                 </div>
 
-                <small>Date de parution: {{ post.published_at|date('d-m-Y') }}</small>
-                <div class="embed-responsive embed-responsive-16by9">
-                    {{ post.video|raw }}
-                </div>
+                <small>Date de parution: {{ post.date_event|date('d-m-Y') }}</small>
+                {% if post.video|length > 1 %}
+                    <div class="embed-responsive embed-responsive-16by9">
+                        {{ post.video|raw }}
+                    </div>
+                {% else %}
+                    <div>
+                        <img src="{{ post.featured_images.0.path }}" class="img-responsive">
+                    </div>
+                {% endif %}
 
                 <p class="little-top-buffer">
                     {{ post.excerpt }}
                 </p>
 
                 <div class="all-top-buffer text-right">
-                    <a href="{{ __SELF__.postRender(post.parent)|page({'filter': category_slug, 'slug': post.slug }) }}/"
-                       class="btn btn-primary btn-sm">
-                        Visionner
-                    </a>
+                    {% if post.link %}
+                        <a href="{{ post.link }}" target="_blank"
+                           class="btn btn-primary btn-sm">
+                            Visualiser
+                        </a>
+                    {% endif %}
                 </div>
             </div>
         {% else %}
-            <div class="col-sm-12">Aucune capsule trouvé</div>
+            <div class="col-sm-12">Aucune reveu de presse trouvé</div>
         {% endfor %}
     </div>
     {% if pagination > 0 %}
@@ -39,4 +48,3 @@
 
     {% endif %}
 {% endif %}
-

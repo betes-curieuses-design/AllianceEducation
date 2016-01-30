@@ -9469,6 +9469,9 @@ address {
 .page-blog-list .formation .item-list {
   min-height: 620px;
 }
+.page-blog-list .capsules .item-list {
+  min-height: 435px;
+}
 .page-services .round-image {
   width: 60px;
   height: 60px;
@@ -9549,6 +9552,47 @@ footer {
 }
 footer i {
   color: #00C1D6;
+}
+/*
+* Newstletter form subscription
+*/
+.newsletter {
+  position: fixed;
+  width: 360px;
+  bottom: -250px;
+  right: 50px;
+  height: 120px;
+  padding: 0 15px 15px ;
+  background-color: #555;
+  /*display: none;*/
+  -moz-box-shadow: 0 0 8px 4px #777;
+  box-shadow: 0 0 8px 4px #777;
+  z-index: 999;
+}
+.newsletter .card .card-close {
+  position: absolute;
+  top: -13px;
+  right: -10px;
+  cursor: pointer;
+}
+.mobile-newsletter {
+  position: fixed;
+  width: 100%;
+  bottom: -270px;
+  height: 50px;
+  border: 1px solid #ccc;
+  padding: 0 15px 15px ;
+  background-color: #ececec;
+  /*display: none;*/
+  -moz-box-shadow: 0 0 10px 4px #999;
+  box-shadow: 0 0 10px 4px #999;
+  z-index: 999;
+}
+.mobile-newsletter .card .card-close {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  cursor: pointer;
 }
 /*!
 Animate.css - http://daneden.me/animate

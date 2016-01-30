@@ -5,10 +5,12 @@
     <div class="row">
         {% for post in blogPosts %}
             <div class="col-sm-6 col-md-4 mobile-top-buffer item-list">
+                <div style="height: 45px;">
+                    <h5>
+                        <a href="{{ __SELF__.postRender(post.parent)|page({'filter': category_slug, 'slug': post.slug }) }}/">{{ post.title }}</a>
+                    </h5>
+                </div>
 
-                <h4>
-                    <a href="{{ __SELF__.postRender(post.parent)|page({'filter': category_slug, 'slug': post.slug }) }}/">{{ post.title }}</a>
-                </h4>
                 <small>Date de la formation: {{ post.date_event|date('d-m-Y') }}</small>
                 {% if post.video|length > 1 %}
                     <div class="embed-responsive embed-responsive-16by9">

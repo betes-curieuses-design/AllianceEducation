@@ -30,3 +30,31 @@ $('#incriptions').on('show.bs.modal', function (event) {
 });
 
 
+$(document).ready(function () {
+    $(".newsletter").delay(2000).animate({
+        bottom: '0'
+    }, 'slow');
+
+    $(".mobile-newsletter").delay(2000).animate({
+        bottom: '0'
+    }, 'slow');
+
+    $('.card-close').on('click', function () {
+        $(".newsletter, .mobile-newsletter").animate({
+            bottom: '-250px'
+        }, 'slow');
+    });
+
+
+    $('#form-subscribe-newsletter').on('submit', function () {
+        $('#confirmation').empty();
+        $(".newsletter, .mobile-newsletter").animate({
+            bottom: '-180px'
+        }, '1500');
+    });
+    $('#form-subscribe-mobile').on('submit', function () {
+        $('.modal-footer').empty();
+    });
+});
+
+

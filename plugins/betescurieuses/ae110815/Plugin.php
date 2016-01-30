@@ -98,10 +98,37 @@ class Plugin extends PluginBase
                         'span' => 'right',
                         'default' => 0
                     ],
-
+                    'link' => [
+                        'label' => 'Lien externe',
+                        'tab' => 'radiantweb.problog::lang.backend.post.fields.tab.general',
+                        'span' => 'left',
+                    ],
                 ]
             );
 
+            $form->addSecondaryTabFields([
+                'promoted' => [
+                    'label' => "Promu à la page d'accueil",
+                    'type' => 'switch',
+                    'tab' => 'radiantweb.problog::lang.backend.post.fields.tab.publish',
+                ]
+            ]);
+
+
+        });
+
+        Posts::extendListColumns(function($list, $model) {
+
+            if (!$model instanceof BasePost)
+                return;
+
+            $list->addColumns([
+                'promoted' => [
+                    'label' => 'Promu',
+                    'type' => 'switch',
+                ]
+            ]);
+            $list->removeColumn('parent');
 
         });
 

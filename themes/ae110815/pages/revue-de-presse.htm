@@ -1,0 +1,36 @@
+title = "Revue de presse"
+url = "/revue-de-presse"
+layout = "default"
+is_hidden = 0
+
+[proBlogList reveuList]
+postsPerPage = 6
+pagination = 1
+filter_type = "category"
+filter_value = "Revue de presse"
+parent = "home"
+render = "none"
+==
+<div class="page-blog-list wrap-page">
+    <div id="header-contact" class="section-header">
+        <div class="jumbotron">
+            <div class="container ">
+                <h1>Revue de presse</h1>
+            </div>
+        </div>
+    </div>
+    <section class="default-section">
+        <div class="container capsules">
+            <div class="row top-buffer-lg">
+                <div class="col-sm-12">
+                    {% component 'reveuList' %}
+
+                </div>
+
+            </div>
+
+            <div class="top-buffer-lg"></div>
+        </div>
+    </section>
+
+</div>

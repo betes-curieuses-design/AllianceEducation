@@ -40,7 +40,7 @@ class LastConference extends Post
         if ($this->post !== null)
             return $this->post;
 
-        $this->post = PostModel::orderBy('created_at','desc')
+        $this->post = PostModel::where('promoted','1')
             ->where('categories_id', 4)->first();
 
         if(is_null($this->post)){
