@@ -55,10 +55,10 @@ return [
         'mysql' => [
             'driver'    => 'mysql',
             'host'      => 'localhost',
-            'port'      => 3306,
+            'port'      => 8889,
             'database'  => 'allianceeducation',
             'username'  => 'root',
-            'password'  => '',
+            'password'  => 'root',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
@@ -79,10 +79,10 @@ return [
         'sqlsrv' => [
             'driver'   => 'sqlsrv',
             'host'     => 'localhost',
-            'port'     => '',
+            'port'     => '8889',
             'database' => 'database',
             'username' => 'root',
-            'password' => '',
+            'password' => 'root',
             'prefix'   => '',
         ],
 
