@@ -9,7 +9,7 @@ class ListGallery extends ComponentBase
     public function componentDetails()
     {
         return [
-            'name'        => 'List Gallery',
+            'name' => 'List Gallery',
             'description' => 'List Gallery Component'
         ];
     }
@@ -21,7 +21,8 @@ class ListGallery extends ComponentBase
 
     public function onRun()
     {
-        $this->page['photos'] = Gallery::get();
+        $this->page['photos'] = Gallery::orderBy('event_date', 'desc')
+            ->get();
 
     }
 }

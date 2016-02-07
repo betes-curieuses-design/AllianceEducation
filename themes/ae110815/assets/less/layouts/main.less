@@ -16,9 +16,11 @@ header .navbar-default {
   body {
     padding-top: 60px;
   }
+
   .navbar {
-    min-height: 60px!important;
+    min-height: 60px !important;
   }
+
   .navbar-brand img {
     width: 150px;
   }
@@ -27,6 +29,7 @@ header .navbar-default {
     height: 60px;
     padding: 10px 15px !important;
   }
+
   .navbar-toggle {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -73,12 +76,18 @@ footer {
   right: 50px;
   height: 120px;
   //border: 1px solid #ccc;
-  padding: 0 15px 15px ;
+  padding: 0 15px 15px;
   background-color: #00A5B8;
   /*display: none;*/
   -moz-box-shadow: 0 0 8px 4px #777;
   box-shadow: 0 0 8px 4px #777;
   z-index: 999;
+}
+
+@media (max-width: @screen-xs-max) {
+  .newsletter {
+    width: 100%;
+  }
 }
 
 .newsletter .card .card-close {
@@ -94,7 +103,7 @@ footer {
   bottom: -270px;
   height: 50px;
   border: 1px solid #ccc;
-  padding: 0 15px 15px ;
+  padding: 0 15px 15px;
   background-color: #ececec;
   /*display: none;*/
   -moz-box-shadow: 0 0 10px 4px #999;

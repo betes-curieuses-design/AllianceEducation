@@ -9,6 +9,7 @@
 .blog-post-list, .blog-post-list li{list-style: none;}
 #problog_feed .rss_image{background: url(rss.png);background-size: 14px 14px;display: inline-block;width:14px;height:14px;margin-right: 4px;}
 
+/*
 .pagination {
   width: 100%;
   height: 30px;
@@ -51,4 +52,4 @@
 }
 .pagination li.disabled a {
   color: #B6B8BB;
-}
+}*/
