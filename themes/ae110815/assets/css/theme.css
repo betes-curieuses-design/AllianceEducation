@@ -9535,7 +9535,8 @@ header .navbar-default ul.nav li a:hover {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   header .navbar-brand img {
-    width: 160px;
+    width: 140px;
+    margin-top: 10px;
   }
   header .navbar-brand {
     padding: 10px !important;
@@ -9575,6 +9576,7 @@ footer i {
 @media (max-width: 767px) {
   .newsletter {
     width: 100%;
+    right: 0px;
   }
 }
 .newsletter .card .card-close {
