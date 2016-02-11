@@ -6,11 +6,6 @@ is_hidden = 0
 [proBlogPost conferencePost]
 slug = ":slug"
 ==
-function onEnd()
-{
-    $this['image_url'] = post_item.featured_images.0.path;
-}
-==
 <div class="page-blog-list wrap-page">
     <div id="header-contact" class="section-header">
         <div class="jumbotron">
