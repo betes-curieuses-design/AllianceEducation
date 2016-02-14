@@ -26,30 +26,30 @@
                 </p>
 
                 <div class="all-top-buffer text-right">
-                    {% if post.available > 0 %}
-                        <a href="#" class="btn-sm btn-space"
-                           data-toggle="modal" data-target="#incriptions"
-                           data-id="{{ post.id }}"
-                           data-name="{{ post.title }}">
-                            M'inscrire
-                        </a>
-                    {% endif %}
-                    <a href="{{ __SELF__.postRender(post.parent)|page({'filter': category_slug, 'slug': post.slug }) }}/"
-                       class="btn btn-primary btn-sm">
-                        En savoir plus
-                    </a>
-                </div>
-            </div>
-        {% else %}
-            <div class="col-sm-12">Aucune conférence trouvé</div>
-        {% endfor %}
-    </div>
-    {% if pagination > 0 %}
-        <div class="row all-top-buffer">
-            <div class="col-sm-12 text-right">
-                {{ blogPosts.render|raw }}
-            </div>
-        </div>
+                    <!--  {% if post.available > 0 %}
+                           <a href="#" class="btn-sm btn-space"
+                              data-toggle="modal" data-target="#incriptions"
+                              data-id="{{ post.id }}"
+                              data-name="{{ post.title }}">
+                               M'inscrire
+                           </a>
+                       {% endif %}-->
+                       <a href="{{ __SELF__.postRender(post.parent)|page({'filter': category_slug, 'slug': post.slug }) }}/"
+                          class="btn btn-primary btn-sm">
+                           En savoir plus
+                       </a>
+                   </div>
+               </div>
+           {% else %}
+               <div class="col-sm-12">Aucune conférence trouvé</div>
+           {% endfor %}
+       </div>
+       {% if pagination > 0 %}
+           <div class="row all-top-buffer">
+               <div class="col-sm-12 text-right">
+                   {{ blogPosts.render|raw }}
+               </div>
+           </div>
 
-    {% endif %}
-{% endif %}
+       {% endif %}
+   {% endif %}
