@@ -17,7 +17,9 @@ description = "Default layout"
     <link rel="canonical" href="{{ this.page.url }}"/>
     <meta name="robots" content="index,follow">
     <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://allianceeducation.ca/storage/app/media/logo-defaultshare.png" />
     <meta property="og:image" content="{{ image_url }}" />
+    <meta property="fb:app_id" content="223675794631417"/>
     <meta property="og:title" content="{{ this.page.title }} -  Alliance Éducation, Nathalie Miron, coach familial" />
     <meta property="og:url" content="{{ this.page.url }}" />
     <meta property="og:site_name" content="Alliance Éducation, Nathalie Miron coach familial" />
@@ -70,6 +72,23 @@ description = "Default layout"
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     ga('create', 'UA-70359045-2', 'auto');
     ga('send', 'pageview');
+</script>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '223675794631417',
+            xfbml      : true,
+            version    : 'v2.5'
+        });
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
 </script>
 </body>
 </html>
