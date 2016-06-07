@@ -1,0 +1,37 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    title:
+        label: Titre
+        span: left
+        required: true
+    slug:
+        label: rainlab.blog::lang.post.slug
+        span: right
+        placeholder: rainlab.blog::lang.post.slug_placeholder
+        required: true
+        preset:
+            field: title
+            type: slug
+
+    description:
+        label: description
+        type: richeditor
+    price:
+        label: Prix
+        span: left
+        type: number
+
+    published:
+        label: Publié
+        type: switch
+
+    featured_images:
+        tab: rainlab.blog::lang.post.tab_manage
+        label: rainlab.blog::lang.post.featured_images
+        type: fileupload
+        mode: image
+        imageWidth: 200
+        imageHeight: 200

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Product
+
+# Model Form Field configuration
+form: $/betescurieuses/ae110815/models/product/fields.yaml
+
+# Model Class name
+modelClass: Betescurieuses\Ae110815\Models\Product
+
+# Default redirect location
+defaultRedirect: betescurieuses/ae110815/products
+
+# Create page
+create:
+    title: Create Product
+    redirect: betescurieuses/ae110815/products/update/:id
+    redirectClose: betescurieuses/ae110815/products
+
+# Update page
+update:
+    title: Edit Product
+    redirect: betescurieuses/ae110815/products
+    redirectClose: betescurieuses/ae110815/products
+
+# Preview page
+preview:
+    title: Preview Product

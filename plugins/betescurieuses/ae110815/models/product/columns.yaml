@@ -1,0 +1,14 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    title:
+        label: Titre
+        searchable: true
+    price:
+        label: Prix
+        searchable: true
+    published:
+        label: Publié
+        type: switch
