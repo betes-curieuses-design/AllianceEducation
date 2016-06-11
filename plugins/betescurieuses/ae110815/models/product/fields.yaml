@@ -24,6 +24,10 @@ fields:
         span: left
         type: number
 
+    promotion:
+        label: Promotion (%)
+        span: right
+        type: number
     published:
         label: Publié
         type: switch

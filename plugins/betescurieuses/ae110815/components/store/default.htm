@@ -1,0 +1,53 @@
+<div class="row">
+    {% for product in products %}
+        <div class="col-sm-6 col-md-4 mobile-top-buffer item-list">
+            <div style="height: 45px;">
+                <h5>
+                    <a href="{{ 'store/item'|page({'slug': product.slug }) }}">{{ product.title }}</a>
+                </h5>
+            </div>
+
+
+            {% if product.featured_images %}
+                <div style="border: 1px solid #dcdcdc;width: 100%;padding: 10px;">
+                    <img src="{{ product.featured_images.0.path }}" class="img-responsive"
+                         alt="{{ product.title }}">
+                </div>
+            {% endif %}
+            <div class="row">
+                <div class="col-xs-6">
+                    {% if product.promotion > 0 %}
+                        <div class="small all-top-buffer">
+                            <i class="fa fa-tags"></i>
+                            {{ product.promotion }} DE RABAIS
+                        </div>
+                    {% endif %}
+                </div>
+                <div class="col-xs-6 text-right">
+                    <h3 class="text-secondary">{{ product.price }} $</h3>
+                    <div style="font-size: 0.750em;margin-top: -7px;">+ Taxes et frais de transport</div>
+                </div>
+            </div>
+            <div class="row all-top-buffer">
+                <div class="col-xs-6 text-right">
+                    <a href="{{ 'store/item'|page({'slug': product.slug }) }}" class="btn btn-secondary btn-sm">
+                        Visualiser
+                    </a>
+                </div>
+                <div class="col-xs-6 text-right">
+                    <a href="#" class="btn btn-primary btn-sm">
+                       <i class="fa fa-plus-circle"></i>&nbsp; Ajouter au panier
+                    </a>
+                </div>
+            </div>
+        </div>
+    {% else %}
+        <div class="col-sm-12">Aucune formation trouvé</div>
+    {% endfor %}
+</div>
+
+<div class="row all-top-buffer">
+    <div class="col-sm-12 text-right">
+        {{ product.render|raw }}
+    </div>
+</div>

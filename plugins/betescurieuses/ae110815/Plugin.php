@@ -39,6 +39,8 @@ class Plugin extends PluginBase
             'BetesCurieuses\Ae110815\Components\HomeBlog' => 'Homeblog',
             'BetesCurieuses\Ae110815\Components\ListGallery' => 'ListGallery',
             'BetesCurieuses\Ae110815\Components\ItemGallery' => 'ItemGallery',
+            'BetesCurieuses\Ae110815\Components\Store' => 'Store',
+            'BetesCurieuses\Ae110815\Components\ProductDescription' => 'ProductDescription',
         ];
     }
 
@@ -65,12 +67,7 @@ class Plugin extends PluginBase
                         'url' => Backend::url('BetesCurieuses/Ae110815/products'),
                         'permissions' => ['betescurieuses.ae110815.products']
                     ],
-//                    'Incriptions' => [
-//                        'label' => 'Inscriptions',
-//                        'icon' => 'icon-list',
-//                        'url' => Backend::url('BetesCurieuses/Ae110815/inscriptions'),
-//                        'permissions' => ['betescurieuses.ae110815.inscriptions']
-//                    ],
+
                 ]
             ]
         ];

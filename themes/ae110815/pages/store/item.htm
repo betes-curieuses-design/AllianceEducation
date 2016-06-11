@@ -1,0 +1,36 @@
+title = "Produit"
+url = "/boutique/item/:slug"
+layout = "default"
+is_hidden = 0
+
+[ProductDescription]
+==
+<div class="page-contact wrap-page">
+    <div id="header-contact" class="section-header">
+        <div class="jumbotron">
+            <div class="container">
+                <h1>{{ product.title }}</h1>
+            </div>
+        </div>
+    </div>
+
+    <section class="default-section">
+        <div class="container">
+            <div class="top-buffer-lg"></div>
+            <div class="row">
+                <div class="col-sm-12">
+                    {% component 'ProductDescription' %}
+                </div>
+            </div>
+            <div class="row all-top-buffer">
+                <div class="col-sm-8 col-sm-offset-2 text-right">
+                    <a href="{{ 'store/list'|page }}"
+                       class="btn btn-secondary btn-sm" title="Retour à la liste"> Retournez à la liste</a>
+                </div>
+            </div>
+            <div class="top-buffer-lg"></div>
+        </div>
+
+    </section>
+
+</div>

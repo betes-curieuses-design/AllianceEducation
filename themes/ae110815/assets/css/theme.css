@@ -9538,6 +9538,11 @@ header .navbar-default ul.nav li a:hover {
     width: 140px;
     margin-top: 10px;
   }
+  header .nav > li > a {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.938em;
+  }
   header .navbar-brand {
     padding: 10px !important;
   }
@@ -9603,6 +9608,9 @@ footer i {
   top: 2px;
   right: 5px;
   cursor: pointer;
+}
+.text-secondary {
+  color: #7d35ad;
 }
 /*!
 Animate.css - http://daneden.me/animate

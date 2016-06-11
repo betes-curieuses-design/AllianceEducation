@@ -41,4 +41,10 @@ class Product extends Model
         'featured_images' => ['System\Models\File', 'order' => 'sort_order'],
     ];
 
+    public function scopeIsPublished($query)
+    {
+        return $query->whereNotNull('published')
+            ->where('published', '1');
+    }
+
 }
