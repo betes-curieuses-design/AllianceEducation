@@ -41,6 +41,8 @@ class Plugin extends PluginBase
             'BetesCurieuses\Ae110815\Components\ItemGallery' => 'ItemGallery',
             'BetesCurieuses\Ae110815\Components\Store' => 'Store',
             'BetesCurieuses\Ae110815\Components\ProductDescription' => 'ProductDescription',
+            'BetesCurieuses\Ae110815\Components\Checkout' => 'Checkout',
+            'BetesCurieuses\Ae110815\Components\HomeProduct' => 'HomeProduct',
         ];
     }
 

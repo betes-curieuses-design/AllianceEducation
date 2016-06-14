@@ -31,7 +31,11 @@ fields:
     published:
         label: Publié
         type: switch
-
+        span: left
+    promoted:
+        label: Promu dan la page d'accueil
+        type: switch
+        span: right
     featured_images:
         tab: rainlab.blog::lang.post.tab_manage
         label: rainlab.blog::lang.post.featured_images

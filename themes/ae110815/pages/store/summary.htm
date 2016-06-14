@@ -1,0 +1,24 @@
+title = "Sommaire de la commande"
+url = "/boutique/commande/:product?"
+layout = "default"
+is_hidden = 0
+
+[Checkout]
+==
+<div class="page-contact wrap-page">
+    <div id="header-contact" class="section-header">
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Sommaire de la commande</h1>
+            </div>
+        </div>
+    </div>
+    <section class="default-section">
+        <div class="container">
+            <div class="top-buffer-lg"></div>
+            {% component 'Checkout' %}
+            <div class="top-buffer-lg"></div>
+        </div>
+
+    </section>
+</div>

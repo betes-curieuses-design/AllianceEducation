@@ -19,12 +19,12 @@
                     {% if product.promotion > 0 %}
                         <div class="small all-top-buffer" style="color: #E4002C;">
                             <i class="fa fa-tags"></i>
-                            {{ product.promotion }} DE RABAIS
+                            {{ product.promotion }}% DE RABAIS
                         </div>
                     {% endif %}
                 </div>
                 <div class="col-xs-6 text-right">
-                    <h3 class="text-secondary">{{ product.price }} $</h3>
+                    <h3 class="text-secondary">{{ product.price|number_format(2,',', ' ') }} $</h3>
                     <div style="font-size: 0.750em;margin-top: -7px;">+ Taxes et frais de transport</div>
                 </div>
             </div>
@@ -35,7 +35,7 @@
                     </a>
                 </div>
                 <div class="col-xs-6 text-right">
-                    <a href="#" class="btn btn-primary btn-sm">
+                    <a href="{{ 'store/summary'|page({'product':product.slug }) }}" class="btn btn-primary btn-sm">
                        <i class="fa fa-plus-circle"></i>&nbsp; Ajouter au panier
                     </a>
                 </div>
