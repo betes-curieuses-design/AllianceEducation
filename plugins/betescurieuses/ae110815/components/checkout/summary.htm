@@ -1,0 +1,38 @@
+<div class="panel panel-primary">
+    <!-- Default panel contents -->
+    <div class="panel-heading">Total de votre commande</div>
+    <!-- List group -->
+    {% set tps = total * 0.05 %}
+    {% set tvp = total * 0.09975 %}
+    {% set granTotal = total + tps + tvp %}
+    <ul class="list-group">
+        <li class="list-group-item">
+            Sous-total
+            <span class="pull-right">
+                <strong>{{ total|number_format(2,',', ' ') }}</strong>
+            </span>
+        </li>
+        <li class="list-group-item">
+            TPS
+            <span class="pull-right">
+                <strong>{{ tps|number_format(2,',', ' ') }}</strong>
+            </span>
+        </li>
+        <li class="list-group-item">
+            TVP/TVH
+            <span class="pull-right">
+                <strong>{{ tvp|number_format(2,',', ' ') }}</strong>
+            </span>
+        </li>
+        <li class="list-group-item text-primary">
+            Total
+            <span class="pull-right">
+                <strong>{{ granTotal|number_format(2,',', ' ') }}</strong>
+            </span>
+        </li>
+    </ul>
+</div>
+<input type="hidden" name="subtotal" value="{{ total }}">
+<input type="hidden" name="tps" value="{{ tps }}">
+<input type="hidden" name="tvp" value="{{ tvp }}">
+<input type="hidden" name="total" value="{{ granTotal }}">

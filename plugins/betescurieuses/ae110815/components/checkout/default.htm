@@ -1,37 +1,164 @@
-<div class="row">
-    <div class="col-sm-12">
-        <div class="table-responsive">
-            <table class="table table-striped table-hover">
-                <thead>
-                <tr>
-                    <td>Produit</td>
-                    <td>Pix unitaire</td>
-                    <td>Qté</td>
-                    <td>Rabais</td>
-                    <td>Sous-total</td>
-                </tr>
-                </thead>
-                <tbody>
-                {% for item in order.items %}
-                <tr>
-                    <td>{{ item.product.title }}</td>
-                    <td>{{ item.product.price|number_format(2,',', ' ') }}</td>
-                    <td>
-                        <input class="text-right" name="quantity"
-                               type="text" value="1" maxlength="5" size="5">
-                    </td>
-                    {% set rebate = (item.product.price *  item.product.promotion)/100 %}
-                    <td>{{ rebate|number_format(2,',', ' ') }}</td>
-                    {% set subtotal = item.product.price - rebate%}
-                    <td>{{ subtotal|number_format(2,',', ' ') }}</td>
-                </tr>
-                {% endfor %}
-                </tbody>
-            </table>
+{% set total = 0 %}
+<form data-request="onSubmit">
+    <input type="hidden" name="order" value="{{ order.cookie_id }}">
+    <input type="hidden" name="order_id" value="{{ order.id }}">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead>
+                    <tr>
+                        <td>Produit</td>
+                        <td class="text-right">Pix unitaire</td>
+                        <td class="text-right">Qté</td>
+                        <td class="text-right">Rabais</td>
+                        <td class="text-right">Sous-total</td>
+                        <td></td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for item in order.items %}
+                        <tr>
+                            <td>{{ item.product.title }}</td>
+                            <td class="text-right">{{ item.product.price|number_format(2,',', ' ') }}</td>
+                            <td class="text-right">
+                                <input type="hidden" name="product[]" value="{{ item.product.id }}">
+                                <input class="text-right" name="quantity[]"
+                                       type="text"
+                                       value="{{ item.quantity == 0 ? 1 : item.quantity }}"
+                                       maxlength="5" size="5">
+                            </td>
+                            {% set pretotal = item.product.price * (item.quantity == 0 ? 1 : item.quantity) %}
+                            {% set rebate = (pretotal *  item.product.promotion)/100 %}
+                            <td class="text-right">{{ rebate|number_format(2,',', ' ') }}</td>
+                            {% set subtotal = pretotal - rebate %}
+                            <td class="text-right">{{ subtotal|number_format(2,',', ' ') }}</td>
+                            <td class="text-center" style="width: 5%;"
+                                data-request-data="id: {{ item.product.id }}, order: {{ item.order_id }}">
+                                <button type="button" class="btn btn-danger btn-xs"
+                                        data-request="onDelete"
+                                        data-request-redirect="{{ 'store/summary'|page({product: ''}) }}"
+                                        data-request-confirm="Etes-vous sûr ?">
+                                    <i class="fa fa-trash"></i>
+                                </button>
+                            </td>
+                            {% set total = total + subtotal %}
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            <div class="text-right">
+                <button class="btn btn-primary btn-xs"
+                        data-request="onCalculate"
+                        data-request-update="'Checkout::summary': '#summary'">
+                    Calculer de nouveau
+                </button>
+            </div>
+            <br>
+
         </div>
-
-           <br>
-
     </div>
-</div>
-{{ order.id }}
+    <div class="row all-top-buffer">
+        <div class="col-sm-12">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div id="summary">
+                        {% partial __SELF__ ~ "::summary" total=total %}
+                    </div>
+                    <h4 style="border-bottom: 1px solid #aaa;">Détail concernant la livraison</h4>
+                    <p style="font-size: 0.875em;">
+                        Une fois votre commande soumis, vous recevrez
+                        un avis de commande et une facture vous sera
+                        envoyer avec les frais de livraison inclus à payer
+                        par Pay Pal.
+                    </p>
+                    <div>
+                        Pour toute question, <a href="mailto:info@allianceeducation.ca">contacter nous.</a>
+                    </div>
+                </div>
+                <div class="col-sm-7 col-sm-offset-1">
+                    <h4 style="border-bottom: 1px solid #aaa;">
+                        Vos information à complété pour la livraison:
+                    </h4>
+                    <div class="row little-top-buffer">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Prenom <span class="required">*</span></label>
+                                <input type="text" name="first_name" class="form-control" required
+                                       style="border: 1px solid #00c1d6;border-radius: 0!important;padding: 5px 10px;height: 35px;">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Nom <span class="required">*</span></label>
+                                <input type="text" name="last_name" class="form-control" required
+                                       style="border: 1px solid #00c1d6;border-radius: 0!important;padding: 5px 10px;height: 35px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <div class="form-group">
+                                <label>Courriel <span class="required">*</span></label>
+                                <input type="email" name="email" class="form-control" required
+                                       style="border: 1px solid #00c1d6;border-radius: 0!important;padding: 5px 10px;height: 35px;">
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="form-group">
+                                <label>Téléphone <span class="required">*</span></label>
+                                <input type="text" name="phone" class="form-control" required
+                                       style="border: 1px solid #00c1d6;border-radius: 0!important;padding: 5px 10px;height: 35px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <div class="form-group">
+                                <label>Adresse <span class="required">*</span></label>
+                                <input type="text" name="address" class="form-control"
+                                       style="border: 1px solid #00c1d6;border-radius: 0!important;padding: 5px 10px;height: 35px;">
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="form-group">
+                                <label>Code postal <span class="required">*</span></label>
+                                <input type="text" name="zip" class="form-control" required
+                                       style="border: 1px solid #00c1d6;border-radius: 0!important;padding: 5px 10px;height: 35px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <div class="form-group">
+                                <label>Ville <span class="required">*</span></label>
+                                <input type="text" name="city" class="form-control" required
+                                       style="border: 1px solid #00c1d6;border-radius: 0!important;padding: 5px 10px;height: 35px;">
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="form-group">
+                                <label>Province <span class="required">*</span></label>
+                                <input type="text" name="province" class="form-control" required
+                                       style="border: 1px solid #00c1d6;border-radius: 0!important;padding: 5px 10px;height: 35px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        * Les champs marqués sont obligatoires
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 text-right">
+                            <button class="btn btn-secondary">
+                                Soumettre la commande
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+

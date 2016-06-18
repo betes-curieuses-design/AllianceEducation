@@ -9,8 +9,9 @@
 
 
             {% if product.featured_images %}
-                <div style="border: 1px solid #dcdcdc;width: 100%;padding: 10px;">
-                    <img src="{{ product.featured_images.0.path }}" class="img-responsive"
+                <div style="border: 1px solid #dcdcdc;width: 100%;padding: 10px;min-height: 310px;"
+                     class="text-center">
+                    <img src="{{ product.featured_images.0.path }}" class="img-responsive center-block"
                          alt="{{ product.title }}">
                 </div>
             {% endif %}
@@ -36,7 +37,7 @@
                 </div>
                 <div class="col-xs-6 text-right">
                     <a href="{{ 'store/summary'|page({'product':product.slug }) }}" class="btn btn-primary btn-sm">
-                       <i class="fa fa-plus-circle"></i>&nbsp; Ajouter au panier
+                        <i class="fa fa-plus-circle"></i>&nbsp; Ajouter au panier
                     </a>
                 </div>
             </div>
