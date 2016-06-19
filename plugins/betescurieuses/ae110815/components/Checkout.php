@@ -124,6 +124,7 @@ class Checkout extends ComponentBase
         $data = input();
         $this->updateOrderItems($data['order_id'], $data['product'], $data['quantity']);
         $this->setFinalOrder($data);
+        $this->sendConfirmationEmail($data);
     }
 
     protected function showOrder($order = null, $cookie = '')
@@ -166,6 +167,11 @@ class Checkout extends ComponentBase
         $order->province = $data['province'];
         $order->temporary = 0;
         $order->save();
+    }
+
+    protected function sendConfirmationEmail($data)
+    {
+
     }
 
     protected function setCookie($id)

@@ -3,8 +3,9 @@
         <div class="row">
             <div class="col-sm-7">
                 {% if product.featured_images %}
-                    <div style="border: 1px solid #dcdcdc;width: 100%;padding: 30px;">
-                        <img src="{{ product.featured_images.0.path }}" class="img-responsive"
+                    <div style="border: 1px solid #dcdcdc;width: 100%;padding: 30px;min-height: 370px;">
+                        <img src="{{ product.featured_images.0.path }}" id="featured-image"
+                             class="img-responsive"
                              alt="{{ product.title }}">
                     </div>
                 {% endif %}
@@ -53,12 +54,13 @@
                             <li>
                                 <div style="border: 1px solid #dcdcdc;width: 100%;padding: 5px;min-height: 120px;">
                                     <img src="{{ image.path }}" class="img-responsive"
-                                         alt="{{ image.description }}" style="width: 120px;">
+                                         alt="{{ image.description }}"
+                                         style="width: 120px;cursor: pointer;"
+                                         onclick="loadImage(this)">
                                 </div>
                             </li>
                         {% endfor %}
                     </ul>
-
                 </div>
             </div>
         {% endif %}

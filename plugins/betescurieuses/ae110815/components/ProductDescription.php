@@ -21,6 +21,7 @@ class ProductDescription extends ComponentBase
 
     public function onRun()
     {
+        $this->addJs('assets/js/product.js');
         $slug = $this->param('slug');
 
         $this->page['product'] = Product::where('slug', $slug)
