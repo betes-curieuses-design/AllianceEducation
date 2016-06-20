@@ -1,4 +1,4 @@
-subject = ""
+subject = " Alliance Éducation - Sommaire de votre commande"
 layout = "system"
 ==
 
@@ -11,14 +11,14 @@ layout = "system"
        style="font-family: Helvetica, sans-serif;">
     <tr>
         <td style="padding: 20px;">
-            <table>
+            <table cellspacing="0" cellpadding="0" border="0">
                 <tr>
                     <td width="250">
                         <img src="{{ logo }}" width="250">
                     </td>
-                    <td width="410" style="text-align: right;">
-                        <h1 style="font-family: Helvetica, sans-serif;color: #7d35ad;">Sommaire de votre commande</h1>
-                        Commande # {{ id }}
+                    <td width="410" style="text-align: right;font-family: Helvetica, sans-serif;">
+                        <h2 style="font-family: Helvetica, sans-serif;color: #7d35ad;">Sommaire de votre commande</h2>
+                        Commande # 010000{{ order.id }}
                     </td>
                 </tr>
             </table>
@@ -30,35 +30,212 @@ layout = "system"
         <td style="padding: 20px;font-family: Helvetica, sans-serif;">
             Bonjour,
 
-            <p style="font-family: Helvetica, sans-serif;">Merci de magasiner chez <a href="http://allianceeducation.ca">Alliance Éducation</a>. Nous avons pensé que vous aimeriez avoir un rappel des
+            <p style="font-family: Helvetica, sans-serif;">Merci de magasiner chez <a
+                        href="http://allianceeducation.ca">Alliance Éducation</a>. Nous avons pensé que vous aimeriez
+                avoir un rappel des
                 articles de votre commande. Votre commande sera traitée sous peu et nous vous transmettrons
                 une facture final avec les frais de transport inclus.</p>
             <p style="font-family: Helvetica, sans-serif;">
-                Pour toute questions ou pour modifier la commande, contactez nous <a href="mailto:nmironcoach@gmail.com">nmironcoach@gmail.com</a> ou
+                Pour toute questions ou pour modifier la commande, contactez nous <a
+                        href="mailto:nmironcoach@gmail.com">nmironcoach@gmail.com</a> ou
                 par téléphone 514-839-0753.
             </p>
         </td>
     </tr>
     <tr>
         <td style="padding: 20px;border-top: 8px solid #00c1d6;background-color: #dcdcdc;">
-            <table>
+            <table cellspacing="0" cellpadding="0" border="0">
                 <tr>
-                    <td colspan="2" style="font-family: Helvetica, sans-serif;">
+                    <td colspan="2" style="font-family: Helvetica, sans-serif;padding: 5px 0;">
                         Vos informations pour la livraison :
                     </td>
                 </tr>
                 <tr>
-                    <td style="font-family: Helvetica, sans-serif;">
-
+                    <td style="font-family: Helvetica, sans-serif;font-weight: bold;padding: 10px 0;">
+                        {{ order.first_name }}&nbsp;{{ order.last_name }}<br>
+                        {{ order.address }},<br>
+                        {{ order.city }}, {{ order.province }},<br>
+                        {{ order.zip }}
                     </td>
-                    <td style="font-family: Helvetica, sans-serif;">
-
+                    <td style="font-family: Helvetica, sans-serif;font-weight: bold;padding: 10px 0;">
+                        {{ order.phone }}<br>
+                        {{ order.email }}
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2" style="font-family: Helvetica, sans-serif;">
-                        Si les informations ci-haut semble erronez, contactez nous dès maintenant avec votre numéro de commande à:
+                    <td colspan="2" style="font-family: Helvetica, sans-serif;font-size: 12px;">
+                        Si les informations ci-haut semble erronez, contactez nous dès maintenant avec votre numéro de
+                        commande à:
                         <a href="mailto:nmironcoach@gmail.com">nmironcoach@gmail.com</a> ou par téléphone 514-839-0753.
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td style="padding: 20px;font-family: Helvetica, sans-serif;">
+            <br>
+            <strong style="font-family: Helvetica, sans-serif;">Détail de votre commande:</strong>
+        </td>
+    </tr>
+    <tr>
+        <td style="padding: 20px;">
+            <br>
+            <table cellspacing="0" cellpadding="0" border="0" width="700">
+                <thead>
+                <tr>
+                    <td width="45%"
+                        style="font-family: Helvetica, sans-serif;color: #7d35ad;border-bottom: 2px solid #bbb;padding: 7px 0;">
+                        Produit
+                    </td>
+                    <td width="15%"
+                        style="font-family: Helvetica, sans-serif;color: #7d35ad;text-align: right;border-bottom: 2px solid #bbb;padding: 7px 0;">
+                        Prix unitaire
+                    </td>
+                    <td width="10%"
+                        style="font-family: Helvetica, sans-serif;color: #7d35ad;text-align: center;border-bottom: 2px solid #bbb;padding: 7px 0;">
+                        Qté
+                    </td>
+                    <td width="15%"
+                        style="font-family: Helvetica, sans-serif;color: #7d35ad;text-align: right;border-bottom: 2px solid #bbb;padding: 7px 0;">
+                        Rabais
+                    </td>
+                    <td width="15%"
+                        style="font-family: Helvetica, sans-serif;color: #7d35ad;text-align: right;border-bottom: 2px solid #bbb;padding: 7px 0;">
+                        Sous-total
+                    </td>
+                </tr>
+                </thead>
+                <tbody>
+                {% for item in order.items %}
+                    <tr>
+                        <td style="font-family: Helvetica, sans-serif;border-bottom: 1px solid #ececec;padding: 12px 0;">
+                            {{ item.product.title }}
+                        </td>
+                        <td style="font-family: Helvetica, sans-serif;text-align: right;border-bottom: 1px solid #ececec;padding: 12px 0;">
+                            {{ item.price }}
+                        </td>
+                        <td style="font-family: Helvetica, sans-serif;text-align: center;border-bottom: 1px solid #ececec;padding: 12px 0;">
+                            {{ item.quantity }}
+                        </td>
+                        <td style="font-family: Helvetica, sans-serif;text-align: right;border-bottom: 1px solid #ececec;padding: 12px 0;">
+                            {{ item.promotion }}
+                        </td>
+                        <td style="font-family: Helvetica, sans-serif;text-align: right;border-bottom: 1px solid #ececec;padding: 12px 0;">
+                            {{ item.subtotal }}
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: right;padding: 20px;">
+            <br>
+            <table cellspacing="0" cellpadding="0" border="0" width="700">
+                <tr>
+                    <td width="450"></td>
+                    <td width="250">
+                        <table cellspacing="0" cellpadding="0" border="0" width="250">
+                            <tr>
+                                <td colspan="2" style="background-color: #00c1d6;padding: 10px;text-align: center">
+                                    <h4 style="font-family: Helvetica, sans-serif;color: #ffffff;">Total de votre
+                                        commande</h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-family: Helvetica, sans-serif;border-bottom: 1px solid #bbb;padding: 7px 0;">
+                                    Sous-total
+                                </td>
+                                <td style="font-family: Helvetica, sans-serif;border-bottom: 1px solid #bbb;padding: 7px 0;text-align: right;">
+                                    {{ order.subtotal|number_format(2,',', ' ') }}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-family: Helvetica, sans-serif;border-bottom: 1px solid #bbb;padding: 7px 0;">
+                                    TPS
+                                </td>
+                                <td style="font-family: Helvetica, sans-serif;border-bottom: 1px solid #bbb;padding: 7px 0;text-align: right;">
+                                    {{ order.tps|number_format(2,',', ' ') }}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-family: Helvetica, sans-serif;border-bottom: 1px solid #bbb;padding: 7px 0;">
+                                    TVP/TVH
+                                </td>
+                                <td style="font-family: Helvetica, sans-serif;border-bottom: 1px solid #bbb;padding: 7px 0;text-align: right;">
+                                    {{ order.tvp|number_format(2,',', ' ') }}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="font-family: Helvetica, sans-serif;border-bottom: 1px solid #bbb;color: #00c1d6;padding: 10px 0;">
+                                    <strong>Total</strong>
+                                </td>
+                                <td style="font-family: Helvetica, sans-serif;border-bottom: 1px solid #bbb;color: #00c1d6;padding: 10px 0;text-align: right;">
+                                    <strong>{{ order.total|number_format(2,',', ' ') }}</strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="text-align: right;font-family: Helvetica, sans-serif;">
+                                    <em style="font-family: Helvetica, sans-serif;font-size: 12px;">+ les frais de
+                                        livraison</em>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <br>
+        </td>
+    </tr>
+    <tr>
+        <td style="font-family: Helvetica, sans-serif;padding: 20px;">
+            Merci de votre confiance. Nous espérons vous revoir bientôt!
+            <br>
+        </td>
+    </tr>
+    <tr>
+        <td style="font-family: Helvetica, sans-serif;color: #00c1d6;padding: 20px;">
+            L'équipe d'Alliance Éducation
+            <br>
+        </td>
+    </tr>
+    <tr>
+        <td style="font-family: Helvetica, sans-serif;color: #aaaaaa;text-align: center;font-size: 12px;padding: 20px;">
+            Ce courriel a été envoyé depuis une adresse de notification seulement qui ne peut accepter de courriels
+            entrants.
+            Veuillez ne pas répondre à ce message.
+            <br>
+        </td>
+    </tr>
+    <tr>
+        <td style="background-color: #000000;padding: 20px;">
+            <table cellspacing="0" cellpadding="0" border="0" align="center">
+                <tr>
+                    <td style="text-align: center;padding: 20px;">
+                        <table cellspacing="0" cellpadding="0" border="0" width="260">
+                            <tr>
+                                <td style="font-family: Helvetica, sans-serif;color: #ffffff;font-size: 14px;">
+                                    Nous suivre sur
+                                </td>
+                                <td style="font-family: Helvetica, sans-serif;color: #ffffff;text-align: center;padding: 0 5px;">
+                                    <img src="{{ social.fb }}" width="24">
+                                </td>
+                                <td style="font-family: Helvetica, sans-serif;color: #ffffff;text-align: center;padding: 0 5px;">
+                                    <img src="{{ social.you }}" width="24">
+                                </td>
+                                <td style="font-family: Helvetica, sans-serif;color: #ffffff;text-align: center;padding: 0 5px;">
+                                    <img src="{{ social.in }}" width="24">
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-family: Helvetica, sans-serif;color: #ffffff;text-align: center;font-size: 14px;">
+                        ©2015 Alliance Éducation
                     </td>
                 </tr>
             </table>

@@ -4,5 +4,31 @@
 
 columns:
     id:
-        label: ID
+        label: Commande
         searchable: true
+    first_name:
+        label: Prénom
+        searchable: true
+    last_name:
+        label: Nom
+        searchable: true
+    email:
+        label: Courriel
+        searchable: true
+    phone:
+        label: Téléphone
+        searchable: true
+        invisible: true
+    address:
+        label: Adresse
+        searchable: true
+        invisible: true
+    zip:
+        label: Code Postal
+        searchable: true
+        invisible: true
+    subtotal:
+        label: Valeur
+        type: number
+    created_at:
+        label: Date

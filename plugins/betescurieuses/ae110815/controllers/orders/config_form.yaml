@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Order
+
+# Model Form Field configuration
+form: $/betescurieuses/ae110815/models/order/fields.yaml
+
+# Model Class name
+modelClass: BetesCurieuses\Ae110815\Models\Order
+
+# Default redirect location
+defaultRedirect: betescurieuses/ae110815/orders
+
+# Create page
+create:
+    title: Create Order
+    redirect: betescurieuses/ae110815/orders/update/:id
+    redirectClose: betescurieuses/ae110815/orders
+
+# Update page
+update:
+    title: Edit Order
+    redirect: betescurieuses/ae110815/orders
+    redirectClose: betescurieuses/ae110815/orders
+
+# Preview page
+preview:
+    title: Preview Order

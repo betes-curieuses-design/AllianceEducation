@@ -91,7 +91,9 @@ class Checkout extends ComponentBase
         $item->product_id = $product->id;
         $item->quantity = 1;
         $item->price = $product->price;
-        $item->promotion = (($product->price * $product->price) / 100);
+        $item->promotion = (($product->price * $product->promotion) / 100);
+        $rebate = ($product->price * $product->promotion) / 100;
+        $item->subtotal = ($product->price - $rebate) * 1;
         $item->save();
     }
 
@@ -123,8 +125,8 @@ class Checkout extends ComponentBase
     {
         $data = input();
         $this->updateOrderItems($data['order_id'], $data['product'], $data['quantity']);
-        $this->setFinalOrder($data);
-        $this->sendConfirmationEmail($data);
+        $order = $this->setFinalOrder($data);
+        $this->sendConfirmationEmail($order);
     }
 
     protected function showOrder($order = null, $cookie = '')
@@ -144,8 +146,15 @@ class Checkout extends ComponentBase
     {
         if (is_array($product)) {
             foreach ($product as $key => $item) {
+                $prod = Product::where('id', $item)->first();
+                $rebate = ($prod->price * $prod->promotion) / 100;
                 OrderItem::where('order_id', $order)
-                    ->where('product_id', $item)->update(['quantity' => $quantity[$key]]);
+                    ->where('product_id', $item)->update(
+                        [
+                            'quantity' => $quantity[$key],
+                            'subtotal' => ($quantity[$key]* ($prod->price - $rebate))
+                        ]
+                    );
             }
         }
     }
@@ -167,11 +176,22 @@ class Checkout extends ComponentBase
         $order->province = $data['province'];
         $order->temporary = 0;
         $order->save();
+        return $order;
     }
 
-    protected function sendConfirmationEmail($data)
+    protected function sendConfirmationEmail($order)
     {
-
+        $data['social'] = [
+            'fb' => 'http://allianceeducation.ca/themes/ae110815/assets/images/facebook-icon.png',
+            'you' => 'http://allianceeducation.ca/themes/ae110815/assets/images/youtube-icon.png',
+            'in' => 'http://allianceeducation.ca/themes/ae110815/assets/images/linkedin-icon.png'
+        ];
+        $data['order'] = $order;
+        \Mail::send('betescurieuses.ae110815::mail.order_mail' , $data, function ($message) use ($data) {
+            //$message->to($data['email_to']);
+            $message->to('alexfoisy@betescurieuses.com');
+            $message->to('lorajc@hotmail.com');
+        });
     }
 
     protected function setCookie($id)

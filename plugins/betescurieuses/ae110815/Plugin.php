@@ -69,6 +69,12 @@ class Plugin extends PluginBase
                         'url' => Backend::url('BetesCurieuses/Ae110815/products'),
                         'permissions' => ['betescurieuses.ae110815.products']
                     ],
+                    'orders' => [
+                        'label' => 'Commandes',
+                        'icon' => 'icon-usd',
+                        'url' => Backend::url('BetesCurieuses/Ae110815/orders'),
+                        'permissions' => ['betescurieuses.ae110815.orders']
+                    ],
 
                 ]
             ]
