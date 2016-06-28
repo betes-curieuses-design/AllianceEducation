@@ -6,6 +6,7 @@ use Betescurieuses\Ae110815\Models\OrderItem;
 use Betescurieuses\Ae110815\Models\Order;
 use Cookie;
 use Session;
+use Redirect;
 
 class Checkout extends ComponentBase
 {
@@ -50,7 +51,7 @@ class Checkout extends ComponentBase
                 $product = Product::where('slug', $slug)->isPublished()->first();
                 $this->addProductOrder($product, $order);
             } else {
-                //redirect
+                return Redirect::to('boutique')->with('confirm_message', 'Il n\'y a pas d\'article dans votre panier. Consulter notre magasin dès maintenant!');
             }
 
         }
@@ -127,6 +128,8 @@ class Checkout extends ComponentBase
         $this->updateOrderItems($data['order_id'], $data['product'], $data['quantity']);
         $order = $this->setFinalOrder($data);
         $this->sendConfirmationEmail($order);
+        return Redirect::to('boutique')->with('confirm_message', 'Login Failed');
+
     }
 
     protected function showOrder($order = null, $cookie = '')
@@ -189,7 +192,7 @@ class Checkout extends ComponentBase
         $data['order'] = $order;
         \Mail::send('betescurieuses.ae110815::mail.order_mail' , $data, function ($message) use ($data) {
             //$message->to($data['email_to']);
-            $message->to('alexfoisy@betescurieuses.com');
+            $message->bcc('alexfoisy@betescurieuses.com');
             $message->to('lorajc@hotmail.com');
         });
     }

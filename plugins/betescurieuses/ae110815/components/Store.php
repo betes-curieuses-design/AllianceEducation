@@ -2,6 +2,7 @@
 
 use Cms\Classes\ComponentBase;
 use Betescurieuses\Ae110815\Models\Product;
+use Session;
 
 class Store extends ComponentBase
 {
@@ -44,6 +45,7 @@ class Store extends ComponentBase
     {
         $this->pageParam = $this->page['pageParam'] = $this->paramName('pageNumber');
         $this->page['products'] = $this->loadProducts();
+        $this->page['message'] = Session::get('confirm_message');
     }
 
     protected function loadProducts()

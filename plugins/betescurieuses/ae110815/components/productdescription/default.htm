@@ -1,13 +1,31 @@
 <div class="row">
-    <div class="col-sm-8 col-sm-offset-2">
+    <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
         <div class="row">
             <div class="col-sm-7">
                 {% if product.featured_images %}
-                    <div style="border: 1px solid #dcdcdc;width: 100%;padding: 30px;min-height: 370px;">
+                    <div style="width: 100%;padding: 30px;min-height: 370px;">
                         <img src="{{ product.featured_images.0.path }}" id="featured-image"
                              class="img-responsive"
                              alt="{{ product.title }}">
                     </div>
+                    {% if product.featured_images|length > 1 %}
+                        <div class="row all-top-buffer">
+                            <div class="col-sm-12">
+                                <ul class="list-inline">
+                                    {% for image in product.featured_images %}
+                                        <li>
+                                            <div style="border: 1px solid #dcdcdc;width: 100%;padding: 5px;min-height: 120px;">
+                                                <img src="{{ image.path }}" class="img-responsive"
+                                                     alt="{{ image.description }}"
+                                                     style="width: 120px;cursor: pointer;"
+                                                     onclick="loadImage(this)">
+                                            </div>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    {% endif %}
                 {% endif %}
             </div>
 
@@ -46,24 +64,7 @@
             </div>
 
         </div>
-        {% if product.featured_images %}
-            <div class="row all-top-buffer">
-                <div class="col-sm-12">
-                    <ul class="list-inline">
-                        {% for image in product.featured_images %}
-                            <li>
-                                <div style="border: 1px solid #dcdcdc;width: 100%;padding: 5px;min-height: 120px;">
-                                    <img src="{{ image.path }}" class="img-responsive"
-                                         alt="{{ image.description }}"
-                                         style="width: 120px;cursor: pointer;"
-                                         onclick="loadImage(this)">
-                                </div>
-                            </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-        {% endif %}
+
         <div class="row">
             <div class="col-sm-12 text-justify">
                 {{ product.description|raw }}

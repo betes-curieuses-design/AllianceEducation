@@ -51,7 +51,7 @@
             <div class="text-right">
                 <button class="btn btn-primary btn-xs"
                         data-request="onCalculate"
-                        data-request-update="'Checkout::summary': '#summary'">
+                        data-request-redirect="{{ 'store/summary'|page({product: ''}) }}">
                     Recalculer
                 </button>
             </div>
@@ -117,7 +117,7 @@
                         <div class="col-sm-7">
                             <div class="form-group">
                                 <label>Adresse <span class="required">*</span></label>
-                                <input type="text" name="address" class="form-control"
+                                <input type="text" name="address" class="form-control" required
                                        style="border: 1px solid #00c1d6;border-radius: 0!important;padding: 5px 10px;height: 35px;">
                             </div>
                         </div>

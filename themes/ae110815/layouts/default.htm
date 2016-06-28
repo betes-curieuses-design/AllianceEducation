@@ -1,5 +1,14 @@
 description = "Default layout"
 ==
+function onStart()
+{
+    $session = \Session::get('order');
+    if ($session) {
+        $this['session'] = $session;
+    }
+
+}
+==
 <!--[if lt IE 7]>
 <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>

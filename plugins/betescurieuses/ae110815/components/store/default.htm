@@ -1,3 +1,15 @@
+{% if message %}
+    <div class="row all-top-buffer">
+        <div class="col-sm-12 ">
+            <div class="alert alert-info alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                <strong>Importante!</strong> {{ message }}
+            </div>
+
+        </div>
+    </div>
+{% endif %}
 <div class="row">
     {% for product in products %}
         <div class="col-sm-6 col-md-4 mobile-top-buffer item-list">
@@ -9,7 +21,7 @@
 
 
             {% if product.featured_images %}
-                <div style="border: 1px solid #dcdcdc;width: 100%;padding: 10px;min-height: 310px;"
+                <div style="width: 100%;padding: 10px;min-height: 310px;"
                      class="text-center">
                     <img src="{{ product.featured_images.0.path }}" class="img-responsive center-block"
                          alt="{{ product.title }}">
