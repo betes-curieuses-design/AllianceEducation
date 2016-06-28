@@ -24,8 +24,11 @@ class ProductDescription extends ComponentBase
         $this->addJs('assets/js/product.js');
         $slug = $this->param('slug');
 
-        $this->page['product'] = Product::where('slug', $slug)
+        $product = Product::where('slug', $slug)
             ->isPublished()->first();
+        $this->page['product'] = $product;
+        $this->page->title = $product->title;
+        $this->page['image_url'] = 'http://allianceeducation.ca'.$product->featured_images[0]->path;
     }
 
 }

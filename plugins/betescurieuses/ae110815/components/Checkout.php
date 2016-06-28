@@ -184,6 +184,7 @@ class Checkout extends ComponentBase
 
     protected function sendConfirmationEmail($order)
     {
+        $data['logo'] = "http://allianceeducation.ca/themes/ae110815/assets/images/logo-alliance-education.jpg";
         $data['social'] = [
             'fb' => 'http://allianceeducation.ca/themes/ae110815/assets/images/facebook-icon.png',
             'you' => 'http://allianceeducation.ca/themes/ae110815/assets/images/youtube-icon.png',

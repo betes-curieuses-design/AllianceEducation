@@ -4,17 +4,10 @@
     <list default="true" id="c73a1b07-2165-4d02-827e-b4a3a82b7270" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Checkout.php" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Checkout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Store.php" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Store.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/checkout/default.htm" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/checkout/default.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/ProductDescription.php" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/ProductDescription.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/productdescription/default.htm" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/productdescription/default.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/store/default.htm" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/store/default.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/views/mail/order_mail.htm" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/views/mail/order_mail.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/0c/b0/0cb04905781de3dbf2424ab012adf555" afterPath="$PROJECT_DIR$/storage/framework/cache/0c/b0/0cb04905781de3dbf2424ab012adf555" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" afterPath="$PROJECT_DIR$/storage/framework/cache/5e/5e/5e5ec738a988de4a91aec04f81fd8768" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/80/c8/80c84920dfcdae721f9325b8acb6bf64" afterPath="$PROJECT_DIR$/storage/framework/cache/80/c8/80c84920dfcdae721f9325b8acb6bf64" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/logs/system.log" afterPath="$PROJECT_DIR$/storage/logs/system.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/layouts/default.htm" afterPath="$PROJECT_DIR$/themes/ae110815/layouts/default.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/ae110815/partials/header.htm" afterPath="$PROJECT_DIR$/themes/ae110815/partials/header.htm" />
     </list>
     <list id="c9bff1a4-1f94-4010-9a1f-0c0bad92898d" name="New changelist" comment="" />
     <ignored path="AllianceEducation.iws" />
@@ -43,8 +36,8 @@
       <file leaf-file-name="Checkout.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Checkout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.8157454">
-              <caret line="134" column="61" selection-start-line="134" selection-start-column="61" selection-end-line="134" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.3835846">
+              <caret line="181" column="22" selection-start-line="181" selection-start-column="22" selection-end-line="181" selection-end-column="22" />
               <folding>
                 <element signature="e#53#83#0#PHP" expanded="true" />
               </folding>
@@ -53,32 +46,10 @@
         </entry>
       </file>
       <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/store/default.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384">
-              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/checkout/default.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769">
+            <state vertical-scroll-proportion="-4.576923">
               <caret line="120" column="46" selection-start-line="120" selection-start-column="46" selection-end-line="120" selection-end-column="46" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#form#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/header.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6153846">
-              <caret line="69" column="74" selection-start-line="69" selection-start-column="74" selection-end-line="69" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -87,12 +58,42 @@
       <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/ae110815/layouts/default.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="45.692307">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.461538">
+              <caret line="28" column="51" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="51" />
               <folding>
-                <marker date="1467073254127" expanded="true" signature="2083:2320" placeholder="..." />
-                <marker date="1467073254127" expanded="true" signature="2152:2186" placeholder="..." />
+                <marker date="1467157657186" expanded="true" signature="2083:2320" placeholder="..." />
+                <marker date="1467157657186" expanded="true" signature="2152:2186" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductDescription.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/ProductDescription.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.961538">
+              <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/productdescription/default.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-33.307693">
+              <caret line="51" column="103" selection-start-line="51" selection-start-column="103" selection-end-line="51" selection-end-column="103" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/header.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.65384614">
+              <caret line="69" column="74" selection-start-line="69" selection-start-column="74" selection-end-line="69" selection-end-column="74" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -146,19 +147,19 @@
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/checkout/_summary.htm" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/checkout/summary.htm" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/Product.php" />
-        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/ProductDescription.php" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/assets/js/product.js" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/Plugin.php" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/controllers/Orders.php" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/models/order/columns.yaml" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Store.php" />
-        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/productdescription/default.htm" />
-        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Checkout.php" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/store/default.htm" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/checkout/default.htm" />
-        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/views/mail/order_mail.htm" />
-        <option value="$PROJECT_DIR$/themes/ae110815/layouts/default.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/partials/header.htm" />
+        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/views/mail/order_mail.htm" />
+        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Checkout.php" />
+        <option value="$PROJECT_DIR$/themes/ae110815/layouts/default.htm" />
+        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/productdescription/default.htm" />
+        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/ProductDescription.php" />
       </list>
     </option>
   </component>
@@ -270,54 +271,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AllianceEducation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AllianceEducation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ae110815" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="article" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AllianceEducation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AllianceEducation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ae110815" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -345,6 +298,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AllianceEducation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae110815" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1025,7 +1004,13 @@
       <option name="project" value="LOCAL" />
       <updated>1466466191745</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Checkout, email, orders.&#10;">
+      <created>1467073450765</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1467073450765</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1041,7 +1026,7 @@
     <frame x="1358" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2980333" sideWeight="0.49429038" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30257186" sideWeight="0.49429038" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.34150326" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1108,13 +1093,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugins/raviraj/rjgallery/Plugin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/raviraj/rjgallery/lang/en/lang.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.028475711">
@@ -1349,13 +1327,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/ProductDescription.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6264657">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/assets/js/product.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08186196">
@@ -1375,7 +1346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="17" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1383,7 +1353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,7 +1360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,7 +1367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.164154">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1407,7 +1374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31658292">
           <caret line="109" column="68" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1415,27 +1381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.028475711">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/store/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/views/mail/order_mail.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.269231">
-          <caret line="227" column="112" selection-start-line="227" selection-start-column="112" selection-end-line="227" selection-end-column="112" />
-          <folding>
-            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#9;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#9;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#3;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#9;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1443,53 +1388,80 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43048576">
           <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/views/mail/order_mail.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-77.42308">
+          <caret line="121" column="71" selection-start-line="121" selection-start-column="71" selection-end-line="121" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/header.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="69" column="74" selection-start-line="69" selection-start-column="74" selection-end-line="69" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/store/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/checkout/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="120" column="46" selection-start-line="120" selection-start-column="46" selection-end-line="120" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/layouts/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.461538">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="51" />
+          <folding>
+            <marker date="1467157657186" expanded="true" signature="2083:2320" placeholder="..." />
+            <marker date="1467157657186" expanded="true" signature="2152:2186" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/ae110815/pages/blog/article.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615">
+          <caret line="22" column="70" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/productdescription/default.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028475711">
-          <caret line="1" column="66" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-33.307693">
+          <caret line="51" column="103" selection-start-line="51" selection-start-column="103" selection-end-line="51" selection-end-column="103" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/checkout/default.htm">
+    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/ProductDescription.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
-          <caret line="120" column="46" selection-start-line="120" selection-start-column="46" selection-end-line="120" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#form#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/layouts/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="45.692307">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <marker date="1467073254127" expanded="true" signature="2083:2320" placeholder="..." />
-            <marker date="1467073254127" expanded="true" signature="2152:2186" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/header.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6153846">
-          <caret line="69" column="74" selection-start-line="69" selection-start-column="74" selection-end-line="69" selection-end-column="74" />
+        <state vertical-scroll-proportion="-18.961538">
+          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Checkout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.8157454">
-          <caret line="134" column="61" selection-start-line="134" selection-start-column="61" selection-end-line="134" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.3835846">
+          <caret line="181" column="22" selection-start-line="181" selection-start-column="22" selection-end-line="181" selection-end-column="22" />
           <folding>
             <element signature="e#53#83#0#PHP" expanded="true" />
           </folding>

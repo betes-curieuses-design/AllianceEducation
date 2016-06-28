@@ -113,16 +113,16 @@ layout = "system"
                             {{ item.product.title }}
                         </td>
                         <td style="font-family: Helvetica, sans-serif;text-align: right;border-bottom: 1px solid #ececec;padding: 12px 0;">
-                            {{ item.price }}
+                            {{ item.price|number_format(2,',', ' ') }}
                         </td>
                         <td style="font-family: Helvetica, sans-serif;text-align: center;border-bottom: 1px solid #ececec;padding: 12px 0;">
                             {{ item.quantity }}
                         </td>
                         <td style="font-family: Helvetica, sans-serif;text-align: right;border-bottom: 1px solid #ececec;padding: 12px 0;">
-                            {{ item.promotion }}
+                            {{ item.promotion|number_format(2,',', ' ') }}
                         </td>
                         <td style="font-family: Helvetica, sans-serif;text-align: right;border-bottom: 1px solid #ececec;padding: 12px 0;">
-                            {{ item.subtotal }}
+                            {{ item.subtotal|number_format(2,',', ' ') }}
                         </td>
                     </tr>
                 {% endfor %}
