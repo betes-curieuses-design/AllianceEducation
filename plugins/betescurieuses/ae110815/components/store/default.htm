@@ -12,7 +12,7 @@
 {% endif %}
 <div class="row">
     {% for product in products %}
-        <div class="col-sm-6 col-md-4 mobile-top-buffer item-list">
+        <div class="col-sm-6 col-md-4 all-top-buffer item-list">
             <div style="height: 45px;">
                 <h5>
                     <a href="{{ 'store/item'|page({'slug': product.slug }) }}">{{ product.title }}</a>
@@ -55,7 +55,7 @@
             </div>
         </div>
     {% else %}
-        <div class="col-sm-12">Aucune formation trouvé</div>
+        <div class="col-sm-12">Aucun produit trouvé!</div>
     {% endfor %}
 </div>
 
