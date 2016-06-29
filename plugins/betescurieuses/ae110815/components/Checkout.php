@@ -103,6 +103,10 @@ class Checkout extends ComponentBase
         $id = input('id');
         $order = input('order');
         OrderItem::where('product_id', $id)->where('order_id', $order)->delete();
+        $chkOrder = OrderItem::where('order_id', $order)->get();
+        if (!$chkOrder) {
+            Order::where('id', $order)->delete();
+        }
     }
 
     public function onCalculate()
@@ -137,7 +141,11 @@ class Checkout extends ComponentBase
         if (is_null($order)) {
             $order = Order::where('cookie_id', $cookie)->first();
         }
-        $this->page['order'] = $order;
+        if ($order) {
+            $this->page['order'] = $order;
+        } else {
+            return Redirect::to('boutique')->with('confirm_message', 'Il n\'y a pas d\'article dans votre panier. Consulter notre magasin dès maintenant!');
+        }
     }
 
     protected function getOrder($cookie)

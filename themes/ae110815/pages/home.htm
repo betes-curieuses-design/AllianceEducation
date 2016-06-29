@@ -42,7 +42,24 @@ function onEnd()
 </section>
 
 <section id="featured">
-    {% partial "home/featured" %}
+    <div class="container">
+        <div class="row top-buffer-lg">
+            <div class="col-sm-7">
+                {% partial "home/featured" %}
+            </div>
+            <div class="col-sm-5">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <a href="http://allianceeducation.ca/boutique/item/parent-colombo">
+                            <img src="{{ 'images/ae-banners-promo.gif'|media }}"
+                                 class="img-responsive center-block"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top-buffer-lg"></div>
+    </div>
 </section>
 
 <section id="quotes">
@@ -83,14 +100,7 @@ function onEnd()
                     </div>
                     {#Blog#}
                     <div class="col-sm-4  all-top-buffer">
-                        <div class="row">
-                            <div class="col-sm-12 text-center">
-                                <a href="http://allianceeducation.ca/boutique/item/parent-colombo">
-                                <img src="{{ 'images/ae-banners-promo.gif'|media }}" class="img-responsive center-block" />
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row">
+                           <div class="row">
                             <div class="col-sm-12 home-blog all-top-buffer">
                                 <div class="panel panel-sidebar">
                                     <div class="panel-heading">
