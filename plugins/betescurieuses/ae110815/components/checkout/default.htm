@@ -24,9 +24,9 @@
                             <td class="text-right">
                                 <input type="hidden" name="product[]" value="{{ item.product.id }}">
                                 <input class="text-right" name="quantity[]"
-                                       type="text"
+                                       type="number"
                                        value="{{ item.quantity == 0 ? 1 : item.quantity }}"
-                                       maxlength="5" size="5">
+                                       maxlength="5" size="5" min="1" max="99" style="width: 50px;">
                             </td>
                             {% set pretotal = item.product.price * (item.quantity == 0 ? 1 : item.quantity) %}
                             {% set rebate = (pretotal *  item.product.promotion)/100 %}
@@ -39,7 +39,7 @@
                                         data-request="onDelete"
                                         data-request-redirect="{{ 'store/summary'|page({product: ''}) }}"
                                         data-request-confirm="Etes-vous sûr ?">
-                                    <i class="fa fa-trash"></i>
+                                    <i class="fa fa-trash" title="Supprimer l'article"></i>
                                 </button>
                             </td>
                             {% set total = total + subtotal %}
