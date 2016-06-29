@@ -191,6 +191,7 @@ class Checkout extends ComponentBase
             'in' => 'http://allianceeducation.ca/themes/ae110815/assets/images/linkedin-icon.png'
         ];
         $data['order'] = $order;
+        $data['email'] = $order->email;
         \Mail::send('betescurieuses.ae110815::mail.order_mail' , $data, function ($message) use ($data) {
             //$message->to($data['email_to']);
             $message->bcc('info@allianceeducation.ca');
