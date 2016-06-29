@@ -128,7 +128,7 @@ class Checkout extends ComponentBase
         $this->updateOrderItems($data['order_id'], $data['product'], $data['quantity']);
         $order = $this->setFinalOrder($data);
         $this->sendConfirmationEmail($order);
-        return Redirect::to('boutique')->with('confirm_message', 'Login Failed');
+        return Redirect::to('boutique')->with('confirm_message', "Vous recevrez sous peu, d'ici 24h, une facture détaillée incluant les frais de livraison vers votre domicile. Merci d'avoir magasiné dans la boutique d’Alliance Éducation coaching familial!");
 
     }
 
@@ -193,8 +193,10 @@ class Checkout extends ComponentBase
         $data['order'] = $order;
         \Mail::send('betescurieuses.ae110815::mail.order_mail' , $data, function ($message) use ($data) {
             //$message->to($data['email_to']);
+            $message->bcc('info@allianceeducation.ca');
             $message->bcc('alexfoisy@betescurieuses.com');
-            $message->to('lorajc@hotmail.com');
+            $message->bcc('lorajc@hotmail.com');
+            $message->to($data['email']);
         });
     }
 

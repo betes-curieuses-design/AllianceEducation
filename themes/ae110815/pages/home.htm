@@ -82,15 +82,27 @@ function onEnd()
                         </div>
                     </div>
                     {#Blog#}
-                    <div class="col-sm-4 home-blog all-top-buffer">
-                        <div class="panel panel-sidebar">
-                            <div class="panel-heading">
-                                <h3 class="text-center">Blogue</h3>
-                            </div>
-                            <div class="panel-body">
-                                {% component 'Homeblog' %}
+                    <div class="col-sm-4  all-top-buffer">
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <a href="http://allianceeducation.ca/boutique/item/parent-colombo">
+                                <img src="{{ 'images/ae-banners-promo.gif'|media }}" class="img-responsive center-block" />
+                                </a>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-sm-12 home-blog all-top-buffer">
+                                <div class="panel panel-sidebar">
+                                    <div class="panel-heading">
+                                        <h3 class="text-center">Blogue</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        {% component 'Homeblog' %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
 
                     </div>
                 </div>
