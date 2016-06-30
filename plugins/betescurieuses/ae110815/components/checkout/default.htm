@@ -38,7 +38,7 @@
                                 <button type="button" class="btn btn-danger btn-xs"
                                         data-request="onDelete"
                                         data-request-redirect="{{ 'store/summary'|page({product: ''}) }}"
-                                        data-request-confirm="Etes-vous sûr ?">
+                                        data-request-confirm="Êtes-vous sûr de supprimer l'article?">
                                     <i class="fa fa-trash" title="Supprimer l'article"></i>
                                 </button>
                             </td>
@@ -68,10 +68,9 @@
                     </div>
                     <h4 style="border-bottom: 1px solid #aaa;">Détail concernant la livraison</h4>
                     <p style="font-size: 0.875em;">
-                        Une fois votre commande soumis, vous recevrez
-                        un avis de commande et une facture vous sera
-                        envoyer avec les frais de livraison inclus à payer
-                        par Pay Pal.
+                        Une fois votre commande soumise, vous recevrez un avis de commande et une facture finale
+                        incluant les frais de livraison. Celle-ci vous sera transmise dans un délai de <strong>24h à
+                        48h dans les jours ouvrables</strong> à payer avec PayPal.
                     </p>
                     <div>
                         Pour toute question, <a href="mailto:info@allianceeducation.ca">contacter nous.</a>
@@ -79,12 +78,12 @@
                 </div>
                 <div class="col-sm-7 col-sm-offset-1 mobile-top-buffer">
                     <h4 style="border-bottom: 1px solid #aaa;">
-                        Vos information à complété pour la livraison:
+                        Vos informations à compléter pour la livraison:
                     </h4>
                     <div class="row little-top-buffer">
                         <div class="col-sm-6">
                             <div class="form-group">
-                                <label>Prenom <span class="required">*</span></label>
+                                <label>Prénom <span class="required">*</span></label>
                                 <input type="text" name="first_name" class="form-control" required
                                        style="border: 1px solid #00c1d6;border-radius: 0!important;padding: 5px 10px;height: 35px;">
                             </div>
