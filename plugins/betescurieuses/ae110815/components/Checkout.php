@@ -132,6 +132,7 @@ class Checkout extends ComponentBase
         $this->updateOrderItems($data['order_id'], $data['product'], $data['quantity']);
         $order = $this->setFinalOrder($data);
         $this->sendConfirmationEmail($order);
+        Session::forget('order');
         return Redirect::to('boutique')->with('confirm_message', "Vous recevrez sous peu, d'ici maximum 24h à 48h dans les jours ouvrables, une facture détaillée incluant les frais de livraison vers votre domicile. Merci d'avoir magasiné dans la boutique d’Alliance Éducation coaching familial!");
 
     }
@@ -144,7 +145,7 @@ class Checkout extends ComponentBase
         if ($order) {
             $this->page['order'] = $order;
         } else {
-            return Redirect::to('boutique')->with('confirm_message', 'Il n\'y a pas d\'article dans votre panier. Consulter notre magasin dès maintenant!');
+            return Redirect::to('boutique')->with('confirm_message', "Il n'y a pas d'article dans votre panier. Consulter notre magasin dès maintenant!");
         }
     }
 

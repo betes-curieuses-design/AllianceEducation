@@ -28,7 +28,8 @@ class ProductDescription extends ComponentBase
             ->isPublished()->first();
         $this->page['product'] = $product;
         $this->page->title = $product->title;
-        $this->page['image_url'] = 'http://allianceeducation.ca'.$product->featured_images[0]->path;
+        $this->page->url = $this->pageUrl('store/item', ['slug' => $product->$slug]);
+        $this->page['image_url'] = 'http://allianceeducation.ca' . $product->featured_images[0]->path;
     }
 
 }
