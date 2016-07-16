@@ -9,7 +9,9 @@
                 <h4>
                     <a href="{{ __SELF__.postRender(post.parent)|page({'filter': category_slug, 'slug': post.slug }) }}/">{{ post.title }}</a>
                 </h4>
-                <small>Date de la formation: {{ post.date_event|date('d-m-Y') }}</small>
+                {% if post.date_event %}
+                    <small>Date de la formation: {{ post.date_event|date('d-m-Y') }}</small>
+                {% endif %}
                 {% if post.video|length > 1 %}
                     <div class="embed-responsive embed-responsive-16by9">
                         {{ post.video|raw }}
@@ -19,8 +21,9 @@
                         <img src="{{ post.featured_images.0.path }}" class="img-responsive">
                     </div>
                 {% endif %}
-                <p class="all-top-buffer"># Places disponible: {{ post.available }}</p>
-
+                {% if post.available > 0 %}
+                    <p class="all-top-buffer"># Places disponible: {{ post.available }}</p>
+                {% endif %}
                 <p class="little-top-buffer">
                     {{ post.excerpt }}
                 </p>
@@ -34,22 +37,22 @@
                                M'inscrire
                            </a>
                        {% endif %}-->
-                       <a href="{{ __SELF__.postRender(post.parent)|page({'filter': category_slug, 'slug': post.slug }) }}/"
-                          class="btn btn-primary btn-sm">
-                           En savoir plus
-                       </a>
-                   </div>
-               </div>
-           {% else %}
-               <div class="col-sm-12">Aucune conférence trouvé</div>
-           {% endfor %}
-       </div>
-       {% if pagination > 0 %}
-           <div class="row all-top-buffer">
-               <div class="col-sm-12 text-right">
-                   {{ blogPosts.render|raw }}
-               </div>
-           </div>
+                    <a href="{{ __SELF__.postRender(post.parent)|page({'filter': category_slug, 'slug': post.slug }) }}/"
+                       class="btn btn-primary btn-sm">
+                        En savoir plus
+                    </a>
+                </div>
+            </div>
+        {% else %}
+            <div class="col-sm-12">Aucune conférence trouvé</div>
+        {% endfor %}
+    </div>
+    {% if pagination > 0 %}
+        <div class="row all-top-buffer">
+            <div class="col-sm-12 text-right">
+                {{ blogPosts.render|raw }}
+            </div>
+        </div>
 
-       {% endif %}
-   {% endif %}
+    {% endif %}
+{% endif %}

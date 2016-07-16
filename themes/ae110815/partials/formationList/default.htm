@@ -10,8 +10,9 @@
                         <a href="{{ __SELF__.postRender(post.parent)|page({'filter': category_slug, 'slug': post.slug }) }}/">{{ post.title }}</a>
                     </h5>
                 </div>
-
-                <small>Date de la formation: {{ post.date_event|date('d-m-Y') }}</small>
+                {% if post.date_event %}
+                    <small>Date de la formation: {{ post.date_event|date('d-m-Y') }}</small>
+                {% endif %}
                 {% if post.video|length > 1 %}
                     <div class="embed-responsive embed-responsive-16by9">
                         {{ post.video|raw }}
@@ -21,14 +22,15 @@
                         <img src="{{ post.featured_images.0.path }}" class="img-responsive">
                     </div>
                 {% endif %}
-                <p class="all-top-buffer"># Places disponible: {{ post.available }}</p>
-
+                {% if post.available > 0 %}
+                    <p class="all-top-buffer"># Places disponible: {{ post.available }}</p>
+                {% endif %}
                 <p class="little-top-buffer">
                     {{ post.excerpt }}
                 </p>
 
                 <div class="all-top-buffer text-right">
-<!--                     {% if post.available > 0 %}
+                    <!--                     {% if post.available > 0 %}
                         <a href="#" class="btn-sm btn-space"
                            data-toggle="modal" data-target="#incriptions"
                            data-id="{{ post.id }}"

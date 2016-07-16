@@ -69,7 +69,6 @@ class Checkout extends ComponentBase
     protected function addProductOrder($product, $order)
     {
         if ($product) {
-
             $this->page['product'] = $product;
             $this->addItems($product, $order);
             $this->showOrder($order);
