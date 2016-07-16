@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c73a1b07-2165-4d02-827e-b4a3a82b7270" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/0c/b0/0cb04905781de3dbf2424ab012adf555" afterPath="$PROJECT_DIR$/storage/framework/cache/0c/b0/0cb04905781de3dbf2424ab012adf555" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/80/c8/80c84920dfcdae721f9325b8acb6bf64" afterPath="$PROJECT_DIR$/storage/framework/cache/80/c8/80c84920dfcdae721f9325b8acb6bf64" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Checkout.php" afterPath="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Checkout.php" />
     </list>
     <list id="c9bff1a4-1f94-4010-9a1f-0c0bad92898d" name="New changelist" comment="" />
     <ignored path="AllianceEducation.iws" />
@@ -30,6 +29,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Checkout.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Checkout.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.68844223">
+              <caret line="206" column="56" selection-start-line="206" selection-start-column="56" selection-end-line="206" selection-end-column="56" />
+              <folding>
+                <element signature="e#53#83#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/ae110815/layouts/default.htm">
           <provider selected="true" editor-type-id="text-editor">
@@ -43,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Post.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/radiantweb/problog/components/Post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5041876">
+            <state vertical-scroll-proportion="-11.576923">
               <caret line="103" column="13" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
               <folding>
                 <element signature="e#48#57#0#PHP" expanded="true" />
@@ -112,11 +123,11 @@
         <option value="$PROJECT_DIR$/themes/ae110815/partials/home/featured.htm" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/checkout/default.htm" />
         <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/ProductDescription.php" />
-        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Checkout.php" />
         <option value="$PROJECT_DIR$/themes/ae110815/partials/conferencesList/default.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/partials/formationList/default.htm" />
         <option value="$PROJECT_DIR$/themes/ae110815/pages/home.htm" />
         <option value="$PROJECT_DIR$/plugins/radiantweb/problog/components/Post.php" />
+        <option value="$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Checkout.php" />
       </list>
     </option>
   </component>
@@ -985,7 +996,13 @@
       <option name="project" value="LOCAL" />
       <updated>1468682518983</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Final commit">
+      <created>1468682541796</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1468682541796</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1036,7 +1053,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Home page sections, navbar settings, menu dropdown, footer" />
     <MESSAGE value="Home page completed" />
     <MESSAGE value="Translate Plugin" />
     <MESSAGE value="Services page Added" />
@@ -1061,7 +1077,8 @@
     <MESSAGE value="Checkout, email, orders.&#10;" />
     <MESSAGE value="Home page, checkout confirmation.&#10;" />
     <MESSAGE value="Checkout errors&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Checkout errors&#10;" />
+    <MESSAGE value="Final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1376,16 +1393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Checkout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68676716">
-          <caret line="207" column="41" selection-start-line="207" selection-start-column="41" selection-end-line="207" selection-end-column="41" />
-          <folding>
-            <element signature="e#53#83#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/ae110815/partials/conferencesList/default.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.5">
@@ -1441,10 +1448,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/radiantweb/problog/components/Post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5041876">
+        <state vertical-scroll-proportion="-11.576923">
           <caret line="103" column="13" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
           <folding>
             <element signature="e#48#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/betescurieuses/ae110815/components/Checkout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68844223">
+          <caret line="206" column="56" selection-start-line="206" selection-start-column="56" selection-end-line="206" selection-end-column="56" />
+          <folding>
+            <element signature="e#53#83#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

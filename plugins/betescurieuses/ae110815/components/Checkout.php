@@ -204,7 +204,8 @@ class Checkout extends ComponentBase
             //$message->to($data['email_to']);
             $message->bcc('info@allianceeducation.ca');
             $message->bcc('alexfoisy@betescurieuses.com');
-            $message->bcc('lorajc@hotmail.com');
+            $message->bcc('allianceeducation@outlook.com');
+            //$message->bcc('lorajc@hotmail.com');
             $message->to($data['email']);
         });
     }
