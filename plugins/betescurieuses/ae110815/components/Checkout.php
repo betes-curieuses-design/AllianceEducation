@@ -105,6 +105,7 @@ class Checkout extends ComponentBase
         $chkOrder = OrderItem::where('order_id', $order)->get();
         if (!$chkOrder) {
             Order::where('id', $order)->delete();
+            Session::forget('order');
         }
     }
 

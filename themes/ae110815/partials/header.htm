@@ -153,6 +153,31 @@
                 </li>
                 <li><a href="{{ 'blog/blogList'|page }}" title="Le blogue d'Alliance Éducation">Blogue</a></li>
                 <li><a href="{{ 'contact'|page }}" title="Nous joindre">Nous joindre</a></li>
+                <li>
+                    {% if session %}
+                        <a href="#" title="Boutique"
+                           class="dropdown-toggle"
+                           data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">
+                            Boutique | <i class="fa fa-shopping-cart"></i> <span class="caret"></span></a>
+                        <span class="dropdown-arrow"></span>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="{{ 'store/list'|page }}" title="Boutique">Boutique</a>
+                            <li>
+                                <a href="{{ 'store/summary'|page }}"
+                                   title="Mon panier">
+                                    Mon panier
+                                </a>
+                            </li>
+                        </ul>
+                    {% else %}
+                        <a href="{{ 'store/list'|page }}" title="Boutique">Boutique
+
+                        </a>
+                    {% endif %}
+
+                </li>
             </ul>
         </div>
         <!--/.nav-collapse -->
