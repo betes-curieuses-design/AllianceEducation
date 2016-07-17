@@ -18,10 +18,15 @@
     </div>
     <div class="row all-top-buffer">
         <div class="col-sm-6">
-            Date de formation: {{ post_item.date_event|date('d-m-Y') }}
+            {% if post_item.date_event %}
+                Date de formation: {{ post_item.date_event|date('d-m-Y') }}
+            {% endif %}
+
         </div>
         <div class="col-sm-6">
-            # Places disponible: {{ post_item.available }}
+            {% if post_item.available > 0 %}
+                # Places disponible: {{ post_item.available }}
+            {% endif %}
         </div>
     </div>
     <div class="row all-top-buffer">
