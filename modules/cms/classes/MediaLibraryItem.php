@@ -2,7 +2,7 @@
 
 use File;
 use Config;
-use Backend\Models\UserPreferences;
+use October\Rain\Filesystem\Definitions as FileDefinitions;
 use Carbon\Carbon;
 
 /**
@@ -49,22 +49,30 @@ class MediaLibraryItem
     public $publicUrl;
 
     /**
-     * @var array Contains a default list of files and directories to ignore.
-     * The list can be customized with the following configuration options:
-     * - cms.storage.media.image_extensions
-     * - cms.storage.media.video_extensions
-     * - cms.storage.media.audo_extensions
+     * @var array Contains a default list of image files and directories to ignore.
+     * Override with config: cms.storage.media.imageExtensions
      */
-    protected static $defaultTypeExtensions = [
-        'image' => ['gif', 'png', 'jpg', 'jpeg', 'bmp'],
-        'video' => ['mp4', 'avi', 'mov', 'mpg', 'mpeg', 'mkv', 'webm'],
-        'audio' => ['mp3', 'wav', 'wma', 'm4a', 'ogg']
-    ];
-
     protected static $imageExtensions;
+
+    /**
+     * @var array Contains a default list of video files and directories to ignore.
+     * Override with config: cms.storage.media.videoExtensions
+     */
     protected static $videoExtensions;
+
+    /**
+     * @var array Contains a default list of audio files and directories to ignore.
+     * Override with config: cms.storage.media.audioExtensions
+     */
     protected static $audioExtensions;
 
+    /**
+     * @param string $path
+     * @param int $size
+     * @param int $lastModified
+     * @param string $type
+     * @param string $publicUrl
+     */
     public function __construct($path, $size, $lastModified, $type, $publicUrl)
     {
         $this->path = $path;
@@ -74,6 +82,9 @@ class MediaLibraryItem
         $this->publicUrl = $publicUrl;
     }
 
+    /**
+     * @return bool
+     */
     public function isFile()
     {
         return $this->type == self::TYPE_FILE;
@@ -91,9 +102,9 @@ class MediaLibraryItem
         }
 
         if (!self::$imageExtensions) {
-            self::$imageExtensions = Config::get('cms.storage.media.image_extensions', self::$defaultTypeExtensions['image']);
-            self::$videoExtensions = Config::get('cms.storage.media.video_extensions', self::$defaultTypeExtensions['video']);
-            self::$audioExtensions = Config::get('cms.storage.media.audio_extensions', self::$defaultTypeExtensions['audio']);
+            self::$imageExtensions = Config::get('cms.storage.media.imageExtensions', FileDefinitions::get('imageExtensions'));
+            self::$videoExtensions = Config::get('cms.storage.media.videoExtensions', FileDefinitions::get('videoExtensions'));
+            self::$audioExtensions = Config::get('cms.storage.media.audioExtensions', FileDefinitions::get('audioExtensions'));
         }
 
         $extension = pathinfo($this->path, PATHINFO_EXTENSION);

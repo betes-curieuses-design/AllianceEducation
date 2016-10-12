@@ -7,11 +7,7 @@ use Illuminate\Database\Eloquent\Relations\MorphOne as MorphOneBase;
 class MorphOne extends MorphOneBase
 {
     use MorphOneOrMany;
-
-    /**
-     * @var string The "name" of the relationship.
-     */
-    protected $relationName;
+    use DefinedConstraints;
 
     /**
      * Create a new has many relationship instance.
@@ -22,5 +18,74 @@ class MorphOne extends MorphOneBase
         $this->relationName = $relationName;
 
         parent::__construct($query, $parent, $type, $id, $localKey);
+
+        $this->addDefinedConstraints();
+    }
+
+    /**
+     * Helper for setting this relationship using various expected
+     * values. For example, $model->relation = $value;
+     */
+    public function setSimpleValue($value)
+    {
+        if (is_array($value)) {
+            return;
+        }
+
+        // Nulling the relationship
+        if (!$value) {
+            if ($this->parent->exists) {
+                $this->parent->bindEventOnce('model.afterSave', function() {
+                    $this->update([
+                        $this->getPlainForeignKey() => null,
+                        $this->getPlainMorphType() => null
+                    ]);
+                });
+            }
+            return;
+        }
+
+        if ($value instanceof Model) {
+            $instance = $value;
+
+            if ($this->parent->exists) {
+                $instance->setAttribute($this->getPlainForeignKey(), $this->getParentKey());
+                $instance->setAttribute($this->getPlainMorphType(), $this->morphClass);
+            }
+        }
+        else {
+            $instance = $this->getRelated()->find($value);
+        }
+
+        if ($instance) {
+            $this->parent->setRelation($this->relationName, $instance);
+
+            $this->parent->bindEventOnce('model.afterSave', function() use ($instance){
+                $this->update([
+                    $this->getPlainForeignKey() => null,
+                    $this->getPlainMorphType() => null
+                ]);
+                $instance->setAttribute($this->getPlainForeignKey(), $this->getParentKey());
+                $instance->setAttribute($this->getPlainMorphType(), $this->morphClass);
+                $instance->save(['timestamps' => false]);
+            });
+        }
+    }
+
+    /**
+     * Helper for getting this relationship simple value,
+     * generally useful with form values.
+     */
+    public function getSimpleValue()
+    {
+        $value = null;
+        $relationName = $this->relationName;
+
+        if ($this->parent->$relationName) {
+            $key = $this->getPlainForeignKey();
+            $value = $this->parent->$relationName->$key;
+        }
+
+        return $value;
     }
 }

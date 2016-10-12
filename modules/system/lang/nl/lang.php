@@ -2,18 +2,23 @@
 
 return [
     'app' => [
-        'name' => 'October CMS',
-        'tagline' => 'Getting back to basics',
+        'name' => 'OctoberCMS',
+        'tagline' => 'Terug naar de basis'
     ],
     'locale' => [
         'cs' => 'Czech',
-        'en' => 'English',
+        'da' => 'Danish',
+        'en' => 'English (United States)',
+        'en-au' => 'English (Australia)',
+        'en-ca' => 'English (Canada)',
+        'en-gb' => 'English (United Kingdom)',
         'de' => 'German',
         'el' => 'Greek',
         'es' => 'Spanish',
         'es-ar' => 'Spanish (Argentina)',
         'fa' => 'Persian',
         'fr' => 'French',
+        'fr-ca' => 'French (Canada)',
         'hu' => 'Hungarian',
         'id' => 'Bahasa Indonesia',
         'it' => 'Italian',
@@ -29,7 +34,7 @@ return [
         'sk' => 'Slovak (Slovakia)',
         'tr' => 'Turkish',
         'zh-cn' => 'Chinese (China)',
-        'zh-tw' => 'Chinese (Taiwan)'
+        'zh-tw' => 'Chinese (Taiwan)',
     ],
     'directory' => [
         'create_fail' => 'Map aanmaken mislukt: :name',
@@ -63,7 +68,7 @@ return [
         'unnamed' => 'Naamloos thema',
         'name' => [
             'label' => 'Thema naam',
-            'help' => 'Gebruik bij het invoeren van de naam de unieke code van het thema. Bijvoorbeeld: RainLab.Vanilla'
+            'help' => 'Gebruik bij het invoeren van de naam de unieke code van het thema. Bijvoorbeeld: RainLab.Vanilla',
         ],
     ],
     'themes' => [
@@ -72,9 +77,10 @@ return [
         'installed' => "Geïnstalleerde thema's",
         'no_themes' => "Er zijn geen thema's geinstallerd uit de marketplace.",
         'recommended' => 'Aanbevolen',
-        'remove_confirm' => 'Weet je zeker dat je dit thema wilt verwijderen?'
+        'remove_confirm' => 'Weet je zeker dat je dit thema wilt verwijderen?',
     ],
     'plugin' => [
+        'label' => 'Plugin',
         'unnamed' => 'Naamloze plugin',
         'name' => [
             'label' => 'Plugin naam',
@@ -161,8 +167,15 @@ return [
         'mandrill' => 'Mandrill',
         'mandrill_secret' => 'Mandrill secret',
         'mandrill_secret_comment' => 'Geef hier de Mandrill API key op.',
-        'drivers_hint_header' => "Stuurprogramma's niet geïnstalleerd",
-        'drivers_hint_content' => 'Om deze e-mail methode te gebruiken moet de plugin ":plugin" zijn geïnstalleerd.'
+        'ses' => 'SES',
+        'ses_key' => 'SES key',
+        'ses_key_comment' => 'Voer SES API key in',
+        'ses_secret' => 'SES secret',
+        'ses_secret_comment' => 'Voer SES API secret key in',
+        'ses_region' => 'SES regio',
+        'ses_region_comment' => 'Voer SES regio (bijv. us-east-1) in',
+        'drivers_hint_header' => 'Stuurprogramma\'s niet geïnstalleerd',
+        'drivers_hint_content' => 'Om deze e-mail methode te gebruiken moet de plugin ":plugin" zijn geïnstalleerd.',
     ],
     'mail_templates' => [
         'menu_label' => 'E-mail sjablonen',
@@ -299,6 +312,7 @@ return [
         'created_at' => 'Datum & tijd',
         'message' => 'Bericht',
         'level' => 'Level',
+        'preview_title' => 'Gebeurtenis',
     ],
     'request_log' => [
         'hint' => 'Dit logboek toont een lijst met pagina aanvragen welke mogelijk aandacht vereisen. Bijvoorbeeld: Een bezoeker opent een CMS pagina welke niet gevonden kan worden, een aantekening wordt gemaakt met statuscode 404.',
@@ -314,6 +328,7 @@ return [
         'referer' => 'Verwijzingen',
         'url' => 'URL',
         'status_code' => 'Status',
+        'preview_title' => 'Verzoek',
     ],
     'permissions' => [
         'name' => 'Systeem',
@@ -325,6 +340,7 @@ return [
         'manage_other_administrators' => 'Beheer mede-beheerders',
         'manage_preferences' => 'Beheer back-end instellingen',
         'manage_editor' => 'Beheer code editor instellingen',
-        'manage_branding' => 'Back-end aanpassen'
-    ]
+        'view_the_dashboard' => 'Toon dashboard',
+        'manage_branding' => 'Back-end aanpassen',
+    ],
 ];

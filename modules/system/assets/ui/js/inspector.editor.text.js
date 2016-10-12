@@ -46,14 +46,24 @@
                 </div>                                                                                  \
                 <div class="modal-body">                                                                \
                     <div class="form-group">                                                            \
+                        <p class="inspector-field-comment"></p>                                         \
                         <textarea class="form-control size-small field-textarea" name="name" value=""/> \
                     </div>                                                                              \
                 </div>                                                                                  \
                 <div class="modal-footer">                                                              \
                     <button type="submit" class="btn btn-primary">OK</button>                           \
-                    <button type="button" class="btn btn-default" data-dismiss="popup">Cancel</button>   \
+                    <button type="button" class="btn btn-default" data-dismiss="popup">Cancel</button>  \
                 </div>                                                                                  \
                 </form>'
+    }
+
+    TextEditor.prototype.configureComment = function(popup) {
+        if (!this.propertyDefinition.description) {
+            return
+        }
+
+        var descriptionElement = $(popup).find('p.inspector-field-comment')
+        descriptionElement.text(this.propertyDefinition.description)
     }
 
     TextEditor.prototype.configurePopup = function(popup) {
@@ -70,6 +80,8 @@
 
         $textarea.val(value)
         $textarea.focus()
+
+        this.configureComment(popup)
     }
 
     TextEditor.prototype.handleSubmit = function($form) {

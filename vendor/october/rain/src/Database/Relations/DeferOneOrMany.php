@@ -1,61 +1,82 @@
 <?php namespace October\Rain\Database\Relations;
 
 use October\Rain\Support\Facades\DbDongle;
-use Illuminate\Support\Facades\Db;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany as BelongsToManyBase;
 
 trait DeferOneOrMany
 {
     /**
      * Returns the model query with deferred bindings added
+     * @return \Illuminate\Database\Query\Builder
      */
     public function withDeferred($sessionKey)
     {
         $modelQuery = $this->query;
+
         $newQuery = $modelQuery->getQuery()->newQuery();
 
         $newQuery->from($this->related->getTable());
 
-        // A left join so the ON constraint is not strict
+        /*
+         * No join table will be used, strip the selected "pivot_" columns
+         */
         if ($this instanceof BelongsToManyBase) {
-            $this->setLeftJoin($newQuery);
+            $this->orphanMode = true;
         }
 
         $newQuery->where(function($query) use ($sessionKey) {
 
-            // Trick the relation to add constraints to this nested query
             if ($this->parent->exists) {
-                $this->query = $query;
                 if ($this instanceof BelongsToManyBase) {
-                    $this->setWhere();
+                    /*
+                     * Custom query for BelongsToManyBase since a "join" cannot be used
+                     */
+                    $query->whereExists(function($query) {
+                        $query
+                            ->select($this->parent->getConnection()->raw(1))
+                            ->from($this->table)
+                            ->whereRaw($this->getOtherKey().' = '.$this->getWithDeferredQualifiedKeyName())
+                            ->where($this->getForeignKey(), $this->parent->getKey());
+                    });
                 }
                 else {
+                    /*
+                     * Trick the relation to add constraints to this nested query
+                     */
+                    $this->query = $query;
                     $this->addConstraints();
                 }
             }
 
-            // Bind (Add)
+            /*
+             * Bind (Add)
+             */
             $query = $query->orWhereExists(function($query) use ($sessionKey) {
-                $query->from('deferred_bindings')
-                    ->whereRaw(DbDongle::cast('slave_id', 'INTEGER').' = '.DbDongle::getTablePrefix().$this->related->getQualifiedKeyName())
+                $query
+                    ->select($this->parent->getConnection()->raw(1))
+                    ->from('deferred_bindings')
+                    ->whereRaw('slave_id = '.$this->getWithDeferredQualifiedKeyName())
                     ->where('master_field', $this->relationName)
                     ->where('master_type', get_class($this->parent))
                     ->where('session_key', $sessionKey)
-                    ->where('is_bind', true);
+                    ->where('is_bind', 1);
             });
         });
 
-        // Unbind (Remove)
+        /*
+         * Unbind (Remove)
+         */
         $newQuery->whereNotExists(function($query) use ($sessionKey) {
-            $query->from('deferred_bindings')
-                ->whereRaw(DbDongle::cast('slave_id', 'INTEGER').' = '.DbDongle::getTablePrefix().$this->related->getQualifiedKeyName())
+            $query
+                ->select($this->parent->getConnection()->raw(1))
+                ->from('deferred_bindings')
+                ->whereRaw('slave_id = '.$this->getWithDeferredQualifiedKeyName())
                 ->where('master_field', $this->relationName)
                 ->where('master_type', get_class($this->parent))
                 ->where('session_key', $sessionKey)
-                ->where('is_bind', false)
+                ->where('is_bind', 0)
                 ->whereRaw(DbDongle::parse('id > ifnull((select max(id) from '.DbDongle::getTablePrefix().'deferred_bindings where
-                        '.DbDongle::cast('slave_id', 'INTEGER').' = '.DbDongle::getTablePrefix().$this->related->getQualifiedKeyName().' and
+                        slave_id = '.$this->getWithDeferredQualifiedKeyName().' and
                         master_field = ? and
                         master_type = ? and
                         session_key = ? and
@@ -64,12 +85,26 @@ trait DeferOneOrMany
                     $this->relationName,
                     get_class($this->parent),
                     $sessionKey,
-                    true
+                    1
                 ]);
         });
 
         $modelQuery->setQuery($newQuery);
+
         $modelQuery = $this->related->applyGlobalScopes($modelQuery);
+
         return $this->query = $modelQuery;
+    }
+
+    /**
+     * Returns the related "slave id" key in a database friendly format.
+     * @return string
+     */
+    protected function getWithDeferredQualifiedKeyName()
+    {
+        return DbDongle::cast(
+            DbDongle::getTablePrefix() . $this->related->getQualifiedKeyName(),
+            'TEXT'
+        );
     }
 }

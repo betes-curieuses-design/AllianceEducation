@@ -82,16 +82,22 @@ if (!function_exists('trace_log'))
      * @param string $level Specifies a level to use. If this parameter is omitted, the default listener will be used (info).
      * @return void
      */
-    function trace_log($message, $level = 'info')
+    function trace_log()
     {
-        if ($message instanceof Exception) {
-            $level = 'error';
-        }
-        elseif (is_array($message) || is_object($message)) {
-            $message = print_r($message, true);
-        }
+        $messages = func_get_args();
 
-        Log::$level($message);
+        foreach ($messages as $message) {
+            $level = 'info';
+
+            if ($message instanceof Exception) {
+                $level = 'error';
+            }
+            elseif (is_array($message) || is_object($message)) {
+                $message = print_r($message, true);
+            }
+
+            Log::$level($message);
+        }
     }
 }
 
@@ -101,9 +107,9 @@ if (!function_exists('traceLog'))
      * Alias for trace_log()
      * @return void
      */
-    function traceLog($message, $level = 'info')
+    function traceLog()
     {
-        trace_log($message, $level);
+        call_user_func_array('trace_log', func_get_args());
     }
 }
 
@@ -119,6 +125,13 @@ if (!function_exists('trace_sql'))
             define('OCTOBER_NO_EVENT_LOGGING', 1);
         }
 
+        if (!defined('OCTOBER_TRACING_SQL')) {
+            define('OCTOBER_TRACING_SQL', 1);
+        }
+        else {
+            return;
+        }
+
         Event::listen('illuminate.query', function($query, $bindings, $time, $name) {
             $data = compact('bindings', 'time', 'name');
 
@@ -131,7 +144,7 @@ if (!function_exists('trace_sql'))
                     $bindings[$i] = "'$binding'";
             }
 
-            $query = str_replace(array('%', '?'), array('%%', '%s'), $query);
+            $query = str_replace(['%', '?'], ['%%', '%s'], $query);
             $query = vsprintf($query, $bindings);
 
             traceLog($query);
@@ -218,7 +231,7 @@ if (!function_exists('trans'))
      * @param  string  $locale
      * @return string
      */
-    function trans($id = null, $parameters = array(), $domain = 'messages', $locale = null)
+    function trans($id = null, $parameters = [], $domain = 'messages', $locale = null)
     {
         return app('translator')->trans($id, $parameters, $domain, $locale);
     }

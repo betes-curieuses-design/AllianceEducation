@@ -9,16 +9,7 @@ use October\Rain\Database\Attach\File as FileModel;
 class AttachMany extends MorphManyBase
 {
     use AttachOneOrMany;
-
-    /**
-     * @var string The "name" of the relationship.
-     */
-    protected $relationName;
-
-    /**
-     * @var boolean Default value for file public or protected state
-     */
-    protected $public;
+    use DefinedConstraints;
 
     /**
      * Create a new has many relationship instance.
@@ -27,9 +18,12 @@ class AttachMany extends MorphManyBase
     public function __construct(Builder $query, Model $parent, $type, $id, $isPublic, $localKey, $relationName = null)
     {
         $this->relationName = $relationName;
+
         $this->public = $isPublic;
 
         parent::__construct($query, $parent, $type, $id, $localKey);
+
+        $this->addDefinedConstraints();
     }
 
     /**
@@ -42,17 +36,18 @@ class AttachMany extends MorphManyBase
          * Newly uploaded file(s)
          */
         if ($value instanceof UploadedFile) {
-            $this->parent->bindEventOnce('model.afterSave', function() use ($value){
+            $this->parent->bindEventOnce('model.afterSave', function() use ($value) {
                 $this->create(['data' => $value]);
             });
         }
         elseif (is_array($value)) {
             $files = [];
             foreach ($value as $_value) {
-                if ($_value instanceof UploadedFile)
+                if ($_value instanceof UploadedFile) {
                     $files[] = $_value;
+                }
             }
-            $this->parent->bindEventOnce('model.afterSave', function() use ($files){
+            $this->parent->bindEventOnce('model.afterSave', function() use ($files) {
                 foreach ($files as $file) {
                     $this->create(['data' => $file]);
                 }
@@ -62,7 +57,7 @@ class AttachMany extends MorphManyBase
          * Existing File model
          */
         elseif ($value instanceof FileModel) {
-            $this->parent->bindEventOnce('model.afterSave', function() use ($value){
+            $this->parent->bindEventOnce('model.afterSave', function() use ($value) {
                 $this->add($value);
             });
         }

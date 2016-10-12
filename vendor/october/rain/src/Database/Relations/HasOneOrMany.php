@@ -1,11 +1,15 @@
 <?php namespace October\Rain\Database\Relations;
 
-use Illuminate\Support\Facades\Db;
 use Illuminate\Database\Eloquent\Model;
 
 trait HasOneOrMany
 {
     use DeferOneOrMany;
+
+    /**
+     * @var string The "name" of the relationship.
+     */
+    protected $relationName;
 
     /**
      * Save the supplied related model with deferred binding support.
@@ -27,7 +31,7 @@ trait HasOneOrMany
      * @param  array  $models
      * @return array
      */
-    public function saveMany(array $models, $sessionKey = null)
+    public function saveMany($models, $sessionKey = null)
     {
         foreach ($models as $model) {
             $this->save($model, $sessionKey);
@@ -39,7 +43,7 @@ trait HasOneOrMany
     /**
      * Create a new instance of this related model with deferred binding support.
      */
-    public function create(array $attributes, $sessionKey = null)
+    public function create(array $attributes = [], $sessionKey = null)
     {
         $model = parent::create($attributes);
 
@@ -56,7 +60,7 @@ trait HasOneOrMany
     public function add(Model $model, $sessionKey = null)
     {
         if ($sessionKey === null) {
-            $model->setAttribute($this->getPlainForeignKey(), $this->parent->getKey());
+            $model->setAttribute($this->getPlainForeignKey(), $this->getParentKey());
             $model->save();
 
             /*
@@ -64,6 +68,9 @@ trait HasOneOrMany
              */
             if ($this instanceof HasOne) {
                 $this->parent->setRelation($this->relationName, $model);
+            }
+            else {
+                $this->parent->reloadRelations($this->relationName);
             }
         }
         else {
@@ -85,6 +92,9 @@ trait HasOneOrMany
              */
             if ($this instanceof HasOne) {
                 $this->parent->setRelation($this->relationName, null);
+            }
+            else {
+                $this->parent->reloadRelations($this->relationName);
             }
         }
         else {

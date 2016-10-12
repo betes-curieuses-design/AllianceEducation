@@ -1,6 +1,7 @@
 <?php namespace October\Rain\Scaffold;
 
 use Illuminate\Support\ServiceProvider;
+use October\Rain\Scaffold\Console\CreateCommand;
 use October\Rain\Scaffold\Console\CreatePlugin;
 use October\Rain\Scaffold\Console\CreateModel;
 use October\Rain\Scaffold\Console\CreateController;
@@ -15,24 +16,28 @@ class ScaffoldServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bindShared('command.create.plugin', function() {
+        $this->app->singleton('command.create.plugin', function() {
             return new CreatePlugin;
         });
 
-        $this->app->bindShared('command.create.model', function() {
+        $this->app->singleton('command.create.model', function() {
             return new CreateModel;
         });
 
-        $this->app->bindShared('command.create.controller', function() {
+        $this->app->singleton('command.create.controller', function() {
             return new CreateController;
         });
 
-        $this->app->bindShared('command.create.component', function() {
+        $this->app->singleton('command.create.component', function() {
             return new CreateComponent;
         });
 
-        $this->app->bindShared('command.create.formwidget', function() {
+        $this->app->singleton('command.create.formwidget', function() {
             return new CreateFormWidget;
+        });
+
+        $this->app->singleton('command.create.command', function() {
+            return new CreateCommand;
         });
 
         $this->commands('command.create.plugin');
@@ -40,6 +45,7 @@ class ScaffoldServiceProvider extends ServiceProvider
         $this->commands('command.create.controller');
         $this->commands('command.create.component');
         $this->commands('command.create.formwidget');
+        $this->commands('command.create.command');
     }
 
     /**
@@ -54,6 +60,7 @@ class ScaffoldServiceProvider extends ServiceProvider
             'command.create.controller',
             'command.create.component',
             'command.create.formwidget',
+            'command.create.command'
         ];
     }
 }

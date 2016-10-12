@@ -7,7 +7,7 @@ trait SyntaxModelTrait
 
     public static function bootSyntaxModelTrait()
     {
-        static::fetched(function($model){
+        static::fetched(function($model) {
             $model->defineSyntaxRelations();
         });
     }
@@ -28,7 +28,7 @@ trait SyntaxModelTrait
             if (!isset($params['type'])) continue;
 
             if ($params['type'] == 'fileupload') {
-                $this->attachOne[$field] = ['System\Models\File'];
+                $this->attachOne[$field] = 'System\Models\File';
             }
         }
     }
@@ -83,7 +83,11 @@ trait SyntaxModelTrait
             $path = $image->getPath();
         }
 
-        return Request::getSchemeAndHttpHost()  . $path;
+        if (!starts_with($path, ['//', 'http://', 'https://'])) {
+            $path = Request::getSchemeAndHttpHost() . $path;
+        }
+
+        return $path;
     }
 
     /**

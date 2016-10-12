@@ -36,7 +36,7 @@ class Handler extends ExceptionHandler
      *
      * This is a great spot to send exceptions to Sentry, Bugsnag, etc.
      *
-     * @param  \Exception  $e
+     * @param  \Exception  $exception
      * @return void
      */
     public function report(Exception $exception)
@@ -44,14 +44,16 @@ class Handler extends ExceptionHandler
         if ($this->shouldntReport($exception))
             return;
 
-        Log::error($exception);
+        if (class_exists('Log')) {
+            Log::error($exception);
+        }
     }
 
     /**
      * Render an exception into an HTTP response.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \Exception  $e
+     * @param  \Exception  $exception
      * @return \Illuminate\Http\Response
      */
     public function render($request, Exception $exception)
@@ -73,6 +75,7 @@ class Handler extends ExceptionHandler
     /**
      * Checks if the exception implements the HttpExceptionInterface, or returns
      * as generic 500 error code for a server side error.
+     * @param \Exception $exception
      * @return int
      */
     protected function getStatusCode($exception)
@@ -130,7 +133,7 @@ class Handler extends ExceptionHandler
             try {
                 $response = $handler($exception, $code, $fromConsole);
             }
-            catch (\Exception $e) {
+            catch (Exception $e) {
                 $response = $this->formatException($e);
             }
             // If this handler returns a "non-null" response, we will return it so it will

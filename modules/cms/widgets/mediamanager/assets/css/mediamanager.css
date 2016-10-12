@@ -125,7 +125,7 @@ div[data-control="media-manager"] .media-list li i.icon-chain-broken {
   color: #bdc3c7;
 }
 div[data-control="media-manager"] .media-list li[data-item-type=folder] i {
-  color: #4da7e8;
+  color: #4ea5e0;
 }
 div[data-control="media-manager"] .media-list.list li {
   height: 75px;
@@ -162,7 +162,7 @@ div[data-control="media-manager"] .media-list.list li[data-root] h4 {
   margin-top: 27px;
 }
 div[data-control="media-manager"] .media-list.list li.selected {
-  background: #4da7e8 !important;
+  background: #4ea5e0 !important;
 }
 div[data-control="media-manager"] .media-list.list li.selected i,
 div[data-control="media-manager"] .media-list.list li.selected p.size {
@@ -172,7 +172,7 @@ div[data-control="media-manager"] .media-list.list li.selected h4 {
   color: white;
 }
 div[data-control="media-manager"] .media-list.list li.selected .icon-container {
-  border-right-color: #4da7e8 !important;
+  border-right-color: #4ea5e0 !important;
 }
 div[data-control="media-manager"] .media-list.list h4 {
   padding-right: 15px;
@@ -220,10 +220,10 @@ div[data-control="media-manager"] .media-list.tiles li .icon-container i {
   font-size: 55px;
 }
 div[data-control="media-manager"] .media-list.tiles li .icon-container p {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: sans-serif;
 }
 div[data-control="media-manager"] .media-list.tiles li.selected .icon-container {
-  background: #4da7e8 !important;
+  background: #4ea5e0 !important;
   border-color: #2581b8;
 }
 div[data-control="media-manager"] .media-list.tiles li.selected .icon-container i,
@@ -289,6 +289,9 @@ div[data-control="media-manager"] .sidebar-image-placeholder p {
   color: #bdc3c7;
   margin-top: 25px;
 }
+div[data-control="media-manager"] .sidebar-image-placeholder img {
+  max-width: 100%;
+}
 div[data-control="media-manager"] .list-container {
   position: relative;
   z-index: 100;
@@ -306,6 +309,9 @@ div[data-control="media-manager"] .list-container li.no-data {
   border: none !important;
   background: transparent !important;
   cursor: default !important;
+}
+div[data-control="media-manager"] .list-container table.table.data tbody tr:not(.no-data):active td {
+  background: #4ea5e0 !important;
 }
 div[data-control="media-manager"] [data-control="item-list"] {
   position: relative;
@@ -348,7 +354,7 @@ div[data-control="media-manager"] table.table tr:hover div.item-title a {
   display: block;
 }
 div[data-control="media-manager"] table.table tr[data-item-type=folder] i.icon-folder {
-  color: #4da7e8;
+  color: #4ea5e0;
 }
 div[data-control="media-manager"] table.table tr:focus {
   outline: none;
@@ -497,7 +503,7 @@ div[data-control="media-manager"] button[data-command="toggle-sidebar"].sidebar-
   left: auto;
 }
 body:not(.no-select) div[data-control="media-manager"] .media-list.tiles li:hover .icon-container {
-  background: #4da7e8 !important;
+  background: #4ea5e0 !important;
   border-color: #2581b8;
 }
 body:not(.no-select) div[data-control="media-manager"] .media-list.tiles li:hover .icon-container i,
@@ -511,7 +517,7 @@ body:not(.no-select) div[data-control="media-manager"] .media-list.tiles li:hove
   padding-right: 20px !important;
 }
 body:not(.no-select) div[data-control="media-manager"] .media-list.list li:hover {
-  background: #4da7e8 !important;
+  background: #4ea5e0 !important;
 }
 body:not(.no-select) div[data-control="media-manager"] .media-list.list li:hover i,
 body:not(.no-select) div[data-control="media-manager"] .media-list.list li:hover p.size {
@@ -521,7 +527,7 @@ body:not(.no-select) div[data-control="media-manager"] .media-list.list li:hover
   color: white;
 }
 body:not(.no-select) div[data-control="media-manager"] .media-list.list li:hover .icon-container {
-  border-right-color: #4da7e8 !important;
+  border-right-color: #4ea5e0 !important;
 }
 body:not(.no-select) div[data-control="media-manager"] .media-list.list li:hover h4 {
   padding-right: 35px !important;

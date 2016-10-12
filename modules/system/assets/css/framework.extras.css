@@ -51,7 +51,7 @@ body.oc-loading * {
 }
 @-moz-keyframes infinite-loader {
   0% {
-    width: 0%;
+    width: 0;
   }
   10% {
     width: 42%;
@@ -86,7 +86,7 @@ body.oc-loading * {
 }
 @-webkit-keyframes infinite-loader {
   0% {
-    width: 0%;
+    width: 0;
   }
   10% {
     width: 42%;
@@ -121,7 +121,7 @@ body.oc-loading * {
 }
 @-o-keyframes infinite-loader {
   0% {
-    width: 0%;
+    width: 0;
   }
   10% {
     width: 42%;
@@ -156,7 +156,7 @@ body.oc-loading * {
 }
 @-ms-keyframes infinite-loader {
   0% {
-    width: 0%;
+    width: 0;
   }
   10% {
     width: 42%;
@@ -191,7 +191,7 @@ body.oc-loading * {
 }
 @keyframes infinite-loader {
   0% {
-    width: 0%;
+    width: 0;
   }
   10% {
     width: 42%;

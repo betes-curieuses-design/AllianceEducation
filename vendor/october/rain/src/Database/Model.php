@@ -1,9 +1,13 @@
 <?php namespace October\Rain\Database;
 
+use Db;
 use Input;
 use Closure;
+use October\Rain\Support\Arr;
+use October\Rain\Support\Str;
+use October\Rain\Argon\Argon;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
-use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Database\Eloquent\Collection as CollectionBase;
 use October\Rain\Database\Relations\BelongsTo;
 use October\Rain\Database\Relations\BelongsToMany;
 use October\Rain\Database\Relations\HasMany;
@@ -15,11 +19,9 @@ use October\Rain\Database\Relations\MorphOne;
 use October\Rain\Database\Relations\AttachMany;
 use October\Rain\Database\Relations\AttachOne;
 use October\Rain\Database\Relations\HasManyThrough;
-use October\Rain\Database\ModelException;
-use October\Rain\Database\QueryBuilder;
-use Symfony\Component\HttpFoundation\File\UploadedFile;
 use InvalidArgumentException;
 use Exception;
+use DateTime;
 
 /**
  * Active Record base class.
@@ -182,7 +184,7 @@ class Model extends EloquentModel
      * @param string $sessionKey
      * @return \Illuminate\Database\Eloquent\Model|static
      */
-    public static function create(array $attributes, $sessionKey = null)
+    public static function create(array $attributes = [], $sessionKey = null)
     {
         $model = new static($attributes);
         $model->save(null, $sessionKey);
@@ -337,7 +339,7 @@ class Model extends EloquentModel
     /**
      * Set the jsonable attributes for the model.
      *
-     * @param  array  $fillable
+     * @param  array  $jsonable
      * @return $this
      */
     public function jsonable(array $jsonable)
@@ -368,6 +370,43 @@ class Model extends EloquentModel
     }
 
     /**
+     * Get a fresh timestamp for the model.
+     *
+     * @return \October\Rain\Argon\Argon
+     */
+    public function freshTimestamp()
+    {
+        return new Argon;
+    }
+
+    /**
+     * Return a timestamp as DateTime object.
+     *
+     * @param  mixed  $value
+     * @return \Carbon\Carbon
+     */
+    protected function asDateTime($value)
+    {
+        if ($value instanceof Argon) {
+            return $value;
+        }
+
+        if ($value instanceof DateTime) {
+            return Argon::instance($value);
+        }
+
+        if (is_numeric($value)) {
+            return Argon::createFromTimestamp($value);
+        }
+
+        if (preg_match('/^(\d{4})-(\d{2})-(\d{2})$/', $value)) {
+            return Argon::createFromFormat('Y-m-d', $value)->startOfDay();
+        }
+
+        return Argon::createFromFormat($this->getDateFormat(), $value);
+    }
+
+    /**
      * Create a new Eloquent query builder for the model.
      *
      * @param  \Illuminate\Database\Query\Builder $query
@@ -390,6 +429,17 @@ class Model extends EloquentModel
         $grammar = $conn->getQueryGrammar();
 
         return new QueryBuilder($conn, $grammar, $conn->getPostProcessor());
+    }
+
+    /**
+     * Create a new Model Collection instance.
+     *
+     * @param  array  $models
+     * @return \October\Rain\Database\Collection
+     */
+    public function newCollection(array $models = [])
+    {
+        return new Collection($models);
     }
 
     //
@@ -461,6 +511,30 @@ class Model extends EloquentModel
     }
 
     /**
+     * Returns relationship details for all relations defined on this model.
+     * @return array
+     */
+    public function getRelationDefinitions()
+    {
+        $result = [];
+
+        foreach (static::$relationTypes as $type) {
+            $result[$type] = $this->{$type};
+
+            /*
+             * Apply default values for the relation type
+             */
+            if ($defaults = $this->getRelationDefaults($type)) {
+                foreach ($result[$type] as $relation => $options) {
+                    $result[$type][$relation] = (array) $options + $defaults;
+                }
+            }
+        }
+
+        return $result;
+    }
+
+    /**
      * Returns a relationship type based on a supplied name.
      * @param string $name Relation name
      * @return string
@@ -510,7 +584,7 @@ class Model extends EloquentModel
 
     /**
      * Returns default relation arguments for a given type.
-     * @param string $name Relation type
+     * @param string $type Relation type
      * @return array
      */
     protected function getRelationDefaults($type)
@@ -537,10 +611,14 @@ class Model extends EloquentModel
         $relation = $this->getRelationDefinition($relationName);
 
         if (!isset($relation[0]) && $relationType != 'morphTo')
-            throw new InvalidArgumentException(sprintf("Relation '%s' on model '%s' should have at least a classname.", $relationName, get_called_class()));
+            throw new InvalidArgumentException(sprintf(
+                "Relation '%s' on model '%s' should have at least a classname.", $relationName, get_called_class()
+            ));
 
         if (isset($relation[0]) && $relationType == 'morphTo')
-            throw new InvalidArgumentException(sprintf("Relation '%s' on model '%s' is a morphTo relation and should not contain additional arguments.", $relationName, get_called_class()));
+            throw new InvalidArgumentException(sprintf(
+                "Relation '%s' on model '%s' is a morphTo relation and should not contain additional arguments.", $relationName, get_called_class()
+            ));
 
         switch ($relationType) {
             case 'hasOne':
@@ -587,15 +665,15 @@ class Model extends EloquentModel
                 break;
 
             case 'hasManyThrough':
-                $relation = $this->validateRelationArgs($relationName, ['key', 'throughKey'], ['through']);
-                $relationObj = $this->$relationType($relation[0], $relation['through'], $relation['key'], $relation['throughKey']);
+                $relation = $this->validateRelationArgs($relationName, ['key', 'throughKey', 'otherKey'], ['through']);
+                $relationObj = $this->$relationType($relation[0], $relation['through'], $relation['key'], $relation['throughKey'], $relation['otherKey']);
                 break;
 
             default:
                 throw new InvalidArgumentException(sprintf("There is no such relation type known as '%s' on model '%s'.", $relationType, get_called_class()));
         }
 
-        return $this->applyRelationFilters($relation, $relationObj);
+        return $relationObj;
     }
 
     /**
@@ -621,73 +699,12 @@ class Model extends EloquentModel
             }
         }
 
-        if ($missingRequired)
-            throw new InvalidArgumentException("Relation '".$relationName."' on model '".get_called_class().' should contain the following key(s): '.join(', ', $missingRequired));
-
-        return $relation;
-    }
-
-    /**
-     * Apply filters to relationship objects as supplied by arguments.
-     * @param $args Captured relationship arguments
-     * @param $relation Relationship object
-     * @return Relationship object
-     */
-    protected function applyRelationFilters($args, $relation)
-    {
-        /*
-         * Pivot data (belongsToMany, morphToMany, morphByMany)
-         */
-        if ($pivotData = $args['pivot']) {
-            $relation->withPivot($pivotData);
-        }
-
-        /*
-         * Pivot timestamps (belongsToMany, morphToMany, morphByMany)
-         */
-        if ($args['timestamps']) {
-            $relation->withTimestamps();
-        }
-
-        /*
-         * Count related records
-         */
-        if ($count = $args['count']) {
-            $relation->selectRaw($relation->getForeignKey() . ', count(*) as count')
-                ->groupBy($relation->getForeignKey());
-        }
-
-        /*
-         * Conditions
-         */
-        if ($conditions = $args['conditions']) {
-            $relation->whereRaw($conditions);
-        }
-
-        /*
-         * Sort order
-         */
-        if ($orderBy = $args['order']) {
-            if (!is_array($orderBy))
-                $orderBy = [$orderBy];
-
-            foreach ($orderBy as $order) {
-                $column = $order;
-                $direction = 'asc';
-
-                $parts = explode(' ', $order);
-                if (count($parts) > 1)
-                    list($column, $direction) = $parts;
-
-                $relation->orderBy($column, $direction);
-            }
-        }
-
-        /*
-         * Scope
-         */
-        if ($scope = $args['scope']) {
-            $relation->$scope();
+        if ($missingRequired) {
+            throw new InvalidArgumentException(sprintf('Relation "%s" on model "%s" should contain the following key(s): %s',
+                $relationName,
+                get_called_class(),
+                join(', ', $missingRequired)
+            ));
         }
 
         return $relation;
@@ -803,7 +820,7 @@ class Model extends EloquentModel
      * This code is a duplicate of Eloquent but uses a Rain relation class.
      * @return \October\Rain\Database\Relations\HasMany
      */
-    public function hasManyThrough($related, $through, $primaryKey = null, $throughKey = null, $relationName = null)
+    public function hasManyThrough($related, $through, $primaryKey = null, $throughKey = null, $localKey = null, $relationName = null)
     {
         if (is_null($relationName))
             $relationName = $this->getRelationCaller();
@@ -812,8 +829,9 @@ class Model extends EloquentModel
         $throughInstance = new $through;
         $primaryKey = $primaryKey ?: $this->getForeignKey();
         $throughKey = $throughKey ?: $throughInstance->getForeignKey();
+        $localKey = $localKey ?: $this->getKeyName();
 
-        return new HasManyThrough($instance->newQuery(), $this, $throughInstance, $primaryKey, $throughKey);
+        return new HasManyThrough($instance->newQuery(), $this, $throughInstance, $primaryKey, $throughKey, $localKey);
     }
 
     /**
@@ -943,26 +961,7 @@ class Model extends EloquentModel
      */
     public function getRelationValue($relationName)
     {
-        $relationType = $this->getRelationType($relationName);
-        $relationObj = $this->$relationName();
-        $value = null;
-
-        switch ($relationType) {
-            case 'belongsTo':
-            case 'hasOne':
-            case 'attachOne':
-            case 'attachMany':
-                $value = $relationObj->getSimpleValue();
-                break;
-
-            case 'belongsToMany':
-            case 'morphToMany':
-            case 'morphedByMany':
-                $value = $relationObj->getRelatedIds();
-                break;
-        }
-
-        return $value;
+        return $this->$relationName()->getSimpleValue();
     }
 
     /**
@@ -970,42 +969,7 @@ class Model extends EloquentModel
      */
     protected function setRelationValue($relationName, $value)
     {
-        $relationType = $this->getRelationType($relationName);
-        $relationObj = $this->$relationName();
-        $relationModel = $relationObj->getRelated();
-
-        switch ($relationType) {
-            case 'belongsTo':
-            case 'hasOne':
-            case 'attachOne':
-            case 'attachMany':
-                $relationObj->setSimpleValue($value);
-                break;
-
-            case 'belongsToMany':
-            case 'morphToMany':
-            case 'morphedByMany':
-                // Nulling the relationship
-                if (!$value) {
-                    if ($this->exists) $relationObj->detach();
-                    break;
-                }
-
-                if (is_string($value)) $value = [$value];
-
-                // Do not sync until the model is saved
-                $this->bindEventOnce('model.afterSave', function() use ($relationObj, $value){
-                    $relationObj->sync($value);
-                });
-
-                $relationCollection = $value instanceof Collection
-                    ? $value
-                    : $relationModel->whereIn($relationModel->getKeyName(), $value)->get();
-
-                // Associate
-                $this->setRelation($relationName, $relationCollection);
-                break;
-        }
+        $this->$relationName()->setSimpleValue($value);
     }
 
     //
@@ -1050,6 +1014,7 @@ class Model extends EloquentModel
 
     /**
      * Save the model to the database. Is used by {@link save()} and {@link forceSave()}.
+     * @param array $options
      * @return bool
      */
     protected function saveInternal($options = [])
@@ -1100,6 +1065,8 @@ class Model extends EloquentModel
 
     /**
      * Save the model to the database.
+     * @param array $options
+     * @param null $sessionKey
      * @return bool
      */
     public function save(array $options = null, $sessionKey = null)
@@ -1110,11 +1077,13 @@ class Model extends EloquentModel
 
     /**
      * Save the model and all of its relationships.
+     * @param array $options
+     * @param null $sessionKey
      * @return bool
      */
     public function push($options = null, $sessionKey = null)
     {
-        $always = array_get($options, 'always', false);
+        $always = Arr::get($options, 'always', false);
 
         if (!$this->save(null, $sessionKey) && !$always) {
             return false;
@@ -1125,7 +1094,7 @@ class Model extends EloquentModel
                 continue;
             }
 
-            if ($models instanceof Collection) {
+            if ($models instanceof CollectionBase) {
                 $models = $models->all();
             }
             elseif ($models instanceof EloquentModel) {
@@ -1148,11 +1117,68 @@ class Model extends EloquentModel
     /**
      * Pushes the first level of relations even if the parent
      * model has no changes.
+     * @param array $options
+     * @param string $sessionKey
      * @return bool
      */
     public function alwaysPush($options = null, $sessionKey)
     {
         return $this->push(['always' => true] + (array) $options, $sessionKey);
+    }
+
+    //
+    // Deleting
+    //
+
+    /**
+     * Perform the actual delete query on this model instance.
+     * @return void
+     */
+    protected function performDeleteOnModel()
+    {
+        $this->performDeleteOnRelations();
+        $this->setKeysForSaveQuery($this->newQueryWithoutScopes())->delete();
+    }
+
+    /**
+     * Locates relations with delete flag and cascades the delete event.
+     * @return void
+     */
+    protected function performDeleteOnRelations()
+    {
+        $definitions = $this->getRelationDefinitions();
+        foreach ($definitions as $type => $relations) {
+            /*
+             * Hard 'delete' definition
+             */
+            foreach ($relations as $name => $options) {
+                if (!Arr::get($options, 'delete', false)) {
+                    continue;
+                }
+
+                if (!$relation = $this->{$name}) {
+                    continue;
+                }
+
+                if ($relation instanceof EloquentModel) {
+                    $relation->forceDelete();
+                }
+                elseif ($relation instanceof CollectionBase) {
+                    $relation->each(function($model) {
+                        $model->forceDelete();
+                    });
+                }
+            }
+
+            /*
+             * Belongs-To-Many should clean up after itself always
+             */
+            if ($type == 'belongsToMany') {
+                foreach ($relations as $name => $options) {
+                    $this->{$name}()->detach();
+                }
+            }
+        }
     }
 
     //
@@ -1196,21 +1222,24 @@ class Model extends EloquentModel
     public function getAttribute($key)
     {
         // Before Event
-        if (($attr = $this->fireEvent('model.beforeGetAttribute', [$key], true)) !== null)
+        if (($attr = $this->fireEvent('model.beforeGetAttribute', [$key], true)) !== null) {
             return $attr;
+        }
 
-        $attr = parent::getAttribute($key);
-
-        if ($attr === null &&
-            $this->hasRelation($key) &&
-            !array_key_exists($key, $this->relations)
-        ) {
-            $attr = $this->relations[$key] = $this->$key()->getResults();
+        if (array_key_exists($key, $this->attributes) || $this->hasGetMutator($key)) {
+            $attr = $this->getAttributeValue($key);
+        }
+        elseif ($this->relationLoaded($key)) {
+            $attr = $this->relations[$key];
+        }
+        elseif ($this->hasRelation($key)) {
+            $attr = $this->getRelationshipFromMethod($key);
         }
 
         // After Event
-        if (($_attr = $this->fireEvent('model.getAttribute', [$key, $attr], true)) !== null)
+        if (($_attr = $this->fireEvent('model.getAttribute', [$key, $attr], true)) !== null) {
             return $_attr;
+        }
 
         return $attr;
     }
@@ -1245,7 +1274,7 @@ class Model extends EloquentModel
      */
     public function hasGetMutator($key)
     {
-        return $this->methodExists('get'.studly_case($key).'Attribute');
+        return $this->methodExists('get'.Str::studly($key).'Attribute');
     }
 
     //
@@ -1299,7 +1328,7 @@ class Model extends EloquentModel
      */
     public function hasSetMutator($key)
     {
-        return $this->methodExists('set'.studly_case($key).'Attribute');
+        return $this->methodExists('set'.Str::studly($key).'Attribute');
     }
 
 }

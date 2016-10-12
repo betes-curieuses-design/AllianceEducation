@@ -9,7 +9,6 @@ use Exception;
  */
 class Dongle
 {
-
     /**
      * @var DB Database helper object
      */
@@ -21,6 +20,11 @@ class Dongle
     protected $driver;
 
     /**
+     * @var bool Used to determine whether strict mode has been disabled.
+     */
+    protected $strictModeDisabled;
+
+    /**
      * Constructor.
      */
     public function __construct($driver = 'mysql', $db = null)
@@ -30,19 +34,12 @@ class Dongle
     }
 
     /**
-     * Helper method, softly checks if a database is present.
-     * @return boolean
+     * @deprecated use App::hasDatabase()
+     * Remove this method if year >= 2017
      */
     public function hasDatabase()
     {
-        try {
-            $this->db->connection()->getDatabaseName();
-        }
-        catch (Exception $ex) {
-            return false;
-        }
-
-        return true;
+        return \App::hasDatabase();
     }
 
     /**
@@ -65,6 +62,7 @@ class Dongle
         $sql = $this->parseGroupConcat($sql);
         $sql = $this->parseConcat($sql);
         $sql = $this->parseIfNull($sql);
+        $sql = $this->parseBooleanExpression($sql);
         return $sql;
     }
 
@@ -87,6 +85,7 @@ class Dongle
                 case 'pgsql':
                 case 'postgis':
                 case 'sqlite':
+                case 'sqlsrv':
                     return str_ireplace(' separator ', ', ', $matches[0]);
             }
         }, $sql);
@@ -94,6 +93,13 @@ class Dongle
         if ($this->driver == 'pgsql' || $this->driver == 'postgis') {
             $result = preg_replace("/\\(([]a-zA-Z\\-\\_]+)\\,/i", "($1::VARCHAR,", $result);
             $result = str_ireplace('group_concat(', 'string_agg(', $result);
+        }
+
+        /*
+         * Requires https://groupconcat.codeplex.com/
+         */
+        if ($this->driver == 'sqlsrv') {
+            $result = str_ireplace('group_concat(', 'dbo.GROUP_CONCAT_D(', $result);
         }
 
         return $result;
@@ -138,11 +144,34 @@ class Dongle
      */
     public function parseIfNull($sql)
     {
-        if ($this->driver != 'pgsql' && $this->driver != 'postgis') {
+        if ($this->driver == 'pgsql' || $this->driver == 'postgis') {
+            return str_ireplace('ifnull(', 'coalesce(', $sql);
+        }
+
+        if ($this->driver == 'sqlsrv') {
+            return str_ireplace('ifnull(', 'isnull(', $sql);
+        }
+
+        return $sql;
+    }
+
+    /**
+     * Transforms true|false expressions in a statement.
+     * @param  string $sql
+     * @return string
+     */
+    public function parseBooleanExpression($sql)
+    {
+        if ($this->driver != 'sqlite') {
             return $sql;
         }
 
-        return str_ireplace('ifnull(', 'coalesce(', $sql);
+        return preg_replace_callback('/(\w+)\s*(=|<>)\s*(true|false)($|\s)/i', function ($matches) {
+            array_shift($matches);
+            $space = array_pop($matches);
+            $matches[2] = $matches[2] == 'true' ? 1 : 0;
+            return implode(' ', $matches) . $space;
+        }, $sql);
     }
 
     /**
@@ -157,6 +186,50 @@ class Dongle
         }
 
         return 'CAST('.$sql.' AS '.$asType.')';
+    }
+
+    /**
+     * Alters a table's TIMESTAMP field(s) to be nullable and converts existing values.
+     *
+     * This is needed to transition from older Laravel code that set DEFAULT 0, which is an
+     * invalid date in newer MySQL versions where NO_ZERO_DATE is included in strict mode.
+     *
+     * @param string        $table
+     * @param string|array  $columns Column name(s). Defaults to ['created_at', 'updated_at']
+     */
+    public function convertTimestamps($table, $columns = null)
+    {
+        if ($this->driver != 'mysql') {
+            return;
+        }
+
+        if (!is_array($columns)) {
+            $columns = is_null($columns) ? ['created_at', 'updated_at'] : [$columns];
+        }
+        
+        $prefixedTable = $this->getTablePrefix() . $table;
+
+        foreach ($columns as $column) {
+            $this->db->statement("ALTER TABLE {$prefixedTable} MODIFY `{$column}` TIMESTAMP NULL DEFAULT NULL");
+            $this->db->update("UPDATE {$prefixedTable} SET {$column} = null WHERE {$column} = 0");
+        }
+    }
+
+    /**
+     * Used to disable strict mode during migrations
+     */
+    public function disableStrictMode()
+    {
+        if ($this->driver != 'mysql') {
+            return;
+        }
+
+        if ($this->strictModeDisabled || $this->db->getConfig('strict') === false) {
+            return;
+        }
+
+        $this->db->statement("SET @@SQL_MODE=''");
+        $this->strictModeDisabled = true;
     }
 
     /**
@@ -176,5 +249,4 @@ class Dongle
     {
         return $this->db->getTablePrefix();
     }
-
 }

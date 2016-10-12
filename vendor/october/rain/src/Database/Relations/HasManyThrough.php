@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Relations\HasManyThrough as HasManyThroughBase;
 
 class HasManyThrough extends HasManyThroughBase
 {
+    use DefinedConstraints;
+
     /**
      * @var string The "name" of the relationship.
      */
@@ -15,11 +17,13 @@ class HasManyThrough extends HasManyThroughBase
      * Create a new has many relationship instance.
      * @return void
      */
-    public function __construct(Builder $query, Model $farParent, Model $parent, $firstKey, $secondKey, $relationName = null)
+    public function __construct(Builder $query, Model $farParent, Model $parent, $firstKey, $secondKey, $localKey, $relationName = null)
     {
         $this->relationName = $relationName;
 
-        parent::__construct($query, $farParent, $parent, $firstKey, $secondKey);
+        parent::__construct($query, $farParent, $parent, $firstKey, $secondKey, $localKey);
+
+        $this->addDefinedConstraints();
     }
 
     /**
@@ -31,7 +35,7 @@ class HasManyThrough extends HasManyThroughBase
     {
         $uses = class_uses_recursive(get_class($this->parent));
 
-        return in_array('October\Rain\Database\Traits\SoftDeleting', $uses) ||
+        return in_array('October\Rain\Database\Traits\SoftDelete', $uses) ||
             in_array('Illuminate\Database\Eloquent\SoftDeletes', $uses);
     }
 }

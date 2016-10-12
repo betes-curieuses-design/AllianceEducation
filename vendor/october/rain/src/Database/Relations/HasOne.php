@@ -7,11 +7,7 @@ use Illuminate\Database\Eloquent\Relations\HasOne as HasOneBase;
 class HasOne extends HasOneBase
 {
     use HasOneOrMany;
-
-    /**
-     * @var string The "name" of the relationship.
-     */
-    protected $relationName;
+    use DefinedConstraints;
 
     /**
      * Create a new has many relationship instance.
@@ -22,6 +18,8 @@ class HasOne extends HasOneBase
         $this->relationName = $relationName;
 
         parent::__construct($query, $parent, $foreignKey, $localKey);
+
+        $this->addDefinedConstraints();
     }
 
     /**
@@ -75,7 +73,7 @@ class HasOne extends HasOneBase
             $this->parent->bindEventOnce('model.afterSave', function() use ($instance){
                 $this->update([$this->getPlainForeignKey() => null]);
                 $instance->setAttribute($this->getPlainForeignKey(), $this->getParentKey());
-                $instance->save();
+                $instance->save(['timestamps' => false]);
             });
         }
     }

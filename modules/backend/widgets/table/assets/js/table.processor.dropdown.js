@@ -192,8 +192,9 @@
     }
 
     DropdownProcessor.prototype.fetchOptions = function(cellElement, onSuccess) {
-        if (this.columnConfiguration.options)
+        if (this.columnConfiguration.options) {
             onSuccess(this.columnConfiguration.options)
+        }
         else {
             // If options are not provided and not found in the cache,
             // request them from the server. For dependent drop-downs 
@@ -212,7 +213,7 @@
 
             if (!this.cachedOptionPromises[cachingKey]) {
                 var requestData = {
-                       column: this.columnName,
+                        column: this.columnName,
                         rowData: this.tableObj.getRowData(row)
                     },
                     handlerName = this.tableObj.getAlias()+'::onGetDropdownOptions'

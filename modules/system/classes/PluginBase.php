@@ -4,6 +4,7 @@ use Illuminate\Support\ServiceProvider as ServiceProviderBase;
 use ReflectionClass;
 use SystemException;
 use Yaml;
+use Backend;
 
 /**
  * Plugin base class
@@ -16,7 +17,7 @@ class PluginBase extends ServiceProviderBase
     /**
      * @var boolean
      */
-    protected $loadedYamlConfigration = false;
+    protected $loadedYamlConfiguration = false;
 
     /**
      * @var array Plugin dependencies
@@ -48,7 +49,7 @@ class PluginBase extends ServiceProviderBase
             'method in the plugin class.', $thisClass));
 
         if (!array_key_exists('plugin', $configuration)) {
-            throw new SystemException('The plugin configuration file plugin.yaml should contain the "plugin" section: %s.', $thisClass);
+            throw new SystemException(sprintf('The plugin configuration file plugin.yaml should contain the "plugin" section: %s.', $thisClass));
         }
 
         return $configuration['plugin'];
@@ -99,7 +100,20 @@ class PluginBase extends ServiceProviderBase
      */
     public function registerNavigation()
     {
-        return [];
+        $configuration = $this->getConfigurationFromYaml();
+        if (array_key_exists('navigation', $configuration)) {
+            $navigation = $configuration['navigation'];
+
+            if (is_array($navigation)) {
+                array_walk_recursive($navigation, function(&$item, $key){
+                    if ($key === 'url') {
+                        $item = Backend::url($item);
+                    }
+                });
+            }
+
+            return $navigation;
+        }
     }
 
     /**
@@ -109,7 +123,10 @@ class PluginBase extends ServiceProviderBase
      */
     public function registerPermissions()
     {
-        return [];
+        $configuration = $this->getConfigurationFromYaml();
+        if (array_key_exists('permissions', $configuration)) {
+            return $configuration['permissions'];
+        }
     }
 
     /**
@@ -202,8 +219,8 @@ class PluginBase extends ServiceProviderBase
      */
     protected function getConfigurationFromYaml($exceptionMessage = null)
     {
-        if ($this->loadedYamlConfigration !== false) {
-            return $this->loadedYamlConfigration;
+        if ($this->loadedYamlConfiguration !== false) {
+            return $this->loadedYamlConfiguration;
         }
 
         $reflection = new ReflectionClass(get_class($this));
@@ -214,16 +231,16 @@ class PluginBase extends ServiceProviderBase
                 throw new SystemException($exceptionMessage);
             }
             else {
-                $this->loadedYamlConfigration = [];
+                $this->loadedYamlConfiguration = [];
             }
         }
         else {
-            $this->loadedYamlConfigration = Yaml::parse(file_get_contents($yamlFilePath));
-            if (!is_array($this->loadedYamlConfigration)) {
+            $this->loadedYamlConfiguration = Yaml::parse(file_get_contents($yamlFilePath));
+            if (!is_array($this->loadedYamlConfiguration)) {
                 throw new SystemException('Invalid format of the plugin configuration file: %s. The file should define an array.', $yamlFilePath);
             }
         }
 
-        return $this->loadedYamlConfigration;
+        return $this->loadedYamlConfiguration;
     }
 }

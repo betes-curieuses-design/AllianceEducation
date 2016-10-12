@@ -1,8 +1,6 @@
 <?php namespace October\Rain\Support;
 
 use Illuminate\Support\Str as StrHelper;
-use October\Rain\Html\Helper as HtmlHelper; // For @deprecate Remove if year >= 2016
-use Html; // For @deprecate Remove if year >= 2016
 
 /**
  * String helper
@@ -12,6 +10,32 @@ use Html; // For @deprecate Remove if year >= 2016
  */
 class Str extends StrHelper
 {
+    /**
+     * Converts number to its ordinal English form.
+     *
+     * This method converts 13 to 13th, 2 to 2nd ...
+     *
+     * @param integer $number Number to get its ordinal value
+     * @return string Ordinal representation of given string.
+     */
+    public static function ordinal($number)
+    {
+        if (in_array(($number % 100), range(11,13))) {
+            return $number.'th';
+        }
+
+        switch (($number % 10)) {
+            case 1:
+                return $number.'st';
+            case 2:
+                return $number.'nd';
+            case 3:
+                return $number.'rd';
+            default:
+                return $number.'th';
+        }
+    }
+
     /**
      * Converts line breaks to a standard \r\n pattern.
      */
@@ -54,54 +78,4 @@ class Str extends StrHelper
         $name = static::normalizeClassName($name);
         return substr($name, 0, strrpos($name, "\\"));
     }
-
-    //
-    // Deprecated -- Remove this section if year >= 2016
-    //
-
-    /**
-     * @deprecated Moved to October\Rain\Html\Helper::nameToId
-     */
-    public static function evalHtmlId($string)
-    {
-        traceLog('Str::evalHtmlId has been deprecated, use October\Rain\Html\Helper::nameToId instead.');
-        return HtmlHelper::nameToId($string);
-    }
-
-    /**
-     * @deprecated Moved to October\Rain\Html\Helper::nameToArray
-     */
-    public static function evalHtmlArray($string)
-    {
-        traceLog('Str::evalHtmlArray has been deprecated, use October\Rain\Html\Helper::nameToArray instead.');
-        return HtmlHelper::nameToArray($string);
-    }
-
-    /**
-     * @deprecated Moved to October\Rain\Html\Helper::strip
-     */
-    public static function stripHtml($string)
-    {
-        traceLog('Str::stripHtml has been deprecated, use Html::strip instead.');
-        return Html::strip($string);
-    }
-
-    /**
-     * @deprecated Moved to October\Rain\Html\Helper::limit
-     */
-    public static function limitHtml($string, $maxLength, $end = '...')
-    {
-        traceLog('Str::limitHtml has been deprecated, use Html::limit instead.');
-        return Html::limit($string, $maxLength, $end);
-    }
-
-    /**
-     * @deprecated Moved to October\Rain\Html\Helper::clean
-     */
-    public static function cleanHtml($string)
-    {
-        traceLog('Str::cleanHtml has been deprecated, use Html::clean instead.');
-        return Html::clean($string);
-    }
-
 }

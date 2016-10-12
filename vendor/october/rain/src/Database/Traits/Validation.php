@@ -47,7 +47,9 @@ trait Validation
     public static function bootValidation()
     {
         if (!property_exists(get_called_class(), 'rules')) {
-            throw new Exception(sprintf('You must define a $rules property in %s to use the Validation trait.', get_called_class()));
+            throw new Exception(sprintf(
+                'You must define a $rules property in %s to use the Validation trait.', get_called_class()
+            ));
         }
 
         static::extend(function($model) {
@@ -71,6 +73,15 @@ trait Validation
 
             }, 500);
         });
+    }
+
+    /**
+     * Returns the model data used for validation.
+     * @return array
+     */
+    protected function getValidationAttributes()
+    {
+        return $this->getAttributes();
     }
 
     /**
@@ -129,7 +140,7 @@ trait Validation
 
         if (!empty($rules)) {
 
-            $data = $this->getAttributes();
+            $data = $this->getValidationAttributes();
 
             /*
              * Decode jsonable attribute values
@@ -148,7 +159,7 @@ trait Validation
             }
 
             /*
-             * Compatability with Hashable trait:
+             * Compatibility with Hashable trait:
              * Remove all hashable values regardless, add the original values back
              * only if they are part of the data being validated.
              */
@@ -159,7 +170,7 @@ trait Validation
             }
 
             /*
-             * Compatability with Encryptable trait:
+             * Compatibility with Encryptable trait:
              * Remove all encryptable values regardless, add the original values back
              * only if they are part of the data being validated.
              */
@@ -261,8 +272,9 @@ trait Validation
             /*
              * Normalize rulesets
              */
-            if (!is_array($ruleParts))
+            if (!is_array($ruleParts)) {
                 $ruleParts = explode('|', $ruleParts);
+            }
 
             /*
              * Analyse each rule individually
@@ -272,7 +284,7 @@ trait Validation
                  * Remove primary key unique validation rule if the model already exists
                  */
                 if (starts_with($rulePart, 'unique') && $this->exists) {
-                    $ruleParts[$key] = 'unique:'.$this->getTable().','.$field.','.$this->getKey();
+                    $ruleParts[$key] = $this->processValidationUniqueRule($rulePart, $field);
                 }
                 /*
                  * Look for required:create and required:update rules
@@ -289,6 +301,41 @@ trait Validation
         }
 
         return $rules;
+    }
+
+    /**
+     * Rebuilds the unique validation rule to force for the existing ID
+     * @param string $definition
+     * @param string $fieldName
+     * @return string
+     */
+    protected function processValidationUniqueRule($definition, $fieldName)
+    {
+        list(
+            $table,
+            $column,
+            $key,
+            $keyName,
+            $whereColumn,
+            $whereValue
+        ) = array_pad(explode(',', $definition), 6, null);
+
+        $table = 'unique:' . $this->getTable();
+        $column = $column ?: $fieldName;
+        $key = $keyName ? $this->$keyName : $this->getKey();
+        $keyName = $keyName ?: $this->getKeyName();
+
+        $params = [$table, $column, $key, $keyName];
+
+        if ($whereColumn) {
+            $params[] = $whereColumn;
+        }
+
+        if ($whereValue) {
+            $params[] = $whereValue;
+        }
+
+        return implode(',', $params);
     }
 
     /**
