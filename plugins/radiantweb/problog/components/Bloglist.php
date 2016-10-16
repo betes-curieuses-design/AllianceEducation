@@ -21,8 +21,14 @@ class Bloglist extends ComponentBase
     public $posts;
     public $categoryPage;
     public $postPage;
+    public $parentPage;
     public $currentPage;
     public $noPostsMessage;
+    /**
+     * Parameter to use for the page number
+     * @var string
+     */
+    public $pageParam;
 
     public function componentDetails()
     {
@@ -178,6 +184,7 @@ class Bloglist extends ComponentBase
         $this->searchpage = $this->page['searchpage'] = $this->property('searchpage');
         $this->blogPosts = $this->page['blogPosts'] = $this->loadPosts();
         $this->page['pagination'] = $this->property('pagination');
+        $this->pageParam = $this->page['pageParam'];
 
         $request = new Input;
         if($request->get('feed'))

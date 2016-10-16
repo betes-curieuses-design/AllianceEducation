@@ -10,6 +10,7 @@ use System\Classes\PluginManager;
 use Cms\Classes\Page;
 use Radiantweb\Problog\Models\Tag as BlogTag;
 use Radiantweb\Problog\Models\Category as BlogCategory;
+use Radiantweb\Problog\Models\Settings as ProblogSettingsModel;
 use Markdown;
 
 class Post extends Model
@@ -132,9 +133,10 @@ class Post extends Model
 
     public function beforeSave()
     {
-        if($this->content_markdown)
-            $this->content = self::formatHtml($this->content_markdown);
-
+        if (ProblogSettingsModel::get('markdownMode', false)) {
+            $this->content_markdown = $this->content;
+            $this->content = $this->formatHtml($this->content);
+        }
     }
 
     public function yearCount($year)

@@ -2,7 +2,7 @@
 
 return [
     'plugin' => [
-        'name' => 'Educations',
+        'name' => 'ProBlog',
         'description' => 'A powerful blogging platform.',
     ],
     'sidemenu' => [
@@ -34,7 +34,7 @@ return [
     ],
     'backend'=>[
         'form' => [
-            'cancle'=>'Cancle',
+            'cancel'=>'Cancel',
             'saveclose'=>'Save and Close',
             'or'=>'or',
             'create'=>'Create',

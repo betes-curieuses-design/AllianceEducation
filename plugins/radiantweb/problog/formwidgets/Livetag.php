@@ -35,6 +35,7 @@ class Livetag extends FormWidgetBase
     public function prepareVars()
     {
         $this->vars['value'] = $this->model->{$this->fieldName};
+        $this->vars['existing_tags'] = TagModel::lists('name', 'name');
     }
 
     /**

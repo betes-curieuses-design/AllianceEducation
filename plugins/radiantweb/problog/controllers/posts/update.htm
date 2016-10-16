@@ -34,7 +34,7 @@
                     <?= e(trans('radiantweb.problog::lang.backend.form.updateclose')) ?>
                 </button>
                 <span class="btn-text">
-                    <?= e(trans('radiantweb.problog::lang.backend.form.or')) ?> <a href="<?= Backend::url('radiantweb/problog/posts') ?>"><?= e(trans('radiantweb.problog::lang.backend.form.cancle')) ?></a>
+                    <?= e(trans('radiantweb.problog::lang.backend.form.or')) ?> <a href="<?= Backend::url('radiantweb/problog/posts') ?>"><?= e(trans('radiantweb.problog::lang.backend.form.cancel')) ?></a>
                 </span>
                 <button
                     type="button"
@@ -55,6 +55,7 @@
     <?php Block::put('body') ?>
         <style type="text/css">
             [data-field-name="content"] .field-richeditor .redactor-editor,
+            [data-field-name="content"] .field-richeditor .fr-wrapper,
             [data-field-name="content"] .field-markdowneditor .editor-preview {
                 height: 520px !important;
             }

@@ -2,6 +2,8 @@
 
 use BackendMenu;
 use Backend\Classes\Controller;
+use Flash;
+use Radiantweb\Problog\Models\Category;
 
 class Categories extends Controller
 {
@@ -20,5 +22,24 @@ class Categories extends Controller
         parent::__construct();
 
         BackendMenu::setContext('Radiantweb.Problog', 'problog', 'categories');
+    }
+
+    public function index_onDelete()
+    {
+        if (($checkedIds = post('checked')) && is_array($checkedIds) && count($checkedIds)) {
+            $plural = 'y';
+            if (count($checkedIds) > 1) {
+                $plural = 'ies';
+            }
+            foreach ($checkedIds as $categoryId) {
+                if (!$category = Category::find($categoryId)) continue;
+
+                $category->delete();
+            }
+
+            Flash::success('Categor'.$plural.' Successfully Deleted.');
+        }
+
+        return $this->listRefresh();
     }
 }

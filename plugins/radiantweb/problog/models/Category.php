@@ -19,7 +19,13 @@ class Category extends Model
 {
     use \October\Rain\Database\Traits\Purgeable;
 
+    public $implement = ['@RainLab.Translate.Behaviors.TranslatableModel'];
+
     public $table = 'radiantweb_blog_categories';
+
+    public $translatable = [
+        'name'
+    ];
 
     /*
      * Validation

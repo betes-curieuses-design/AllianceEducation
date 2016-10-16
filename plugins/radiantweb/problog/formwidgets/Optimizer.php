@@ -35,8 +35,8 @@ class Optimizer extends FormWidgetBase
      */
     public function prepareVars()
     {
-        $settings = ProblogSettingsModel::instance(); 
-        $this->vars['alchemy'] = $settings->get('alchemy'); 
+        $settings = ProblogSettingsModel::instance();
+        $this->vars['alchemy'] = $settings->get('alchemy');
         $this->vars['checkUrl'] = URL::to('/radiantweb_api/problog/check_url/valid/');
         $this->vars['checkUrlXmlrpc'] = URL::to('/radiantweb_api/problog/check_url/valid_link/');
     }
@@ -48,6 +48,7 @@ class Optimizer extends FormWidgetBase
     {
         $this->addCss('css/font-awesome.css');
         $this->addCss('css/seo_tools.css');
+        $this->addJs('../../../../../../modules/backend/formwidgets/richeditor/assets/vendor/redactor/redactor.js');
         $this->addJs('js/seo_tools.js');
     }
 

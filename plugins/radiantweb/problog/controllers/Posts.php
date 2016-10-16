@@ -3,7 +3,7 @@
 use BackendMenu;
 use Backend\Classes\Controller;
 use Radiantweb\Problog\Models\Post;
-use Carbon\Carbon; 
+use Carbon\Carbon;
 use Flash;
 use Radiantweb\Problog\Models\Settings as ProblogSettingsModel;
 
@@ -32,6 +32,10 @@ class Posts extends Controller
     {
         if (!$model->parent){
             $model->parent = ProblogSettingsModel::get('defaultParent');
+        }
+
+        if (ProblogSettingsModel::get('markdownMode', false)) {
+            $model->content = $model->content_markdown;
         }
 
         return $model;
@@ -88,16 +92,5 @@ class Posts extends Controller
         }
 
         return $this->listRefresh();
-    }
-
-    public function onRefreshPreview()
-    {
-        $data = post('Post');
-
-        $previewHtml = Post::formatHtml($data['content'], true);
-
-        return [
-            'preview' => $previewHtml
-        ];
     }
 }

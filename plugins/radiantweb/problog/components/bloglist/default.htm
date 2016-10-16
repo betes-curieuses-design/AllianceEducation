@@ -66,6 +66,25 @@
     {% endif %}
     {% if pagination > 0 %}
         {{blogPosts.render|raw}}
+        <!-- {% if pagination > 0 %}
+            {% if blogPosts.lastPage > 1 %}
+                <ul class="pagination">
+                {% if blogPosts.currentPage > 1 %}
+                    <li><a href="{{ this.page.baseFileName|page() }}?page={{blogPosts.currentPage-1}}">&larr; Prev</a></li>
+                {% endif %}
+
+                {% for page in 1..blogPosts.lastPage %}
+                    <li class="{{ blogPosts.currentPage == page ? 'active' : null }}">
+                        <a href="{{ this.page.baseFileName|page() }}?page={{page}}">{{ page }}</a>
+                    </li>
+                {% endfor %}
+
+                {% if blogPosts.lastPage > blogPosts.currentPage %}
+                    <li><a href="{{ this.page.baseFileName|page() }}?page={{blogPosts.currentPage+1}}">Next &rarr;</a></li>
+                {% endif %}
+                </ul>
+            {% endif %}
+        {% endif %} -->
     {% endif %}
 {% endif %}
 <!--

@@ -33,7 +33,7 @@
                     <?= e(trans('radiantweb.problog::lang.backend.form.createclose')) ?>
                 </button>
                 <span class="btn-text">
-                    <?= e(trans('radiantweb.problog::lang.backend.form.or')) ?> <a href="<?= Backend::url('radiantweb/problog/posts') ?>"><?= e(trans('radiantweb.problog::lang.backend.form.cancle')) ?></a>
+                    <?= e(trans('radiantweb.problog::lang.backend.form.or')) ?> <a href="<?= Backend::url('radiantweb/problog/posts') ?>"><?= e(trans('radiantweb.problog::lang.backend.form.cancel')) ?></a>
                 </span>
             </div>
         </div>
@@ -41,7 +41,7 @@
     <?php Block::endPut() ?>
 
     <?php Block::put('form-sidebar') ?>
-        <div class="tabs"><?= $this->formRenderSecondaryTabs() ?></div>
+        <?= $this->formRenderSecondaryTabs() ?>
     <?php Block::endPut() ?>
 
     <?php Block::put('body') ?>
@@ -52,6 +52,9 @@
             }
             [data-field-name="content"] .field-markdowneditor .editor-write {
                 min-height: 520px;
+            }
+            .rtabs {
+
             }
         </style>
         <?= Form::open(['class'=>'layout stretch']) ?>

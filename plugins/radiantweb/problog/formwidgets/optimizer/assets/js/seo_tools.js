@@ -15,13 +15,22 @@ function getSuggestedTagsFromText(data){
     */
 }
 
+function getContentObject(){
+    if($('[data-control="richeditor"]').length){
+        return $('#MLRichEditor-formContent-textarea-content');
+    }else{
+        return $('[data-control="markdowneditor"]').markdownEditor('getEditorObject');
+    }
+}
+
 function getContent(){
     var content = '';
-    if($.fn.redactor){
-        content = $('#MLRichEditor-formContent-textarea-content').redactor('code.get');
+    if($('[data-control="richeditor"]').length){
+        content = getContentObject().froalaEditor('html.get');
+        //console.log('richeditor code fetch triggered');
     }else{
-        $('button[data-button-code="preview"]').click();
-        content = $('#MarkdownEditor-formContent-content .editor-preview').html();
+        content = getContentObject().getValue();
+        //console.log('markdown code fetch triggered');
     }
     return content;
 }
@@ -108,14 +117,17 @@ function getTopNWords(text, n){
     while ((matches = wordRegExp.exec(text)) != null)
     {
         var word = matches[0].toLowerCase();
-        if (typeof words[word] == "undefined")
-        {
-            words[word] = 1;
+        if(!$.isNumeric( word )){
+            if (typeof words[word] == "undefined")
+            {
+                words[word] = 1;
+            }
+            else
+            {
+                words[word]++;
+            }
         }
-        else
-        {
-            words[word]++;
-        }
+
     }
 
     var wordList = [];
@@ -201,9 +213,11 @@ function getArticleLinks(){
     var word_list = getWordList(text);
     var stripped_list = stripBlockedWords(word_list);
 
-    var links = $(content).find('a');
+    var doc = document.createElement("html");
+    doc.innerHTML = getContent();
+    var links = doc.getElementsByTagName("a");
 
-    if(links){
+    if(links.length > 0){
         var t = links.length;
 
         var densities = t/stripped_list.length;
@@ -219,6 +233,7 @@ function getArticleLinks(){
         $.each(links,function(){
             var link = $(this).attr('href');
             var rel = $(this).attr('rel');
+
             $.ajax({
                 url: checkUrlXmlrpc+'?link='+link,
                 success: function(data){
@@ -257,9 +272,11 @@ function getArticleImages(){
     var word_list = text.split(/\W+/);
     var stripped_list = stripBlockedWords(word_list);
 
-    var images = content.match(/img/g);
+    var doc = document.createElement("html");
+    doc.innerHTML = getContent();
+    var images = doc.getElementsByTagName("img");
 
-    if(images){
+    if(images.length > 0){
         var t = images.length;
 
         var densities = t/stripped_list.length;

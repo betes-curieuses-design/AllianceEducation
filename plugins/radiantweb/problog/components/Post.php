@@ -98,10 +98,7 @@ class Post extends ComponentBase
             $this->page['searchpage'] = $this->property('searchpage');
             $this->page['back'] = Request::header('referer');
             $this->page['url'] = Request::url();
-            $this->page->url = Request::url();
-            if (isset($this->post->featured_images)) {
-                $this->page['image_url'] = 'http://allianceeducation.ca' . $this->post->featured_images[0]->path;
-            }
+
             $settings = ProblogSettingsModel::instance();
             $this->page['sharethis'] = $settings->get('sharethis');
             $this->page['facebook'] = $settings->get('facebook');

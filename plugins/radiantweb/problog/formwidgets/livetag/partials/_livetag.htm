@@ -1,7 +1,12 @@
 <script type="text/javascript">
     $(document).ready(function() {
         $("#problogTags").tagit({
-            availableTags: ['test'],
+            availableTags: [
+                <?php foreach ($existing_tags as $tag): ?>
+                    '<?=$tag?>',
+                <?php endforeach ?>
+            ],
+            allowSpaces: true,
             fieldName: 'Post[tags][]'
         });
     });

@@ -12,6 +12,12 @@ class Tag extends Model
 {
     public $table = 'radiantweb_blog_tags';
 
+    public $implement = ['@RainLab.Translate.Behaviors.TranslatableModel'];
+
+    public $translatable = [
+        'name'
+    ];
+
     /*
      * Validation
      */
